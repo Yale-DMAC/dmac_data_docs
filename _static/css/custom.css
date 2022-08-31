@@ -1,0 +1,11 @@
+.tight-table td {    
+    white-space: normal !important;
+    word-break: break-all; 
+    max-width: 100%;
+}
+
+.wy-table-responsive {
+    margin-bottom: 24px;
+    max-width: 100%;
+    overflow: visible !important;
+}

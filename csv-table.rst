@@ -3,12 +3,8 @@ DMAC Repositories
 
 Links to active DMAC-related Github repositories, in order of the most recently updated.
 
-
-.. tabularcolumns:: |p{1cm}|p{7cm}|
-
-.. csv-table:: DMAC Github Repositories 
+.. csv-table::
    :file: _files/github_report.csv 
-   :header-rows: 1
-   :class: longtable 
-   :widths: 1 1 1 1 1 
-
+   :header-rows: 1 
+   :widths: 60 45 20
+   :class: tight-table 
