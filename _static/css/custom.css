@@ -1,11 +1,14 @@
 .tight-table td {    
     white-space: normal !important;
     word-break: break-all; 
-    max-width: 100%;
 }
 
-.wy-table-responsive {
+/*.wy-nav-content {
+    width: 1500px !important;
+}*/
+
+/*.rst-content {
     margin-bottom: 24px;
-    max-width: 100%;
+    width: 1000px;
     overflow: visible !important;
-}
+}*/
