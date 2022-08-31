@@ -1,7 +1,7 @@
 DMAC Data Docs
 =======================================
 
-Data-related documentation for the new BRBL Data Management, Analysis, and Content Unit
+Metadata documentation for the new BRBL Data Management, Analysis, and Content Unit
 
 Contents
 --------
