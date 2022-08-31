@@ -1,0 +1,36 @@
+owner,repository,url,description,created,updated
+yalemssa,dmac_data_docs,https://github.com/yalemssa/dmac_data_docs,"Data-related documentation for the Data Management, Analysis, and Content Unit",2022-08-31T14:18:20Z,2022-08-31T14:18:20Z
+YaleArchivesSpace,ASpace-plus-MARC,https://github.com/YaleArchivesSpace/ASpace-plus-MARC,,2019-09-12T13:17:11Z,2022-08-04T17:32:54Z
+YaleArchivesSpace,dass_born_digital_accessioning_tool,https://github.com/YaleArchivesSpace/dass_born_digital_accessioning_tool,,2022-07-13T12:07:39Z,2022-07-13T12:15:10Z
+yalemssa,etd_ingest,https://github.com/yalemssa/etd_ingest,,2020-02-10T14:38:21Z,2022-02-22T15:45:12Z
+yalemssa,digital_data,https://github.com/yalemssa/digital_data,Scripts to support management of born-digital and digitized materials in ArchivesSpace,2022-02-09T17:31:34Z,2022-02-17T20:52:39Z
+yalemssa,aspace_preservica_db,https://github.com/yalemssa/aspace_preservica_db,A reporting database for collating and doing stuff with ArchivesSpace and Preservica metadata,2021-01-08T17:10:53Z,2022-02-16T20:39:50Z
+yalemssa,aspace_user_tools,https://github.com/yalemssa/aspace_user_tools,User tools for ArchivesSpace,2022-02-09T17:30:48Z,2022-02-09T17:34:14Z
+YaleArchivesSpace,rad_scripts,https://github.com/YaleArchivesSpace/rad_scripts,Scripts to support YUL Reparative Archival Description (RAD),2022-01-27T19:56:26Z,2022-01-27T19:57:22Z
+YaleArchivesSpace,aspace-deployment,https://github.com/YaleArchivesSpace/aspace-deployment,,2018-04-18T18:06:54Z,2022-01-05T15:33:39Z
+yalemssa,aspace_tools,https://github.com/yalemssa/aspace_tools,,2019-07-24T17:01:42Z,2021-12-12T17:47:57Z
+yalemssa,copy_order_fulfillment,https://github.com/yalemssa/copy_order_fulfillment,Scripts to support an MSSA workflow for fulfilling copy orders for already-digitized materials,2021-01-06T17:59:32Z,2021-12-01T13:19:03Z
+yalemssa,api_environment_setup,https://github.com/yalemssa/api_environment_setup,A guide to setting up a Python environment and getting started with the ArchivesSpace API.,2020-02-15T16:51:58Z,2021-10-05T13:42:39Z
+yalemssa,aspace_generate_sort_order,https://github.com/yalemssa/aspace_generate_sort_order,"Using a list of ArchivesSpace URIs as input, generates a sort order value for each URI",2021-08-02T15:05:09Z,2021-08-05T15:49:40Z
+yalemssa,chit_archives_scripts,https://github.com/yalemssa/chit_archives_scripts,"Scripts, queries, and documentation to support archives and manuscripts portion of Cultural Heritage IT (CHIT) metadata reconciliation project.",2020-02-20T16:50:35Z,2021-07-28T18:12:54Z
+yalemssa,born_digital_file_level_minimum,https://github.com/yalemssa/born_digital_file_level_minimum,Scripts to support creation and update of archival object records according to YUL BDAWG's file-level-minimum standards,2021-01-14T18:09:03Z,2021-05-04T18:12:46Z
+ucancallmealicia,location_search,https://github.com/ucancallmealicia/location_search,CLI tool to lookup materials in ArchivesSpace by location barcode,2019-06-17T16:21:36Z,2020-12-10T13:37:17Z
+yalemssa,av_captions_and_transcripts,https://github.com/yalemssa/av_captions_and_transcripts,,2020-02-07T16:22:29Z,2020-09-28T16:07:41Z
+YaleArchivesSpace,display_multiple_containers,https://github.com/YaleArchivesSpace/display_multiple_containers,An plugin to modify how containers are displayed in the ArchivesSpace public user interface (PUI),2019-11-03T18:36:34Z,2020-08-31T19:27:30Z
+YaleArchivesSpace,ead_export_addon,https://github.com/YaleArchivesSpace/ead_export_addon,,2018-08-26T17:24:40Z,2020-08-31T18:10:45Z
+yalemssa,ead_transformer,https://github.com/yalemssa/ead_transformer,,2020-02-11T00:57:30Z,2020-02-14T15:38:09Z
+ucancallmealicia,aspace_api_docs,https://github.com/ucancallmealicia/aspace_api_docs,plugin to update ArchivesSpace API docs,2019-11-07T21:20:55Z,2019-11-07T21:21:55Z
+ucancallmealicia,barcode_search,https://github.com/ucancallmealicia/barcode_search,Barcode lookup tool for off-site transfers,2018-10-26T14:38:30Z,2019-10-15T17:08:22Z
+YaleArchivesSpace,ancestor_search_error_addon,https://github.com/YaleArchivesSpace/ancestor_search_error_addon,Add the fix which will arrive in 2.6 to address 500 errors when search results include records with null values in ancestors,2019-06-21T19:58:12Z,2019-06-24T14:11:43Z
+ucancallmealicia,utilities,https://github.com/ucancallmealicia/utilities,Python package with file handling and other utility functions,2019-04-10T00:47:14Z,2019-05-30T12:56:26Z
+ucancallmealicia,scrapework,https://github.com/ucancallmealicia/scrapework,"A simple, multi-purpose Python web scraping framework",2019-01-22T16:11:06Z,2019-02-20T17:43:05Z
+ucancallmealicia,archivesspace-api-public,https://github.com/ucancallmealicia/archivesspace-api-public,Python scripts for interacting with the ArchivesSpace API,2017-06-16T20:40:39Z,2019-02-16T04:26:46Z
+ucancallmealicia,archivesspace_templates,https://github.com/ucancallmealicia/archivesspace_templates,Tool for generating JSON and CSV templates from the ArchivesSpace JSONModel schema,2019-02-06T16:07:37Z,2019-02-06T16:09:24Z
+ucancallmealicia,mysql_demo,https://github.com/ucancallmealicia/mysql_demo,"For ArchivesSpace Member Forum, Washington D.C., July 2018",2018-08-10T15:39:35Z,2019-01-23T18:55:27Z
+ucancallmealicia,born-digital-accessioner,https://github.com/ucancallmealicia/born-digital-accessioner,Simple GUI to create or update ArchivesSpace records in bulk,2018-10-23T21:38:28Z,2019-01-23T17:25:09Z
+ucancallmealicia,archivesspace-sql,https://github.com/ucancallmealicia/archivesspace-sql,ArchivesSpace reports ,2017-05-10T17:30:47Z,2018-10-25T23:06:23Z
+ucancallmealicia,data_cleanup_workgroup,https://github.com/ucancallmealicia/data_cleanup_workgroup,Yale ArchivesSpace PUI Implementation Project 2017-2018,2017-09-06T15:49:58Z,2018-10-23T22:06:17Z
+ucancallmealicia,aspace_data_audit_demo,https://github.com/ucancallmealicia/aspace_data_audit_demo,"For ArchivesSpace Skillshare 2.0, Philly, November 2017",2017-10-31T00:29:32Z,2018-10-23T22:01:24Z
+ucancallmealicia,archivesspace-collection-control-toolbox,https://github.com/ucancallmealicia/archivesspace-collection-control-toolbox,Simple tools to make the most of collection control functionality in ArchivesSpace,2017-06-13T19:44:02Z,2018-08-15T17:25:20Z
+YaleArchivesSpace,migrationSQL,https://github.com/YaleArchivesSpace/migrationSQL,sql scripts to help meet new models for accession table data,2015-03-04T19:13:30Z,2017-07-14T15:17:59Z
+ucancallmealicia,time-savers,https://github.com/ucancallmealicia/time-savers,randoms,2017-05-08T15:33:14Z,2017-06-14T23:02:08Z

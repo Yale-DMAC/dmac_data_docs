@@ -1,0 +1,2 @@
+requests==2.28.1
+sphinx-mdinclude==0.5.1
