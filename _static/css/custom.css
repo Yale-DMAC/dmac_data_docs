@@ -3,12 +3,6 @@
     word-break: break-all; 
 }
 
-/*.wy-nav-content {
-    width: 1500px !important;
-}*/
-
-/*.rst-content {
-    margin-bottom: 24px;
-    width: 1000px;
-    overflow: visible !important;
-}*/
+.wy-nav-content {
+   max-width: none;
+}
