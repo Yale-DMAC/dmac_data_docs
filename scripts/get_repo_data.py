@@ -15,7 +15,7 @@ import requests
 
 
 def convert_to_csv(repo_data, inclusions, exclusions):
-    return [[repo.get('html_url'),
+    return [[f"`{repo.get('name')} <{repo.get('html_url')}>`_",
              repo.get('description'),
              repo.get('updated_at').split('T')[0],
              #repo.get('fork')
@@ -47,7 +47,7 @@ def main():
     with open('config.json', encoding='utf8') as json_file:
         config = json.load(json_file)
         github_repo_csv = get_github_report(config.get('usernames'), config.get('inclusions'), config.get('exclusions'))
-        fields = ['url', 'description', 'updated']
+        fields = ['repo', 'description', 'updated']
         with open(config.get('output'), 'w', encoding='utf8') as outfile:
             writer = csv.writer(outfile)
             writer.writerow(fields)

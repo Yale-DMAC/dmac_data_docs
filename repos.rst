@@ -6,5 +6,5 @@ Links to active DMAC-related Github repositories, in order of the most recently 
 .. csv-table::
    :file: _files/github_report.csv 
    :header-rows: 1 
-   :widths: 50 55 20
+   :widths: 40 60 20
    :class: tight-table 

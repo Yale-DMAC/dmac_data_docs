@@ -1,8 +1,8 @@
 .tight-table td {    
     white-space: normal !important;
-    word-break: break-all; 
+/*    word-break: break-all; */
 }
 
-.wy-nav-content {
+/*.wy-nav-content {
    max-width: none;
-}
+}*/
