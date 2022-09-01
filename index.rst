@@ -5,4 +5,4 @@ DMAC Data Documentation
 
    ../README.md
 
-   /data/index
+   /docs/index
