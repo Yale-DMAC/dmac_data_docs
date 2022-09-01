@@ -1,0 +1,22 @@
+project,task,number_updated,date
+Agents and Subjects Task Force,Delete unlinked agents and subjects,28527,2017-2018
+Agents and Subjects Task Force,Delete unlinked subjects,17381,2017-2018
+Agents and Subjects Task Force,Correct incorrect subject and agent sources,27159,2017-2018
+Agents and Subjects Task Force,Remove DTS codes from local agents and subjects and change sources to local,26348,2017-2018
+Agents and Subjects Task Force,Remove terminal periods from agents and subjects,20852,2017-2018
+Agents and Subjects Task Force,Merge duplicate agents and subjects,15200,2017-2018
+Agents and Subjects Task Force,Publish unpublished agent records linked to a published descriptive record,9640,2017-2018
+Agents and Subjects Task Force,"Parse full names, dates, titles, and suffixes in primary name field into appropriate name fields",~6200,2017-2018
+Agents and Subjects Task Force,"Remove qualifiers from local agent records, ",1391,2017-2018
+Agents and Subjects Task Force,Re-add agent qualifiers  as linked agent terms,3888 resource records updated with 4100 terms,2017-2018
+Agents and Subjects Task Force,Clean up dates in YCBA agent records,827,2017-2018
+Agents and Subjects Task Force,Correct incorrect term types,321,2017-2018
+Agents and Subjects Task Force,Import LC records and clean up authority ID and date fields,307,2017-2018
+Agents and Subjects Task Force,Re-add subfield commas removed during processing,166,2017-2018
+Agents and Subjects Task Force,"Remediate invalid agents (question marks, brackets, etc.)",81,2017-2018
+Agents and Subjects Task Force,Parse combined subject terms into separate term fields,24 → 48,2017-2018
+Agents and Subjects Task Force,Reorder conference subfields,41,2017-2018
+Agents and Subjects Task Force,Re-added biographical histories and dates removed during merge,18,2017-2018
+Agents and Subjects Task Force,Capitalized lowercase subjects,10,2017-2018
+Agents and Subjects Task Force,"Merged duplicate subject and agent sources, deleted extraneous sources",6,2017-2018
+Agents and Subjects Task Force,"Merged duplicate agent sources, deleted extraneous sources",1,2017-2018

@@ -1,12 +1,8 @@
-DMAC Data Docs
-=======================================
-
-Contents
---------
+DMAC Data Documentation
+=======================
 
 .. toctree::
-   :maxdepth: 4
 
-   ../README.md 
+   ../README.md
 
-   repos 
+   /data/index

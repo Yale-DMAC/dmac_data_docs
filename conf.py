@@ -34,7 +34,9 @@ print(sys.executable)
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.mathjax', 'sphinx.ext.inheritance_diagram', 'sphinx_mdinclude', 'sphinx_rtd_theme', 'sphinx.ext.napoleon']
+extensions = ['sphinx.ext.autosummary', 'sphinx.ext.mathjax', 'sphinx.ext.inheritance_diagram', 'recommonmark', 'sphinx_rtd_theme', 'sphinx.ext.napoleon']
+
+autosummary_generate = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['ntemplates']
@@ -109,8 +111,7 @@ def setup(app):
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {'collapse_navigation': True,
-					  'sticky_navigation': True}
+html_theme_options = {'sticky_navigation': True, 'collapse_navigation': False}
 
 
 html_static_path = ['_static']
