@@ -1,7 +1,8 @@
 {
-    "usernames": ["ucancallmealicia", "yalemssa", "YaleArchivesSpace"],
+    "usernames": ["YaleArchivesSpace", "ucancallmealicia", "yalemssa"],
     "exclusions": ["ucancallmealicia.github.io", "apispace", "vagrant-archivesspace", "ancestor_search_error_addon", "Archives-at-Yale-EAD3", "Archives-at-Yale-EAD3-TEST", "aspace-deployment", "ASpace-plus-MARC", "EAD3-to-PDF-UA", "ead_export_addon", "migrationSQL"],
     "inclusions": [],
     "repo_output": "/Users/aliciadetelich/Dropbox/git/dmac_data_docs/_files/github_report.csv",
-    "plugin_output": "/Users/aliciadetelich/Dropbox/git/dmac_data_docs/_files/aspace_plugins.csv"
+    "plugin_output": "/Users/aliciadetelich/Dropbox/git/dmac_data_docs/_files/aspace_plugins.csv",
+    "gh_key": ""
 }

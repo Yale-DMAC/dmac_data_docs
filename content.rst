@@ -1,5 +1,5 @@
-Contents
---------
+Documentation
+-------------
 
 .. toctree::
    :maxdepth: 1
@@ -11,6 +11,6 @@ Contents
    ../tutorials.md
 
    data_auditing 
-   completed_projects 
-   archivesspace_plugins
+   projects 
+   archivesspace
    repos 

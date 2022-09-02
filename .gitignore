@@ -1,6 +1,8 @@
 # Compiled python modules.
 *.pyc
 
+scripts/config.json
+
 # Setuptools distribution folder.
 /dist/
 

@@ -3,7 +3,9 @@
 DMAC workflow and process documentation
 
 - [Copy Order Fulfillment for Digitally-Available Material](#copy-order_fulfillment)
+- [Copy Order Fulfillment: Technical Overview]
 - [Processing Electronic Theses and Dissertations](#processing-electronic-theses-and-dissertations)
+- [Digital Accessioning Service Tool](#digital-accessioning-service-tool)
 
 ---
 
