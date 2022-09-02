@@ -6,6 +6,10 @@ Contents
 
    ../workflows.md 
 
+   ../policies.md
+
+   ../tutorials.md
+
    data_auditing 
    completed_projects 
    archivesspace_plugins

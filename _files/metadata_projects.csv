@@ -1,22 +1,59 @@
-project,task,number_updated,date
-Agents and Subjects Task Force,Delete unlinked agents and subjects,28527,2017-2018
-Agents and Subjects Task Force,Delete unlinked subjects,17381,2017-2018
-Agents and Subjects Task Force,Correct incorrect subject and agent sources,27159,2017-2018
-Agents and Subjects Task Force,Remove DTS codes from local agents and subjects and change sources to local,26348,2017-2018
-Agents and Subjects Task Force,Remove terminal periods from agents and subjects,20852,2017-2018
-Agents and Subjects Task Force,Merge duplicate agents and subjects,15200,2017-2018
-Agents and Subjects Task Force,Publish unpublished agent records linked to a published descriptive record,9640,2017-2018
-Agents and Subjects Task Force,"Parse full names, dates, titles, and suffixes in primary name field into appropriate name fields",~6200,2017-2018
-Agents and Subjects Task Force,"Remove qualifiers from local agent records, ",1391,2017-2018
-Agents and Subjects Task Force,Re-add agent qualifiers  as linked agent terms,3888 resource records updated with 4100 terms,2017-2018
-Agents and Subjects Task Force,Clean up dates in YCBA agent records,827,2017-2018
-Agents and Subjects Task Force,Correct incorrect term types,321,2017-2018
-Agents and Subjects Task Force,Import LC records and clean up authority ID and date fields,307,2017-2018
-Agents and Subjects Task Force,Re-add subfield commas removed during processing,166,2017-2018
-Agents and Subjects Task Force,"Remediate invalid agents (question marks, brackets, etc.)",81,2017-2018
-Agents and Subjects Task Force,Parse combined subject terms into separate term fields,24 → 48,2017-2018
-Agents and Subjects Task Force,Reorder conference subfields,41,2017-2018
-Agents and Subjects Task Force,Re-added biographical histories and dates removed during merge,18,2017-2018
-Agents and Subjects Task Force,Capitalized lowercase subjects,10,2017-2018
-Agents and Subjects Task Force,"Merged duplicate subject and agent sources, deleted extraneous sources",6,2017-2018
-Agents and Subjects Task Force,"Merged duplicate agent sources, deleted extraneous sources",1,2017-2018
+project,task,records_updated,date,project_info
+Agents and Subjects Task Force,Delete unlinked agents and subjects,28527,2017-18,
+Agents and Subjects Task Force,Delete unlinked subjects,17381,2017-18,
+Agents and Subjects Task Force,Correct incorrect subject and agent sources,27159,2017-18,
+Agents and Subjects Task Force,Remove DTS codes from local agents and subjects and change sources to local,26348,2017-18,
+Agents and Subjects Task Force,Remove terminal periods from agents and subjects,20852,2017-18,
+Agents and Subjects Task Force,Merge duplicate agents and subjects,15200,2017-18,
+Agents and Subjects Task Force,Publish unpublished agent records linked to a published descriptive record,9640,2017-18,
+Agents and Subjects Task Force,"Parse full names, dates, titles, and suffixes in primary name field into appropriate name fields",6200,2017-18,
+Agents and Subjects Task Force,"Remove qualifiers from local agent records, ",1391,2017-18,
+Agents and Subjects Task Force,Re-add agent qualifiers as linked agent terms,4100,2017-18,
+Agents and Subjects Task Force,Clean up dates in YCBA agent records,827,2017-18,
+Agents and Subjects Task Force,Correct incorrect term types,321,2017-18,
+Agents and Subjects Task Force,Import LC records and clean up authority ID and date fields,307,2017-18,
+Agents and Subjects Task Force,Re-add subfield commas removed during processing,166,2017-18,
+Agents and Subjects Task Force,"Remediate invalid agents (question marks, brackets, etc.)",81,2017-18,
+Agents and Subjects Task Force,Parse combined subject terms into separate term fields,48,2017-18,
+Agents and Subjects Task Force,Reorder conference subfields,41,2017-18,
+Agents and Subjects Task Force,Re-added biographical histories and dates removed during merge,18,2017-18,
+Agents and Subjects Task Force,Capitalized lowercase subjects,10,2017-18,
+MSSA: Microfilm Reconciliation,Machine-actionable restrictions,200,2017-19,Microfilm reconciliation: Corrected improperly migrated data in ArchivesSpace. Linked collection control data about microfilm surrogates with descriptive records to facilitate requesting of surrogate materials. Updated machine-actionable restriction data and deleted improperly migrated fields.
+MSSA: Microfilm Reconciliation,Top container/archival object links,7175,2017-19,
+MSSA: Microfilm Reconciliation,Deleted subcontainer child/grandchild indicators and types,7175,2017-19,
+MSSA: Digital objects,Deleted extraneous legacy digital objects migrated into ArchivesSpace.,9000,2017-19,
+MSSA: Locations,Deleted locations from B-51,305,2017-19,Locations: Updated location data in ArchivesSpace.
+MSSA: Locations,Location coordinate updates,2850,2017-19,
+MSSA: Locations,"Update room numbers - B69, B70, B71",1100,2017-19,
+MSSA: RU cleanup,RU local access restrictions: Added local access restrictions in addition to time-based restrictions to University Archives records to prevent restrictions from being automatically lifted prior to review by University Archivist.,3900,2017-19,
+MSSA: RU cleanup,RU “otherlevels”: Corrected improper archival object level field usages in University Archives records which were preventing EAD exports from validating.,2000,2017-19,
+MSSA: Classifications,Yale Record Group Classifications created in ArchivesSpace,325,2017-19,"Classifications: Added Yale Record Group Classification data to ArchivesSpace, and added classification term links to University Archives descriptive records."
+MSSA: Classifications,Classification term/archival object links,1075,2017-19,
+MSSA: Copyright,Copyright statements updated,650,2017-19,Copyright statements: Created or updated copyright statements for MSSA manuscript collections using spreadsheet created by Archivist for Collection Development.
+MSSA: Copyright,Copyright statements created,1010,2017-19,
+MSSA: Architecture Project Indices,Archival objects,11500,2017-19,"Project indexes: Convered donor-submitted architectural “project index” spreadsheets into ArchivesSpace descriptive records, and associated new records with container metadata to enable requesting by patrons. Created scope and content notes with information about projects."
+MSSA: Architecture Project Indices,Top container links,12900,2017-19,
+MSSA: Architecture Project Indices,Scope and content notes,2070,2017-19,
+MSSA: Name/Title,Name/Title Catalog: Updated barcode and location data for SML’s name/title catalog in ArchivesSpace.,8900,2017-19,
+MSSA: Unassociated Containers,Delete unassociated containers: Delete containers not linked to a descriptive record on a quarterly basis.,100,2017-19,Repeat quarterly
+MSSA: Dual-Dates,Dual-dates: Delete title fields from archival object records with a date in both the title and the date subrecord to prevent duplicate display of date data.,275,2017-19,
+MSSA: Fake Inventory Levels,“Inventory” archival objects deleted,721,2017-19,Inventory levels: Delete archival objects entitled “Inventory” and re-link their children to resource-level records.
+MSSA: Fake Inventory Levels,Child records re-linked to collection level record,12000,2017-19,
+MSSA: Jean Conklin,Archival objects,187,2017-19,Jean Conklin papers: Converted a spreadsheet created during physical processing into descriptive and collection control records in ArchivesSpace:
+MSSA: Jean Conklin,Top containers,65,2017-19,
+MSSA: Find-It Links,Open,5395,2017-19,File URIs: Added URLs for thumbnail images from Find-It and URLs that point to corresponding MSSA digital materials in Find-It to digital object records in ArchivesSpace. Update digital object identifiers.
+MSSA: Find-It Links,Open with permission,11500,2017-19,
+MSSA: Find-It Links,Updated digital object identifiers,17000,2017-19,
+MSSA: Unpublish Accessions,Unpublish accessions: Unpublished accession records prior to launch of ArchivesSpace public user interface,28,2017-19,
+MSSA: Microfilm,Unpublish HM films: Unpublished HM microfilm records prior to launch of ArchivesSpace public user interface,76,2017-19,
+MSSA: Unredact Records,Publish/unpublish sensitive records: Analyze a set of MSSA records containing potentially restricted data and apply appropriate publication value.,425000,2017-19,
+ArchivesSpace Public User Interface (PUI) Implementation Project,Dates: Added ISO 8601-compliant dates to ArchivesSpace date subrecords. Queried ArchivesSpace database to identify records with value in free-text date expression field but not structured begin or end date fields. Used Python script which parses the expressions using the Timetwister Ruby app. Used SQL script to create temporary date tables and imported output of Python script. Updated contents of date table with contents of temporary tables.,817050,2017-18,
+ArchivesSpace Public User Interface (PUI) Implementation Project,Note Labels: Removed non-standard labels from note subrecords in ArchivesSpace.,350000,2017-18,
+ArchivesSpace Public User Interface (PUI) Implementation Project,Container Types: Added container type values to ArchivesSpace to facilitate display in the ArchivesSpace PUI.,300000,2017-18,
+ArchivesSpace Public User Interface (PUI) Implementation Project,Extent types updated,49000,2017-18,Extent Types: Standardized extent type usage across all YUL special collections repositories. Deleted extraneous controlled values.
+ArchivesSpace Public User Interface (PUI) Implementation Project,Merged values,200,2017-18,
+ArchivesSpace Public User Interface (PUI) Implementation Project,System Indicators: Deleted extraneous data migrated from previous database.,8000,2017-18,
+ArchivesSpace Public User Interface (PUI) Implementation Project,Identifiers: Standardized field usage for resource identifiers to facilitate searching in the ArchivesSpace PUI.,3800,2017-18,
+ArchivesSpace Public User Interface (PUI) Implementation Project,Restriction statements updated,3675,2017-18,
+ArchivesSpace Public User Interface (PUI) Implementation Project,Granular machine-actionable restriction records created,400,2017-18,
+ArchivesSpace Public User Interface (PUI) Implementation Project,“Missing Titles”: Removed extraneous data from improperly migrated note subrecords.,700,2017-18,
