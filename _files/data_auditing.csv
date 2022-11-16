@@ -1,8 +1,8 @@
 data_point,principle,type,query
-Containers not associated with an archival object,Completeness,Top containers,https://github.com/YaleArchivesSpace/yams_data_auditing/blob/master/containers/unassociated_digital_objects.sql
+Containers not associated with an archival object,Completeness,Top containers,https://github.com/YaleArchivesSpace/yams_data_auditing/blob/master/containers/unassociated_containers.sql
 Digital objects not associated with an archival object,Completeness,Digital objects,https://github.com/YaleArchivesSpace/yams_data_auditing/blob/master/containers/unassociated_digital_objects.sql
-Agents not linked to a record,Completeness,"Agent person, agent corporate entity, agent family",https://github.com/YaleArchivesSpace/yams_data_auditing/blob/master/agents_and_subjects/get_agent_orphans.sql
-Subjects not linked to a record,Completeness,Subject,https://github.com/YaleArchivesSpace/yams_data_auditing/blob/master/agents_and_subjects/get_subject_orphans.sql
+Agents not linked to a record,Completeness,"Agent person, agent corporate entity, agent family",https://github.com/YaleArchivesSpace/yams_data_auditing/blob/master/agents_and_subjects/agent_orphans.sql
+Subjects not linked to a record,Completeness,Subject,https://github.com/YaleArchivesSpace/yams_data_auditing/blob/master/agents_and_subjects/subject_orphans.sql
 Containers without barcodes,Completeness,Top containers,"Total number of containers, total number with and without barcodes"
 Containers without locations,Completeness,Top containers,
 Duplicate agent and subject records,Consistency,"Agent person, agent family, agent corporate entity, subject",https://github.com/yalemssa/chit_archives_scripts/blob/master/authority_reconciliation/match_names.py
@@ -23,8 +23,8 @@ Spam users,Accuracy,Users,
 Accessions unpublished,"Accuracy, consistency",Accessions,
 Preservica digital objects unpublished,"Accuracy, consistency",Digital objects,
 Unauthorized note labels,Consistency,Notes,
-Boxes without types,Completeness,Top containers,
-DACS compliance,Completeness,Resources,
+Boxes without types,Completeness,Top containers,https://github.com/YaleArchivesSpace/yams_data_auditing/blob/master/containers/boxes_missing_types.sql
+DACS compliance,Completeness,Resources,https://github.com/YaleArchivesSpace/yams_data_auditing/blob/master/dacs_minimum.sql
 Correct field usage,Accuracy,"TBD, see sheet for possible fields to check",
 Non-dates in date fields,Accuracy,"Dates, agent person, agent family, agent corporate entity",
 Qualifier field usage - only uniform titles,"Accuracy, consistency","Agent person, agent family, agent corporate entity",
