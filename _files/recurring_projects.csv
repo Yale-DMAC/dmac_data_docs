@@ -1,1 +1,4 @@
 project,task,records_updated,date,project_info
+Digitization and ingestion events,Create events for records which have been digitized and/or ingested into Preservica,,-2021,
+Preservica digital file links,Create ArchivesSpace digital object file version records for access copies in Preservica,,,
+Date parsing,Update unstructured date subrecords with structured begin and/or end dates,,,
