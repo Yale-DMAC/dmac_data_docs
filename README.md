@@ -12,7 +12,7 @@ __Metadata__: has primary responsibility for special collections descriptive, te
 
 __Born digital__: has primary responsibility for Beinecke Library born digital collection material. Collaborates with  other Beinecke and YUL departments to acquire, capture, stabilize, and ensure staff access to born digital content. Leads and manages the Born Digital Accessioning Support Service, which captures/images born digital collection material, creates Submission and Access Information Packages for ingest into the digital preservation system. Consults with and trains other department staff to capture and access born digital content. Provides patron access to material that is not accessible online or in Preservica. Provides training and creates and maintains documentation.
 
-## DMAC Year One Goals
+<!-- ## DMAC Year One Goals
 
 ### Goal 1: Create DMAC collaboratively
 
@@ -73,7 +73,7 @@ __Related BRBL Tech Services Goals__
 - Goal 2: Strengthen stewardship capacity
 
 __Related BRBL Strategic Goals__
-- Goal 8: Ensure a sustainable infrastructure
+- Goal 8: Ensure a sustainable infrastructure -->
 
 ## How to Update This Documentation
 
