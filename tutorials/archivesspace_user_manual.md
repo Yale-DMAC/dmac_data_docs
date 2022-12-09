@@ -170,27 +170,24 @@ screenshots are of Advanced Data Entry views.
 1\. Repository / Application Management: This is where you will verify
 that you are working in your own repository.
 
-<img src="./_images/image2.png"/>
+![Example](./_images/image2.png)/>
 
 Access the online help center.
 
-<img src="./_images/image3.png"/>
+![Example](./_images/image3.png)/>
 
 And, view or set your preferences or log out.
 
-> <img src="./_images/image4.png"
-> style="width:5.34896in;height:1.97267in" />
+![Example](./_images/image4.png)
 
 2\. User Permissions, Preferences Management, Reports, Imports, and
 Plugins:
 
-> <img src="./_images/image5.png"
-> style="width:3.67708in;height:3.39583in" />
+![Example](./_images/image5.png)
 
 3\. Creating, Editing, Deleting Records (see **Create** drop-down menu):
 
-> <img src="./_images/image6.png"
-> style="width:2.70313in;height:2.72109in" />
+![Example](./_images/image6.png)
 >
 > Accession, Resource, and Digital Object records are known collectively
 > as archival objects or material description records. Resource and
@@ -210,8 +207,7 @@ Plugins:
 > To import legacy data (EAD, MARC, accession CSV file), use the Import
 > Jobs link at the bottom of the **Create** drop-down menu.
 >
-> <img src="./_images/image7.png"
-> style="width:2.62308in;height:3.36979in" />
+![Example](./_images/image7.png)
 >
 > Each function outlined in the **Create** drop-down is also available
 > to be viewed in the **Browse** menu. Note that Collection Management
@@ -385,13 +381,11 @@ Advanced Search):
 > NOT are available, with AND being the default option for linking the
 > search fields together. Example:
 
-<img src="./_images/image8.png"
-style="width:6.76215in;height:1.49479in" />
+![Example](./_images/image8.png)
 
 ###  Record Template
 
-<img src="./_images/image9.png"
-style="width:6.84644in;height:3.28437in" />
+![Example](./_images/image9.png)
 
 **Navigation panel**
 
@@ -409,8 +403,7 @@ document, and, while scrolling through a record, the highlighted section
 of the navigation panel will change to keep the staff user oriented to
 the current position within the record.
 
-<img src="./_images/image10.jpg"
-style="width:5.41146in;height:3.08731in" alt="ASpace_CollMgmt.jpg" />
+![Example](./_images/image10.png)
 
 **Rollover texts**
 
@@ -421,8 +414,7 @@ the rollover consists of a definition of the element, a reference to the
 appropriate rule in DACS or to elements in export data formats, such as
 MARC, and examples of good practice.
 
-<img src="./_images/image11.jpg"
-style="width:5.86653in;height:3.32813in" alt="ASpace_rollover.jpg" />
+![Example](./_images/image11.png)
 
 **Records and sub-records**
 
@@ -589,15 +581,13 @@ edit as well.
 
 ArchivesSpace marks required fields with a red asterisk and bold type.
 
-<img src="./_images/image12.png"
-style="width:2.60164in;height:1.27792in" />
+![Example](./_images/image12.png)
 
 If a sub-form or field is conditionally required, this is noted in a
 text box when you hover over the field. Conditionally required fields
 are marked with a gray asterisk.
 
-<img src="./_images/image13.png"
-style="width:2.36042in;height:1.95347in" />
+![Example](./_images/image13.png)
 
 **EAD tagging within data fields**
 
@@ -608,11 +598,9 @@ the resource record, ArchivesSpace provides an auto-complete function
 for EAD tags. You can either directly include EAD markup within the data
 field -- or type "\<" to invoke the auto-complete function.
 
-<img src="./_images/image14.png"
-style="width:3.98021in;height:1.27578in" />
+![Example](./_images/image14.png)
 
-> <img src="./_images/image15.png"
-> style="width:5.30933in;height:3.95833in" />
+![Example](./_images/image15.png)
 
 Be careful when adding EAD tags, since mistakes can invalidate the
 resulting document in EAD export.
@@ -646,8 +634,7 @@ Some data fields can be expanded to allow for entering multiple lines of
 text -- or long narrative statements. Select and drag the bottom right
 corner of the data field to expand it.
 
-<img src="./_images/image16.png"
-style="width:4.0437in;height:0.7361in" />
+![Example](./_images/image16.png)
 
 **Supported Browsers**
 
@@ -837,9 +824,7 @@ The second step is for the repository manager to give that user access
 to whichever user groups the repository manager deems appropriate. All
 groups are additive and access must be explicitly granted to each group.
 
-<img src="./_images/image17.png"
-style="width:6.5in;height:3.45833in"
-alt="Screen Shot 2015-06-05 at 3.20.13 PM.png" />
+![Example](./_images/image17.png)
 
 For instance, if you want a user to be able to create accessions AND
 resources, you must add that user to both the “Create, read, and update
@@ -848,9 +833,7 @@ resources and top containers” group. A user can be assigned to a group
 by entering her NetID in the “Members” field of a group. This step must
 be repeated for each group that a user will be assigned to.
 
-<img src="./_images/image18.png"
-style="width:6.5in;height:4.26389in"
-alt="Screen Shot 2015-06-05 at 3.22.30 PM.png" />
+![Example](./_images/image18.png)
 
 Multiple user groups may also be assigned to a user by selecting their
 username under Manage Users, then selecting Edit Groups. User groups can
@@ -1701,8 +1684,7 @@ needed. Be aware, however, that locations cannot be deleted in batches.
     Location record, click on the **+1** button. This will save the
     current record and open a new Location record template.
 
-<img src="./_images/image19.png"
-style="width:3.59924in;height:4.79818in" alt="single loc.PNG" />
+![Example](./_images/image19.png)
 
 **Creating multiple Location records**
 
@@ -1714,8 +1696,7 @@ style="width:3.59924in;height:4.79818in" alt="single loc.PNG" />
     fields in the **Base Location** section if you wish, but do not
     enter coordinate information here.
 
-<img src="./_images/image20.png"
-style="width:6.58854in;height:3.53138in" />
+![Example](./_images/image20.png)
 
 3.  In the **Coordinate Ranges** section, enter values for **Coordinate
     Range 1’s** **Label**, **Range Start**, and **Range End**. This is
@@ -1725,14 +1706,12 @@ style="width:6.58854in;height:3.53138in" />
 4.  Enter values for **Coordinate Range 2** and **Coordinate Range 3**
     if warranted.
 
-<img src="./_images/image21.png"
-style="width:5.41667in;height:3.08044in" />
+![Example](./_images/image21.png)
 
 5.  You may review your locations to make sure they are correctly formed
     by clicking on the **Preview Locations** button.
 
-> <img src="./_images/image22.png"
-> style="width:5.59803in;height:5.07292in" />
+![Example](./_images/image22.png)
 
 6.  Click on the **Create Locations** button to generate the batch of
     Location records (the number of records generated is determined by
@@ -1754,8 +1733,7 @@ in ArchivesSpace.
 “Manage Top Containers” is available under the gear menu for the
 repository name.
 
-<img src="./_images/image23.png"
-style="width:4.16146in;height:3.67045in" />
+![Example](./_images/image23.png)
 
 ### Searching
 
@@ -1803,17 +1781,13 @@ Examples of search:
     example, I want to see which containers are in the Yale Athletics
     Photographs collection.
 
-<img src="./_images/image24.png"
-style="width:6.5in;height:4.04167in"
-alt="Screen Shot 2015-05-04 at 10.16.45 AM.png" />
+![Example](./_images/image24.png)
 
 2.  **Find all of the containers in a particular location.** In this
     example, I want to know all of the containers that are house in SML
     150-B, Drawer 1.
 
-<img src="./_images/image25.png"
-style="width:6.5in;height:4.375in"
-alt="Screen Shot 2015-05-04 at 10.02.39 AM.png" />
+![Example](./_images/image25.png)
 
 In this example, the location is entered in the “Location” field and the
 results show us that there are 49 containers that match this location.
@@ -1825,9 +1799,7 @@ barcodes, ILS information and restriction information.\\
     that all “blue” boxes are non-archival and want to bring them
     together for a re-housing project.
 
-<img src="./_images/image26.png"
-style="width:6.5in;height:4.84722in"
-alt="Screen Shot 2015-05-04 at 11.18.26 AM.png" />
+![Example](./_images/image26.png)
 
 In this example, I searched for a container profile of “blue” and found
 that there are two top containers that have that container profile. I
@@ -1847,9 +1819,7 @@ bulk operations.
 From the “manage top containers” screen is the ability to update the
 following elements:
 
-<img src="./_images/image27.png"
-style="width:6.5in;height:1.98611in"
-alt="Screen Shot 2015-05-04 at 11.29.29 AM.png" />
+![Example](./_images/image27.png)
 
 **Update ILS Holding IDs**
 
@@ -1866,9 +1836,7 @@ bulk.
 This function allows the user to change the locations of containers
 singularly or en masse to a new permanent location or locations.
 
-<img src="./_images/image28.png"
-style="width:6.5in;height:3.26389in"
-alt="Screen Shot 2015-05-04 at 11.58.04 AM.png" />
+![Example](./_images/image28.png)
 
 **Rapid Barcode Entry**
 
@@ -1893,8 +1861,7 @@ information about the physical container in which archival materials are
 housed. With this data, we can calculate how much space a collection
 occupies.
 
-<img src="./_images/image29.png"
-style="width:2.86111in;height:2.5in" />
+![Example](./_images/image29.png)
 
 ### Associating an existing container profile with a top container record
 
@@ -2122,8 +2089,7 @@ may enter many more if warranted:
 > not use this field for unique identifiers assigned to individual
 > pieces of media for the purposes of tracking and managing the media.
 >
-> <img src="./_images/image30.png"
-> style="width:5.94271in;height:3.45152in" />
+![Example](./_images/image30.png)
 
 3.  Click **Save Accession**. If any required element is missing, you
     will be prompted to add the information, which you must do in order
@@ -2243,8 +2209,7 @@ can be input into the Begin and End date fields either manually in the
 YYYY, YYYY-MM, or YYYY-MM-DD formats, or by clicking on the calendar
 icon and choosing the appropriate date.
 
-<img src="./_images/image31.png"
-style="width:6.5in;height:3.41667in" />
+![Example](./_images/image31.png)
 
 #### Extents sub-record
 
@@ -2286,8 +2251,7 @@ extent sub-record that may be edited before saving. Note: this will not
 replace an existing extent sub-record. If an existing sub-record becomes
 obsolete; the user must delete the old extent subrecord.
 
-<img src="./_images/image32.png"
-style="width:6.5in;height:1.20833in" />
+![Example](./_images/image32.png)
 
 #### Deaccessions sub-record 
 
@@ -2320,8 +2284,7 @@ Optionally, you may provide a deaccession extent sub-record. To do so,
 under the Deaccession Date, click “Add Extent.” Required fields include
 **Portion**, **Number**, and **Type**.
 
-<img src="./_images/image33.png"
-style="width:6.5in;height:4.77778in" />
+![Example](./_images/image33.png)
 
 #### Material Types sub-record 
 
@@ -2352,8 +2315,7 @@ checking the corresponding box as follows:
 
 - Works of Art
 
-<img src="./_images/image34.png"
-style="width:6.5in;height:1.69444in" />
+![Example](./_images/image34.png)
 
 If you frequently accession a particular type of material, as a user you
 may set default Material Type values that will automatically be selected
@@ -2383,8 +2345,7 @@ sub-records. The Payment Summary may contain the following information:
 - **In Lot:** A Boolean field. Selecting “In Lot” will indicate that the
   accession combines multiple line items in an invoice.
 
-<img src="./_images/image35.png"
-style="width:6.5in;height:1.36111in" />
+![Example](./_images/image35.png)
 
 After the Payment Summary has been completed, you may add information
 about individual Payments. There are no required fields in a Payment
@@ -2417,8 +2378,7 @@ will need to supply multiple Payment sub-records if a single purchase is
 paid for on multiple funds, or if subsequent payments are scheduled for
 future dates.
 
-<img src="./_images/image36.png"
-style="width:6.5in;height:3.18056in" />
+![Example](./_images/image36.png)
 
 #### Spawning Accession Records
 
@@ -2429,8 +2389,7 @@ template.
 
 2\. Select Accession.
 
-<img src="./_images/image37.png"
-style="width:2.41667in;height:1.33333in" />
+![Example](./_images/image37.png)
 
 3\. The spawned Accession record will appear. Provide the appropriate
 Identifier and Accession Date and make additional edits as necessary.
@@ -2518,8 +2477,7 @@ record.
     “Publish?.” Do not check this until all work has been completed and
     the finding aid is ready for publication.
 
-> <img src="./_images/image38.png"
-> style="width:5.96875in;height:3.125in" />
+![Example](./_images/image38.png)
 
 6.  For the Extents sub-record:
 
@@ -2546,8 +2504,7 @@ record.
 - Optionally, record one or more **Extents** statements for parts of the
   resource, e.g., the number of audiocassettes in the resource.  
     
-  <img src="./_images/image39.png"
-  style="width:5.65953in;height:2.9241in" />
+  ![Example](./_images/image39.png)
 
 7.  Within the **Dates** sub-record, record the date(s) (recommended and
     required for DACS compliance) for the resource.
@@ -2564,8 +2521,7 @@ record.
 - If appropriate, select values for **Certainty**, **Era**, and
   **Calendar**.**  
   **  
-  <img src="./_images/image40.png"
-  style="width:5.68519in;height:2.81809in" />
+  ![Example](./_images/image40.png)
 
 > Save the record by clicking on **Save Resource** at the bottom of the
 > record index or on the **Save** button at the top of the Resource
@@ -2607,16 +2563,14 @@ comes time to create the Resource record.
 1.  Click on the **Spawn** option at the top of the Accession record
     template and select Resource.
 
-> <img src="./_images/image41.png"
-> style="width:3.79167in;height:1in" />
+![Example](./_images/image41.png)
 
 2.  Click on the option for Resource.
 
 3.  A Resource record template will load and will contain values carried
     forward from the Accession record.  
       
-    <img src="./_images/image42.png"
-    style="width:5.61628in;height:2.80233in" />
+    ![Example](./_images/image42.png)
 
 4.  Complete the Resource record according to the input requirements for
     Resource records described above and the needs of the materials
@@ -2769,9 +2723,7 @@ DACS to formulate notes.
 > Restriction Types</u>](##local-access-restriction-types)” section for
 > further information.
 >
-> <img src="./_images/image43.png"
-> style="width:5.53646in;height:4.5871in"
-> alt="Screen Shot 2015-04-07 at 8.30.05 PM.png" />
+![Example](./_images/image43.png)
 >
 > The actionable restriction information is associated with the Top
 > Containers linked to the archival component and is inherited by child
@@ -2780,8 +2732,7 @@ DACS to formulate notes.
 > in the Restricted? column of the Manage Top Container search results
 > view.
 >
-> <img src="./_images/image44.png"
-> style="width:6.68229in;height:0.92708in" />
+![Example](./_images/image44.png)
 
 - **Conditions Governing Use Note**
 
@@ -2840,14 +2791,12 @@ To add **Notes** sub-records to a Resource record:
 
 1.  Click on **Add Note** in the **Note** section banner.  
       
-    <img src="./_images/image45.png"
-    style="width:5.98633in;height:1.43159in" />
+    ![Example](./_images/image45.png)
 
 2.  From the **Note Type** controlled value list, select the type of
     note to be recorded.  
       
-    <img src="./_images/image46.png"
-    style="width:6.00423in;height:2.09838in" />
+    ![Example](./_images/image46.png)
 
 3.  Optionally, record a **Persistent ID** for the note if desired. The
     persistent ID must be unique within the context of the complete
@@ -2858,8 +2807,7 @@ To add **Notes** sub-records to a Resource record:
 
 5.  Enter the note text in the **Content** frame.  
       
-    <img src="./_images/image47.png"
-    style="width:6.10417in;height:3.77083in" />
+    ![Example](./_images/image47.png)
 
 6.  Click on Save or Save Resource to save the note to the overall
     resource description.
@@ -2915,8 +2863,7 @@ YAMS recommends that each repository run periodic reports on their
 expiring restrictions. Repositories should contact YAMS for guidance on
 running these reports.
 
-<img src="./_images/image48.jpg"
-style="width:6.5in;height:2.83333in" />
+![Example](./_images/image48.png)
 
 ###### Types and their usage
 
@@ -3038,10 +2985,9 @@ appears on Aeon field “iteminfo1” (“Restriction”) signaling the presence
 of an access restriction. Machine-readable access restrictions are
 imported into Aeon as data and pulled into Aeon Field “iteminfo8”.
 
-<img src="./_images/image49.png"
-style="width:3.98438in;height:2.69475in" />
-<img src="./_images/image50.png"
-style="width:2.09823in;height:2.03438in" />
+![Example](./_images/image49.png)
+
+![Example](./_images/image50.png)
 
 Based on the info in these “iteminfo” fields, items may then be routed
 into different Aeon queues, though this varies by repository. For
@@ -3050,19 +2996,16 @@ example: At the Beinecke Library, items with a “Y” in Aeon Field
 that is monitored by Access Services staff. Access services staff then
 reviews these items and communicates with the patron about access.
 
-<img src="./_images/image51.jpg"
-style="width:6.5in;height:3.73611in" />
+![Example](./_images/image51.png)
 
-<img src="./_images/image52.jpg"
-style="width:6.5in;height:1.375in" />
+![Example](./_images/image52.png)
 
 In the User’s Aeon web-view of submitted requests, items with a
 machine-actionable restriction will include the note “Restricted
 Material” in the “Status” column after the user submits the request (see
 red section in screenshot below).
 
-<img src="./_images/image53.jpg"
-style="width:6.5in;height:2.18056in" />
+![Example](./_images/image53.png)
 
 ###### Other restrictions and Aeon
 
@@ -3184,8 +3127,7 @@ components on the ArchivesSpace Resource template (note: you must open
 the Resource record in edit mode to have access to the command functions
 that allow you to create components):  
   
-<img src="./_images/image54.png"
-style="width:6.5in;height:2.11111in" />
+![Example](./_images/image54.png)
 
 - **Add Child**: This button will open a new component record that is
   hierarchically subordinate to the context record (the record from
@@ -3251,8 +3193,7 @@ description, and the only choice will be to create a child component.
 7.  Save the record by pressing the **Save** command button at the
     bottom right corner of the window.  
       
-    <img src="./_images/image55.png"
-    style="width:5.89583in;height:3.01042in" />
+    ![Example](./_images/image55.png)
 
 When you add a sub-record, depending on the type of sub-record, specific
 fields may be required. If any required information is missing, you will
@@ -3337,8 +3278,7 @@ resource component record:
     declaration is for analog content or on **Add Digital Object** if
     the instance declaration is for digitally available content.  
       
-    <img src="./_images/image56.png"
-    style="width:6.5in;height:0.36111in" />
+    ![Example](./_images/image56.png)
 
 2.  Select the **Type** of instance you wish to declare. You should
     always select “Mixed Materials.”
@@ -3350,17 +3290,13 @@ resource component record:
         already exists as part of the collection, simply start typing
         that box number and choose it.
 
-<img src="./_images/image57.png"
-style="width:6.5in;height:1.61111in"
-alt="Screen Shot 2015-04-22 at 3.17.02 PM.png" />
+![Example](./_images/image57.png)
 
 2.  The “top container” refers to the container that circulates and
     usually has a barcode. It’s often useful to add information about
     “children” containers, like folders.
 
-<img src="./_images/image58.png"
-style="width:6.5in;height:3.55556in"
-alt="Screen Shot 2015-04-22 at 3.19.16 PM.png" />
+![Example](./_images/image58.png)
 
 3.  If the box doesn’t already exist in the database, click on the
     triangle at the end of the Top Container data field and choose
@@ -3372,16 +3308,12 @@ alt="Screen Shot 2015-04-22 at 3.19.16 PM.png" />
     describe material in Box 1, Folder 2, you do *not* need to create
     Box 1 again. You can use the typeahead to simply link to Box 1.
 
-> <img src="./_images/image59.png"
-> style="width:6.5in;height:2.375in"
-> alt="Screen Shot 2015-02-27 at 10.02.17 AM.png" />
+![Example](./_images/image59.png)
 >
 > You’re then taken to a screen where you can enter information about a
 > particular container.
 >
-> <img src="./_images/image60.png"
-> style="width:6.27083in;height:3.59375in"
-> alt="Screen Shot 2015-02-27 at 10.14.05 AM.png" />
+![Example](./_images/image60.png)
 
 - **Indicator**: This field is required. It represents the number that
   you assign to a box.
@@ -3405,9 +3337,7 @@ alt="Screen Shot 2015-04-22 at 3.19.16 PM.png" />
   profile that already exists, or click the triangle and the “Create”
   button to create one if it doesn’t already exist.
 
-> <img src="./_images/image61.png"
-> style="width:6.5in;height:3.66667in"
-> alt="Screen Shot 2015-02-27 at 10.20.06 AM.png" />
+![Example](./_images/image61.png)
 >
 > It will be very unusual to create new container profiles unless your
 > repository starts using new container types. Usually, in the course of
@@ -3429,8 +3359,9 @@ alt="Screen Shot 2015-04-22 at 3.19.16 PM.png" />
 
 - **Dimension Units**: Indicate the unit for how other dimensions are
   > measured. The convention at Yale is to measure in
-  > inches.<img src="./_images/image62.png"
-  > style="width:3.92989in;height:3.00521in" />
+  > inches.
+
+  ![Example](./_images/image62.png)
 
 - **Extent Dimension**: This indicates how the records in a container
   > are filed, for the purpose of calculating extent. For instance, if
@@ -3465,9 +3396,7 @@ information about that container profile and choose from a list.
 Alternately, go to the “Browse” option (under “Create”), and choose the
 container profile you want to associate with your top container.
 
-<img src="./_images/image63.png"
-style="width:6.5in;height:3.47222in"
-alt="Screen Shot 2015-03-05 at 10.48.54 AM.png" />
+![Example](./_images/image63.png)
 
 Some repositories file collection material from different collections in
 the same container. If you’re adding a new component to a box of
@@ -3475,15 +3404,13 @@ materials that already exists as part of *another* collection, click on
 the triangle at the end of the Top Container data field and choose
 “Browse.”
 
-<img src="./_images/image64.png"
-style="width:6.1875in;height:2.25in" />
+![Example](./_images/image64.png)
 
 From the Browse Top Container screen search for the resource that
 contains the container you want to link to. Select the container from
 the results list and click Link to Top Container.
 
-<img src="./_images/image65.png"
-style="width:4.70833in;height:3.76042in" />
+![Example](./_images/image65.png)
 
 #### Associating Instances with Location records
 
@@ -3495,8 +3422,7 @@ Once the container information is added, it can be linked to a
 2.  Click on the “Add Location” button.
 
   
-<img src="./_images/image66.png"
-style="width:6.5in;height:3.43056in" alt="ContainerLocation.png" />
+![Example](./_images/image66.png)
 
 3.  Enter:
 
@@ -3509,9 +3435,7 @@ style="width:6.5in;height:3.43056in" alt="ContainerLocation.png" />
 3.  End Date: This field is optional. It indicates the date that a
     container is no longer at that location.
 
-> <img src="./_images/image67.png"
-> style="width:6.5in;height:3.45833in"
-> alt="Screen Shot 2015-03-05 at 11.25.05 AM.png" />
+![Example](./_images/image67.png)
 
 4.  Save the record.
 
@@ -3539,8 +3463,7 @@ To create Resource component records using the RDE:
     **Container Indicator** are necessary if locations are to be linked
     to the Resource component record.
 
-<img src="./_images/image68.png"
-style="width:5.57292in;height:1.36458in" />
+![Example](./_images/image68.png)
 
 4.  Select **Add Row** to add another row, or use **Shift + Return** to
     add another row using all the data in the previous row.
@@ -3792,9 +3715,7 @@ accessions, archival resources, and digital objects:
   authority is linked (for example, as the creator, subject, or source
   of the archival materials).
 
-<img src="./_images/image69.png"
-style="width:5.78646in;height:1.45589in"
-alt="Screen shot 2014-04-23 at 7.24.57 AM.png" />
+![Example](./_images/image69.png)
 
 - **Establish a new authority:** If an authority does not exist in the
   database, it can be created, then linked automatically, from within
@@ -3802,9 +3723,7 @@ alt="Screen shot 2014-04-23 at 7.24.57 AM.png" />
   record. You can also use the **Create** menu on the homepage to
   establish a new authority.
 
-<img src="./_images/image70.png"
-style="width:5.77604in;height:1.03673in"
-alt="Screen shot 2014-04-23 at 7.30.56 AM.png" />
+![Example](./_images/image70.png)
 
 - **Import external authority:** ArchivesSpace includes a plug-in
   application to enable importing of authorities maintained within the
@@ -3812,11 +3731,9 @@ alt="Screen shot 2014-04-23 at 7.30.56 AM.png" />
   have been imported, they can be linked to Accession, Resource, and
   Digital Object records.
 
-<img src="./_images/image72.png"
-style="width:2.18943in;height:2.28854in" />
+![Example](./_images/image72.png)
 
-<img src="./_images/image73.png"
-style="width:6.5in;height:1.72222in" />
+![Example](./_images/image73.png)
 
 ## Agent Records
 
@@ -4019,8 +3936,7 @@ any blank spaces at the end of the subfields.
 To begin, click “Create” and choose the record types from the two
 dropdown menus:
 
-<img src="./_images/image74.jpg"
-style="width:3.97064in;height:2.68229in" />
+![Example](./_images/image74.png)
 
 The “New Person” screen will appear with the following fields:
 
@@ -4034,8 +3950,7 @@ The “New Person” screen will appear with the following fields:
 > add, click the **Add Date** box on right and a form will appear. For
 > **Type** choose **Range**
 >
-> <img src="./_images/image75.png"
-> style="width:3.47619in;height:2.66146in" />
+![Example](./_images/image75.png)
 >
 > and enter dates (LCNAF 046 ‡f ‡g for personal names, or LCNAF 046 ‡s
 > ‡t for family and corporate names) in fields **Begin** and/or **End**.
@@ -4048,20 +3963,17 @@ The “New Person” screen will appear with the following fields:
 > Service</u>](http://id.loc.gov/); URI is found near the top of the
 > entry
 >
-> <img src="./_images/image76.png"
-> style="width:3.46354in;height:2.38438in" />
+![Example](./_images/image76.png)
 >
 > To find the URI for a
 > [<u>ULAN</u>](http://www.getty.edu/research/tools/vocabularies/ulan/index.html)
 > record, click **Semantic View** on the left above the name
 >
-> <img src="./_images/image77.png"
-> style="width:3.47396in;height:2.63335in" />
+![Example](./_images/image77.png)
 >
 > which opens another screen with the URI up at the top
 >
-> <img src="./_images/image78.png"
-> style="width:3.44666in;height:1.43229in" />
+![Example](./_images/image78.png)
 >
 > **Source**: required; choose **Library of Congress Name Authority
 > File**, **Union List of Artist Names**, or appropriate **local library
@@ -4094,16 +4006,14 @@ The “New Person” screen will appear with the following fields:
 
 *Example of Person with Library of Congress authorized record:*
 
-> <img src="./_images/image81.png"
-> style="width:3.97927in;height:3.92188in" />
+![Example](./_images/image81.png)
 >
 > **Contact Details**
 >
 > Optional; to add click **Add Contact** button at right, and enter
 > fields manually, per local practice.
 >
-> <img src="./_images/image82.png"
-> style="width:3.48438in;height:3.07498in" />
+![Example](./_images/image82.png)
 >
 > **Notes - Biographical/Historical**
 >
@@ -4116,8 +4026,7 @@ The “New Person” screen will appear with the following fields:
 
 *Example of YUL Staff Person:*
 
-> <img src="./_images/image84.png"
-> style="width:3.51142in;height:2.77604in" />
+![Example](./_images/image84.png)
 >
 > **Other fields**
 >
@@ -4127,8 +4036,7 @@ For **Family** agent records:
 
 > **Name Forms**
 >
-> <img src="./_images/image85.png"
-> style="width:3.48148in;height:2.89063in" />
+![Example](./_images/image85.png)
 >
 > Required name element: **Family Name**: LCNAF 100 ‡a
 >
@@ -4142,8 +4050,7 @@ For **Corporate Entity** agent records:
 
 > **Name Forms**
 >
-> <img src="./_images/image86.png"
-> style="width:3.45181in;height:3.23438in" />
+![Example](./_images/image86.png)
 >
 > Required name element: **Primary Part of Name**: LCNAF 110 ‡a
 >
@@ -4255,8 +4162,7 @@ Subjects can be one of 10 types in ArchivesSpace:
 
 - Style/period
 
-- Technique<img src="./_images/image87.png"
-  style="width:5.60498in;height:1.34834in" />
+- Technique![Example](./_images/image87.png)
 
 - Temporal
 
@@ -4514,8 +4420,7 @@ surveyed**
 
 1.  Select the More button and choose Create Assessment:
 
-> <img src="./_images/image88.png"
-> style="width:3.78125in;height:1.65625in" />
+![Example](./_images/image88.png)
 
 2.  ArchivesSpace requires three elements for an ArchivesSpace valid
     assessment record: a link to the records being assessed, a link to
@@ -4818,8 +4723,7 @@ option in the format checkboxes, an additional twenty formats may be
 defined by an administrator using the Manage Assessment Attributes
 function.
 
-<img src="./_images/image89.png"
-style="width:6.5in;height:2.56944in" />
+![Example](./_images/image89.png)
 
 **Special Format Note**: Additional or explanatory information about the
 special formats present.
@@ -4841,8 +4745,7 @@ In addition to the nine available conservation issue checkboxes, an
 additional twenty conservation issues may be defined by an administrator
 using the Manage Assessment Attributes function.
 
-<img src="./_images/image90.png"
-style="width:6.5in;height:2.22222in" />
+![Example](./_images/image90.png)
 
 **Conservation Note**: Indicates areas of particular concern with regard
 to the physical condition of the collection.
@@ -4858,8 +4761,7 @@ On the main toolbar, click **Browse** and select Assessments. Search,
 sort, and/or filter to find and select the assessment you wish to view.
 Click the **View** button to see the record.
 
-<img src="./_images/image91.png"
-style="width:6.5in;height:4.33333in" />
+![Example](./_images/image91.png)
 
 **Viewing an assessment record from within an accession, resource,
 archival object, or digital object record**
@@ -4868,8 +4770,7 @@ From within a record, click **Assessments** in the left-hand
 navigational column. This will bring you to a list of all linked
 assessments. Clicking **View** will take up a the assessment record.
 
-<img src="./_images/image92.png"
-style="width:6.5in;height:1.88889in" />
+![Example](./_images/image92.png)
 
 This will bring up a list of all linked assessments. Clicking **View**
 will take you to the assessment record.
@@ -4879,8 +4780,7 @@ will take you to the assessment record.
 Find the assessment record(s) you want to delete. You can browse or
 search.
 
-<img src="./_images/image93.png"
-style="width:6.5in;height:2.70833in" />
+![Example](./_images/image93.png)
 
 From the results screen, you may delete an assessment in two ways.
 
@@ -4893,8 +4793,7 @@ From the results screen, you may delete an assessment in two ways.
     record(s). Click **Delete Records** to delete the record(s) and
     **Cancel** to return to the list without deleting.
 
-<img src="./_images/image94.png"
-style="width:6.35417in;height:2.55208in" />
+![Example](./_images/image94.png)
 
 or
 
@@ -4903,8 +4802,7 @@ or
 
 2.  From the Assessments Toolbar, click **Delete**.
 
-> <img src="./_images/image95.png"
-> style="width:6.5in;height:1.70833in" />
+![Example](./_images/image95.png)
 
 3.  You will be asked confirm your intention to delete the resource
     record. Click **Delete** to delete the record and **Cancel** to
@@ -4946,8 +4844,7 @@ Groups function.
     to add additional fields. You can also delete additional fields by
     clicking the red **X** button.
 
-<img src="./_images/image96.png"
-style="width:5.20313in;height:4.83448in" />
+![Example](./_images/image96.png)
 
 4.  Click **Save Assessment Attributes**.
 
@@ -4958,8 +4855,7 @@ You can view any records associated with a particular rating, material
 format/type, or conservation issue by clicking on the magnifying glass
 icon to the right of the field name.
 
-<img src="./_images/image97.png"
-style="width:6.5in;height:1.38889in" />
+![Example](./_images/image97.png)
 
 #### Assessment Reports
 
@@ -4972,22 +4868,19 @@ desired), a rating type, a rating range, and a report format (JSON, CSV,
 HTML, PDF). Only global repository ratings values are available in this
 report.
 
-<img src="./_images/image98.png"
-style="width:6.5in;height:4.79167in" />
+![Example](./_images/image98.png)
 
 Once you have selected a rating type, you can select values for the
 ratings you wish to report on.
 
-<img src="./_images/image99.png"
-style="width:6.5in;height:5.08333in" />
+![Example](./_images/image99.png)
 
 The Assessment Record List allows you to choose a date range (if
 desired), and a report format (JSON, CSV, HTML, PDF). This report
 returns all fields in all assessment records, except those marked
 “inactive”.
 
-<img src="./_images/image100.png"
-style="width:4.73958in;height:4.0625in" />
+![Example](./_images/image100.png)
 
 #### Importing Assessment Records Using a CSV Template
 
@@ -5003,8 +4896,7 @@ ArchivesSpace id. You can find this at the top of the browser bar.
 
 Example: For MSSA MS 1790, the ArchivesSpace id is resource_3532
 
-<img src="./_images/image101.png"
-style="width:6.5in;height:4.84722in" />
+![Example](./_images/image101.png)
 
 **Accession link**: This field will create the link to an accession. In
 order for the link to work, the entry must be in the format of the
@@ -5013,8 +4905,7 @@ ArchivesSpace id. You can find this at the top of the browser bar.
 Example: For MSSA accession 2017-M-0002, the ArchivesSpace id is
 accessions/22314
 
-<img src="./_images/image102.png"
-style="width:6.5in;height:4.23611in" />
+![Example](./_images/image102.png)
 
 Other fields can be filled out according to the guidelines on the
 [<u>ArchivesSpace Assessment CSV Import
@@ -5113,8 +5004,7 @@ Digital Object, and Digital Object component records:
 2.  Click on the **Add Agent Link** option which will open a new link
     template at the bottom of the list of linked agents.
 
-<img src="./_images/image103.png"
-style="width:4.9375in;height:2.66667in" />
+![Example](./_images/image103.png)
 
 3.  In the **Role** field (required), indicate if the agent is linked to
     the materials as Creator, Source, or Subject.
@@ -5128,22 +5018,19 @@ style="width:4.9375in;height:2.66667in" />
 - You can begin to type the agent name in the **Agent** field and then
   select a match.  
     
-  <img src="./_images/image104.png"
-  style="width:5.30208in;height:1.48958in" />
+  ![Example](./_images/image104.png)
 
 - Or Browse the list of available Agent records to find a match. Select
   the matching record and then click on **Link to Agents** to link the
   Agent record to the context record.
 
-<img src="./_images/image103.png"
-style="width:4.46973in;height:2.34078in" />
+![Example](./_images/image103.png)
 
 - Or create a new Agent record if the one you require is not in the
   list. (Refer to the section on **Agent records** for instructions on
   creating a new Agent record).  
     
-  <img src="./_images/image105.png"
-  style="width:4.4655in;height:2.02452in" />
+  ![Example](./_images/image105.png)
 
 6.  If desired, add **Terms and Subdivisions** for Agents linked as
     Subjects.
@@ -5170,8 +5057,7 @@ style="width:4.46973in;height:2.34078in" />
 3.  Click on the **Confirm Removal** option to remove the link, or on
     the **Cancel** option to retain the link.  
       
-    <img src="./_images/image106.png"
-    style="width:5.14583in;height:1.1875in" />
+    ![Example](./_images/image106.png)
 
 4.  Click on **Save** to save the context record with the agent link
     removed
@@ -5187,8 +5073,7 @@ Digital Object, and Digital Object component records:
 2.  Click on the **Add Subject** option which will open a new link
     template at the bottom of the list of linked subjects.  
       
-    <img src="./_images/image107.png"
-    style="width:5.21875in;height:2.94792in" />
+    ![Example](./_images/image107.png)
 
 3.  In the **Subjects** field, indicate the Subject record that is to be
     linked to:
@@ -5196,22 +5081,19 @@ Digital Object, and Digital Object component records:
 - You can begin to type the subject term in the **Subject** field box
   and then select a match.
 
-<img src="./_images/image108.png"
-style="width:5.65625in;height:0.63542in" />
+![Example](./_images/image108.png)
 
 - Or browse the list of available Subject records to find a match.
   Select the matching record and then click on **Link to Subjects** to
   link the Subject record to the context record.
 
-<img src="./_images/image109.png"
-style="width:4.92708in;height:2.9375in" />
+![Example](./_images/image109.png)
 
 - Or create a new Subject record if the one you require is not in the
   list. (Refer to the section on **Subject records** for instructions on
   creating a new Subject record).  
     
-  <img src="./_images/image110.png"
-  style="width:5.58333in;height:0.85417in" />
+  ![Example](./_images/image110.png)
 
 4.  Click on **Save** to save the context record with the new link to a
     Subject record.
@@ -5226,8 +5108,7 @@ style="width:4.92708in;height:2.9375in" />
 3.  Click on the **Confirm Removal** option to remove the link, or on
     the Cancel option to retain the link.
 
-<img src="./_images/image111.png"
-style="width:5.57292in;height:0.54167in" />
+![Example](./_images/image111.png)
 
 4.  Click on **Save** to save the context record with the subject link
     removed.
@@ -5247,8 +5128,7 @@ Component records:
 2.  Click on the **Add Digital Object** option which will open a new
     link template at the bottom of the list of linked instances.  
       
-    <img src="./_images/image112.png"
-    style="width:5.27083in;height:0.80208in" />
+    ![Example](./_images/image112.png)
 
 3.  In the **Digital Object** field, indicate the Digital Object record
     that is to be linked to:
@@ -5256,15 +5136,13 @@ Component records:
 - You can begin to type the digital object title in the Digital Object
   field and then select a match.  
     
-  <img src="./_images/image113.png"
-  style="width:5.07292in;height:0.70833in" />
+  ![Example](./_images/image113.png)
 
 - Or browse the list of available Digital Object records to find a
   match. Select the matching record and then click on **Link to Digital
   Objects** to link the Digital Object record to the context record.  
     
-  <img src="./_images/image114.png"
-  style="width:5.19792in;height:3.11458in" />
+  ![Example](./_images/image114.png)
 
 - Or create a new Digital Object record if the one you require is not in
   the list.
@@ -5283,8 +5161,7 @@ Component records:
 3.  Click on the **Confirm Removal** option to remove the link or on the
     **Cancel** option to retain the link.  
       
-    <img src="./_images/image115.png"
-    style="width:5.25in;height:0.57292in" />
+    ![Example](./_images/image115.png)
 
 4.  Click on **Save** to save the context record with the digital object
     link removed.
@@ -5308,19 +5185,16 @@ component records:
 2.  Click on the container to which a Location record is to be linked.
     This will display a **View** button. Click on the **View** button.
 
-> <img src="./_images/image116.png"
-> style="width:5.23438in;height:3.29803in" />
+![Example](./_images/image116.png)
 
 3.  This will take you to the Top Container record. Click the **Edit**
     button in the upper left of the window.  
-    <img src="./_images/image117.png"
-    style="width:5.31771in;height:1.65032in" />
+    ![Example](./_images/image117.png)
 
 4.  Click on the option to **Add Location** in the container record
     template, which will open a location link template.  
       
-    <img src="./_images/image118.png"
-    style="width:4.52083in;height:3.90625in" />
+    ![Example](./_images/image118.png)
 
 5.  In the **Status** field, indicate if the location is the current
     location for the material described or a previous location.
@@ -5343,22 +5217,19 @@ component records:
 - You can begin to type the location in the **Location** field and then
   select a match.  
     
-  <img src="./_images/image119.png"
-  style="width:5.66667in;height:2.89583in" />
+  ![Example](./_images/image119.png)
 
 - Or browse the list of available Location records to find a match.
   Select the matching record and then click on **Link to Locations** to
   link the location to the context record.  
     
-  <img src="./_images/image120.png"
-  style="width:6in;height:2.91667in" />
+  ![Example](./_images/image120.png)
 
 - Or create a new Location record if the one you require is not in the
   list. (Refer to the section on **Location records** for instructions
   on creating a new Location record).  
     
-  <img src="./_images/image121.png"
-  style="width:5.46875in;height:2.98958in" />
+  ![Example](./_images/image121.png)
 
 10. Click on **Save Top Container** to save the record with the new link
     to a Location record.
@@ -5374,8 +5245,7 @@ component records:
 3.  Click on the **Confirm Removal** option to remove the link, or on
     the **Cancel** option to retain the link.  
       
-    <img src="./_images/image122.png"
-    style="width:5.27083in;height:2.38542in" />
+    ![Example](./_images/image122.png)
 
 4.  Click on **Save** to save the context record with the location link
     removed.
@@ -5395,8 +5265,7 @@ To link an Accession record to a Resource record:
 - Click on the **Add Related Resource** option which will open a new
   link template at the bottom of the list of linked Resource records.  
     
-  <img src="./_images/image123.png"
-  style="width:5.32292in;height:1.03125in" />
+  ![Example](./_images/image123.png)
 
 - In the **Resource** field, indicate the related Resource record that
   is to be linked to:
@@ -5406,15 +5275,13 @@ To link an Accession record to a Resource record:
 - You can begin to type the resource title in the **Resource** field and
   then select a match.  
     
-  <img src="./_images/image124.png"
-  style="width:5.86458in;height:0.66667in" />
+  ![Example](./_images/image124.png)
 
 - Or browse the list of available Resource records to find a match.
   Select the matching record and then click on **Link to Resources** to
   link the Resource record to the Accession record.  
     
-  <img src="./_images/image125.png"
-  style="width:5.20833in;height:2.8125in" />
+  ![Example](./_images/image125.png)
 
 - It is not permitted to create a new Resource record at this point. But
   you can exit the Accession record and create a new Resource record and
@@ -5438,8 +5305,7 @@ To link an Accession record to a Resource record:
 3.  Click on the **Confirm Removal** option to remove the link, or on
     the **Cancel** option to retain the link.  
       
-    <img src="./_images/image126.png"
-    style="width:5.79167in;height:0.47917in" />
+    ![Example](./_images/image126.png)
 
 4.  Click on **Save** to save the Accession record with the related
     resource link removed.
@@ -5455,8 +5321,7 @@ To link a Resource record to an Accession record:**
     link template at the bottom of the list of linked Accession
     records.  
       
-    <img src="./_images/image127.png"
-    style="width:5.73958in;height:0.93802in" />
+    ![Example](./_images/image127.png)
 
 3.  In the **Accession** field, indicate the related Accession record
     that is to be linked to:
@@ -5464,8 +5329,7 @@ To link a Resource record to an Accession record:**
 - You can begin to type the accession title in the **Accession** field
   > and then select a match.  
   >   
-  > <img src="./_images/image128.png"
-  > style="width:5.48958in;height:1.14815in" />
+  ![Example](./_images/image128.png)
 
 - Or you can browse the list of available Accession records to find a
   > match. Select the matching record and then click on **Link to
@@ -5491,8 +5355,7 @@ To link a Resource record to an Accession record:**
 3.  Click on the **Confirm Renewal** option to remove the link, or on
     the **Cancel** option to retain the link.  
       
-    <img src="./_images/image129.png"
-    style="width:5.55208in;height:1.3679in" />
+    ![Example](./_images/image129.png)
 
 4.  Click on **Save** to save the Resource record with the related
     accession link removed.
@@ -5511,18 +5374,15 @@ To link an Accession record to another Accession record:
 
 > Click on the **Add Related Accessions** option which will open a new
 > link template at the bottom of the list of linked Resource records.  
-> <img src="./_images/image130.png"
-> style="width:5.6138in;height:0.92664in" />
+![Example](./_images/image130.png)
 
 - **Relationship type:** Choose from drop-down list. The options are
   > “Part of” relationship and Sibling relationship. Once the type is
   > selected three required fields will be displayed.
 
-> <img src="./_images/image131.png"
-> style="width:5.53337in;height:2.01617in" />
+![Example](./_images/image131.png)
 >
-> <img src="./_images/image132.png"
-> style="width:5.50723in;height:1.99461in" />
+![Example](./_images/image132.png)
 
 - **This Accession:** Choose from drop-down list. Select the appropriate
   > term to describe the relationship type. The “Part of” relationship
@@ -5797,11 +5657,9 @@ you can select Import Jobs from the Repository drop-down and then select
 the Create Import Job button on the upper right corner of the resulting
 screen
 
-> <img src="./_images/image133.png"
-> style="width:1.49136in;height:2.65216in" />
+![Example](./_images/image133.png)
 >
-> <img src="./_images/image134.png"
-> style="width:2.16667in;height:2.48958in" />
+![Example](./_images/image134.png)
 
 ### Importing EAC-CPF and EAD files
 
@@ -5811,8 +5669,7 @@ screen
 2.  Select the type of file: EAC or EAD. Files must be valid XML and
     compliant with referenced schemas or DTDs.
 
-<img src="./_images/image135.png"
-style="width:6.5in;height:3in" />
+![Example](./_images/image135.png)
 
 3.  Click **Add File** and select the file(s) to import; note that you
     can select multiple files. Alternatively, drag-and-drop the file(s)
@@ -5942,11 +5799,9 @@ instructions for changing preferences is the same for all three levels.
 To begin the process, log on as a user assigned to the repository and
 then select **User Preference Defaults**.
 
-<img src="./_images/image136.png"
-style="width:6.5in;height:2.03333in" />
+![Example](./_images/image136.png)
 
-<img src="./_images/image137.png"
-style="width:4.59375in;height:4.36458in" />
+![Example](./_images/image137.png)
 
 ### User-defined fields
 
@@ -6045,13 +5900,11 @@ doing the following:
 
 1.  Click on the option for **Repository Preferences**
 
-> <img src="./_images/image138.png"
-> style="width:5.20833in;height:2.54167in" />
+![Example](./_images/image138.png)
 
 2.  Activate the option to **Pre-populate Records**.
 
-> <img src="./_images/image139.png"
-> style="width:6.5in;height:3.56944in" />
+![Example](./_images/image139.png)
 
 3.  Click on **Save** to save your new preferences.
 
@@ -6059,22 +5912,19 @@ doing the following:
     values for and click on the option to **Edit Default Values** at the
     top of the list.
 
-> <img src="./_images/image140.png"
-> style="width:6.5in;height:0.875in" />
+![Example](./_images/image140.png)
 
 5.  In the case of Resources and Digital Objects, you will need to
     select between setting default values for the parent record or the
     component record:
 
-> <img src="./_images/image141.png"
-> style="width:6.5in;height:0.84722in" />
+![Example](./_images/image141.png)
 
 6.  Clicking on **Edit Default Values** will open a blank record of the
     type you set default values for; you may enter the value defaults
     into the appropriate fields:
 
-> <img src="./_images/image142.png"
-> style="width:6.5in;height:3.875in" />
+![Example](./_images/image142.png)
 
 7.  Click on **Save** to save the default values to the template.
 
@@ -6102,8 +5952,7 @@ section</u>](##applying-default-values-as-a-user).
 Individual user preferences may be viewed and edited in the **User
 Preferences** menu:
 
-<img src="./_images/image143.png"
-style="width:4.59375in;height:2.13542in" />
+![Example](./_images/image143.png)
 
 Opening the **User Preferences** menu will allow you to change your
 settings on whether to display suppressed records in your repository;
@@ -6112,8 +5961,7 @@ pre-populated; your settings on which columns display in browsing
 accession records, resource records, and digital object records; and
 your note order and material types settings.
 
-<img src="./_images/image144.png"
-style="width:6.5in;height:4.09722in" />
+![Example](./_images/image144.png)
 
 If an individual user checks the **Pre-populate Records?** checkbox,
 their newly-created Accession, Resource, and Resource component records
