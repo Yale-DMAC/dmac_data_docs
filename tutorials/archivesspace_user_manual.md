@@ -165,7 +165,7 @@ Editing, and Deleting Records; and 4: Search and Advanced Search.
 Note: Unless illustrating functions requiring higher permission levels,
 screenshots are of Advanced Data Entry views.
 
-![Example](./_images/image1.png")
+![Example](./_images/image1.png)
 
 1\. Repository / Application Management: This is where you will verify
 that you are working in your own repository.
