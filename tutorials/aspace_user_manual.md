@@ -1,316 +1,8 @@
-**ArchivesSpace at Yale: User Manual**
+# ArchivesSpace at Yale: User Manual**
 
-**Table of Contents**
+## Overview: ArchivesSpace Application and its Governance
 
-[<u>Overview: ArchivesSpace Application and its
-Governance</u>](#overview-archivesspace-application-and-its-governance)
-
-> [<u>Scope of User Manual</u>](#scope-of-user-manual)
->
-> [<u>ArchivesSpace Documentation</u>](#archivesspace-documentation)
->
-> [<u>An Introduction to
-> ArchivesSpace</u>](#an-introduction-to-archivesspace)
->
-> [<u>Governance of ArchivesSpace at
-> Yale</u>](#governance-of-archivesspace-at-yale)
-
-[<u>Application Overview</u>](#application-overview)
-
-> [<u>Staff interface</u>](#staff-interface)
->
-> [<u>Record Template</u>](#record-template)
->
-> [<u>Data entry considerations within the staff
-> interface</u>](#data-entry-considerations-within-the-staff-interface)
-
-[<u>Repository Records</u>](#repository-records)
-
-> [<u>Functional overview</u>](#functional-overview)
->
-> [<u>Creating and managing Repository
-> records</u>](#creating-and-managing-repository-records)
-
-[<u>User Records and User
-Management</u>](#user-records-and-user-management)
-
-> [<u>Functional overview</u>](#functional-overview-1)
->
-> [<u>Yale ArchivesSpace User Management
-> Policy</u>](#yale-archivesspace-user-management-policy)
->
-> [<u>User Groups at Yale</u>](#user-groups-at-yale)
->
-> [<u>User Permission Groups provided in ArchivesSpace by
-> Default</u>](#user-permission-groups-provided-in-archivesspace-by-default)
->
-> [<u>Creating and managing User
-> records</u>](#creating-and-managing-user-records)
-
-[<u>Location Records</u>](#location-records)
-
-> [<u>Functional overview</u>](#functional-overview-2)
->
-> [<u>Yale Locations Guidelines</u>](#yale-locations-guidelines)
->
-> [<u>Creating and managing Location
-> records</u>](#creating-and-managing-location-records)
-
-[<u>Managing Top Containers</u>](#managing-top-containers)
-
-> [<u>Functional Overview</u>](#functional-overview-3)
->
-> [<u>Navigating to the Manage Top Container
-> Function</u>](#navigating-to-the-manage-top-container-function)
->
-> [<u>Searching</u>](#searching)
->
-> [<u>Updating elements from containers in
-> bulk</u>](#updating-elements-from-containers-in-bulk)
-
-[<u>Container Profile Records</u>](#container-profile-records)
-
-> [<u>Functional Overview</u>](#functional-overview-4)
->
-> [<u>Associating an existing container profile with a top container
-> record</u>](#associating-an-existing-container-profile-with-a-top-container-record)
->
-> [<u>Creating a container profile</u>](#creating-a-container-profile)
->
-> [<u>Rules for creating container
-> profiles</u>](#rules-for-creating-container-profiles)
->
-> [<u>Container profile names</u>](#container-profile-names)
->
-> [<u>Container profiles for custom-made
-> boxes</u>](#container-profiles-for-custom-made-boxes)
->
-> [<u>Rules for assigning container profiles to custom
-> containers</u>](#rules-for-assigning-container-profiles-to-custom-containers)
->
-> [<u>Strategies for searching, browsing, and choosing container
-> profiles</u>](#strategies-for-searching-browsing-and-choosing-container-profiles)
-
-[<u>Accession Records</u>](#accession-records)
-
-> [<u>Functional overview</u>](#functional-overview-5)
->
-> [<u>Creating and managing Accession
-> records</u>](#creating-and-managing-accession-records)
->
-> [<u>Adding further information to an Accession
-> record</u>](#adding-further-information-to-an-accession-record)
->
-> [<u>Basic Information</u>](#basic-information)
->
-> [<u>Dates sub-record</u>](#dates-sub-record)
->
-> [<u>Extents sub-record</u>](#extents-sub-record)
->
-> [<u>Deaccessions sub-record</u>](#_wp2wj06i3tys)
->
-> [<u>Material Types sub-record</u>](#material-types-sub-record)
->
-> [<u>Payment Summary sub-record</u>](#payment-summary-sub-record)
->
-> [<u>Spawning Accession Records</u>](#spawning-accession-records)
-
-[<u>Resource Records: Single-Level</u>](#resource-records-single-level)
-
-> [<u>Functional overview</u>](#functional-overview-6)
->
-> [<u>Creating and managing Resource
-> records</u>](#creating-and-managing-resource-records)
->
-> [<u>Creating a Resource record</u>](#creating-a-resource-record)
->
-> [<u>Spawning a Resource record</u>](#spawning-a-resource-record)
->
-> [<u>Spawning and linking a preliminarily populated Resource record
-> from an Accession
-> record</u>](#spawning-and-linking-a-preliminarily-populated-resource-record-from-an-accession-record)
->
-> [<u>Accession record to Resource record: mapped
-> elements</u>](#accession-record-to-resource-record-mapped-elements)
->
-> [<u>Adding further information to a Resource
-> record</u>](#adding-further-information-to-a-resource-record)
->
-> [<u>Notes sub-records</u>](#notes-sub-records)
->
-> [<u>Local Access Restriction
-> Types</u>](#local-access-restriction-types)
->
-> [<u>Introduction</u>](#introduction)
->
-> [<u>Types and their usage</u>](#types-and-their-usage)
->
-> [<u>ArchivesSpace restriction types and
-> Aeon</u>](#archivesspace-restriction-types-and-aeon)
->
-> [<u>Other restrictions and Aeon</u>](#other-restrictions-and-aeon)
->
-> [<u>Guidance on requesting new restriction
-> types</u>](#guidance-on-requesting-new-restriction-types)
->
-> [<u>Finding Aid Data</u>](#finding-aid-data)
->
-> [<u>Agent and Subject records</u>](#agent-and-subject-records)
-
-[<u>Resource Records: Lower-Levels</u>](#resource-records-lower-levels)
-
-> [<u>Functional overview</u>](#functional-overview-7)
->
-> [<u>Creating and managing resource component
-> records</u>](#creating-and-managing-resource-component-records)
->
-> [<u>Creating Resource component
-> records</u>](#creating-resource-component-records)
->
-> [<u>Publishing and unpublishing component
-> records</u>](#publishing-and-unpublishing-component-records)
->
-> [<u>Adding Instances to a Resource or Resource component
-> record</u>](#adding-instances-to-a-resource-or-resource-component-record)
->
-> [<u>Associating Instances with Location
-> records</u>](#associating-instances-with-location-records)
->
-> [<u>Using the Rapid Data Entry (RDE)
-> tool</u>](#using-the-rapid-data-entry-rde-tool)
-
-[<u>Digital Object Records</u>](#digital-object-records)
-
-> [<u>Functional overview</u>](#functional-overview-8)
->
-> [<u>Creating and managing digital object
-> records</u>](#creating-and-managing-digital-object-records)
->
-> [<u>Adding further information to a Digital Object
-> record</u>](#adding-further-information-to-a-digital-object-record)
->
-> [<u>Basic Information</u>](#basic-information-1)
->
-> [<u>File Versions</u>](#file-versions)
->
-> [<u>Dates</u>](#dates)
->
-> [<u>Extents</u>](#extents)
->
-> [<u>Agent Links</u>](#agent-links)
->
-> [<u>Subjects</u>](#subjects)
->
-> [<u>Notes</u>](#notes)
->
-> [<u>External Documents</u>](#external-documents)
->
-> [<u>Rights Statements</u>](#rights-statements)
->
-> [<u>Collection Management</u>](#collection-management)
->
-> [<u>User Defined</u>](#user-defined)
-
-[<u>Agent and Subject Records: Authorities
-Basics</u>](#agent-and-subject-records-authorities-basics)
-
-> [<u>Authorities overview</u>](#authorities-overview)
->
-> [<u>Authorities workflows</u>](#authorities-workflows)
-
-[<u>Agent Records</u>](#agent-records)
-
-> [<u>Functional overview</u>](#functional-overview-9)
->
-> [<u>Creating and managing Agent
-> records</u>](#creating-and-managing-agent-records)
->
-> [<u>Creating Agent records</u>](#creating-agent-records)
-
-[<u>Subject Records</u>](#subject-records)
-
-> [<u>Functional overview</u>](#functional-overview-10)
->
-> [<u>Creating and managing Subject
-> records</u>](#creating-and-managing-subject-records)
->
-> [<u>Creating a Subject record</u>](#creating-a-subject-record)
-
-[<u>Assessment Records</u>](#assessment-records)
-
-> [<u>Functional overview</u>](#functional-overview-11)
->
-> [<u>Creating a Minimal Assessment
-> Record</u>](#creating-a-minimal-assessment-record)
->
-> [<u>Adding Additional Information to an Assessment
-> Record</u>](#adding-additional-information-to-an-assessment-record)
->
-> [<u>Viewing an Assessment Record</u>](#viewing-an-assessment-record)
->
-> [<u>Deleting an Assessment Record</u>](#deleting-an-assessment-record)
->
-> [<u>Transferring an Assessment
-> Record</u>](#transferring-an-assessment-record)
->
-> [<u>Managing Assessment
-> Attributes</u>](#managing-assessment-attributes)
->
-> [<u>Assessment Reports</u>](#assessment-reports)
->
-> [<u>Importing Assessment Records Using a CSV
-> Template</u>](#importing-assessment-records-using-a-csv-template)
-
-[<u>Linking Records</u>](#linking-records)
-
-> [<u>Functional overview</u>](#functional-overview-12)
->
-> [<u>Creating and managing links</u>](#creating-and-managing-links)
-
-[<u>Including EAD elements (i.e. adding “Mixed
-Content”)</u>](#including-ead-elements-i.e.-adding-mixed-content)
-
-> [<u>Resource / Component Unit
-> Title</u>](#resource-component-unit-title)
->
-> [<u>Notes</u>](#notes-1)
-
-[<u>Exporting Records</u>](#exporting-records)
-
-[<u>Importing Records</u>](#importing-records)
-
-> [<u>Importing EAC-CPF and EAD
-> files</u>](#importing-eac-cpf-and-ead-files)
->
-> [<u>Importing MARCXML files</u>](#importing-marcxml-files)
->
-> [<u>Importing accessions data or digital object data from a CSV
-> file</u>](#importing-accessions-data-or-digital-object-data-from-a-csv-file)
->
-> [<u>Import summary</u>](#import-summary)
-
-[<u>Customizing the Application</u>](#customizing-the-application)
-
-> [<u>User interfaces</u>](#user-interfaces)
->
-> [<u>Staff interface</u>](#staff-interface-1)
->
-> [<u>User-defined fields</u>](#user-defined-fields)
-
-[<u>Setting Default Values for
-Fields</u>](#setting-default-values-for-fields)
-
-> [<u>Functional overview</u>](#functional-overview-13)
->
-> [<u>Setting default values as a system administrator or repository
-> manager</u>](#setting-default-values-as-a-system-administrator-or-repository-manager)
->
-> [<u>Applying default values as a
-> user</u>](#applying-default-values-as-a-user)
-
-# Overview: ArchivesSpace Application and its Governance
-
-## Scope of User Manual
+### Scope of User Manual
 
 **What’s covered**
 
@@ -356,7 +48,7 @@ member services documentation.
 To request edits to this user manual or to note errors, please email
 your ArchivesSpace liaison.
 
-## ArchivesSpace Documentation
+### ArchivesSpace Documentation
 
 **ArchivesSpace Help Center:**
 
@@ -385,7 +77,7 @@ to the list, you may send email to the address:
 The list will be monitored by members of the ArchivesSpace Committee to
 make sure all questions are answered.
 
-## An Introduction to ArchivesSpace
+### An Introduction to ArchivesSpace
 
 **ArchivesSpace is:**
 
@@ -415,7 +107,7 @@ make sure all questions are answered.
 
   - Automates encoding and reporting.
 
-## Governance of ArchivesSpace at Yale
+### Governance of ArchivesSpace at Yale
 
 ArchivesSpace at Yale is collaboratively managed by a group of
 archivists and IT professionals who comprise the Yale Archival
@@ -461,9 +153,9 @@ and subject authorities and further develop cooperation among the
 University’s repositories. We hope that this ArchivesSpace manual will
 help all of us work together more effectively.
 
-# Application Overview
+## Application Overview
 
-## Staff interface
+### Staff interface
 
 The initial Staff Interface is divided into four command areas or zones:
 1: Repository/Application Management; 2: User Permissions, Preferences
@@ -699,7 +391,7 @@ Advanced Search):
 <img src="./media/image132.png"
 style="width:6.76215in;height:1.49479in" />
 
-##  Record Template
+###  Record Template
 
 <img src="./media/image42.png"
 style="width:6.84644in;height:3.28437in" />
@@ -880,7 +572,7 @@ ArchivesSpace include:
   > records. Further guidance about the use of collection management
   > records will be determined after initial ArchivesSpace migration.
 
-## Data entry considerations within the staff interface
+### Data entry considerations within the staff interface
 
 **When multiple users edit a record at the same time**
 
@@ -967,9 +659,9 @@ style="width:4.0437in;height:0.7361in" />
 When using ArchivesSpace, you must use Internet Explorer version 11+,
 Firefox 8+, Chrome, or Safari 5+.
 
-# Repository Records
+## Repository Records
 
-## Functional overview
+### Functional overview
 
 A Repository record is created during the initial setup of
 ArchivesSpace. After set up, this record can be edited and additional
@@ -993,7 +685,7 @@ implementation of ArchivesSpace.
 NOTE: To perform any tasks related to managing Repository records, you
 need to be signed in with a *System Administrator* account.
 
-## Creating and managing Repository records
+### Creating and managing Repository records
 
 Repository information was migrated from Archivists’ Toolkit. You may
 wish to review this information to double-check its accuracy.
@@ -1020,9 +712,9 @@ When creating a Repository record, only two data fields are required:
 2.  After editing, save your additional information by clicking **Save
     > Repository**.
 
-# User Records and User Management
+## User Records and User Management
 
-## Functional overview
+### Functional overview
 
 A user record is created for each user of ArchivesSpace and permissions
 are managed by Repository Managers and by the Yale Archival Management
@@ -1044,7 +736,7 @@ Committee and are governed by the [<u>Yale ArchivesSpace User Management
 Policy</u>](https://docs.google.com/document/d/1sSM_Cnk9u0_gcdFADZ7BobvAN9kIjlcj9jBgWLZP8w4/edit?usp=sharing)
 section, below
 
-## Yale ArchivesSpace User Management Policy
+### Yale ArchivesSpace User Management Policy
 
 *5/2015; revised 12/2018; revised 6/2020*
 
@@ -1059,7 +751,7 @@ This policy governs:
 - The authentication by which the user establishes a connection to their
   > account
 
-### Rationale
+##### Rationale
 
 This approach to user groups gives the greatest possible flexibility to
 workers in repositories to assign and remove privileges as staff
@@ -1070,14 +762,14 @@ resources, containers, and records shared across repositories) and make
 clear which functions affect only the user’s repository and which affect
 all repositories.
 
-### Scope
+##### Scope
 
 This policy applies to all ArchivesSpace accounts at Yale University.
 This document includes statements on access control, privileges,
 authentication/password management, and the information required to
 request a user account.
 
-### Access Control
+##### Access Control
 
 - Access to ArchivesSpace will be primarily limited to users with Yale
   > NetIDs who require access to the system for their work. Users
@@ -1118,7 +810,7 @@ request a user account.
   > issued and approved by following the same procedures required for
   > requesting a new account.
 
-### Authentication/Password Management
+##### Authentication/Password Management
 
 For authentication to the Staff Interface, ArchivesSpace will use CAS
 for staff logins, thereby allowing most users to manage passwords
@@ -1134,7 +826,7 @@ password may be reset by a sysadmin if the account must be used.
 Aside from administrative and API passwords, no other passwords should
 be assigned within the ArchivesSpace application.
 
-### Guidance for Users
+##### Guidance for Users
 
 Getting access to ArchivesSpace requires following the User Account
 Creation steps as outlined in the YAMS LibGuide: [<u>Yale Archival
@@ -1167,12 +859,12 @@ Multiple user groups may also be assigned to a user by selecting their
 username under Manage Users, then selecting Edit Groups. User groups can
 be added or removed by checking and unchecking the check boxes next to
 each user group. See the [<u>User Groups at
-Yale</u>](#user-groups-at-yale) section of this document for definitions
+Yale</u>](##user-groups-at-yale) section of this document for definitions
 and permissions associated with each group.
 
-### Guidance for Assigning Permissions
+##### Guidance for Assigning Permissions
 
-#### Repository managers internal to the repository
+###### Repository managers internal to the repository
 
 Repository managers generally have the following permissions within
 their repository:
@@ -1216,7 +908,7 @@ their repository:
 - Vocabulary-classification -- Create, read, update and delete
   > vocabulary or classification terms (affects all repositories)
 
-#### Archivist staff members internal to the repository
+###### Archivist staff members internal to the repository
 
 Archivist staff members generally have the following permissions within
 their repository:
@@ -1252,7 +944,7 @@ their repository:
 - Vocabulary-classification -- Create, read, update and delete
   > vocabulary or classification terms (affects all repositories)
 
-#### Technical services support staff members internal to the repository
+###### Technical services support staff members internal to the repository
 
 Technical services support staff members generally have the following
 permissions within their repository:
@@ -1286,7 +978,7 @@ permissions within their repository:
 - Vocabulary-classification -- Create, read, update and delete
   > vocabulary or classification terms (affects all repositories)
 
-#### Staff members internal to the repository without regular data entry responsibilities
+###### Staff members internal to the repository without regular data entry responsibilities
 
 Non-technical services staff members generally have the following
 permissions within their repository:
@@ -1307,7 +999,7 @@ and has received proper training:
 - Create-resources -- Create, read and update resources and top
   > containers
 
-#### Student staff members in the repository
+###### Student staff members in the repository
 
 Student staff members generally have the following permissions within
 their repository:
@@ -1322,7 +1014,7 @@ their repository:
 
 - View-records -- View (non-suppressed) records in this repository
 
-#### Staff members external to the repository
+###### Staff members external to the repository
 
 In some cases, staff members at Yale have repository permissions for
 repositories outside of their home repository. For example, as noted
@@ -1333,7 +1025,7 @@ managers on a case-by-case basis and are documented by YAMS in a
 spreadsheet of who has which exceptional permissions and why. YAMS
 periodically audits that list against the Account Manager.
 
-## User Groups at Yale
+### User Groups at Yale
 
 User groups at Yale are comprised of a set of functions that a user can
 perform. These functions are hard-coded into the application and not
@@ -1347,7 +1039,7 @@ resources).
 
 Yale User Permission Groups include the following:
 
-### Create, read, update and delete assessment records\*
+##### Create, read, update and delete assessment records\*
 
 **assessments**
 
@@ -1357,9 +1049,9 @@ X delete assessment records
 
 *\*BRBL only as of 6/2020*
 
-##### 
+######## 
 
-### Manage a repository (manage locations, user groups, department codes, user access)
+##### Manage a repository (manage locations, user groups, department codes, user access)
 
 **repository-managers**
 
@@ -1369,19 +1061,19 @@ X create and run a background job
 
 X cancel a background job
 
-### Transfer the entire contents of a repository
+##### Transfer the entire contents of a repository
 
 **transfer-contents**
 
 X transfer the entire contents of a repository
 
-### Transfer distinct records across a repository
+##### Transfer distinct records across a repository
 
 **transfer-distinct-records**
 
 X transfer major record types between repositories
 
-### Create, read, and update accessions and top containers
+##### Create, read, and update accessions and top containers
 
 **create-accessions**
 
@@ -1391,7 +1083,7 @@ X view the records in this repository
 
 X create/update top container records
 
-### Create, read and update resources and top containers
+##### Create, read and update resources and top containers
 
 **create-resources**
 
@@ -1405,7 +1097,7 @@ X delete/bulk update top container records \*BRBL
 
 X manage RDE templates
 
-### Create, read and update digital objects
+##### Create, read and update digital objects
 
 **create-digital-objects**
 
@@ -1413,7 +1105,7 @@ X create/update digital objects in this repository
 
 X view the records in this repository
 
-### Create, read and update event records
+##### Create, read and update event records
 
 **create-events**
 
@@ -1421,13 +1113,13 @@ X create/update event records in this repository
 
 X view the records in this repository
 
-### Create, read, update and delete container profile records (affects all repositories)
+##### Create, read, update and delete container profile records (affects all repositories)
 
 **container-profiles**
 
 X create/update/delete container profile records
 
-### Suppress records from this repository
+##### Suppress records from this repository
 
 **suppress-records**
 
@@ -1435,7 +1127,7 @@ X suppress the major record types in this repository
 
 X view suppressed records in this repository
 
-### Delete records from this repository
+##### Delete records from this repository
 
 **delete-records**
 
@@ -1445,31 +1137,31 @@ X delete the major record types in this repository
 
 X delete/bulk update top container records
 
-### Delete or bulk update top containers in this repository
+##### Delete or bulk update top containers in this repository
 
 **manage-top-containers**
 
 X delete/bulk update top container records
 
-### Merge records from this repository
+##### Merge records from this repository
 
 **merge-records**
 
 X merge the major record types in this repository
 
-### View suppressed records in this repository
+##### View suppressed records in this repository
 
 **view-suppressed-records**
 
 X view suppressed records in this repository
 
-### View (non-suppressed) records in this repository
+##### View (non-suppressed) records in this repository
 
 **view-records**
 
 X view the records in this repository
 
-### Initiate and cancel an import job
+##### Initiate and cancel an import job
 
 **import-jobs**
 
@@ -1487,7 +1179,7 @@ X create and run a background job
 
 X cancel a background job
 
-### Create, merge, update and delete subject or agent records (affects all repositories)
+##### Create, merge, update and delete subject or agent records (affects all repositories)
 
 **subject-agent**
 
@@ -1497,7 +1189,7 @@ X create/update/delete agent records
 
 X merge agent/subject records
 
-### Create, update and delete vocabulary or classification terms (affects all repositories)
+##### Create, update and delete vocabulary or classification terms (affects all repositories)
 
 **vocabulary-classification**
 
@@ -1509,7 +1201,7 @@ X create/update/delete vocabulary records
 
 Examples of custom Yale User Permission groups include:
 
-### Printed Acquisitions\*
+##### Printed Acquisitions\*
 
 **Printed-Acq**
 
@@ -1525,7 +1217,7 @@ X cancel an import job
 
 \**BRBL only*
 
-### Student workers\*
+##### Student workers\*
 
 **MusicLibraryStudentStaff**
 
@@ -1537,7 +1229,7 @@ X create and update top container records
 
 \**Music only*
 
-### Delete/Cancel/Transfer permissions not explicitly specified in other groups\*
+##### Delete/Cancel/Transfer permissions not explicitly specified in other groups\*
 
 **higher_level_permissions**
 
@@ -1559,14 +1251,14 @@ X merge the major record types in this repository
 
 \**Fortunoff_Testimonies only*
 
-## User Permission Groups provided in ArchivesSpace by Default
+### User Permission Groups provided in ArchivesSpace by Default
 
-### System Administrator
+##### System Administrator
 
 Has all read/write and functional permissions for all repositories
 sharing the ArchivesSpace installation.
 
-### Advanced Data Entry users of the \[Repo name\] repository\*
+##### Advanced Data Entry users of the \[Repo name\] repository\*
 
 **repository-advanced-data-entry**
 
@@ -1598,7 +1290,7 @@ X create/update/delete location profile records
 
 X create and run a background job
 
-### Archivists of the \[Repo name\] repository\*
+##### Archivists of the \[Repo name\] repository\*
 
 **repository-archivists**
 
@@ -1630,7 +1322,7 @@ X create/update/delete location profile records
 
 X create and run a background job
 
-### Basic data entry users of the \[Repo name\] repository\*
+##### Basic data entry users of the \[Repo name\] repository\*
 
 **repository-basic-data-entry**
 
@@ -1644,7 +1336,7 @@ X view the records in this repository
 
 X create and run a background job
 
-### Managers of the \[Repo name\] repository\*
+##### Managers of the \[Repo name\] repository\*
 
 **repository-managers**
 
@@ -1686,7 +1378,7 @@ X create and run a background job
 
 X cancel a background job
 
-### Project managers of the \[Repo name\] repository\*
+##### Project managers of the \[Repo name\] repository\*
 
 **repository-project-managers**
 
@@ -1726,13 +1418,13 @@ X create and run a background job
 
 X cancel a background job
 
-### Viewers of the \[Repo name\] repository\*
+##### Viewers of the \[Repo name\] repository\*
 
 **repository-viewers**
 
 X view the records in this repository
 
-## Creating and managing User records
+### Creating and managing User records
 
 Only three elements are required to create a user record, one of which
 must be confirmed by re-entering its value.
@@ -1770,13 +1462,13 @@ service (e.g. Archivist, Beinecke Library (2010-2017); NetID: abc123).
 As per the Yale ArchivesSpace User Management Policy, User records are
 not deleted.
 
-# 
+## 
 
-#  
+##  
 
-# Location Records
+## Location Records
 
-## Functional overview
+### Functional overview
 
 Location records describe any storage locations—shelves, drawers, file
 cabinets, bins, walls, etc.—where archival materials are stored.
@@ -1800,7 +1492,7 @@ Coordinates have labels and indicators. A label may be “Shelf”,
 “Cabinet”, etc., and an indicator would be “1”, “2e7”, etc. It is
 important to not have labels and indicators in the same field.
 
-## Yale Locations Guidelines
+### Yale Locations Guidelines
 
 <table>
 <colgroup>
@@ -2017,7 +1709,7 @@ Example of an MSSA locations
 
 (NOTE: All location coordinate identifiers are UPPERCASE.)
 
-## Creating and managing Location records
+### Creating and managing Location records
 
 Location records can be created one at a time before or at the time of
 accession or resource description. As a time-saving device, Location
@@ -2082,16 +1774,16 @@ style="width:5.41667in;height:3.08044in" />
     > of records by changing values for the coordinates or, if
     > appropriate, values for the shelving location.
 
-# Managing Top Containers
+## Managing Top Containers
 
-## Functional Overview
+### Functional Overview
 
 One feature of ArchivesSpace is the ability to act on containers as
 distinct entities, as well as the ability to act on them in bulk. This
 section is an introduction to using the “Manage Top Containers” function
 in ArchivesSpace.
 
-## Navigating to the Manage Top Container Function
+### Navigating to the Manage Top Container Function
 
 “Manage Top Containers” is available under the gear menu for the
 repository name.
@@ -2099,7 +1791,7 @@ repository name.
 <img src="./media/image65.png"
 style="width:4.16146in;height:3.67045in" />
 
-## Searching
+### Searching
 
 The manage top container view is both a way to act on containers and a
 useful search tool.
@@ -2174,7 +1866,7 @@ now know their location, their barcode, and the resource record
 associated with them, which will make it possible to do a re-housing
 project.
 
-## Updating elements from containers in bulk
+### Updating elements from containers in bulk
 
 **Selecting top containers:**
 
@@ -2207,9 +1899,9 @@ singularly or en masse to a new permanent location or locations.
 <img src="./media/image145.png" style="width:6.5in;height:3.26389in"
 alt="Screen Shot 2015-05-04 at 11.58.04 AM.png" />
 
-#### 
+###### 
 
-### 
+##### 
 
 **Rapid Barcode Entry**
 
@@ -2225,11 +1917,11 @@ therein. It does not remove information in resource records, components,
 or accessions, although it does break the link between these records and
 a top container.
 
-#  
+##  
 
-# Container Profile Records
+## Container Profile Records
 
-## Functional Overview
+### Functional Overview
 
 Container profiles are associated with top containers, and provide
 information about the physical container in which archival materials are
@@ -2238,12 +1930,12 @@ occupies.
 
 <img src="./media/image119.png" style="width:2.86111in;height:2.5in" />
 
-## Associating an existing container profile with a top container record
+### Associating an existing container profile with a top container record
 
 - Instructions for this can be found in the [<u>Managing Top
-  > Containers</u>](#managing-top-containers) section of the manual.
+  > Containers</u>](##managing-top-containers) section of the manual.
 
-## Creating a container profile
+### Creating a container profile
 
 On the main toolbar, click Plug-ins and select Manage Container
 Profiles.
@@ -2287,7 +1979,7 @@ Enter the following information
 
 Click Save Container Profile.
 
-## Rules for creating container profiles
+### Rules for creating container profiles
 
 - Permission to create container profiles is given at the discretion of
   > repository managers.
@@ -2327,7 +2019,7 @@ Click Save Container Profile.
     > Never assume that the container profile name refers to the box’s
     > contents.
 
-## Container profile names
+### Container profile names
 
 In order to minimize the possible proliferation of names, we've decided
 on a small group of name types. When creating a container profile,
@@ -2343,7 +2035,7 @@ combination of the name type and a summary of the dimensions.
 
 - flat box (21d 1.5h 25w)
 
-## Container profiles for custom-made boxes
+### Container profiles for custom-made boxes
 
 Many Yale repositories use custom-made boxes to house oddly-sized or
 shaped materials that won’t fit safely into standard-sized containers.
@@ -2373,7 +2065,7 @@ used in Yale repositories. They are as follows:
 
 - Custom box \[flat, 42" wide\] (42" w x 3" h x 36" d)
 
-## Rules for assigning container profiles to custom containers
+### Rules for assigning container profiles to custom containers
 
 - For containers smaller than 42 inches in width, round up to the next
   > closest size container.
@@ -2382,10 +2074,10 @@ used in Yale repositories. They are as follows:
   > (flat, 42" wide) (42" w x 3" h x 36" d)"
 
 - For custom containers made for objects that do not correspond to the
-  > above standard custom boxes, indicate: Object box (#” w x \#” h x
-  > \#” d)
+  > above standard custom boxes, indicate: Object box (##” w x \##” h x
+  > \##” d)
 
-## Strategies for searching, browsing, and choosing container profiles
+### Strategies for searching, browsing, and choosing container profiles
 
 - When searching for a container profile in a typeahead field (for
   > example, in the Create Top Container window), look for words in bold
@@ -2410,9 +2102,9 @@ used in Yale repositories. They are as follows:
     > dimension and measurement to see all container profile records for
     > boxes that include that dimension.
 
-# Accession Records
+## Accession Records
 
-## Functional overview
+### Functional overview
 
 Accession records store information about the receipt and legal transfer
 of archival materials. An accession may be a single item or an
@@ -2432,9 +2124,9 @@ spawned to the Resource record; data from subsequent Accession records
 associated with the same resource will need to be entered manually. The
 process of spawning new Resource records from Accession records is
 covered in the [<u>Spawning a Resource
-Record</u>](#spawning-a-resource-record) section of this manual.
+Record</u>](##spawning-a-resource-record) section of this manual.
 
-## Creating and managing Accession records
+### Creating and managing Accession records
 
 ArchivesSpace requires two elements in an Accession record, though you
 may enter many more if warranted:
@@ -2473,7 +2165,7 @@ may enter many more if warranted:
     > will be prompted to add the information, which you must do in
     > order to save the record.
 
-### Adding further information to an Accession record
+##### Adding further information to an Accession record
 
 After the minimum information about an accession has been entered, you
 can continue to describe the accession using the sub-records available
@@ -2488,7 +2180,7 @@ often used in the creation of accession records. In all cases, follow
 your repository’s guidelines and supervisor’s instructions when creating
 accession records.
 
-#### Basic Information
+###### Basic Information
 
 - **Title:** Consult DACS and your repository’s accession guidelines for
   > advice on forming titles.
@@ -2557,9 +2249,9 @@ accession records.
   > selected this field should include a relevant explanation.
   > Additional information may also be recorded in a Rights sub-record.
 
-#### 
+###### 
 
-#### Dates sub-record 
+###### Dates sub-record 
 
 This sub-record identifies and records the date(s) that pertain to the
 creation, assembly, accumulation, and/or maintenance and use of the
@@ -2591,7 +2283,7 @@ icon and choosing the appropriate date.
 
 <img src="./media/image118.png" style="width:6.5in;height:3.41667in" />
 
-#### Extents sub-record
+###### Extents sub-record
 
 This sub-record is used for recording the size of the described
 materials. The required fields are **Portion**, **Number**, and
@@ -2633,7 +2325,7 @@ obsolete; the user must delete the old extent subrecord.
 
 <img src="./media/image111.png" style="width:6.5in;height:1.20833in" />
 
-#### Deaccessions sub-record 
+###### Deaccessions sub-record 
 
 <span id="_wp2wj06i3tys" class="anchor"></span>This sub-record
 identifies the scope and circumstances of materials permanently removed
@@ -2672,7 +2364,7 @@ under the Deaccession Date, click “Add Extent.” Required fields include
 <span id="_wp2wj06i3tys"
 class="anchor"></span><img src="./media/image117.png" style="width:6.5in;height:4.77778in" />
 
-#### Material Types sub-record 
+###### Material Types sub-record 
 
 This sub-record contains eleven Boolean fields that may be used to
 indicate the presence of specific material formats in the accession.
@@ -2713,7 +2405,7 @@ Preferences.” Default Material Types can be selected at the bottom of
 the page. After choosing your default values, click on save at the top
 of the page.
 
-#### Payment Summary sub-record 
+###### Payment Summary sub-record 
 
 This sub-record captures information regarding the details of payments
 made for purchased accessions. There are no required fields. Payment
@@ -2770,9 +2462,9 @@ future dates.
 
 <img src="./media/image122.png" style="width:6.5in;height:3.18056in" />
 
-### Spawning Accession Records
+##### Spawning Accession Records
 
-## 
+### 
 
 To create a copy of an existing Accession record, do the following:
 
@@ -2797,11 +2489,11 @@ include Related Resources, Related Accessions, External Documents,
 Rights Statements, Instances, Deaccessions, Collection Management, and
 Classifications.
 
-## 
+### 
 
-# Resource Records: Single-Level
+## Resource Records: Single-Level
 
-## Functional overview
+### Functional overview
 
 Within the context of ArchivesSpace, resources can be defined as
 materials that are in the custody of an archival repository and are
@@ -2815,7 +2507,7 @@ embody the intellectual item. The description of the archival resource
 can be supplemented with certain context and content descriptors (names
 and subjects).
 
-## Creating and managing Resource records
+### Creating and managing Resource records
 
 There are two ways to create Resource records in ArchivesSpace. One way
 is to create a Resource record within the Resource module. The other way
@@ -2853,7 +2545,7 @@ recorded in the ArchivesSpace repository record.
 Your repository may have other elements that are required in every
 record.
 
-### Creating a Resource record
+##### Creating a Resource record
 
 1.  From the Main Screen, select **Create** and select the **Resource**
     > option.
@@ -2928,7 +2620,7 @@ When you add a sub-record, depending on the type of record, specific
 fields may be required. If any required information is missing, you will
 be prompted to add the required information.
 
-### Spawning a Resource record
+##### Spawning a Resource record
 
 A preliminary Resource record can be generated from an Accession record.
 To do so, open the Accession record from which the Resource record will
@@ -2955,7 +2647,7 @@ Resource record. The more careful you are in creating quality content
 and formatting the accession data, the more work you can save when it
 comes time to create the Resource record.
 
-### Spawning and linking a preliminarily populated Resource record from an Accession record 
+##### Spawning and linking a preliminarily populated Resource record from an Accession record 
 
 1.  Click on the **Spawn** option at the top of the Accession record
     > template and select Resource.
@@ -2981,7 +2673,7 @@ the data recorded in the Accession record on which it is based. The
 table below identifies what parts of the Accession record are
 transferred to what parts of the Resource record:
 
-### Accession record to Resource record: mapped elements
+##### Accession record to Resource record: mapped elements
 
 | **Directly mapped fields**                 |                                           |
 |--------------------------------------------|-------------------------------------------|
@@ -3009,9 +2701,9 @@ transferred to what parts of the Resource record:
 | Agent (Linked)                             | Agent (Linked)                            |
 | Subject (Linked)                           | Subject (Linked)                          |
 
-### Adding further information to a Resource record
+##### Adding further information to a Resource record
 
-#### Notes sub-records
+###### Notes sub-records
 
 Through the use of various notes, the description of an archival
 resource can be extended considerably. ArchivesSpace supports 29 notes,
@@ -3041,7 +2733,7 @@ DACS to formulate notes.
 > using the date begin and date end or restriction types, users should
 > not use begin and end dates or restriction types without an
 > accompanying Conditions Governing Access Note. See “[<u>Local Access
-> Restriction Types</u>](#local-access-restriction-types)” section for
+> Restriction Types</u>](##local-access-restriction-types)” section for
 > further information.
 >
 > <img src="./media/image139.png" style="width:5.53646in;height:4.5871in"
@@ -3141,9 +2833,9 @@ To add **Notes** sub-records to a Resource record:
 Note order is determined by the Yale finding aid stylesheet and the
 default note order in the ArchivesSpace Public User Interface (PUI).
 
-#### Local Access Restriction Types
+###### Local Access Restriction Types
 
-##### Introduction
+######## Introduction
 
 This section outlines local access restriction types used in Yale’s
 ArchivesSpace instance. This functionality was built as part of Yale’s
@@ -3191,7 +2883,7 @@ running these reports.
 
 <img src="./media/image16.jpg" style="width:6.5in;height:2.83333in" />
 
-##### Types and their usage
+######## Types and their usage
 
 <table>
 <colgroup>
@@ -3319,7 +3011,7 @@ Clarence Gardner papers (MSSA MS 598)</u></a></p></th>
 </tbody>
 </table>
 
-##### ArchivesSpace restriction types and Aeon
+######## ArchivesSpace restriction types and Aeon
 
 When a machine-readable access restriction is present, the letter “Y”
 appears on Aeon field “iteminfo1” (“Restriction”) signaling the presence
@@ -3349,7 +3041,7 @@ red section in screenshot below).
 
 <img src="./media/image81.jpg" style="width:6.5in;height:2.18056in" />
 
-##### Other restrictions and Aeon
+######## Other restrictions and Aeon
 
 Access restriction notes are imported into Aeon and pulled into Aeon
 Field “iteminfo5”. These notes are often inherited so do not always
@@ -3358,7 +3050,7 @@ apply to every item.
 Use restriction notes are imported into Aeon and pulled into Aeon Field
 “iteminfo6”
 
-##### Guidance on requesting new restriction types
+######## Guidance on requesting new restriction types
 
 YAMS would like to maintain as few restriction type variants as possible
 while still accommodating restriction use cases. If the current
@@ -3382,7 +3074,7 @@ Requests for new restriction types should include the following:
 
 - Desired relationship with Aeon
 
-#### Finding Aid Data
+###### Finding Aid Data
 
 Bibliographic information about a finding aid for the resource can also
 be added to the Resource record. This information is used to identify
@@ -3415,7 +3107,7 @@ To add finding aid information to the Resource record:
 5.  Required fields prior to publication in YFAD include: EAD ID,
     > Finding Aid Title, and Finding Aid Filing Title.
 
-#### Agent and Subject records
+###### Agent and Subject records
 
 Names of entities (e.g., persons, families, or corporate entities) that
 have played a significant role in creating, using, and maintaining the
@@ -3430,9 +3122,9 @@ Terms representing all of these contextual and topical relationships can
 be added to the Resource description by linking Agent and Subject
 records to it. This will be covered in a later section in this manual.
 
-# Resource Records: Lower-Levels
+## Resource Records: Lower-Levels
 
-## Functional overview
+### Functional overview
 
 ArchivesSpace also supports the creation of Resource records comprising
 multiple levels of description, using component records. Resource
@@ -3462,7 +3154,7 @@ guidelines for subsequent levels of description in DACS and
 repository-specific guidelines to help you determine which of the
 available ArchivesSpace fields should be used.
 
-## Creating and managing resource component records
+### Creating and managing resource component records
 
 The following are the command functions for navigation and creating
 components on the ArchivesSpace Resource template (note: you must open
@@ -3514,7 +3206,7 @@ multi-level description for the component record. The context record
 will be the parent record if there are no other component records in the
 description, and the only choice will be to create a child component.
 
-### Creating Resource component records
+##### Creating Resource component records
 
 1.  Select a context record.
 
@@ -3542,7 +3234,7 @@ When you add a sub-record, depending on the type of sub-record, specific
 fields may be required. If any required information is missing, you will
 be prompted to add the required information.
 
-###  Publishing and unpublishing component records
+#####  Publishing and unpublishing component records
 
 The “Publish this and all children” and “Unpublish all children” menu
 items (located under the More drop down menu) allow staff users to
@@ -3569,7 +3261,7 @@ Note that the publish/unpublish all feature does not publish linked
 agent records. There is also no option to reindex a top container via
 this feature.
 
-### Adding Instances to a Resource or Resource component record
+##### Adding Instances to a Resource or Resource component record
 
 "Instances" in ArchivesSpace refer to embodiments of the same content in
 different media. For example, a Resource record or Resource record
@@ -3762,7 +3454,7 @@ the results list and click Link to Top Container.
 <img src="./media/image72.png"
 style="width:4.70833in;height:3.76042in" />
 
-### Associating Instances with Location records
+##### Associating Instances with Location records
 
 Once the container information is added, it can be linked to a
 **Location** record. To do so:
@@ -3791,7 +3483,7 @@ alt="ContainerLocation.png" />
 
 4.  Save the record.
 
-### Using the Rapid Data Entry (RDE) tool
+##### Using the Rapid Data Entry (RDE) tool
 
 The **Rapid Data Entry (RDE)** tool supports repeated entry of Resource
 component records at the same level, thus requiring fewer mouse clicks
@@ -3828,7 +3520,7 @@ style="width:5.57292in;height:1.36458in" />
 
 You can do the following to the RDE tool during a given session:
 
-- Remove columns from view using the **Columns: \## visible** display
+- Remove columns from view using the **Columns: \### visible** display
   > configuration option.
 
 - Turn sticky values on and off by clicking on the label for a data
@@ -3840,9 +3532,9 @@ You can do the following to the RDE tool during a given session:
 - Designate a value to fill all occurrences within a data column using
   > the **Fill Column** option.
 
-# Digital Object Records
+## Digital Object Records
 
-## Functional overview
+### Functional overview
 
 The Digital Object record is the place for technical and administrative
 metadata about digital objects.  
@@ -3868,7 +3560,7 @@ editing an ArchivesSpace digital object record created by Preservica
 will result in changes to Preservica after a re-synchronization is
 performed on the data.
 
-## Creating and managing digital object records
+### Creating and managing digital object records
 
 ArchivesSpace requires two elements in a Digital Object record, Title
 and Identifier, though you will also need to add a File URI subrecord if
@@ -3902,7 +3594,7 @@ you want an actionable link:
     > you will be prompted to add the information, which you must do in
     > order to save the record.
 
-### Adding further information to a Digital Object record
+##### Adding further information to a Digital Object record
 
 After the minimum information about a digital object has been entered,
 you can continue to describe the digital object using the sub-records
@@ -3917,7 +3609,7 @@ often used in the creation of digital object records. In all cases,
 follow your repository’s guidelines and supervisor’s instructions when
 creating digital object records.
 
-#### Basic Information
+###### Basic Information
 
 - Title: See above
 
@@ -3937,7 +3629,7 @@ creating digital object records.
   > objects at Yale, so YAMS recommends not using it here, either, for
   > consistency.
 
-#### File Versions
+###### File Versions
 
 - Make representative: Do not use. Note that if ArchivesSpace develops
   > this feature further, we may wish to reconsider using it at Yale.
@@ -3973,54 +3665,54 @@ creating digital object records.
 - Caption: Optionally use to indicate a caption. Caption will start
   > displaying in version 2.2.3. Note: There is no hover definition.
 
-#### Dates
+###### Dates
 
 - Do not use
 
 - Users may notice that Preservica occasionally creates a date
   > sub-record for date of Preservica processes
 
-#### Extents
+###### Extents
 
 - Do not use
 
-#### Agent Links
+###### Agent Links
 
 - Do not use
 
-#### Subjects
+###### Subjects
 
 - Do not use
 
-#### Notes
+###### Notes
 
 - Optionally use to record a different access restrict note from the
   > associated archive object
 
-#### External Documents
+###### External Documents
 
 - Do not use
 
-#### Rights Statements
+###### Rights Statements
 
 - Do not use
 
-#### Collection Management
+###### Collection Management
 
 - Do not use
 
-#### User Defined
+###### User Defined
 
 - Do not use
 
-# Agent and Subject Records: Authorities Basics
+## Agent and Subject Records: Authorities Basics
 
 *For guidance on creating agent and subject records, please see the  
 [<u>Agent and Subject Records: Best
 Practices</u>](https://drive.google.com/open?id=1-x447VQkhPyborBnGkoa1lvxmre7V2K7a1wi10EnHkY)
 cheat sheet*
 
-## Authorities overview
+### Authorities overview
 
 According to DACS, “An archival authority record identifies and
 describes a personal, family, or corporate body associated with a body
@@ -4050,7 +3742,7 @@ record, either verify that an authorized agent or subject record already
 exists in ArchivesSpace, or create a new record in conformance with the
 guidelines below.
 
-## Authorities workflows
+### Authorities workflows
 
 Changing an authority record changes the record for everyone at Yale
 using ArchivesSpace. For this reason, be extremely careful about editing
@@ -4092,9 +3784,9 @@ style="width:2.18943in;height:2.28854in" />
 
 <img src="./media/image108.png" style="width:6.5in;height:1.72222in" />
 
-# Agent Records
+## Agent Records
 
-## Functional overview
+### Functional overview
 
 Agent records identify persons, families, corporate entities, or
 software that have a specified relationship (such as source, creator,
@@ -4151,7 +3843,7 @@ Agent and Subject records linked to Accession records, Resource
 component records, and Digital Object component records will not be
 exported to MARCXML records.
 
-## Creating and managing Agent records
+### Creating and managing Agent records
 
 Changing the content of an Agent record changes it for every link to
 that record in every ArchivesSpace repository at Yale. Be extremely
@@ -4271,7 +3963,7 @@ version of the name containing all individual elements. This is the form
 of the name that will be shown within ArchivesSpace displays and is
 exported in reports and standardized outputs such as MARCXML and EAD.
 
-### Creating Agent records
+##### Creating Agent records
 
 The directions here are for constructing an **Agent** record for a
 **Person**. Follow these same basic instructions for **Family** and
@@ -4493,9 +4185,9 @@ If you are already working in an Accession or Resource record:
 > associate with that material, without having to exit the Accession,
 > Resource, Digital Object, etc. record.
 
-#  Subject Records
+##  Subject Records
 
-## Functional overview
+### Functional overview
 
 Subject records are used to control information about topics, geographic
 names, genre and form terms, occupations, functions, and uniform titles
@@ -4561,7 +4253,7 @@ vocabulary records. Appendix B in DACS, provides a helpful list of the
 primary data value standards used by archivists doing archival
 description in the U.S.
 
-## Creating and managing Subject records
+### Creating and managing Subject records
 
 Subjects are shared across Yale repositories using ArchivesSpace. This
 means that updating a subject heading in your repository will affect
@@ -4583,7 +4275,7 @@ vocabulary record:
   > type of term being recorded (e.g., function, genre/form, geographic
   > name, occupation, topic, uniform title).
 
-### Creating a Subject record
+##### Creating a Subject record
 
 The directions here are for constructing a **Subject** record for a
 **Topical** subject**.** Follow these same basic instructions for
@@ -4741,9 +4433,9 @@ how a particular **Subject** record is to be used.
   > indicates that this External Document should be published to the
   > Public User Interface.
 
-# Assessment Records
+## Assessment Records
 
-## Functional overview
+### Functional overview
 
 Assessment records contain information about the quantitative and
 qualitative condition of surveyed material, its readiness for
@@ -4774,7 +4466,7 @@ Resource Component, or Digital Object record, and must record who the
 material was surveyed by and the date the survey began. All other fields
 and ratings are optional.
 
-## Creating a Minimal Assessment Record
+### Creating a Minimal Assessment Record
 
 There are two ways to create an assessment record: from within the
 Assessment module and from within the record of something being
@@ -4812,7 +4504,7 @@ surveyed**
 3.  Click **Save Assessment**. If any required element is missing, you
     > will be prompted to add the information.
 
-### Adding Additional Information to an Assessment Record
+##### Adding Additional Information to an Assessment Record
 
 After the required information about an assessment has been entered, you
 can continue to record information about the assessment using the
@@ -5125,7 +4817,7 @@ using the Manage Assessment Attributes function.
 **Conservation Note**: Indicates areas of particular concern with regard
 to the physical condition of the collection.
 
-### Viewing an Assessment Record
+##### Viewing an Assessment Record
 
 There are two ways to view an assessment record: from the main menu and
 from within the record of something that has been surveyed.
@@ -5150,7 +4842,7 @@ assessments. Clicking **View** will take up a the assessment record.
 This will bring up a list of all linked assessments. Clicking **View**
 will take you to the assessment record.
 
-### Deleting an Assessment Record
+##### Deleting an Assessment Record
 
 Find the assessment record(s) you want to delete. You can browse or
 search.
@@ -5184,7 +4876,7 @@ or
     > record. Click **Delete** to delete the record and **Cancel** to
     > return to the list without deleting.
 
-### Transferring an Assessment Record
+##### Transferring an Assessment Record
 
 If an assessment's only linked record is transferred to another
 repository, the assessment is also moved to the target repository.
@@ -5199,7 +4891,7 @@ one repository, the exact same rating, material type/format, or
 conservation issue must also be present in the new target repository for
 the field to transfer.
 
-### Managing Assessment Attributes
+##### Managing Assessment Attributes
 
 To add additional ratings, formats, or conservation issues, you must be
 logged in as a System Administrator. System administrators may also
@@ -5234,7 +4926,7 @@ icon to the right of the field name.
 
 <img src="./media/image130.png" style="width:6.5in;height:1.38889in" />
 
-### Assessment Reports
+##### Assessment Reports
 
 There are two types of reports associated with Assessments module, the
 Assessment Rating Report and the Assessment Record List. **Note that
@@ -5260,7 +4952,7 @@ returns all fields in all assessment records, except those marked
 <img src="./media/image74.png"
 style="width:4.73958in;height:4.0625in" />
 
-### Importing Assessment Records Using a CSV Template
+##### Importing Assessment Records Using a CSV Template
 
 The CSV template for importing assessment records into ArchivesSpace is
 available at
@@ -5295,9 +4987,9 @@ additional Assessment Attributes, those may be added to the csv import.
 Remember to add the relevant header information (basic, rating, format,
 conservation) as well as the field title.
 
-# Linking Records
+## Linking Records
 
-## Functional overview
+### Functional overview
 
 Linking records adds to the description and assists in the management of
 archival materials. For example, linking Agent and Subject records to a
@@ -5370,7 +5062,7 @@ Object Component</th>
 </tbody>
 </table>
 
-## Creating and managing links
+### Creating and managing links
 
 **Linking to Agent records**
 
@@ -5825,9 +5517,9 @@ Removing a link to a Related Accession record:
 > 4\. Click on **Save Accession** to save the record with the link
 > removed
 
-# Including EAD elements (i.e. adding “Mixed Content”)
+## Including EAD elements (i.e. adding “Mixed Content”)
 
-## 
+### 
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
@@ -5838,7 +5530,7 @@ title or part of a note.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-## Resource / Component Unit Title
+### Resource / Component Unit Title
 
 If you need to add EAD elements to a unit title, you will have to
 hand-encode those elements in ArchivesSpace currently.
@@ -5861,7 +5553,7 @@ It is crucial that these fields be typed in correctly, so please consult
 with someone if you have any questions whatsoever about how to format
 EAD correctly.
 
-## Notes
+### Notes
 
 When adding EAD elements in a note, you can use ArchivesSpace’s
 wrap-in-tag feature or you can type “\<” to show the available EAD tags
@@ -5875,7 +5567,7 @@ etc.”, so you must consult the EAD Tag Library,
 [<u>https://www.loc.gov/ead/tglib/index.html</u>](https://www.loc.gov/ead/tglib/index.html)
 to ensure adherence to the EAD standard.
 
-### A Special Note on adding links within Notes:
+##### A Special Note on adding links within Notes:
 
 If you want to create an **external** hyperlink, rather than using HTML
 to do that, you will also need to do that with EAD. In this case, the
@@ -5905,7 +5597,7 @@ from Archivists’ Toolkit, might have values like “ref1” instead. In that
 case, you still use the ArchivesSpace Ref ID (e.g. ref1) and add that to
 the “target” attribute, as illustrated above.
 
-# Exporting Records
+## Exporting Records
 
 ArchivesSpace enables the production of several export options for Agent
 and Resource records:
@@ -6012,7 +5704,7 @@ available in forthcoming releases.
     > settings, the file will be saved to your Downloads folder or you
     > may be prompted to choose a location for saving the file.
 
-# Importing Records
+## Importing Records
 
 Instructions for importing legacy data are included below. Please
 contact your Yale Archival Management Systems Committee liaison for help
@@ -6081,7 +5773,7 @@ screen
 > <img src="./media/image60.png"
 > style="width:2.16667in;height:2.48958in" />
 
-## Importing EAC-CPF and EAD files
+### Importing EAC-CPF and EAD files
 
 1.  On the main toolbar, click on the Create drop-down and select
     > **Import Jobs**.
@@ -6106,7 +5798,7 @@ screen
 
 - Imported EAD files will be available as new Resource records.
 
-## Importing MARCXML files 
+### Importing MARCXML files 
 
 ArchivesSpace supports two options for importing MARCXML files:
 
@@ -6149,7 +5841,7 @@ Below are steps for importing MARCXML files:
   > the imported data will be available as new Agent and Subject
   > records.
 
-## Importing accessions data or digital object data from a CSV file 
+### Importing accessions data or digital object data from a CSV file 
 
 Accession and digital object data should be formatted and normalized
 according to ArchivesSpace CSV import mapping specifications. See the
@@ -6178,7 +5870,7 @@ Below are steps for importing CSV data:
 6.  The imported data will subsequently be available as new Accession or
     > Digital Object records.
 
-## Import summary 
+### Import summary 
 
 Every import job includes a summary report of the process:
 
@@ -6192,9 +5884,9 @@ Every import job includes a summary report of the process:
 - **Log:** if records were not successfully imported, the log summarizes
   > problems with the source file (e.g., XML validation issues).
 
-# Customizing the Application
+## Customizing the Application
 
-## User interfaces
+### User interfaces
 
 The staff and the Public User Interface that are provided by
 ArchivesSpace can be customized for local use. Repository Managers can
@@ -6203,7 +5895,7 @@ available in the staff interface. More extensive customizations to both
 the public and staff interface can be made by defining ‘local’ files in
 the plugs-ins folder of the application.
 
-## Staff interface
+### Staff interface
 
 Certain preferences can be configured in the application at the global
 (instance) level, repository level, or individual user level. Changes to
@@ -6225,7 +5917,7 @@ then select **User Preference Defaults**.
 <img src="./media/image54.png"
 style="width:4.59375in;height:4.36458in" />
 
-## User-defined fields
+### User-defined fields
 
 User-defined fields are “semantically neutral” data fields available in
 the accession, resource, and digital object records. Below is a list of
@@ -6283,9 +5975,9 @@ marked “(not used)” are currently unassigned and should NOT be used.
 
 - enum_4: Controlled Value 4 (not used)
 
-# Setting Default Values for Fields
+## Setting Default Values for Fields
 
-## Functional overview
+### Functional overview
 
 Repository managers and system administrators can set default values
 throughout the application. Default values are typically set when the
@@ -6307,7 +5999,7 @@ are in conflict with individual user settings. Individual users may
 choose whether or not default values are applied in their User
 Preferences. Individual user settings override repository-wide settings,
 as described in the [<u>Applying</u> <u>default values as a user
-section</u>](#applying-default-values-as-a-user).
+section</u>](##applying-default-values-as-a-user).
 
 Default values can also be set by the system administrator using
 controlled value lists. More information is in the [<u>Setting a Default
@@ -6315,7 +6007,7 @@ Value in a Controlled Value List section of Managing Controlled Value
 Lists</u>](https://archivesspace.atlassian.net/wiki/spaces/ArchivesSpaceUserManual/pages/894566578/Setting+a+Default+Value+in+a+Controlled+Value+List)
 (requires Lyrasis account log-in).
 
-## Setting default values as a system administrator or repository manager
+### Setting default values as a system administrator or repository manager
 
 System administrators or repository managers may set default values by
 doing the following:
@@ -6368,9 +6060,9 @@ repository-wide settings apply across the repository unless they are in
 conflict with individual user settings. Individual user settings
 override repository-wide settings, as described below in the
 [<u>Applying</u> <u>default values as a user
-section</u>](#applying-default-values-as-a-user).
+section</u>](##applying-default-values-as-a-user).
 
-## Applying default values as a user
+### Applying default values as a user
 
 Individual user preferences may be viewed and edited in the **User
 Preferences** menu:
@@ -6392,7 +6084,7 @@ their newly-created Accession, Resource, and Resource component records
 will be pre-populated with the default values assigned by their
 repository manager, as outlined in the [<u>Setting default values as a
 system administrator or repository manager
-section</u>](#setting-default-values-as-a-system-administrator-or-repository-manager).
+section</u>](##setting-default-values-as-a-system-administrator-or-repository-manager).
 If users do not check the **Pre-populate Records?** checkbox, their
 newly-created records will not be created with the repository default
 values.
