@@ -1,4 +1,4 @@
-# ArchivesSpace at Yale: User Manual**
+## ArchivesSpace at Yale: User Manual
 
 ## Overview: ArchivesSpace Application and its Governance
 
@@ -15,19 +15,19 @@
 - Creation of Resource records.
 
 - Creation and management of Agent and Subject records, and how to link
-  > them to Accession and Resource records.
+  them to Accession and Resource records.
 
 - Recording and management of physical locations within a repository.
 
 - Production of description output files in standardized data structures
-  > such as EAD and MARCXML.
+  such as EAD and MARCXML.
 
 - Application of a content standard, in this case DACS, where
-  > applicable, to determine the kind and form of data recorded in an
-  > ArchivesSpace record.
+  applicable, to determine the kind and form of data recorded in an
+  ArchivesSpace record.
 
 - Technical and administrative issues relevant to managing your
-  > ArchivesSpace repository at Yale.
+  ArchivesSpace repository at Yale.
 
 **What isn’t covered**
 
@@ -82,22 +82,22 @@ make sure all questions are answered.
 **ArchivesSpace is:**
 
 - An open source, online database application to support basic
-  > collection management, archival processing, and production of access
-  > instruments, including finding aids and catalog records.
+  collection management, archival processing, and production of access
+  instruments, including finding aids and catalog records.
 
 - Governed by a membership community.
 
 - An application that promotes data standardization:
 
   - Informed by DACS, the U.S. national content standard for archival
-    > description; and also informed by international archival
-    > descriptive standards -- ISAD(G) and ISAAR (CPF).
+    description; and also informed by international archival descriptive
+    standards -- ISAD(G) and ISAAR (CPF).
 
   - Supports the use of data value standards for subject headings,
-    > dates, languages, and other descriptive data.
+    dates, languages, and other descriptive data.
 
   - Supports exports into common data structure standards: EAD, MARCXML,
-    > Dublin Core, MODS, METS.
+    Dublin Core, MODS, METS.
 
 - An application that promotes efficiency:
 
@@ -115,19 +115,19 @@ Management Systems Committee. The Committee’s work is informed by the
 following goals:
 
 - the implementation and maintenance of ArchivesSpace as the main
-  > archival management system at Yale;
+  archival management system at Yale;
 
 - a commitment to the future development of ArchivesSpace in order to
-  > increase its functionality to meet Yale needs and to support the
-  > development of the application as a strong product;
+  increase its functionality to meet Yale needs and to support the
+  development of the application as a strong product;
 
 - the creation of a YUL/Yale committee to inform and support all Yale
-  > units implementing ArchivesSpace and to bring together disparate
-  > archival collections management practices;
+  units implementing ArchivesSpace and to bring together disparate
+  archival collections management practices;
 
 - active participation in the ArchivesSpace community beyond Yale
-  > through membership, Board participation, active communication with
-  > other users, and contribution of resources.
+  through membership, Board participation, active communication with
+  other users, and contribution of resources.
 
 Every repository on campus using ArchivesSpace has been assigned a Yale
 Archival Management Systems Committee liaison. This person will provide
@@ -165,34 +165,34 @@ Editing, and Deleting Records; and 4: Search and Advanced Search.
 Note: Unless illustrating functions requiring higher permission levels,
 screenshots are of Advanced Data Entry views.
 
-<img src="./media/image94.png"
+<img src="./_images/image1.png"
 style="width:6.47917in;height:2.47396in" />
 
 1\. Repository / Application Management: This is where you will verify
 that you are working in your own repository.
 
-> <img src="./media/image38.png"
+> <img src="./_images/image2.png"
 > style="width:2.84375in;height:1.67708in" />
 
 Access the online help center.
 
-> <img src="./media/image73.png"
+> <img src="./_images/image3.png"
 > style="width:5.36858in;height:1.41146in" />
 
 And, view or set your preferences or log out.
 
-> <img src="./media/image95.png"
+> <img src="./_images/image4.png"
 > style="width:5.34896in;height:1.97267in" />
 
 2\. User Permissions, Preferences Management, Reports, Imports, and
 Plugins:
 
-> <img src="./media/image9.png"
+> <img src="./_images/image5.png"
 > style="width:3.67708in;height:3.39583in" />
 
 3\. Creating, Editing, Deleting Records (see **Create** drop-down menu):
 
-> <img src="./media/image112.png"
+> <img src="./_images/image6.png"
 > style="width:2.70313in;height:2.72109in" />
 >
 > Accession, Resource, and Digital Object records are known collectively
@@ -213,7 +213,7 @@ Plugins:
 > To import legacy data (EAD, MARC, accession CSV file), use the Import
 > Jobs link at the bottom of the **Create** drop-down menu.
 >
-> <img src="./media/image99.png"
+> <img src="./_images/image7.png"
 > style="width:2.62308in;height:3.36979in" />
 >
 > Each function outlined in the **Create** drop-down is also available
@@ -346,11 +346,11 @@ Advanced Search):
     - Material Type - Works of Art?
 
     - Published? (This refers to whether a record -- be it a resource
-      > record, an archival object, a digital object, or an accession --
-      > is marked as publish or internal-only. This indication affects
-      > the ArchivesSpace Public User Interface, as well as the EAD
-      > serialization, since it indicates that the record’s audience =
-      > internal only)
+      record, an archival object, a digital object, or an accession --
+      is marked as publish or internal-only. This indication affects the
+      ArchivesSpace Public User Interface, as well as the EAD
+      serialization, since it indicates that the record’s audience =
+      internal only)
 
     - Record Reviewed
 
@@ -359,7 +359,7 @@ Advanced Search):
     - Rights Statements?
 
     - Suppressed? (This searches whether a record is suppressed from EAD
-      > or MARC export).
+      or MARC export).
 
     - Use Restrictions?
 
@@ -388,12 +388,12 @@ Advanced Search):
 > NOT are available, with AND being the default option for linking the
 > search fields together. Example:
 
-<img src="./media/image132.png"
+<img src="./_images/image8.png"
 style="width:6.76215in;height:1.49479in" />
 
 ###  Record Template
 
-<img src="./media/image42.png"
+<img src="./_images/image9.png"
 style="width:6.84644in;height:3.28437in" />
 
 **Navigation panel**
@@ -412,8 +412,8 @@ document, and, while scrolling through a record, the highlighted section
 of the navigation panel will change to keep the staff user oriented to
 the current position within the record.
 
-<img src="./media/image137.jpg" style="width:5.41146in;height:3.08731in"
-alt="ASpace_CollMgmt.jpg" />
+<img src="./_images/image10.jpg"
+style="width:5.41146in;height:3.08731in" alt="ASpace_CollMgmt.jpg" />
 
 **Rollover texts**
 
@@ -424,8 +424,8 @@ the rollover consists of a definition of the element, a reference to the
 appropriate rule in DACS or to elements in export data formats, such as
 MARC, and examples of good practice.
 
-<img src="./media/image128.jpg" style="width:5.86653in;height:3.32813in"
-alt="ASpace_rollover.jpg" />
+<img src="./_images/image11.jpg"
+style="width:5.86653in;height:3.32813in" alt="ASpace_rollover.jpg" />
 
 **Records and sub-records**
 
@@ -475,7 +475,7 @@ the ArchivesSpace record types and how they relate to one another.
 > or complex relationships (e.g., a metadata record for a multi-paged
 > item; and additionally, a metadata record for each scanned page, and
 > its derivatives). One or more file versions can be referenced from the
-> Digital Object metadata record.[^1] The Digital Object record can be
+> Digital Object metadata record.[1] The Digital Object record can be
 > created from within a Resource record, or created independently and
 > then either linked or not to a Resource record.
 
@@ -490,11 +490,10 @@ the ArchivesSpace record types and how they relate to one another.
 > existing subject vocabularies.
 
 - **Agent record**  
-  > Describes persons, families, or corporate entities that have a
-  > specified relationship to the records being described, such as
-  > creator, source (i.e., donor), subject, rights owner, or to an
-  > Event. The Agent record is also used for managing relationships
-  > among agents.
+  Describes persons, families, or corporate entities that have a
+  specified relationship to the records being described, such as
+  creator, source (i.e., donor), subject, rights owner, or to an Event.
+  The Agent record is also used for managing relationships among agents.
 
 - **Classification record**
 
@@ -541,36 +540,35 @@ All sub-records have their own requirements. Sub-records in
 ArchivesSpace include:
 
 - **Dates sub-record  
-  > **For recording types of dates about the material or entity being
-  > described, e.g., date of creation, of broadcast, or publication.
-  > Occurs in Accessions, Resource, Resource component, Digital Object,
-  > Digital Object component, and Deaccession records.
+  **For recording types of dates about the material or entity being
+  described, e.g., date of creation, of broadcast, or publication.
+  Occurs in Accessions, Resource, Resource component, Digital Object,
+  Digital Object component, and Deaccession records.
 
 - **Extents sub-record  
-  > **For recording the extent for the whole or part(s) of the described
-  > material. Occurs in Accessions, Resource, Resource component,
-  > Digital Object, Digital Object component, and Deaccession records.
+  **For recording the extent for the whole or part(s) of the described
+  material. Occurs in Accessions, Resource, Resource component, Digital
+  Object, Digital Object component, and Deaccession records.
 
 - **Notes sub-record  
-  > **For recording notes providing more detailed description of
-  > processed archival materials. Occurs in Resource, Resource
-  > component, Digital Object, and Digital Object component records.
+  **For recording notes providing more detailed description of processed
+  archival materials. Occurs in Resource, Resource component, Digital
+  Object, and Digital Object component records.
 
 - **Rights sub-record  
-  > **For indicating the rights status of the material being described.
-  > Occurs in Accession, Resource, Resource component, Digital Object,
-  > and Digital Object component records.
+  **For indicating the rights status of the material being described.
+  Occurs in Accession, Resource, Resource component, Digital Object, and
+  Digital Object component records.
 
 - **Deaccessions sub-record  
-  > **For indicating materials that have been removed from an accession
-  > or from a processed collection. Occurs in Accession and Resource
-  > records.
+  **For indicating materials that have been removed from an accession or
+  from a processed collection. Occurs in Accession and Resource records.
 
 - **Collection Management sub-record  
-  > **For recording information about the work on the materials being
-  > described. Occurs in Accession, Resource, and Digital Object
-  > records. Further guidance about the use of collection management
-  > records will be determined after initial ArchivesSpace migration.
+  **For recording information about the work on the materials being
+  described. Occurs in Accession, Resource, and Digital Object records.
+  Further guidance about the use of collection management records will
+  be determined after initial ArchivesSpace migration.
 
 ### Data entry considerations within the staff interface
 
@@ -594,14 +592,14 @@ edit as well.
 
 ArchivesSpace marks required fields with a red asterisk and bold type.
 
-<img src="./media/image138.png"
+<img src="./_images/image12.png"
 style="width:2.60164in;height:1.27792in" />
 
 If a sub-form or field is conditionally required, this is noted in a
 text box when you hover over the field. Conditionally required fields
 are marked with a gray asterisk.
 
-<img src="./media/image141.png"
+<img src="./_images/image13.png"
 style="width:2.36042in;height:1.95347in" />
 
 **EAD tagging within data fields**
@@ -613,10 +611,10 @@ the resource record, ArchivesSpace provides an auto-complete function
 for EAD tags. You can either directly include EAD markup within the data
 field -- or type "\<" to invoke the auto-complete function.
 
-<img src="./media/image140.png"
+<img src="./_images/image14.png"
 style="width:3.98021in;height:1.27578in" />
 
-> <img src="./media/image143.png"
+> <img src="./_images/image15.png"
 > style="width:5.30933in;height:3.95833in" />
 
 Be careful when adding EAD tags, since mistakes can invalidate the
@@ -651,7 +649,7 @@ Some data fields can be expanded to allow for entering multiple lines of
 text -- or long narrative statements. Select and drag the bottom right
 corner of the data field to expand it.
 
-<img src="./media/image142.png"
+<img src="./_images/image16.png"
 style="width:4.0437in;height:0.7361in" />
 
 **Supported Browsers**
@@ -693,24 +691,24 @@ wish to review this information to double-check its accuracy.
 When creating a Repository record, only two data fields are required:
 
 - **Repository Name:** The full name of the repository that has
-  > responsibility for the records being described.
+  responsibility for the records being described.
 
 - **Repository Short Name:** An abbreviation or acronym of the
-  > repository name. This is the name shown in most places in the
-  > ArchivesSpace interface. You should choose a short name that will
-  > allow users to easily differentiate between repositories on your
-  > system if you have multiple repositories.
+  repository name. This is the name shown in most places in the
+  ArchivesSpace interface. You should choose a short name that will
+  allow users to easily differentiate between repositories on your
+  system if you have multiple repositories.
 
 **Enhancing a Repository record**
 
 1.  Enter detailed additional information about your repository,
-    > including **Organization/Agency Code**, **Country**, **Home Page
-    > URL**, **Branding Image URL** (for a repository logo that should
-    > appear on your finding aids), and information concerning **Contact
-    > Details** (address, phone, etc.).
+    including **Organization/Agency Code**, **Country**, **Home Page
+    URL**, **Branding Image URL** (for a repository logo that should
+    appear on your finding aids), and information concerning **Contact
+    Details** (address, phone, etc.).
 
 2.  After editing, save your additional information by clicking **Save
-    > Repository**.
+    Repository**.
 
 ## User Records and User Management
 
@@ -743,15 +741,15 @@ section, below
 This policy governs:
 
 - The creation, management, and deactivation of user accounts within
-  > ArchivesSpace
+  ArchivesSpace
 
 - The granting and revocation of privileges associated with each user
-  > account
+  account
 
 - The authentication by which the user establishes a connection to their
-  > account
+  account
 
-##### Rationale
+#### Rationale
 
 This approach to user groups gives the greatest possible flexibility to
 workers in repositories to assign and remove privileges as staff
@@ -762,14 +760,14 @@ resources, containers, and records shared across repositories) and make
 clear which functions affect only the user’s repository and which affect
 all repositories.
 
-##### Scope
+#### Scope
 
 This policy applies to all ArchivesSpace accounts at Yale University.
 This document includes statements on access control, privileges,
 authentication/password management, and the information required to
 request a user account.
 
-##### Access Control
+#### Access Control
 
 - Access to ArchivesSpace will be primarily limited to users with Yale
   > NetIDs who require access to the system for their work. Users
@@ -810,7 +808,7 @@ request a user account.
   > issued and approved by following the same procedures required for
   > requesting a new account.
 
-##### Authentication/Password Management
+#### Authentication/Password Management
 
 For authentication to the Staff Interface, ArchivesSpace will use CAS
 for staff logins, thereby allowing most users to manage passwords
@@ -826,7 +824,7 @@ password may be reset by a sysadmin if the account must be used.
 Aside from administrative and API passwords, no other passwords should
 be assigned within the ArchivesSpace application.
 
-##### Guidance for Users
+#### Guidance for Users
 
 Getting access to ArchivesSpace requires following the User Account
 Creation steps as outlined in the YAMS LibGuide: [<u>Yale Archival
@@ -842,7 +840,8 @@ The second step is for the repository manager to give that user access
 to whichever user groups the repository manager deems appropriate. All
 groups are additive and access must be explicitly granted to each group.
 
-<img src="./media/image144.png" style="width:6.5in;height:3.45833in"
+<img src="./_images/image17.png"
+style="width:6.5in;height:3.45833in"
 alt="Screen Shot 2015-06-05 at 3.20.13 PM.png" />
 
 For instance, if you want a user to be able to create accessions AND
@@ -852,7 +851,8 @@ resources and top containers” group. A user can be assigned to a group
 by entering her NetID in the “Members” field of a group. This step must
 be repeated for each group that a user will be assigned to.
 
-<img src="./media/image86.png" style="width:6.5in;height:4.26389in"
+<img src="./_images/image18.png"
+style="width:6.5in;height:4.26389in"
 alt="Screen Shot 2015-06-05 at 3.22.30 PM.png" />
 
 Multiple user groups may also be assigned to a user by selecting their
@@ -862,9 +862,9 @@ each user group. See the [<u>User Groups at
 Yale</u>](##user-groups-at-yale) section of this document for definitions
 and permissions associated with each group.
 
-##### Guidance for Assigning Permissions
+#### Guidance for Assigning Permissions
 
-###### Repository managers internal to the repository
+#### Repository managers internal to the repository
 
 Repository managers generally have the following permissions within
 their repository:
@@ -872,43 +872,43 @@ their repository:
 - Assessments -- Create, read, update and delete assessment records
 
 - Create-accessions -- Create, read, and update accessions and top
-  > containers
+  containers
 
 - Create-digital-object -- Create, read and update digital objects
 
 - Create-events -- Create, read and update event records
 
 - Create-resources -- Create, read and update resources and top
-  > containers
+  containers
 
 - Delete-records -- Delete records from this repository
 
 - Import-jobs -- Initiate and cancel an import job
 
 - Manage-top-containers -- Delete or bulk update top containers in this
-  > repository
+  repository
 
 - Merge-records -- Merge records from this repository
 
 - Repository-managers -- Manage a repository (manage locations, user
-  > groups, department codes, user access)
+  groups, department codes, user access)
 
 - Subject-agent -- Create, read, merge, update and delete subject or
-  > agent records (affects all repositories)
+  agent records (affects all repositories)
 
 - Suppress-records -- Suppress records from this repository
 
 - Transfer-distinct-records -- Transfer distinct records across a
-  > repository
+  repository
 
 - View-records -- View (non-suppressed) records in this repository
 
 - View-suppressed-records -- View suppressed records in this repository
 
 - Vocabulary-classification -- Create, read, update and delete
-  > vocabulary or classification terms (affects all repositories)
+  vocabulary or classification terms (affects all repositories)
 
-###### Archivist staff members internal to the repository
+#### Archivist staff members internal to the repository
 
 Archivist staff members generally have the following permissions within
 their repository:
@@ -916,35 +916,35 @@ their repository:
 - Assessments -- Create, read, update and delete assessment records
 
 - Create-accessions -- Create, read, and update accessions and top
-  > containers
+  containers
 
 - Create-digital-objects -- Create, read and update digital objects
 
 - Create-events -- Create, read and update event records
 
 - Create-resources -- Create, read and update resources and top
-  > containers
+  containers
 
 - Delete-records -- Delete records from this repository
 
 - Import-jobs -- Initiate and cancel an import job
 
 - Manage-top-containers -- Delete or bulk update top containers in this
-  > repository
+  repository
 
 - Merge-records -- Merge records from this repository
 
 - Subject-agent -- Create, read, merge, update and delete subject or
-  > agent records (affects all repositories)
+  agent records (affects all repositories)
 
 - View-records -- View (non-suppressed) records in this repository
 
 - View-suppressed-records -- View suppressed records in this repository
 
 - Vocabulary-classification -- Create, read, update and delete
-  > vocabulary or classification terms (affects all repositories)
+  vocabulary or classification terms (affects all repositories)
 
-###### Technical services support staff members internal to the repository
+#### Technical services support staff members internal to the repository
 
 Technical services support staff members generally have the following
 permissions within their repository:
@@ -952,33 +952,33 @@ permissions within their repository:
 - Assessments -- Create, read, update and delete assessment records
 
 - Create-accessions -- Create, read, and update accessions and top
-  > containers
+  containers
 
 - Create-digital-objects -- Create, read and update digital objects
 
 - Create-events -- Create, read and update event records
 
 - Create-resources -- Create, read and update resources and top
-  > containers
+  containers
 
 - Delete-records -- Delete records from this repository
 
 - Import-jobs -- Initiate and cancel an import job
 
 - Manage-top-containers -- Delete or bulk update top containers in this
-  > repository
+  repository
 
 - Merge-records -- Merge records from this repository
 
 - Subject-agent -- Create, read, merge, update and delete subject or
-  > agent records (affects all repositories)
+  agent records (affects all repositories)
 
 - View-records -- View (non-suppressed) records in this repository
 
 - Vocabulary-classification -- Create, read, update and delete
-  > vocabulary or classification terms (affects all repositories)
+  vocabulary or classification terms (affects all repositories)
 
-###### Staff members internal to the repository without regular data entry responsibilities
+#### Staff members internal to the repository without regular data entry responsibilities
 
 Non-technical services staff members generally have the following
 permissions within their repository:
@@ -990,16 +990,16 @@ instances, if the staff member requires these permissions for their work
 and has received proper training:
 
 - Create-accessions -- Create, read, and update accessions and top
-  > containers
+  containers
 
 - Create-digital-objects -- Create, read and update digital objects
 
 - Create-events -- Create, read and update event records
 
 - Create-resources -- Create, read and update resources and top
-  > containers
+  containers
 
-###### Student staff members in the repository
+#### Student staff members in the repository
 
 Student staff members generally have the following permissions within
 their repository:
@@ -1007,14 +1007,14 @@ their repository:
 - Create-events -- Create, read and update event records
 
 - Create-resources -- Create, read and update resources and top
-  > containers
+  containers
 
 - Manage-top-containers -- Delete or bulk update top containers in this
-  > repository
+  repository
 
 - View-records -- View (non-suppressed) records in this repository
 
-###### Staff members external to the repository
+#### Staff members external to the repository
 
 In some cases, staff members at Yale have repository permissions for
 repositories outside of their home repository. For example, as noted
@@ -1039,7 +1039,7 @@ resources).
 
 Yale User Permission Groups include the following:
 
-##### Create, read, update and delete assessment records\*
+#### Create, read, update and delete assessment records\*
 
 **assessments**
 
@@ -1049,9 +1049,8 @@ X delete assessment records
 
 *\*BRBL only as of 6/2020*
 
-######## 
-
-##### Manage a repository (manage locations, user groups, department codes, user access)
+###
+#### Manage a repository (manage locations, user groups, department codes, user access)
 
 **repository-managers**
 
@@ -1061,19 +1060,19 @@ X create and run a background job
 
 X cancel a background job
 
-##### Transfer the entire contents of a repository
+#### Transfer the entire contents of a repository
 
 **transfer-contents**
 
 X transfer the entire contents of a repository
 
-##### Transfer distinct records across a repository
+#### Transfer distinct records across a repository
 
 **transfer-distinct-records**
 
 X transfer major record types between repositories
 
-##### Create, read, and update accessions and top containers
+#### Create, read, and update accessions and top containers
 
 **create-accessions**
 
@@ -1083,7 +1082,7 @@ X view the records in this repository
 
 X create/update top container records
 
-##### Create, read and update resources and top containers
+#### Create, read and update resources and top containers
 
 **create-resources**
 
@@ -1097,7 +1096,7 @@ X delete/bulk update top container records \*BRBL
 
 X manage RDE templates
 
-##### Create, read and update digital objects
+#### Create, read and update digital objects
 
 **create-digital-objects**
 
@@ -1105,7 +1104,7 @@ X create/update digital objects in this repository
 
 X view the records in this repository
 
-##### Create, read and update event records
+#### Create, read and update event records
 
 **create-events**
 
@@ -1113,13 +1112,13 @@ X create/update event records in this repository
 
 X view the records in this repository
 
-##### Create, read, update and delete container profile records (affects all repositories)
+#### Create, read, update and delete container profile records (affects all repositories)
 
 **container-profiles**
 
 X create/update/delete container profile records
 
-##### Suppress records from this repository
+#### Suppress records from this repository
 
 **suppress-records**
 
@@ -1127,7 +1126,7 @@ X suppress the major record types in this repository
 
 X view suppressed records in this repository
 
-##### Delete records from this repository
+#### Delete records from this repository
 
 **delete-records**
 
@@ -1137,31 +1136,31 @@ X delete the major record types in this repository
 
 X delete/bulk update top container records
 
-##### Delete or bulk update top containers in this repository
+#### Delete or bulk update top containers in this repository
 
 **manage-top-containers**
 
 X delete/bulk update top container records
 
-##### Merge records from this repository
+#### Merge records from this repository
 
 **merge-records**
 
 X merge the major record types in this repository
 
-##### View suppressed records in this repository
+#### View suppressed records in this repository
 
 **view-suppressed-records**
 
 X view suppressed records in this repository
 
-##### View (non-suppressed) records in this repository
+#### View (non-suppressed) records in this repository
 
 **view-records**
 
 X view the records in this repository
 
-##### Initiate and cancel an import job
+#### Initiate and cancel an import job
 
 **import-jobs**
 
@@ -1179,7 +1178,7 @@ X create and run a background job
 
 X cancel a background job
 
-##### Create, merge, update and delete subject or agent records (affects all repositories)
+#### Create, merge, update and delete subject or agent records (affects all repositories)
 
 **subject-agent**
 
@@ -1189,7 +1188,7 @@ X create/update/delete agent records
 
 X merge agent/subject records
 
-##### Create, update and delete vocabulary or classification terms (affects all repositories)
+#### Create, update and delete vocabulary or classification terms (affects all repositories)
 
 **vocabulary-classification**
 
@@ -1201,7 +1200,7 @@ X create/update/delete vocabulary records
 
 Examples of custom Yale User Permission groups include:
 
-##### Printed Acquisitions\*
+#### Printed Acquisitions\*
 
 **Printed-Acq**
 
@@ -1217,7 +1216,7 @@ X cancel an import job
 
 \**BRBL only*
 
-##### Student workers\*
+#### Student workers\*
 
 **MusicLibraryStudentStaff**
 
@@ -1229,7 +1228,7 @@ X create and update top container records
 
 \**Music only*
 
-##### Delete/Cancel/Transfer permissions not explicitly specified in other groups\*
+#### Delete/Cancel/Transfer permissions not explicitly specified in other groups\*
 
 **higher_level_permissions**
 
@@ -1253,12 +1252,12 @@ X merge the major record types in this repository
 
 ### User Permission Groups provided in ArchivesSpace by Default
 
-##### System Administrator
+#### System Administrator
 
 Has all read/write and functional permissions for all repositories
 sharing the ArchivesSpace installation.
 
-##### Advanced Data Entry users of the \[Repo name\] repository\*
+#### Advanced Data Entry users of the \[Repo name\] repository\*
 
 **repository-advanced-data-entry**
 
@@ -1290,7 +1289,7 @@ X create/update/delete location profile records
 
 X create and run a background job
 
-##### Archivists of the \[Repo name\] repository\*
+#### Archivists of the \[Repo name\] repository\*
 
 **repository-archivists**
 
@@ -1322,7 +1321,7 @@ X create/update/delete location profile records
 
 X create and run a background job
 
-##### Basic data entry users of the \[Repo name\] repository\*
+#### Basic data entry users of the \[Repo name\] repository\*
 
 **repository-basic-data-entry**
 
@@ -1336,7 +1335,7 @@ X view the records in this repository
 
 X create and run a background job
 
-##### Managers of the \[Repo name\] repository\*
+#### Managers of the \[Repo name\] repository\*
 
 **repository-managers**
 
@@ -1378,7 +1377,7 @@ X create and run a background job
 
 X cancel a background job
 
-##### Project managers of the \[Repo name\] repository\*
+#### Project managers of the \[Repo name\] repository\*
 
 **repository-project-managers**
 
@@ -1418,7 +1417,7 @@ X create and run a background job
 
 X cancel a background job
 
-##### Viewers of the \[Repo name\] repository\*
+#### Viewers of the \[Repo name\] repository\*
 
 **repository-viewers**
 
@@ -1430,12 +1429,12 @@ Only three elements are required to create a user record, one of which
 must be confirmed by re-entering its value.
 
 - **Username:** The login name the user will use to access an
-  > ArchivesSpace repository.
+  ArchivesSpace repository.
 
 - **Full name:** The full given and surname of the user.
 
 - **Password/Confirm Password:** The password the user will use, along
-  > with her or his username, to access the API
+  with her or his username, to access the API
 
 New user records are created via the user account creation process
 described on the Yale Archival Management Systems Committee LibGuide:
@@ -1449,7 +1448,7 @@ service (e.g. Archivist, Beinecke Library (2010-2017); NetID: abc123).
 **Editing a User record**
 
 1.  Select **Manage User Access** on the **Gear** option on the top
-    > toolbar.
+    toolbar.
 
 2.  Click on the **Edit** option for the User record to be edited.
 
@@ -1461,10 +1460,6 @@ service (e.g. Archivist, Beinecke Library (2010-2017); NetID: abc123).
 
 As per the Yale ArchivesSpace User Management Policy, User records are
 not deleted.
-
-## 
-
-##  
 
 ## Location Records
 
@@ -1501,129 +1496,105 @@ important to not have labels and indicators in the same field.
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>AS Location</th>
-<th>Use for</th>
-<th>Example(s)</th>
-<th>Notes</th>
-</tr>
-<tr class="odd">
-<th>Building</th>
-<th>Unique nickname for the Building</th>
-<th><ul>
-<li><blockquote>
-<p>SML</p>
-</blockquote></li>
-<li><blockquote>
-<p>LSF</p>
-</blockquote></li>
-<li><blockquote>
-<p>BRBL1</p>
-</blockquote></li>
-</ul></th>
-<th></th>
-</tr>
-<tr class="header">
-<th>Floor</th>
-<th>DO NOT USE if an official room number is available</th>
-<th></th>
-<th><p>Using official room numbers; should negate need for Floor.</p>
-<p>Only use for non-LSF locations</p></th>
-</tr>
-<tr class="odd">
-<th>Room</th>
-<th>Use for non-LSF room indicator as per official building map</th>
-<th><ul>
-<li><blockquote>
-<p>B51-A</p>
-</blockquote></li>
-</ul></th>
-<th>Only use for non-LSF locations</th>
-</tr>
-<tr class="header">
-<th>Area</th>
-<th>DO NOT USE</th>
-<th></th>
-<th></th>
-</tr>
-<tr class="odd">
-<th>Barcode</th>
-<th></th>
-<th></th>
-<th>Only use for non-LSF locations</th>
-</tr>
-<tr class="header">
-<th>Classification</th>
-<th>DO NOT USE</th>
-<th></th>
-<th></th>
-</tr>
-<tr class="odd">
-<th>Coordinate Label 1</th>
-<th>Primary location coordinate</th>
-<th><ul>
-<li><blockquote>
-<p>Shelving Range</p>
-</blockquote></li>
-<li><blockquote>
-<p>Microfilm cabinet</p>
-</blockquote></li>
-<li><blockquote>
-<p>Flat storage cabinet</p>
-</blockquote></li>
-<li><blockquote>
-<p>LSF</p>
-</blockquote></li>
-</ul></th>
-<th>For the LSF location only; the building name is also the Coordinate
-1 Label (this is because a building name and Coordinate 1 Label or
-Indicator are required for a valid Location record.)</th>
-</tr>
-<tr class="header">
-<th>Coordinate Indicator 1</th>
-<th></th>
-<th></th>
-<th>Only use for non-LSF locations</th>
-</tr>
-<tr class="odd">
-<th>Coordinate Label 2</th>
-<th>Use for secondary location coordinate</th>
-<th><ul>
-<li><blockquote>
-<p>Shelving Sections</p>
-</blockquote></li>
-<li><blockquote>
-<p>Cabinet Drawers</p>
-</blockquote></li>
-</ul></th>
-<th>Only use for non-LSF locations</th>
-</tr>
-<tr class="header">
-<th>Coordinate Indicator 2</th>
-<th></th>
-<th></th>
-<th>Only use for non-LSF locations</th>
-</tr>
-<tr class="odd">
-<th>Coordinate Label 3</th>
-<th>Use for tertiary location coordinate</th>
-<th><ul>
-<li><blockquote>
-<p>Shelf</p>
-</blockquote></li>
-</ul></th>
-<th>Only use for non-LSF locations</th>
-</tr>
-<tr class="header">
-<th><p>Coordinate</p>
-<p>Indicator 3</p></th>
-<th></th>
-<th></th>
-<th>Only use for non-LSF locations</th>
-</tr>
-</thead>
 <tbody>
+<tr class="odd">
+<td>AS Location</td>
+<td>Use for</td>
+<td>Example(s)</td>
+<td>Notes</td>
+</tr>
+<tr class="even">
+<td>Building</td>
+<td>Unique nickname for the Building</td>
+<td><ul>
+<li><p>SML</p></li>
+<li><p>LSF</p></li>
+<li><p>BRBL1</p></li>
+</ul></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Floor</td>
+<td>DO NOT USE if an official room number is available</td>
+<td></td>
+<td><p>Using official room numbers; should negate need for Floor.</p>
+<p>Only use for non-LSF locations</p></td>
+</tr>
+<tr class="even">
+<td>Room</td>
+<td>Use for non-LSF room indicator as per official building map</td>
+<td><ul>
+<li><p>B51-A</p></li>
+</ul></td>
+<td>Only use for non-LSF locations</td>
+</tr>
+<tr class="odd">
+<td>Area</td>
+<td>DO NOT USE</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Barcode</td>
+<td></td>
+<td></td>
+<td>Only use for non-LSF locations</td>
+</tr>
+<tr class="odd">
+<td>Classification</td>
+<td>DO NOT USE</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Coordinate Label 1</td>
+<td>Primary location coordinate</td>
+<td><ul>
+<li><p>Shelving Range</p></li>
+<li><p>Microfilm cabinet</p></li>
+<li><p>Flat storage cabinet</p></li>
+<li><p>LSF</p></li>
+</ul></td>
+<td>For the LSF location only; the building name is also the Coordinate
+1 Label (this is because a building name and Coordinate 1 Label or
+Indicator are required for a valid Location record.)</td>
+</tr>
+<tr class="odd">
+<td>Coordinate Indicator 1</td>
+<td></td>
+<td></td>
+<td>Only use for non-LSF locations</td>
+</tr>
+<tr class="even">
+<td>Coordinate Label 2</td>
+<td>Use for secondary location coordinate</td>
+<td><ul>
+<li><p>Shelving Sections</p></li>
+<li><p>Cabinet Drawers</p></li>
+</ul></td>
+<td>Only use for non-LSF locations</td>
+</tr>
+<tr class="odd">
+<td>Coordinate Indicator 2</td>
+<td></td>
+<td></td>
+<td>Only use for non-LSF locations</td>
+</tr>
+<tr class="even">
+<td>Coordinate Label 3</td>
+<td>Use for tertiary location coordinate</td>
+<td><ul>
+<li><p>Shelf</p></li>
+</ul></td>
+<td>Only use for non-LSF locations</td>
+</tr>
+<tr class="odd">
+<td><p>Coordinate</p>
+<p>Indicator 3</p></td>
+<td></td>
+<td></td>
+<td>Only use for non-LSF locations</td>
+</tr>
 </tbody>
 </table>
 
@@ -1644,66 +1615,64 @@ Example of an MSSA locations
 <col style="width: 8%" />
 <col style="width: 8%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Building</th>
-<th>Floor</th>
-<th>Room</th>
-<th>Area</th>
-<th>Barcode</th>
-<th>Classification</th>
-<th>Coordinate Label 1</th>
-<th>Coordinate Indicator 1</th>
-<th>Coordinate Labe 2l</th>
-<th>Coordinate Indicator 2</th>
-<th>Coordinate Label 3</th>
-<th><p>Coordinate</p>
-<p>Indicator 3</p></th>
-</tr>
-<tr class="odd">
-<th>SML</th>
-<th></th>
-<th>B51-A</th>
-<th></th>
-<th></th>
-<th></th>
-<th>Range</th>
-<th>1</th>
-<th>Section</th>
-<th>A</th>
-<th>Shelf</th>
-<th>3</th>
-</tr>
-<tr class="header">
-<th>LSF</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th>LSF</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-<tr class="odd">
-<th>SML</th>
-<th></th>
-<th>B54</th>
-<th></th>
-<th></th>
-<th></th>
-<th>Cabinet</th>
-<th>A</th>
-<th>Drawer</th>
-<th>1</th>
-<th></th>
-<th></th>
-</tr>
-</thead>
 <tbody>
+<tr class="odd">
+<td>Building</td>
+<td>Floor</td>
+<td>Room</td>
+<td>Area</td>
+<td>Barcode</td>
+<td>Classification</td>
+<td>Coordinate Label 1</td>
+<td>Coordinate Indicator 1</td>
+<td>Coordinate Labe 2l</td>
+<td>Coordinate Indicator 2</td>
+<td>Coordinate Label 3</td>
+<td><p>Coordinate</p>
+<p>Indicator 3</p></td>
+</tr>
+<tr class="even">
+<td>SML</td>
+<td></td>
+<td>B51-A</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Range</td>
+<td>1</td>
+<td>Section</td>
+<td>A</td>
+<td>Shelf</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td>LSF</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>LSF</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SML</td>
+<td></td>
+<td>B54</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Cabinet</td>
+<td>A</td>
+<td>Drawer</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 
@@ -1721,58 +1690,58 @@ needed. Be aware, however, that locations cannot be deleted in batches.
 **Creating single Location records**
 
 1.  On the main toolbar, click **Create**, select **Location** and then
-    > select Single Location.
+    select Single Location.
 
 2.  Record a value for **Building Name**. This is a required field.
 
 3.  Enter either **Coordinate Label 1** and **Coordinate Indicator 1**
-    > or a value for **Barcode**. This is the minimum amount of data
-    > required for a single Location record.  
-    > (Do not use **Classification Number**.)
+    or a value for **Barcode**. This is the minimum amount of data
+    required for a single Location record.  
+    (Do not use **Classification Number**.)
 
 4.  Save the Location record by pressing the **Save Location** command
-    > button at the bottom of the record. If entering more than one
-    > single Location record, click on the **+1** button. This will save
-    > the current record and open a new Location record template.
+    button at the bottom of the record. If entering more than one single
+    Location record, click on the **+1** button. This will save the
+    current record and open a new Location record template.
 
-<img src="./media/image2.png" style="width:3.59924in;height:4.79818in"
-alt="single loc.PNG" />
+<img src="./_images/image19.png"
+style="width:3.59924in;height:4.79818in" alt="single loc.PNG" />
 
 **Creating multiple Location records**
 
 1.  On the main toolbar, click **Create**, select **Location**, and then
-    > select Create Batch Locations.
+    select Create Batch Locations.
 
 2.  In the **Base Location** section, record a value for **Building
-    > Name**. This is a required field. You can also enter data in other
-    > fields in the **Base Location** section if you wish, but do not
-    > enter coordinate information here.
+    Name**. This is a required field. You can also enter data in other
+    fields in the **Base Location** section if you wish, but do not
+    enter coordinate information here.
 
-<img src="./media/image100.png"
+<img src="./_images/image20.png"
 style="width:6.58854in;height:3.53138in" />
 
 3.  In the **Coordinate Ranges** section, enter values for **Coordinate
-    > Range 1’s** **Label**, **Range Start**, and **Range End**. This is
-    > the minimum amount of data required to generate a batch of
-    > locations.
+    Range 1’s** **Label**, **Range Start**, and **Range End**. This is
+    the minimum amount of data required to generate a batch of
+    locations.
 
 4.  Enter values for **Coordinate Range 2** and **Coordinate Range 3**
-    > if warranted.
+    if warranted.
 
-<img src="./media/image11.png"
+<img src="./_images/image21.png"
 style="width:5.41667in;height:3.08044in" />
 
 5.  You may review your locations to make sure they are correctly formed
-    > by clicking on the **Preview Locations** button.
+    by clicking on the **Preview Locations** button.
 
-> <img src="./media/image23.png"
+> <img src="./_images/image22.png"
 > style="width:5.59803in;height:5.07292in" />
 
 6.  Click on the **Create Locations** button to generate the batch of
-    > Location records (the number of records generated is determined by
-    > the coordinate information provided). Generate additional batches
-    > of records by changing values for the coordinates or, if
-    > appropriate, values for the shelving location.
+    Location records (the number of records generated is determined by
+    the coordinate information provided). Generate additional batches of
+    records by changing values for the coordinates or, if appropriate,
+    values for the shelving location.
 
 ## Managing Top Containers
 
@@ -1788,7 +1757,7 @@ in ArchivesSpace.
 “Manage Top Containers” is available under the gear menu for the
 repository name.
 
-<img src="./media/image65.png"
+<img src="./_images/image23.png"
 style="width:4.16146in;height:3.67045in" />
 
 ### Searching
@@ -1800,51 +1769,53 @@ To search for distinct top containers, a number of fields can be used in
 combination with one another.
 
 - **Keyword search**: This searches all fields in the top container view
-  > -- resource name, resource identifier, accession name, accession
-  > identifier, container profile name, container indicator, container
-  > barcode, and current location. You can perform a boolean NOT
-  > operation by putting a minus sign in front of the text in the
-  > keyword search term.
+  -- resource name, resource identifier, accession name, accession
+  identifier, container profile name, container indicator, container
+  barcode, and current location. You can perform a boolean NOT operation
+  by putting a minus sign in front of the text in the keyword search
+  term.
 
 - **Barcode:** Searches by barcode of the top container
 
 - **Resource:** Start typing to find the resource you want to enter, or
-  > click on the triangle at the end of the field to browse.
+  click on the triangle at the end of the field to browse.
 
 - **Accession:** Start typing to find the accession you want to enter,
-  > or click on the triangle at the end of the field to browse.
+  or click on the triangle at the end of the field to browse.
 
 - **Container Profile:** Start typing to find the container profile you
-  > want to enter, or click on the triangle at the end of the field to
-  > browse.
+  want to enter, or click on the triangle at the end of the field to
+  browse.
 
 - **Location:** Start typing to find the location you want to enter, or
-  > click on the triangle at the end of the field to browse. Please note
-  > that because of a known bug in the application, typing a hyphen will
-  > result in the typeahead not producing any results.
+  click on the triangle at the end of the field to browse. Please note
+  that because of a known bug in the application, typing a hyphen will
+  result in the typeahead not producing any results.
 
 - **Exported to ILS**
 
 - The **Unassociated Containers** search is primarily to support
-  > clean-up. If a resource or accession record is deleted, the top
-  > containers created as part of that record will still remain. By
-  > searching for “unassociated containers”, you can find and delete
-  > containers that are no longer in use.
+  clean-up. If a resource or accession record is deleted, the top
+  containers created as part of that record will still remain. By
+  searching for “unassociated containers”, you can find and delete
+  containers that are no longer in use.
 
 Examples of search:
 
 1.  **See all of the distinct top containers in a collection.** In this
-    > example, I want to see which containers are in the Yale Athletics
-    > Photographs collection.
+    example, I want to see which containers are in the Yale Athletics
+    Photographs collection.
 
-<img src="./media/image107.png" style="width:6.5in;height:4.04167in"
+<img src="./_images/image24.png"
+style="width:6.5in;height:4.04167in"
 alt="Screen Shot 2015-05-04 at 10.16.45 AM.png" />
 
 2.  **Find all of the containers in a particular location.** In this
-    > example, I want to know all of the containers that are house in
-    > SML 150-B, Drawer 1.
+    example, I want to know all of the containers that are house in SML
+    150-B, Drawer 1.
 
-<img src="./media/image31.png" style="width:6.5in;height:4.375in"
+<img src="./_images/image25.png"
+style="width:6.5in;height:4.375in"
 alt="Screen Shot 2015-05-04 at 10.02.39 AM.png" />
 
 In this example, the location is entered in the “Location” field and the
@@ -1854,10 +1825,11 @@ to, which series (if applicable), container profiles, container numbers,
 barcodes, ILS information and restriction information.\\
 
 3.  **Find examples of container profiles**. For instance, you may know
-    > that all “blue” boxes are non-archival and want to bring them
-    > together for a re-housing project.
+    that all “blue” boxes are non-archival and want to bring them
+    together for a re-housing project.
 
-<img src="./media/image133.png" style="width:6.5in;height:4.84722in"
+<img src="./_images/image26.png"
+style="width:6.5in;height:4.84722in"
 alt="Screen Shot 2015-05-04 at 11.18.26 AM.png" />
 
 In this example, I searched for a container profile of “blue” and found
@@ -1878,7 +1850,8 @@ bulk operations.
 From the “manage top containers” screen is the ability to update the
 following elements:
 
-<img src="./media/image66.png" style="width:6.5in;height:1.98611in"
+<img src="./_images/image27.png"
+style="width:6.5in;height:1.98611in"
 alt="Screen Shot 2015-05-04 at 11.29.29 AM.png" />
 
 **Update ILS Holding IDs**
@@ -1896,12 +1869,9 @@ bulk.
 This function allows the user to change the locations of containers
 singularly or en masse to a new permanent location or locations.
 
-<img src="./media/image145.png" style="width:6.5in;height:3.26389in"
+<img src="./_images/image28.png"
+style="width:6.5in;height:3.26389in"
 alt="Screen Shot 2015-05-04 at 11.58.04 AM.png" />
-
-###### 
-
-##### 
 
 **Rapid Barcode Entry**
 
@@ -1917,8 +1887,6 @@ therein. It does not remove information in resource records, components,
 or accessions, although it does break the link between these records and
 a top container.
 
-##  
-
 ## Container Profile Records
 
 ### Functional Overview
@@ -1928,12 +1896,13 @@ information about the physical container in which archival materials are
 housed. With this data, we can calculate how much space a collection
 occupies.
 
-<img src="./media/image119.png" style="width:2.86111in;height:2.5in" />
+<img src="./_images/image29.png"
+style="width:2.86111in;height:2.5in" />
 
 ### Associating an existing container profile with a top container record
 
 - Instructions for this can be found in the [<u>Managing Top
-  > Containers</u>](##managing-top-containers) section of the manual.
+  Containers</u>](##managing-top-containers) section of the manual.
 
 ### Creating a container profile
 
@@ -1946,22 +1915,22 @@ Create Container Profile.
 Enter the following information
 
 - Name - A descriptive name for the container type. Since this value
-  > must be unique, we also include a summary of the container’s
-  > dimensions in parentheses. See below for guidance on general name
-  > types for container profiles.
+  must be unique, we also include a summary of the container’s
+  dimensions in parentheses. See below for guidance on general name
+  types for container profiles.
 
 - Dimension units - The unit of measurement used to measure the
-  > dimensions of a container. Container profile dimensions are always
-  > measured in inches.
+  dimensions of a container. Container profile dimensions are always
+  measured in inches.
 
 - Extent Dimension – The dimension of a container used to measure linear
-  > extent. **Width** is always used to measure linear extent at Yale.
+  extent. **Width** is always used to measure linear extent at Yale.
 
 - Depth, Height, and Width measurements of the container. When measuring
-  > a container, you should always round up to the nearest whole inch.
+  a container, you should always round up to the nearest whole inch.
 
   - Depth represents the distance from the front of the shelf to the
-    > back of the shelf.
+    back of the shelf.
 
   - Height represents the distance from the bottom of the box upwards.
 
@@ -1970,54 +1939,52 @@ Enter the following information
     - For flat boxes, the long edge is measured as width.
 
     - For containers in which materials are stored upright (i.e. archive
-      > boxes, record cartons, card boxes, etc.), the edge facing the
-      > front of the shelf (often the short edge) is measured as width.
+      boxes, record cartons, card boxes, etc.), the edge facing the
+      front of the shelf (often the short edge) is measured as width.
 
     - For two-dimensional containers (folders of any size), the long
-      > side should be measured as width and the height should be
-      > measured as 0.5 inches.
+      side should be measured as width and the height should be measured
+      as 0.5 inches.
 
 Click Save Container Profile.
 
 ### Rules for creating container profiles
 
 - Permission to create container profiles is given at the discretion of
-  > repository managers.
+  repository managers.
 
 - Container profiles are shared across all repositories.
 
 - Container profiles for most standard-sized, commercially-produced
-  > containers used in Yale repositories have already been created in
-  > ArchivesSpace. Before creating a new container profile for a
-  > standard-sized box, please search the existing container profiles to
-  > confirm that it doesn’t already exist.
+  containers used in Yale repositories have already been created in
+  ArchivesSpace. Before creating a new container profile for a
+  standard-sized box, please search the existing container profiles to
+  confirm that it doesn’t already exist.
 
 - All containers are measured to the nearest inch on each side, with the
-  > exception of folders, which are consistently measured as being 0.25
-  > inches high. This means that there may be two different containers
-  > of relatively different sizes that belong to the same container
-  > profile. Since the goal of container profiles is to give a ballpark
-  > estimate of the size of our holdings, these marginal differences are
-  > acceptable.
+  exception of folders, which are consistently measured as being 0.25
+  inches high. This means that there may be two different containers of
+  relatively different sizes that belong to the same container profile.
+  Since the goal of container profiles is to give a ballpark estimate of
+  the size of our holdings, these marginal differences are acceptable.
 
   - n.b. -- a folder of any size should be referred to as a folder
-    > (including broadside, folio folder, etc.) Because of the
-    > uniqueness constraint, a folder’s name should include its width
-    > and depth dimensions. There’s no need to include its height
-    > dimension, since all folders are assigned a default height of 0.25
-    > inches.
+    (including broadside, folio folder, etc.) Because of the uniqueness
+    constraint, a folder’s name should include its width and depth
+    dimensions. There’s no need to include its height dimension, since
+    all folders are assigned a default height of 0.25 inches.
 
 - For flat boxes and folders, assign width to the longest side.
 
 - Container profiles refer to the boxes in which materials are stored.
-  > In some cases, container profile names may refer to a particular
-  > material or carrier type. Keep in mind, however, that in all cases,
-  > the container profile name has nothing to do with the materials
-  > therein.
+  In some cases, container profile names may refer to a particular
+  material or carrier type. Keep in mind, however, that in all cases,
+  the container profile name has nothing to do with the materials
+  therein.
 
   - Example: A set of earrings may be kept in a 5-inch audiotape box.
-    > Never assume that the container profile name refers to the box’s
-    > contents.
+    Never assume that the container profile name refers to the box’s
+    contents.
 
 ### Container profile names
 
@@ -2068,39 +2035,39 @@ used in Yale repositories. They are as follows:
 ### Rules for assigning container profiles to custom containers
 
 - For containers smaller than 42 inches in width, round up to the next
-  > closest size container.
+  closest size container.
 
 - For containers larger than 42 inches in width, assign "Custom box
-  > (flat, 42" wide) (42" w x 3" h x 36" d)"
+  (flat, 42" wide) (42" w x 3" h x 36" d)"
 
 - For custom containers made for objects that do not correspond to the
-  > above standard custom boxes, indicate: Object box (##” w x \##” h x
-  > \##” d)
+  above standard custom boxes, indicate: Object box (##” w x \##” h x \##”
+  d)
 
 ### Strategies for searching, browsing, and choosing container profiles
 
 - When searching for a container profile in a typeahead field (for
-  > example, in the Create Top Container window), look for words in bold
-  > text in your search results. When an exact match for your search
-  > term(s) is found in a record, that term will appear in bold.
+  example, in the Create Top Container window), look for words in bold
+  text in your search results. When an exact match for your search
+  term(s) is found in a record, that term will appear in bold.
 
 - Using the Browse feature provides you with a greater number of tools
-  > for finding container profile records. To browse for a container
-  > profile from the Create Top Container Window, open the drop-down
-  > menu next to the typeahead and click on Browse. Some tips for
-  > browsing top container records:
+  for finding container profile records. To browse for a container
+  profile from the Create Top Container Window, open the drop-down menu
+  next to the typeahead and click on Browse. Some tips for browsing top
+  container records:
 
   - In the search field in the top left corner of the Browse window, you
-    > can use quotation marks to search for an exact phrase. If you use
-    > the correct container profile name (example: “archive half
-    > legal”), this will make your search more accurate and greatly
-    > reduce your search results.
+    can use quotation marks to search for an exact phrase. If you use
+    the correct container profile name (example: “archive half legal”),
+    this will make your search more accurate and greatly reduce your
+    search results.
 
   - On the left side of the browser window, you can browse containers
-    > according to their height, width, or depth dimensions (but not all
-    > three at the same time). Click on the link next to the desired
-    > dimension and measurement to see all container profile records for
-    > boxes that include that dimension.
+    according to their height, width, or depth dimensions (but not all
+    three at the same time). Click on the link next to the desired
+    dimension and measurement to see all container profile records for
+    boxes that include that dimension.
 
 ## Accession Records
 
@@ -2123,8 +2090,8 @@ Accession record it came from. Only the first Accession record can be
 spawned to the Resource record; data from subsequent Accession records
 associated with the same resource will need to be entered manually. The
 process of spawning new Resource records from Accession records is
-covered in the [<u>Spawning a Resource
-Record</u>](##spawning-a-resource-record) section of this manual.
+covered in the [<u>Spawning a Resource Record</u>](##_20xfydz) section of
+this manual.
 
 ### Creating and managing Accession records
 
@@ -2158,14 +2125,14 @@ may enter many more if warranted:
 > not use this field for unique identifiers assigned to individual
 > pieces of media for the purposes of tracking and managing the media.
 >
-> <img src="./media/image103.png"
+> <img src="./_images/image30.png"
 > style="width:5.94271in;height:3.45152in" />
 
 3.  Click **Save Accession**. If any required element is missing, you
-    > will be prompted to add the information, which you must do in
-    > order to save the record.
+    will be prompted to add the information, which you must do in order
+    to save the record.
 
-##### Adding further information to an Accession record
+#### Adding further information to an Accession record
 
 After the minimum information about an accession has been entered, you
 can continue to describe the accession using the sub-records available
@@ -2180,78 +2147,76 @@ often used in the creation of accession records. In all cases, follow
 your repository’s guidelines and supervisor’s instructions when creating
 accession records.
 
-###### Basic Information
+#### Basic Information
 
 - **Title:** Consult DACS and your repository’s accession guidelines for
-  > advice on forming titles.
+  advice on forming titles.
 
 - **Content Description:** Open text field. A description of the types
-  > of material and topical contents of the accession. For born-digital
-  > materials, you may insert information such as operating systems,
-  > hardware information, and software dependencies here, if known.
+  of material and topical contents of the accession. For born-digital
+  materials, you may insert information such as operating systems,
+  hardware information, and software dependencies here, if known.
 
 - **Condition Description:** Open text field. A description of the
-  > physical condition of the contents of the accession, including any
-  > special handling requirements. Particular preservation concerns may
-  > be noted here, including issues of fragility or obsolescence.
+  physical condition of the contents of the accession, including any
+  special handling requirements. Particular preservation concerns may be
+  noted here, including issues of fragility or obsolescence.
 
 - **Disposition:** Open text field. A note to describe a range of
-  > processes associated with implementing appraisal, destruction, and
-  > preservation decisions. Disposition is a comprehensive term that
-  > includes both destruction and transfer of records.
+  processes associated with implementing appraisal, destruction, and
+  preservation decisions. Disposition is a comprehensive term that
+  includes both destruction and transfer of records.
 
 - **Inventory:** Open text field. A note that can capture a list of the
-  > contents of the accession.
+  contents of the accession.
 
 - **Provenance:** Open text field. A note that provides source
-  > information about an accession, such as custodial history and
-  > detailed acquisition information.
+  information about an accession, such as custodial history and detailed
+  acquisition information.
 
 - **Retention Rule:** Open text field. A note indicating the retention
-  > authority or rule for the accession.
+  authority or rule for the accession.
 
 - **General Note:** Open text field. A catch all note field for any
-  > information that does not fit in any of the more specifically
-  > defined fields. This field does not display in the Public User
-  > Interface, and should only be used for internal notes.
+  information that does not fit in any of the more specifically defined
+  fields. This field does not display in the Public User Interface, and
+  should only be used for internal notes.
 
 - **Acquisition Type:** Choose from a drop-down list. A categorical
-  > descriptor for the type of acquisition. Possible data values include
-  > deposit, gift, purchase, transfer. May be left unassigned if the
-  > acquisition type is unknown.
+  descriptor for the type of acquisition. Possible data values include
+  deposit, gift, purchase, transfer. May be left unassigned if the
+  acquisition type is unknown.
 
 - **Resource Type:** Not used by Yale. A list of terms for categorizing
-  > resources into basic types.
+  resources into basic types.
 
 - **Restrictions Apply:** Not used at Yale.
 
 - **Publish:** Select or clear the check box. A selected check box
-  > indicates that this accession will be published to the Public User
-  > Interface.
+  indicates that this accession will be published to the Public User
+  Interface.
 
 - **Access Restrictions:** Select or clear the check box. A selected
-  > check box indicates that access to the materials is restricted.
+  check box indicates that access to the materials is restricted.
 
 - **Access Restrictions Note:** Open text field. A statement indicating
-  > what materials in the accession have access restrictions, what the
-  > authority of the restriction is, and for how long the restriction
-  > will be in effect. If Access Restrictions (see above) is selected
-  > this field should include a relevant explanation.
+  what materials in the accession have access restrictions, what the
+  authority of the restriction is, and for how long the restriction will
+  be in effect. If Access Restrictions (see above) is selected this
+  field should include a relevant explanation.
 
 - **Use Restrictions:** Select or clear the check box. A selected check
-  > box indicates that there are use restrictions for materials in the
-  > accession.
+  box indicates that there are use restrictions for materials in the
+  accession.
 
 - **Use Restrictions Note:** Open text field. A statement indicating
-  > which materials have use restrictions, how the materials can be
-  > used, what the authority of the restriction is, and for how long the
-  > restriction will be in effect. If Use Restrictions (see above) is
-  > selected this field should include a relevant explanation.
-  > Additional information may also be recorded in a Rights sub-record.
+  which materials have use restrictions, how the materials can be used,
+  what the authority of the restriction is, and for how long the
+  restriction will be in effect. If Use Restrictions (see above) is
+  selected this field should include a relevant explanation. Additional
+  information may also be recorded in a Rights sub-record.
 
-###### 
-
-###### Dates sub-record 
+#### Dates sub-record 
 
 This sub-record identifies and records the date(s) that pertain to the
 creation, assembly, accumulation, and/or maintenance and use of the
@@ -2259,12 +2224,12 @@ materials being described. The required fields are **Label** and
 **Type**.
 
 - **Label:** Choose from a drop-down list. Describes the type of
-  > activity that the date signifies.
+  activity that the date signifies.
 
 - **Expression:** A natural language expression specifying the date or
-  > date range of the materials is required when a normalized date is
-  > not recorded or when the date expression is different than the
-  > normalized date values. Examples include:
+  date range of the materials is required when a normalized date is not
+  recorded or when the date expression is different than the normalized
+  date values. Examples include:
 
   - 1870 - circa 1879
 
@@ -2273,17 +2238,18 @@ materials being described. The required fields are **Label** and
   - 1955-1959, undated
 
 - **Type:** Choose from a drop-down list. Indicate the type of date
-  > sub-record, either a single date or a date range (inclusive or
-  > bulk). This is a required field for date sub-records.
+  sub-record, either a single date or a date range (inclusive or bulk).
+  This is a required field for date sub-records.
 
 Optionally, you may specify normalized date values. Normalized values
 can be input into the Begin and End date fields either manually in the
 YYYY, YYYY-MM, or YYYY-MM-DD formats, or by clicking on the calendar
 icon and choosing the appropriate date.
 
-<img src="./media/image118.png" style="width:6.5in;height:3.41667in" />
+<img src="./_images/image31.png"
+style="width:6.5in;height:3.41667in" />
 
-###### Extents sub-record
+#### Extents sub-record
 
 This sub-record is used for recording the size of the described
 materials. The required fields are **Portion**, **Number**, and
@@ -2291,30 +2257,30 @@ materials. The required fields are **Portion**, **Number**, and
 single accession record.
 
 - **Portion:** Choose from a drop-down list. Used to specify whether an
-  > extent statement relates to the whole or a part of a given described
-  > aggregation or item. At least one extent sub-record should refer to
-  > the whole accession.
+  extent statement relates to the whole or a part of a given described
+  aggregation or item. At least one extent sub-record should refer to
+  the whole accession.
 
 - **Number:** Open text field. A numeric value for indicating the number
-  > of units in the extent statement, e.g., 5, 11.5, 245. Used in
-  > conjunction with **Type** to provide a structured extent statement.
+  of units in the extent statement, e.g., 5, 11.5, 245. Used in
+  conjunction with **Type** to provide a structured extent statement.
 
 - **Type:** Choose from a drop-down list. A term indicating the type of
-  > unit used to measure the extent of materials described. For
-  > born-digital material that arrived on physical media, indicate the
-  > carrier type(s) (e.g. external hard drive). For born-digital
-  > material that arrived via transfer without a carrier, indicate
-  > quantity of data transferred in gigabytes.
+  unit used to measure the extent of materials described. For
+  born-digital material that arrived on physical media, indicate the
+  carrier type(s) (e.g. external hard drive). For born-digital material
+  that arrived via transfer without a carrier, indicate quantity of data
+  transferred in gigabytes.
 
 - **Container Summary**: Open text field. A list of container and
-  > container types housing the materials described in the component
-  > record.
+  container types housing the materials described in the component
+  record.
 
 - **Physical Details**: Open text field. Other physical details of the
-  > materials described, e.g., analog, black and white, negatives.
+  materials described, e.g., analog, black and white, negatives.
 
 - **Dimensions:** Open text field. The dimensions of the materials
-  > described.
+  described.
 
 Extent sub-records may be entered manually. Alternatively, Extent
 sub-records for archival components in Top Containers can be generated
@@ -2323,55 +2289,49 @@ extent sub-record that may be edited before saving. Note: this will not
 replace an existing extent sub-record. If an existing sub-record becomes
 obsolete; the user must delete the old extent subrecord.
 
-<img src="./media/image111.png" style="width:6.5in;height:1.20833in" />
+<img src="./_images/image32.png"
+style="width:6.5in;height:1.20833in" />
 
-###### Deaccessions sub-record 
+#### Deaccessions sub-record 
 
-<span id="_wp2wj06i3tys" class="anchor"></span>This sub-record
-identifies the scope and circumstances of materials permanently removed
-from the accession. The required fields are **Portion** and
-**Description**, as well as a **Deaccession Date**.
+This sub-record identifies the scope and circumstances of materials
+permanently removed from the accession. The required fields are
+**Portion** and **Description**, as well as a **Deaccession Date**.
 
 - **Portion:** Choose from a drop-down list. Options include “whole” and
-  > “part.” If the entirety of the accession has been deaccessioned,
-  > select “whole.” Otherwise, if not all of the accession has been
-  > deaccessioned, select “part.”
-
-<span id="_wp2wj06i3tys" class="anchor"></span>
+  “part.” If the entirety of the accession has been deaccessioned,
+  select “whole.” Otherwise, if not all of the accession has been
+  deaccessioned, select “part.”
 
 - **Description:** Open text field. Describe the nature of the
-  > deaccessioned materials.
-
-<span id="_wp2wj06i3tys" class="anchor"></span>
+  deaccessioned materials.
 
 - **Reason:** Open text field. Summarize the reasons why the materials
-  > were deaccessioned.
+  were deaccessioned.
 
 - **Disposition:** Open text field. Describe what was done with the
-  > deaccessioned materials.
+  deaccessioned materials.
 
 - **Notification Given?:** Boolean field. Select this field if any
-  > notice of the deaccession has been sent.
+  notice of the deaccession has been sent.
 
 - **Deaccession Date:** Select the type of date (most likely a single
-  > date), then provide both a date expression value and a normalized
-  > “Begin” date.
+  date), then provide both a date expression value and a normalized
+  “Begin” date.
 
 Optionally, you may provide a deaccession extent sub-record. To do so,
 under the Deaccession Date, click “Add Extent.” Required fields include
 **Portion**, **Number**, and **Type**.
 
-<span id="_wp2wj06i3tys"
-class="anchor"></span><img src="./media/image117.png" style="width:6.5in;height:4.77778in" />
+<img src="./_images/image33.png"
+style="width:6.5in;height:4.77778in" />
 
-###### Material Types sub-record 
+#### Material Types sub-record 
 
 This sub-record contains eleven Boolean fields that may be used to
 indicate the presence of specific material formats in the accession.
 There are no required fields. The material types that may be flagged by
 checking the corresponding box as follows:
-
-<span id="_wp2wj06i3tys" class="anchor"></span>
 
 - Books
 
@@ -2395,7 +2355,8 @@ checking the corresponding box as follows:
 
 - Works of Art
 
-<img src="./media/image78.png" style="width:6.5in;height:1.69444in" />
+<img src="./_images/image34.png"
+style="width:6.5in;height:1.69444in" />
 
 If you frequently accession a particular type of material, as a user you
 may set default Material Type values that will automatically be selected
@@ -2405,66 +2366,64 @@ Preferences.” Default Material Types can be selected at the bottom of
 the page. After choosing your default values, click on save at the top
 of the page.
 
-###### Payment Summary sub-record 
+#### Payment Summary sub-record 
 
 This sub-record captures information regarding the details of payments
 made for purchased accessions. There are no required fields. Payment
 information consists of one Payment Summary and zero or more Payment
 sub-records. The Payment Summary may contain the following information:
 
-<span id="_wp2wj06i3tys" class="anchor"></span>
-
 - **Total Price:** A number representing the total cost of the purchased
-  > accession
+  accession
 
 - **Currency:** A controlled value list. Select the code correspondent
-  > to the currency in which all payments were made. USD (US Dollar) is
-  > the default. Other currencies may be selected by clicking on the “X”
-  > to clear the field, then either using the type-ahead functionality
-  > to find the appropriate currency code or by clicking on the down
-  > arrow and manually selecting from the list.
+  to the currency in which all payments were made. USD (US Dollar) is
+  the default. Other currencies may be selected by clicking on the “X”
+  to clear the field, then either using the type-ahead functionality to
+  find the appropriate currency code or by clicking on the down arrow
+  and manually selecting from the list.
 
 - **In Lot:** A Boolean field. Selecting “In Lot” will indicate that the
-  > accession combines multiple line items in an invoice.
+  accession combines multiple line items in an invoice.
 
-<img src="./media/image61.png" style="width:6.5in;height:1.36111in" />
+<img src="./_images/image35.png"
+style="width:6.5in;height:1.36111in" />
 
 After the Payment Summary has been completed, you may add information
 about individual Payments. There are no required fields in a Payment
 sub-record. You may supply the following pieces of information:
 
 - **Payment Date:** A normalized date field. Provide the date in
-  > YYYY-MM-DD format, or click on the calendar to select the date.
+  YYYY-MM-DD format, or click on the calendar to select the date.
 
 - **Invoice Number:** An open text field for capturing invoice numbers.
 
 - **Fund Code:** A controlled value list of Fund codes. Select the fund
-  > with which the payment was made from the list by either using the
-  > type-ahead function or by clicking on the down arrow and selecting
-  > from the list.
+  with which the payment was made from the list by either using the
+  type-ahead function or by clicking on the down arrow and selecting
+  from the list.
 
 - **Amount:** A number representing the amount of the payment.
 
 - **USD Equivalent** **Amount:** If the payment is not in USD and your
-  > repository chooses to track cumulative expenditures, supply a number
-  > of the approximate amount spent in USD.
+  repository chooses to track cumulative expenditures, supply a number
+  of the approximate amount spent in USD.
 
 - **Authorizer:** A link to an agent. Select the agent record for the
-  > staff member responsible for authorizing the payment.
+  staff member responsible for authorizing the payment.
 
-- <span id="_wp2wj06i3tys" class="anchor"></span>**Note:** An open text
-  > field for recording any necessary or useful notes about the payment.
+- **Note:** An open text field for recording any necessary or useful
+  notes about the payment.
 
 For simple transactions, a single Payment sub-record will suffice. You
 will need to supply multiple Payment sub-records if a single purchase is
 paid for on multiple funds, or if subsequent payments are scheduled for
 future dates.
 
-<img src="./media/image122.png" style="width:6.5in;height:3.18056in" />
+<img src="./_images/image36.png"
+style="width:6.5in;height:3.18056in" />
 
-##### Spawning Accession Records
-
-### 
+#### Spawning Accession Records
 
 To create a copy of an existing Accession record, do the following:
 
@@ -2473,7 +2432,7 @@ template.
 
 2\. Select Accession.
 
-<img src="./media/image32.png"
+<img src="./_images/image37.png"
 style="width:2.41667in;height:1.33333in" />
 
 3\. The spawned Accession record will appear. Provide the appropriate
@@ -2488,8 +2447,6 @@ Subjects, and User Defined. Sections not copied to the new record
 include Related Resources, Related Accessions, External Documents,
 Rights Statements, Instances, Deaccessions, Collection Management, and
 Classifications.
-
-### 
 
 ## Resource Records: Single-Level
 
@@ -2523,8 +2480,8 @@ A Resource record must have the following data:
 - **Resource Identifier**
 
 - **Level of Description**, chosen from a controlled value list
-  > containing the values: class, collection, file, item, record group,
-  > series, subgroup, subseries, or other level
+  containing the values: class, collection, file, item, record group,
+  series, subgroup, subseries, or other level
 
 - **Language**
 
@@ -2545,72 +2502,73 @@ recorded in the ArchivesSpace repository record.
 Your repository may have other elements that are required in every
 record.
 
-##### Creating a Resource record
+#### Creating a Resource record
 
 1.  From the Main Screen, select **Create** and select the **Resource**
-    > option.
+    option.
 
 2.  In the **Basic Information** area, record the **Title**,
-    > **Identifier** (which is where the collection call number is
-    > recorded), and **Level of Description** of the resource.
+    **Identifier** (which is where the collection call number is
+    recorded), and **Level of Description** of the resource.
 
 3.  Record the primary **Language** (recommended for DACS compliance) of
-    > the materials in the resource.
+    the materials in the resource.
 
 4.  Indicate if any restrictions apply to the resource by checking the
-    > Restrictions? checkbox. (Note: this is not used at Yale)
+    Restrictions? checkbox. (Note: this is not used at Yale)
 
 5.  If you intend for your finding aid to be exported to YFAD, check
-    > “Publish?.” Do not check this until all work has been completed
-    > and the finding aid is ready for publication.
+    “Publish?.” Do not check this until all work has been completed and
+    the finding aid is ready for publication.
 
-> <img src="./media/image19.png" style="width:5.96875in;height:3.125in" />
+> <img src="./_images/image38.png"
+> style="width:5.96875in;height:3.125in" />
 
 6.  For the Extents sub-record:
 
 - Indicate in **Portion** if the extent statement characterizes the
-  > entire resource ("Whole" default) or part of the resource ("Part").
-  > One extent statement for the “Whole” resource is required, and one
-  > or more extent statements for parts of the resource may be recorded.
-  > For example, you might indicate that an entire collection has a
-  > “whole” extent statement of 55 Linear Feet, as well as a “part”
-  > extent statement of 30 3.5” floppy disks (where the “part” extent
-  > statements may or may not add up to the whole)
+  entire resource ("Whole" default) or part of the resource ("Part").
+  One extent statement for the “Whole” resource is required, and one or
+  more extent statements for parts of the resource may be recorded. For
+  example, you might indicate that an entire collection has a “whole”
+  extent statement of 55 Linear Feet, as well as a “part” extent
+  statement of 30 3.5” floppy disks (where the “part” extent statements
+  may or may not add up to the whole)
 
 - Record the **Number** for the extent measurement, e.g., 5.
 
 - Select the **Type** of extent from the controlled value list, e.g.,
-  > linear feet.
+  linear feet.
 
 - Optionally, in **Container Summary** note the number and type of
-  > containers comprising the extent in the container summary, e.g., 3
-  > record cartons, 4 archives boxes, and 3 oversized folders.
+  containers comprising the extent in the container summary, e.g., 3
+  record cartons, 4 archives boxes, and 3 oversized folders.
 
 - Optionally, record specific **Physical Details** and **Dimensions**.
 
 - Optionally, record one or more **Extents** statements for parts of the
-  > resource, e.g., the number of audiocassettes in the resource.  
-  >   
-  > <img src="./media/image25.png"
-  > style="width:5.65953in;height:2.9241in" />
+  resource, e.g., the number of audiocassettes in the resource.  
+    
+  <img src="./_images/image39.png"
+  style="width:5.65953in;height:2.9241in" />
 
 7.  Within the **Dates** sub-record, record the date(s) (recommended and
-    > required for DACS compliance) for the resource.
+    required for DACS compliance) for the resource.
 
 - From the **Label** (required) controlled value list, select the term
-  > that best characterizes the date.
+  that best characterizes the date.
 
 - Enter a date **Expression** (natural language, e.g., “between May 1
-  > and May 5, 1970”) and/or normalized **Begin** and **End** dates.
+  and May 5, 1970”) and/or normalized **Begin** and **End** dates.
 
 - From the **Type** (required) controlled value list, indicate if the
-  > date is for single, bulk, or inclusive date(s).
+  date is for single, bulk, or inclusive date(s).
 
 - If appropriate, select values for **Certainty**, **Era**, and
-  > **Calendar**.**  
-  > **  
-  > <img src="./media/image29.png"
-  > style="width:5.68519in;height:2.81809in" />
+  **Calendar**.**  
+  **  
+  <img src="./_images/image40.png"
+  style="width:5.68519in;height:2.81809in" />
 
 > Save the record by clicking on **Save Resource** at the bottom of the
 > record index or on the **Save** button at the top of the Resource
@@ -2620,7 +2578,7 @@ When you add a sub-record, depending on the type of record, specific
 fields may be required. If any required information is missing, you will
 be prompted to add the required information.
 
-##### Spawning a Resource record
+#### Spawning a Resource record
 
 A preliminary Resource record can be generated from an Accession record.
 To do so, open the Accession record from which the Resource record will
@@ -2647,24 +2605,25 @@ Resource record. The more careful you are in creating quality content
 and formatting the accession data, the more work you can save when it
 comes time to create the Resource record.
 
-##### Spawning and linking a preliminarily populated Resource record from an Accession record 
+#### Spawning and linking a preliminarily populated Resource record from an Accession record 
 
 1.  Click on the **Spawn** option at the top of the Accession record
-    > template and select Resource.
+    template and select Resource.
 
-> <img src="./media/image30.png" style="width:3.79167in;height:1in" />
+> <img src="./_images/image41.png"
+> style="width:3.79167in;height:1in" />
 
 2.  Click on the option for Resource.
 
 3.  A Resource record template will load and will contain values carried
-    > forward from the Accession record.  
-    >   
-    > <img src="./media/image28.png"
-    > style="width:5.61628in;height:2.80233in" />
+    forward from the Accession record.  
+      
+    <img src="./_images/image42.png"
+    style="width:5.61628in;height:2.80233in" />
 
 4.  Complete the Resource record according to the input requirements for
-    > Resource records described above and the needs of the materials
-    > being described.
+    Resource records described above and the needs of the materials
+    being described.
 
 5.  Click on **Save** to save the spawned Resource record.
 
@@ -2673,37 +2632,114 @@ the data recorded in the Accession record on which it is based. The
 table below identifies what parts of the Accession record are
 transferred to what parts of the Resource record:
 
-##### Accession record to Resource record: mapped elements
+#### Accession record to Resource record: mapped elements
 
-| **Directly mapped fields**                 |                                           |
-|--------------------------------------------|-------------------------------------------|
-| **Accession record elements: field label** | **Resource record elements: field label** |
-| Title                                      | Title                                     |
-| Extent Portion                             | Extent Portion                            |
-| Extent Number                              | Extent Number                             |
-| Extent Type                                | Extent Type                               |
-| Extent Container Summary                   | Extent Container Summary                  |
-| Extent Physical Details                    | Extent Physical Details                   |
-| Extent Dimensions                          | Extent Dimensions                         |
-| Date Label                                 | Date Label                                |
-| Date Type                                  | Date Type                                 |
-| Date Expression                            | Date Expression                           |
-| Date Begin                                 | Date Begin                                |
-| Date End                                   | Date End                                  |
-| Bulk Date Begin                            | Bulk Date Begin                           |
-| Bulk Date End                              | Bulk Date End                             |
-| Resource type                              | Resource type                             |
-| Publish                                    | Publish                                   |
-| **Indirectly Mapped Fields**               |                                           |
-| Content Description                        | Scope and Contents Note                   |
-| Condition Description                      | Physical Description Note                 |
-| Accession Title                            | Accession Linked                          |
-| Agent (Linked)                             | Agent (Linked)                            |
-| Subject (Linked)                           | Subject (Linked)                          |
+<table>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 52%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td colspan="2"><strong>Directly mapped fields</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Accession record elements: field label</strong></td>
+<td><strong>Resource record elements: field label</strong></td>
+</tr>
+<tr class="odd">
+<td>Title</td>
+<td>Title</td>
+</tr>
+<tr class="even">
+<td>Extent Portion</td>
+<td>Extent Portion</td>
+</tr>
+<tr class="odd">
+<td>Extent Number</td>
+<td>Extent Number</td>
+</tr>
+<tr class="even">
+<td>Extent Type</td>
+<td>Extent Type</td>
+</tr>
+<tr class="odd">
+<td>Extent Container Summary</td>
+<td>Extent Container Summary</td>
+</tr>
+<tr class="even">
+<td>Extent Physical Details</td>
+<td>Extent Physical Details</td>
+</tr>
+<tr class="odd">
+<td>Extent Dimensions</td>
+<td>Extent Dimensions</td>
+</tr>
+<tr class="even">
+<td>Date Label</td>
+<td>Date Label</td>
+</tr>
+<tr class="odd">
+<td>Date Type</td>
+<td>Date Type</td>
+</tr>
+<tr class="even">
+<td>Date Expression</td>
+<td>Date Expression</td>
+</tr>
+<tr class="odd">
+<td>Date Begin</td>
+<td>Date Begin</td>
+</tr>
+<tr class="even">
+<td>Date End</td>
+<td>Date End</td>
+</tr>
+<tr class="odd">
+<td>Bulk Date Begin</td>
+<td>Bulk Date Begin</td>
+</tr>
+<tr class="even">
+<td>Bulk Date End</td>
+<td>Bulk Date End</td>
+</tr>
+<tr class="odd">
+<td>Resource type</td>
+<td>Resource type</td>
+</tr>
+<tr class="even">
+<td>Publish</td>
+<td>Publish</td>
+</tr>
+<tr class="odd">
+<td colspan="2"><strong>Indirectly Mapped Fields</strong></td>
+</tr>
+<tr class="even">
+<td>Content Description</td>
+<td>Scope and Contents Note</td>
+</tr>
+<tr class="odd">
+<td>Condition Description</td>
+<td>Physical Description Note</td>
+</tr>
+<tr class="even">
+<td>Accession Title</td>
+<td>Accession Linked</td>
+</tr>
+<tr class="odd">
+<td>Agent (Linked)</td>
+<td>Agent (Linked)</td>
+</tr>
+<tr class="even">
+<td>Subject (Linked)</td>
+<td>Subject (Linked)</td>
+</tr>
+</tbody>
+</table>
 
-##### Adding further information to a Resource record
+#### Adding further information to a Resource record
 
-###### Notes sub-records
+#### Notes sub-records
 
 Through the use of various notes, the description of an archival
 resource can be extended considerably. ArchivesSpace supports 29 notes,
@@ -2736,7 +2772,8 @@ DACS to formulate notes.
 > Restriction Types</u>](##local-access-restriction-types)” section for
 > further information.
 >
-> <img src="./media/image139.png" style="width:5.53646in;height:4.5871in"
+> <img src="./_images/image43.png"
+> style="width:5.53646in;height:4.5871in"
 > alt="Screen Shot 2015-04-07 at 8.30.05 PM.png" />
 >
 > The actionable restriction information is associated with the Top
@@ -2746,7 +2783,7 @@ DACS to formulate notes.
 > in the Restricted? column of the Manage Top Container search results
 > view.
 >
-> <img src="./media/image90.png"
+> <img src="./_images/image44.png"
 > style="width:6.68229in;height:0.92708in" />
 
 - **Conditions Governing Use Note**
@@ -2805,37 +2842,37 @@ DACS to formulate notes.
 To add **Notes** sub-records to a Resource record:
 
 1.  Click on **Add Note** in the **Note** section banner.  
-    >   
-    > <img src="./media/image33.png"
-    > style="width:5.98633in;height:1.43159in" />
+      
+    <img src="./_images/image45.png"
+    style="width:5.98633in;height:1.43159in" />
 
 2.  From the **Note Type** controlled value list, select the type of
-    > note to be recorded.  
-    >   
-    > <img src="./media/image27.png"
-    > style="width:6.00423in;height:2.09838in" />
+    note to be recorded.  
+      
+    <img src="./_images/image46.png"
+    style="width:6.00423in;height:2.09838in" />
 
 3.  Optionally, record a **Persistent ID** for the note if desired. The
-    > persistent ID must be unique within the context of the complete
-    > resource description.
+    persistent ID must be unique within the context of the complete
+    resource description.
 
 4.  Optionally, record a **Label** for the note. The label will replace
-    > the note type in outputs such as EAD.
+    the note type in outputs such as EAD.
 
 5.  Enter the note text in the **Content** frame.  
-    >   
-    > <img src="./media/image4.png"
-    > style="width:6.10417in;height:3.77083in" />
+      
+    <img src="./_images/image47.png"
+    style="width:6.10417in;height:3.77083in" />
 
 6.  Click on Save or Save Resource to save the note to the overall
-    > resource description.
+    resource description.
 
 Note order is determined by the Yale finding aid stylesheet and the
 default note order in the ArchivesSpace Public User Interface (PUI).
 
-###### Local Access Restriction Types
+#### Local Access Restriction Types
 
-######## Introduction
+###### Introduction
 
 This section outlines local access restriction types used in Yale’s
 ArchivesSpace instance. This functionality was built as part of Yale’s
@@ -2881,9 +2918,10 @@ YAMS recommends that each repository run periodic reports on their
 expiring restrictions. Repositories should contact YAMS for guidance on
 running these reports.
 
-<img src="./media/image16.jpg" style="width:6.5in;height:2.83333in" />
+<img src="./_images/image48.jpg"
+style="width:6.5in;height:2.83333in" />
 
-######## Types and their usage
+###### Types and their usage
 
 <table>
 <colgroup>
@@ -2891,30 +2929,23 @@ running these reports.
 <col style="width: 20%" />
 <col style="width: 64%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Translated Value</th>
-<th>Database Value</th>
-<th>Guidelines for Use</th>
-</tr>
+<tbody>
 <tr class="odd">
-<th>1 - Donor/University imposed access restriction</th>
-<th>RestrictedSpecColl</th>
-<th><p>Should be used for time-delimited restrictions imposed by law,
+<td>Translated Value</td>
+<td>Database Value</td>
+<td>Guidelines for Use</td>
+</tr>
+<tr class="even">
+<td>1 - Donor/University imposed access restriction</td>
+<td>RestrictedSpecColl</td>
+<td><p>Should be used for time-delimited restrictions imposed by law,
 donors, or university policy, including:</p>
 <ul>
-<li><blockquote>
-<p>Restricted university records</p>
-</blockquote></li>
-<li><blockquote>
-<p>Restricted medical records (HIPAA)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Restricted student records (FERPA)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Restrictions dictated by the deed of gift or purchase contract</p>
-</blockquote></li>
+<li><p>Restricted university records</p></li>
+<li><p>Restricted medical records (HIPAA)</p></li>
+<li><p>Restricted student records (FERPA)</p></li>
+<li><p>Restrictions dictated by the deed of gift or purchase
+contract</p></li>
 </ul>
 <p>These restrictions may or may not be time-delimited or may have
 non-specific end dates (e.g. a future death date). Restrictions with an
@@ -2926,77 +2957,71 @@ href="https://archives.yale.edu/repositories/12/resources/5260"><u>Richard
 C. Levin papers (MSSA MS 1995)</u></a></p>
 <p>Example: <a
 href="https://archives.yale.edu/repositories/12/resources/4848"><u>William
-Timbers papers (MSSA MS 1711)</u></a></p></th>
+Timbers papers (MSSA MS 1711)</u></a></p></td>
 </tr>
-<tr class="header">
-<th>2 - Repository permission required access restriction</th>
-<th>RestrictedCurApprSpecColl</th>
-<th><p>Should be used exclusively for repository imposed restrictions,
+<tr class="odd">
+<td>2 - Repository permission required access restriction</td>
+<td>RestrictedCurApprSpecColl</td>
+<td><p>Should be used exclusively for repository imposed restrictions,
 including:</p>
 <ul>
-<li><blockquote>
-<p>“Safe items,” or material with use restrictions requiring
+<li><p>“Safe items,” or material with use restrictions requiring
 appointment-only access or special access provisions (e.g., signing an
-additional access agreement, no photography allowed)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Material requiring curatorial approval for access</p>
-</blockquote></li>
-<li><blockquote>
-<p>Sensitive material the repository, rather than the donor, chooses to
-restrict</p>
-</blockquote></li>
+additional access agreement, no photography allowed)</p></li>
+<li><p>Material requiring curatorial approval for access</p></li>
+<li><p>Sensitive material the repository, rather than the donor, chooses
+to restrict</p></li>
 </ul>
 <p>Example:</p>
 <p><a
 href="https://archives.yale.edu/repositories/12/archival_objects/1181742"><u>Joseph
 Albers papers (MSSA MS 32) &gt; Writings by Albers &gt; Books &gt;
-Interaction of Color, 1963</u></a></p></th>
+Interaction of Color, 1963</u></a></p></td>
 </tr>
-<tr class="odd">
-<th>3 - Restricted fragile</th>
-<th>RestrictedFragileSpecColl</th>
-<th><p>Should be used for audiovisual material, born-digital, and other
+<tr class="even">
+<td>3 - Restricted fragile</td>
+<td>RestrictedFragileSpecColl</td>
+<td><p>Should be used for audiovisual material, born-digital, and other
 fragile materials that are too fragile for researchers to use. In some
 cases a surrogate may be available when the original is restricted.</p>
 <p>Example: <a
 href="https://archives.yale.edu/repositories/12/archival_objects/2912877"><u>David
 Brion Davis Papers (MSSA MS 1970) &gt; Additional material &gt; Lectures
-&gt; Audiotapes</u></a></p></th>
+&gt; Audiotapes</u></a></p></td>
 </tr>
-<tr class="header">
-<th>4 - Restricted in-process</th>
-<th>InProcessSpecColl</th>
-<th><p>Should be used at the collection level to signal a temporary
+<tr class="odd">
+<td>4 - Restricted in-process</td>
+<td>InProcessSpecColl</td>
+<td><p>Should be used at the collection level to signal a temporary
 access restriction while we work on a collection.</p>
 <p>Example: <a
 href="https://archives.yale.edu/repositories/12/archival_objects/1693851"><u>Ogden
-Rogers Reid papers &gt; Additional Material, 1974-1982</u></a></p></th>
+Rogers Reid papers &gt; Additional Material, 1974-1982</u></a></p></td>
 </tr>
-<tr class="odd">
-<th>5 - Other</th>
-<th>ColdStorageBrbl</th>
-<th>DO NOT USE (Pending update to cold storage documentation). This was
+<tr class="even">
+<td>5 - Other</td>
+<td>ColdStorageBrbl</td>
+<td>DO NOT USE (Pending update to cold storage documentation). This was
 created as a temporary location management tool for BRBL. It is not a
 restriction—in each case where it is used, the Voyager statcat for
 Restricted Fragile is the appropriate restriction designation. Material
 with this restriction should also be designated “3 - Restricted
-fragile”</th>
+fragile”</td>
 </tr>
-<tr class="header">
-<th>NoRequest</th>
-<th>NoRequest</th>
-<th><p>Should be used only for material that cannot be requested through
+<tr class="odd">
+<td>NoRequest</td>
+<td>NoRequest</td>
+<td><p>Should be used only for material that cannot be requested through
 Archives at Yale (e.g./i.e. Kissinger). When used, the Request button
 will not display in Archives at Yale.</p>
 <p>Example: <a
 href="https://archives.yale.edu/repositories/12/archival_objects/2091050"><u>Henry
-A. Kissinger papers, part III &gt; Correspondence</u></a></p></th>
+A. Kissinger papers, part III &gt; Correspondence</u></a></p></td>
 </tr>
-<tr class="odd">
-<th>UseSurrogate</th>
-<th>UseSurrogate</th>
-<th><p>Should be used for material that requires the use of a surrogate
+<tr class="even">
+<td>UseSurrogate</td>
+<td>UseSurrogate</td>
+<td><p>Should be used for material that requires the use of a surrogate
 (e.g. digitized surrogates or microfilm) instead of original material.
 This is a way to communicate with staff handling access requests that a
 use surrogate exists and should be paged instead of the original. Can be
@@ -3004,23 +3029,21 @@ used in tandem with other restriction types (i.e. 3-Restricted
 fragile).</p>
 <p>Example: <a
 href="https://archives.yale.edu/repositories/12/resources/4223"><u>Eugene
-Clarence Gardner papers (MSSA MS 598)</u></a></p></th>
+Clarence Gardner papers (MSSA MS 598)</u></a></p></td>
 </tr>
-</thead>
-<tbody>
 </tbody>
 </table>
 
-######## ArchivesSpace restriction types and Aeon
+###### ArchivesSpace restriction types and Aeon
 
 When a machine-readable access restriction is present, the letter “Y”
 appears on Aeon field “iteminfo1” (“Restriction”) signaling the presence
 of an access restriction. Machine-readable access restrictions are
 imported into Aeon as data and pulled into Aeon Field “iteminfo8”.
 
-<img src="./media/image8.png"
+<img src="./_images/image49.png"
 style="width:3.98438in;height:2.69475in" />
-<img src="./media/image12.png"
+<img src="./_images/image50.png"
 style="width:2.09823in;height:2.03438in" />
 
 Based on the info in these “iteminfo” fields, items may then be routed
@@ -3030,18 +3053,21 @@ example: At the Beinecke Library, items with a “Y” in Aeon Field
 that is monitored by Access Services staff. Access services staff then
 reviews these items and communicates with the patron about access.
 
-<img src="./media/image26.jpg" style="width:6.5in;height:3.73611in" />
+<img src="./_images/image51.jpg"
+style="width:6.5in;height:3.73611in" />
 
-<img src="./media/image124.jpg" style="width:6.5in;height:1.375in" />
+<img src="./_images/image52.jpg"
+style="width:6.5in;height:1.375in" />
 
 In the User’s Aeon web-view of submitted requests, items with a
 machine-actionable restriction will include the note “Restricted
 Material” in the “Status” column after the user submits the request (see
 red section in screenshot below).
 
-<img src="./media/image81.jpg" style="width:6.5in;height:2.18056in" />
+<img src="./_images/image53.jpg"
+style="width:6.5in;height:2.18056in" />
 
-######## Other restrictions and Aeon
+###### Other restrictions and Aeon
 
 Access restriction notes are imported into Aeon and pulled into Aeon
 Field “iteminfo5”. These notes are often inherited so do not always
@@ -3050,7 +3076,7 @@ apply to every item.
 Use restriction notes are imported into Aeon and pulled into Aeon Field
 “iteminfo6”
 
-######## Guidance on requesting new restriction types
+###### Guidance on requesting new restriction types
 
 YAMS would like to maintain as few restriction type variants as possible
 while still accommodating restriction use cases. If the current
@@ -3068,13 +3094,13 @@ Requests for new restriction types should include the following:
   - Reason why existing restriction types are insufficient for use cases
 
 - Translated value (human readable restriction name for the staff
-  > interface display)
+  interface display)
 
 - Suggested guidelines for the use of the restriction type
 
 - Desired relationship with Aeon
 
-###### Finding Aid Data
+#### Finding Aid Data
 
 Bibliographic information about a finding aid for the resource can also
 be added to the Resource record. This information is used to identify
@@ -3087,27 +3113,27 @@ export to YFAD.
 To add finding aid information to the Resource record:
 
 1.  Select the **Finding Aid Data** section in the Resource record
-    > template.
+    template.
 
 2.  Enter information for all pertinent fields, as determined by local
-    > guidelines (note: after January 2019, users must leave “EAD
-    > location” blank)
+    guidelines (note: after January 2019, users must leave “EAD
+    location” blank)
 
 3.  Required fields in this section for the ArchivesSpace system
-    > include: Language of Description and Script of Description. For
-    > most Yale finding aids, these will be English and Latin,
-    > respectively. For finding aids written in a language other than
-    > English, the appropriate language should be recorded in Language
-    > of Description. Any finding aid languages with non-Latin scripts
-    > should have their script indicated in Script of Description.
+    include: Language of Description and Script of Description. For most
+    Yale finding aids, these will be English and Latin, respectively.
+    For finding aids written in a language other than English, the
+    appropriate language should be recorded in Language of Description.
+    Any finding aid languages with non-Latin scripts should have their
+    script indicated in Script of Description.
 
 4.  Click on **Save** or **Save Resource** to save the information as
-    > part of the Resource record.
+    part of the Resource record.
 
 5.  Required fields prior to publication in YFAD include: EAD ID,
-    > Finding Aid Title, and Finding Aid Filing Title.
+    Finding Aid Title, and Finding Aid Filing Title.
 
-###### Agent and Subject records
+#### Agent and Subject records
 
 Names of entities (e.g., persons, families, or corporate entities) that
 have played a significant role in creating, using, and maintaining the
@@ -3131,15 +3157,15 @@ multiple levels of description, using component records. Resource
 component records have the following characteristics:
 
 - Serve to describe the logical or physical parts of a resource that
-  > make up an aggregation of archival materials.
+  make up an aggregation of archival materials.
 
 - Require the following elements:
 
   - **Level**: chosen from a pick list containing the values class,
-    > file, item, series, subseries, subgroup, or other level. Note:
-    > typically you will not use the level values of collection or
-    > record group for Resource component records, since components are
-    > parts of a broader resource that will have one of those levels.
+    file, item, series, subseries, subgroup, or other level. Note:
+    typically you will not use the level values of collection or record
+    group for Resource component records, since components are parts of
+    a broader resource that will have one of those levels.
 
   - Either of the following:
 
@@ -3161,36 +3187,37 @@ components on the ArchivesSpace Resource template (note: you must open
 the Resource record in edit mode to have access to the command functions
 that allow you to create components):  
   
-<img src="./media/image7.png" style="width:6.5in;height:2.11111in" />
+<img src="./_images/image54.png"
+style="width:6.5in;height:2.11111in" />
 
 - **Add Child**: This button will open a new component record that is
-  > hierarchically subordinate to the context record (the record from
-  > which you use the **Add Child** button).
+  hierarchically subordinate to the context record (the record from
+  which you use the **Add Child** button).
 
 > Each Child record represents a level of hierarchy. ArchivesSpace will
 > support an unlimited hierarchy; however, using numbered components in
 > an EAD export requires the hierarchy to be limited to 12 levels.
 
 - **Add Sibling**: This button will open a new component record that is
-  > at the same level as the context record and that follows the context
-  > record within the component sequence.
+  at the same level as the context record and that follows the context
+  record within the component sequence.
 
 > ArchivesSpace places no limit on the number of sibling records, nor
 > does EAD, the primary export option for a resource description in
 > ArchivesSpace.
 
 - **Transfer**: You can use this button to transfer a component or a set
-  > of components from one resource to another.
+  of components from one resource to another.
 
 - **Rapid Data Entry**: This option is for entering a series of
-  > components at the same level that have very similar data, e.g.,
-  > level of description, instance type, container type, container
-  > identifier, etc. The Rapid Data Entry option is discussed in greater
-  > detail at the end of this section.
+  components at the same level that have very similar data, e.g., level
+  of description, instance type, container type, container identifier,
+  etc. The Rapid Data Entry option is discussed in greater detail at the
+  end of this section.
 
 - Enable Reorder Mode: You can rearrange a multi-level description by
-  > using this option and then using the cut/paste or Move menus or by
-  > dragging and dropping. You can:
+  using this option and then using the cut/paste or Move menus or by
+  dragging and dropping. You can:
 
   - Move a component to a new position within the same level,
 
@@ -3206,35 +3233,35 @@ multi-level description for the component record. The context record
 will be the parent record if there are no other component records in the
 description, and the only choice will be to create a child component.
 
-##### Creating Resource component records
+#### Creating Resource component records
 
 1.  Select a context record.
 
 2.  Choose either to **Add Child** or **Add Sibling** component record.
-    > Adding a child component record will be the only option if the
-    > context record is the top-level Resource record.
+    Adding a child component record will be the only option if the
+    context record is the top-level Resource record.
 
 3.  A blank component record template will be loaded.
 
 4.  Select a **Level of Description** for the component record.
 
 5.  Enter a **Title**; or alternatively enter a **Date Expression**
-    > and/or **Begin** date and **End** date for the materials.
+    and/or **Begin** date and **End** date for the materials.
 
 6.  Add any additional information warranted for the resource component
-    > record description.
+    record description.
 
 7.  Save the record by pressing the **Save** command button at the
-    > bottom right corner of the window.  
-    >   
-    > <img src="./media/image10.png"
-    > style="width:5.89583in;height:3.01042in" />
+    bottom right corner of the window.  
+      
+    <img src="./_images/image55.png"
+    style="width:5.89583in;height:3.01042in" />
 
 When you add a sub-record, depending on the type of sub-record, specific
 fields may be required. If any required information is missing, you will
 be prompted to add the required information.
 
-#####  Publishing and unpublishing component records
+####  Publishing and unpublishing component records
 
 The “Publish this and all children” and “Unpublish all children” menu
 items (located under the More drop down menu) allow staff users to
@@ -3261,7 +3288,7 @@ Note that the publish/unpublish all feature does not publish linked
 agent records. There is also no option to reindex a top container via
 this feature.
 
-##### Adding Instances to a Resource or Resource component record
+#### Adding Instances to a Resource or Resource component record
 
 "Instances" in ArchivesSpace refer to embodiments of the same content in
 different media. For example, a Resource record or Resource record
@@ -3309,75 +3336,80 @@ To declare an instance for the content described in a resource or
 resource component record:
 
 1.  On the **Instances** bar for the Resource or Resource component
-    > record, click on **Add Container Instance** if the instance
-    > declaration is for analog content or on **Add Digital Object** if
-    > the instance declaration is for digitally available content.  
-    >   
-    > <img src="./media/image136.png" style="width:6.5in;height:0.36111in" />
+    record, click on **Add Container Instance** if the instance
+    declaration is for analog content or on **Add Digital Object** if
+    the instance declaration is for digitally available content.  
+      
+    <img src="./_images/image56.png"
+    style="width:6.5in;height:0.36111in" />
 
 2.  Select the **Type** of instance you wish to declare. You should
-    > always select “Mixed Materials.”
+    always select “Mixed Materials.”
 
 3.  Next, you’re going to be either creating a container or linking an
-    > already-created container to this record.
+    already-created container to this record.
 
     1.  If you’re adding a new component to a box of materials that
-        > already exists as part of the collection, simply start typing
-        > that box number and choose it.
+        already exists as part of the collection, simply start typing
+        that box number and choose it.
 
-<img src="./media/image76.png" style="width:6.5in;height:1.61111in"
+<img src="./_images/image57.png"
+style="width:6.5in;height:1.61111in"
 alt="Screen Shot 2015-04-22 at 3.17.02 PM.png" />
 
 2.  The “top container” refers to the container that circulates and
-    > usually has a barcode. It’s often useful to add information about
-    > “children” containers, like folders.
+    usually has a barcode. It’s often useful to add information about
+    “children” containers, like folders.
 
-<img src="./media/image84.png" style="width:6.5in;height:3.55556in"
+<img src="./_images/image58.png"
+style="width:6.5in;height:3.55556in"
 alt="Screen Shot 2015-04-22 at 3.19.16 PM.png" />
 
 3.  If the box doesn’t already exist in the database, click on the
-    > triangle at the end of the Top Container data field and choose
-    > “Create.”  
-    > **NOTE: Once you’ve created a top container, you won’t need to
-    > create that same top container again.** For instance, if you’re
-    > describing Box 1, Folder 1 (and you haven’t described anything
-    > else in Box 1), you’ll need to create a top container for Box 1.
-    > Once you describe material in Box 1, Folder 2, you do *not* need
-    > to create Box 1 again. You can use the typeahead to simply link to
-    > Box 1.
+    triangle at the end of the Top Container data field and choose
+    “Create.”  
+    **NOTE: Once you’ve created a top container, you won’t need to
+    create that same top container again.** For instance, if you’re
+    describing Box 1, Folder 1 (and you haven’t described anything else
+    in Box 1), you’ll need to create a top container for Box 1. Once you
+    describe material in Box 1, Folder 2, you do *not* need to create
+    Box 1 again. You can use the typeahead to simply link to Box 1.
 
-> <img src="./media/image89.png" style="width:6.5in;height:2.375in"
+> <img src="./_images/image59.png"
+> style="width:6.5in;height:2.375in"
 > alt="Screen Shot 2015-02-27 at 10.02.17 AM.png" />
 >
 > You’re then taken to a screen where you can enter information about a
 > particular container.
 >
-> <img src="./media/image37.png" style="width:6.27083in;height:3.59375in"
+> <img src="./_images/image60.png"
+> style="width:6.27083in;height:3.59375in"
 > alt="Screen Shot 2015-02-27 at 10.14.05 AM.png" />
 
 - **Indicator**: This field is required. It represents the number that
-  > you assign to a box.
+  you assign to a box.
 
 - **Barcode**: This field is optional. It can be entered in this screen
-  > or as part of rapid barcode entry later, in the “Manage Top
-  > Containers” view.
+  or as part of rapid barcode entry later, in the “Manage Top
+  Containers” view.
 
 - **ILS Holding ID**: This field is optional and is built to help
-  > synchronize ArchivesSpace containers and ILS item records. It can be
-  > entered in this screen or as part of bulk operations later, in the
-  > “Manage Top Containers” view.
+  synchronize ArchivesSpace containers and ILS item records. It can be
+  entered in this screen or as part of bulk operations later, in the
+  “Manage Top Containers” view.
 
 - **ILS Item ID** and **Exported to ILS**: These fields cannot be edited
-  > as part of the application and have the potential to be managed by
-  > an external program to synchronize ILS item records and
-  > ArchivesSpace containers.
+  as part of the application and have the potential to be managed by an
+  external program to synchronize ILS item records and ArchivesSpace
+  containers.
 
 - **Container Profile:** A container profile is information about the
-  > physical box itself. You can start typing to choose a container
-  > profile that already exists, or click the triangle and the “Create”
-  > button to create one if it doesn’t already exist.
+  physical box itself. You can start typing to choose a container
+  profile that already exists, or click the triangle and the “Create”
+  button to create one if it doesn’t already exist.
 
-> <img src="./media/image123.png" style="width:6.5in;height:3.66667in"
+> <img src="./_images/image61.png"
+> style="width:6.5in;height:3.66667in"
 > alt="Screen Shot 2015-02-27 at 10.20.06 AM.png" />
 >
 > It will be very unusual to create new container profiles unless your
@@ -3400,7 +3432,7 @@ alt="Screen Shot 2015-04-22 at 3.19.16 PM.png" />
 
 - **Dimension Units**: Indicate the unit for how other dimensions are
   > measured. The convention at Yale is to measure in
-  > inches.<img src="./media/image70.png"
+  > inches.<img src="./_images/image62.png"
   > style="width:3.92989in;height:3.00521in" />
 
 - **Extent Dimension**: This indicates how the records in a container
@@ -3436,7 +3468,8 @@ information about that container profile and choose from a list.
 Alternately, go to the “Browse” option (under “Create”), and choose the
 container profile you want to associate with your top container.
 
-<img src="./media/image22.png" style="width:6.5in;height:3.47222in"
+<img src="./_images/image63.png"
+style="width:6.5in;height:3.47222in"
 alt="Screen Shot 2015-03-05 at 10.48.54 AM.png" />
 
 Some repositories file collection material from different collections in
@@ -3445,16 +3478,17 @@ materials that already exists as part of *another* collection, click on
 the triangle at the end of the Top Container data field and choose
 “Browse.”
 
-<img src="./media/image125.png" style="width:6.1875in;height:2.25in" />
+<img src="./_images/image64.png"
+style="width:6.1875in;height:2.25in" />
 
 From the Browse Top Container screen search for the resource that
 contains the container you want to link to. Select the container from
 the results list and click Link to Top Container.
 
-<img src="./media/image72.png"
+<img src="./_images/image65.png"
 style="width:4.70833in;height:3.76042in" />
 
-##### Associating Instances with Location records
+#### Associating Instances with Location records
 
 Once the container information is added, it can be linked to a
 **Location** record. To do so:
@@ -3464,26 +3498,27 @@ Once the container information is added, it can be linked to a
 2.  Click on the “Add Location” button.
 
   
-<img src="./media/image113.png" style="width:6.5in;height:3.43056in"
-alt="ContainerLocation.png" />
+<img src="./_images/image66.png"
+style="width:6.5in;height:3.43056in" alt="ContainerLocation.png" />
 
 3.  Enter:
 
 1.  Status (required): In almost all cases, the status should be
-    > “Current”
+    “Current”
 
 2.  Start Date (required): The date that this container went to that
-    > location
+    location
 
 3.  End Date: This field is optional. It indicates the date that a
-    > container is no longer at that location.
+    container is no longer at that location.
 
-> <img src="./media/image131.png" style="width:6.5in;height:3.45833in"
+> <img src="./_images/image67.png"
+> style="width:6.5in;height:3.45833in"
 > alt="Screen Shot 2015-03-05 at 11.25.05 AM.png" />
 
 4.  Save the record.
 
-##### Using the Rapid Data Entry (RDE) tool
+#### Using the Rapid Data Entry (RDE) tool
 
 The **Rapid Data Entry (RDE)** tool supports repeated entry of Resource
 component records at the same level, thus requiring fewer mouse clicks
@@ -3498,39 +3533,39 @@ the Dates sub-record, the Notes sub-record, and the Instance sub-record.
 To create Resource component records using the RDE:
 
 1.  Select **Rapid Data Entry** at the top of the multi-level
-    > description.
+    description.
 
 2.  Enter desired data. The **Level of Description** element and either
-    > **Title** or one of the **Dates** sub-record elements is required.
+    **Title** or one of the **Dates** sub-record elements is required.
 
 3.  **Instance Type** and at least one **Container Type** and
-    > **Container Indicator** are necessary if locations are to be
-    > linked to the Resource component record.
+    **Container Indicator** are necessary if locations are to be linked
+    to the Resource component record.
 
-<img src="./media/image6.png"
+<img src="./_images/image68.png"
 style="width:5.57292in;height:1.36458in" />
 
 4.  Select **Add Row** to add another row, or use **Shift + Return** to
-    > add another row using all the data in the previous row.
+    add another row using all the data in the previous row.
 
 5.  Select **Validate Rows** to check that all rows are properly
-    > encoded.
+    encoded.
 
 6.  Select **Save Rows** to save the row(s) to the Resource record.
 
 You can do the following to the RDE tool during a given session:
 
 - Remove columns from view using the **Columns: \### visible** display
-  > configuration option.
+  configuration option.
 
 - Turn sticky values on and off by clicking on the label for a data
-  > column.
+  column.
 
 - Reorder the left-to-right sequence of the data columns using the
-  > **Reorder Columns** option.
+  **Reorder Columns** option.
 
 - Designate a value to fill all occurrences within a data column using
-  > the **Fill Column** option.
+  the **Fill Column** option.
 
 ## Digital Object Records
 
@@ -3591,10 +3626,10 @@ you want an actionable link:
 > not.
 
 3.  Click **Save Digital Object**. If any required element is missing,
-    > you will be prompted to add the information, which you must do in
-    > order to save the record.
+    you will be prompted to add the information, which you must do in
+    order to save the record.
 
-##### Adding further information to a Digital Object record
+#### Adding further information to a Digital Object record
 
 After the minimum information about a digital object has been entered,
 you can continue to describe the digital object using the sub-records
@@ -3609,48 +3644,47 @@ often used in the creation of digital object records. In all cases,
 follow your repository’s guidelines and supervisor’s instructions when
 creating digital object records.
 
-###### Basic Information
+#### Basic Information
 
 - Title: See above
 
 - Identifier: See above
 
 - Publish?: Indicate whether you would like for the digital object to be
-  > published in the ArchivesSpace PUI
+  published in the ArchivesSpace PUI
 
 - VRA Core Level: Do not use
 
 - Type: Do not use. Note that it may be synced automatically from the
-  > Ladybird “Type of resource” field
+  Ladybird “Type of resource” field
 
 - Language: Do not use
 
 - Restrictions?: Do not use. Note that this is not used for archival
-  > objects at Yale, so YAMS recommends not using it here, either, for
-  > consistency.
+  objects at Yale, so YAMS recommends not using it here, either, for
+  consistency.
 
-###### File Versions
+#### File Versions
 
 - Make representative: Do not use. Note that if ArchivesSpace develops
-  > this feature further, we may wish to reconsider using it at Yale.
+  this feature further, we may wish to reconsider using it at Yale.
 
 - File URI: Required if you wish to have a link out to another system.
-  > If you wish to have thumbnails or links, you need to indicate the
-  > file URI here. Note that this is repeatable, but until the "make
-  > representative" feature works, users should not add multiple file
-  > URIs aside from when they’re adding a link + thumbnail pair of file
-  > URIs.
+  If you wish to have thumbnails or links, you need to indicate the file
+  URI here. Note that this is repeatable, but until the "make
+  representative" feature works, users should not add multiple file URIs
+  aside from when they’re adding a link + thumbnail pair of file URIs.
 
 - Publish?: Indicate whether you’d like the file version and URI
-  > information published in the ArchivesSpace PUI
+  information published in the ArchivesSpace PUI
 
 - Use Statement: Optionally use to indicate use of the file version,
-  > e.g., Digital Preservation Staff System (used for Preservica)
+  e.g., Digital Preservation Staff System (used for Preservica)
 
 - XLink Actuate Attribute: Do not use
 
 - XLink Show Attribute: Select “embed” if you wish to embed a thumbnail
-  > in the ArchivesSpace PUI
+  in the ArchivesSpace PUI
 
 - File Format Name: Do not use
 
@@ -3663,45 +3697,45 @@ creating digital object records.
 - Checksum Method: Do not use
 
 - Caption: Optionally use to indicate a caption. Caption will start
-  > displaying in version 2.2.3. Note: There is no hover definition.
+  displaying in version 2.2.3. Note: There is no hover definition.
 
-###### Dates
+#### Dates
 
 - Do not use
 
 - Users may notice that Preservica occasionally creates a date
-  > sub-record for date of Preservica processes
+  sub-record for date of Preservica processes
 
-###### Extents
-
-- Do not use
-
-###### Agent Links
+#### Extents
 
 - Do not use
 
-###### Subjects
+#### Agent Links
 
 - Do not use
 
-###### Notes
+#### Subjects
+
+- Do not use
+
+#### Notes
 
 - Optionally use to record a different access restrict note from the
-  > associated archive object
+  associated archive object
 
-###### External Documents
-
-- Do not use
-
-###### Rights Statements
+#### External Documents
 
 - Do not use
 
-###### Collection Management
+#### Rights Statements
 
 - Do not use
 
-###### User Defined
+#### Collection Management
+
+- Do not use
+
+#### User Defined
 
 - Do not use
 
@@ -3730,12 +3764,12 @@ corresponding collection-level record in Voyager and verify (or add)
 these pieces of information:
 
 - **In Voyager** (035 ‡9 field): the **ArchivesSpace EAD ID**, in this
-  > format: **(YUL)ead.\[repository id\].\[ead id\]**  
-  > Examples: 035 ‡9 (YUL)ead.beinecke.livingston or 035 ‡9
-  > (YUL)ead.divinity.196
+  format: **(YUL)ead.\[repository id\].\[ead id\]**  
+  Examples: 035 ‡9 (YUL)ead.beinecke.livingston or 035 ‡9
+  (YUL)ead.divinity.196
 
 - **In ArchivesSpace** (Basic Information section): the **Voyager Bib
-  > ID**
+  ID**
 
 For all 1xx, 6xx, and 7xx fields in each collection-level catalog
 record, either verify that an authorized agent or subject record already
@@ -3753,36 +3787,39 @@ modules in ArchivesSpace to provide additional description about
 accessions, archival resources, and digital objects:
 
 - **Link to a pre-existing authority record:** If an authority already
-  > exists in the ArchivesSpace application, it can be linked to from
-  > new or existing Accession, Resource, and Digital Object records.
-  > (Individual authority records can be linked to zero, one, or many
-  > records). The editing screens for records provide a linking option
-  > -- and, in the case of Agent records, to specify the role in which
-  > the authority is linked (for example, as the creator, subject, or
-  > source of the archival materials).
+  exists in the ArchivesSpace application, it can be linked to from new
+  or existing Accession, Resource, and Digital Object records.
+  (Individual authority records can be linked to zero, one, or many
+  records). The editing screens for records provide a linking option --
+  and, in the case of Agent records, to specify the role in which the
+  authority is linked (for example, as the creator, subject, or source
+  of the archival materials).
 
-<img src="./media/image18.png" style="width:5.78646in;height:1.45589in"
+<img src="./_images/image69.png"
+style="width:5.78646in;height:1.45589in"
 alt="Screen shot 2014-04-23 at 7.24.57 AM.png" />
 
 - **Establish a new authority:** If an authority does not exist in the
-  > database, it can be created, then linked automatically, from within
-  > the context of a specific Accession, Resource, or Digital Object
-  > record. You can also use the **Create** menu on the homepage to
-  > establish a new authority.
+  database, it can be created, then linked automatically, from within
+  the context of a specific Accession, Resource, or Digital Object
+  record. You can also use the **Create** menu on the homepage to
+  establish a new authority.
 
-<img src="./media/image14.png" style="width:5.77604in;height:1.03673in"
+<img src="./_images/image70.png"
+style="width:5.77604in;height:1.03673in"
 alt="Screen shot 2014-04-23 at 7.30.56 AM.png" />
 
 - **Import external authority:** ArchivesSpace includes a plug-in
-  > application to enable importing of authorities maintained within the
-  > Library of Congress Name Authorities (LCNAF) file. After name files
-  > have been imported, they can be linked to Accession, Resource, and
-  > Digital Object records.
+  application to enable importing of authorities maintained within the
+  Library of Congress Name Authorities (LCNAF) file. After name files
+  have been imported, they can be linked to Accession, Resource, and
+  Digital Object records.
 
-<img src="./media/image3.png"
+<img src="./_images/image72.png"
 style="width:2.18943in;height:2.28854in" />
 
-<img src="./media/image108.png" style="width:6.5in;height:1.72222in" />
+<img src="./_images/image73.png"
+style="width:6.5in;height:1.72222in" />
 
 ## Agent Records
 
@@ -3801,18 +3838,18 @@ Agent records can be associated with Accessions, Resources, and Digital
 Objects through one of three primary relational modes:
 
 - **Creator:** Designates the primary responsibility for the origin,
-  > accumulation, or maintenance of the material being described.
-  > Creator can encompass, at varying levels in a multi-level
-  > description, the person, family, or corporate entity responsible for
-  > the archival provenance of the material being described, or for the
-  > intellectual content of that same material.
+  accumulation, or maintenance of the material being described. Creator
+  can encompass, at varying levels in a multi-level description, the
+  person, family, or corporate entity responsible for the archival
+  provenance of the material being described, or for the intellectual
+  content of that same material.
 
 - **Source**: Designates the immediate source of acquisition for the
-  > materials being described.
+  materials being described.
 
 - **Subject**: Indicates that the materials being described are
-  > topically about the named person, family, or corporate entity in
-  > some respect.
+  topically about the named person, family, or corporate entity in some
+  respect.
 
 Agent records can be one of four types in ArchivesSpace:
 
@@ -3921,16 +3958,16 @@ in a standard authority file. Five default values are provided in a
 drop-down menu:
 
 - **Local sources (e.g. Local - Arts)**: Designates an authority file
-  > created and maintained at your repository.
+  created and maintained at your repository.
 
-- **LC/NACO Authority File**[^2]
+- **LC/NACO Authority File**[2]
 
-- **Union List of Artist Names**[^3]
+- **Union List of Artist Names**[3]
 
 - **Unspecified ingested source**: If names are imported in Accession or
-  > Resource records, the **Source** field will contain this value to
-  > flag the record for review to assure it is the authoritative form of
-  > the name.
+  Resource records, the **Source** field will contain this value to flag
+  the record for review to assure it is the authoritative form of the
+  name.
 
 This list may be customized and additional values added by the
 repository, or in the process of importing legacy data.
@@ -3946,12 +3983,12 @@ Four default values are provided in a drop-down menu:
 
 - **Resource Description and Access**
 
-- **Anglo-American Cataloging Rules**[^4]
+- **Anglo-American Cataloging Rules**[4]
 
 - **Describing Archives: a Content Standard**
 
 - **Local rules**: Designates a data content standard created and
-  > maintained by your repository
+  maintained by your repository
 
 This list may be customized and additional values added by the
 repository, or in the process of importing legacy data.
@@ -3963,7 +4000,7 @@ version of the name containing all individual elements. This is the form
 of the name that will be shown within ArchivesSpace displays and is
 exported in reports and standardized outputs such as MARCXML and EAD.
 
-##### Creating Agent records
+#### Creating Agent records
 
 The directions here are for constructing an **Agent** record for a
 **Person**. Follow these same basic instructions for **Family** and
@@ -3985,7 +4022,7 @@ any blank spaces at the end of the subfields.
 To begin, click “Create” and choose the record types from the two
 dropdown menus:
 
-<img src="./media/image126.jpg"
+<img src="./_images/image74.jpg"
 style="width:3.97064in;height:2.68229in" />
 
 The “New Person” screen will appear with the following fields:
@@ -4000,7 +4037,7 @@ The “New Person” screen will appear with the following fields:
 > add, click the **Add Date** box on right and a form will appear. For
 > **Type** choose **Range**
 >
-> <img src="./media/image110.png"
+> <img src="./_images/image75.png"
 > style="width:3.47619in;height:2.66146in" />
 >
 > and enter dates (LCNAF 046 ‡f ‡g for personal names, or LCNAF 046 ‡s
@@ -4014,19 +4051,19 @@ The “New Person” screen will appear with the following fields:
 > Service</u>](http://id.loc.gov/); URI is found near the top of the
 > entry
 >
-> <img src="./media/image13.png"
+> <img src="./_images/image76.png"
 > style="width:3.46354in;height:2.38438in" />
 >
 > To find the URI for a
 > [<u>ULAN</u>](http://www.getty.edu/research/tools/vocabularies/ulan/index.html)
 > record, click **Semantic View** on the left above the name
 >
-> <img src="./media/image21.png"
+> <img src="./_images/image77.png"
 > style="width:3.47396in;height:2.63335in" />
 >
 > which opens another screen with the URI up at the top
 >
-> <img src="./media/image62.png"
+> <img src="./_images/image78.png"
 > style="width:3.44666in;height:1.43229in" />
 >
 > **Source**: required; choose **Library of Congress Name Authority
@@ -4060,7 +4097,7 @@ The “New Person” screen will appear with the following fields:
 
 *Example of Person with Library of Congress authorized record:*
 
-> <img src="./media/image115.png"
+> <img src="./_images/image81.png"
 > style="width:3.97927in;height:3.92188in" />
 >
 > **Contact Details**
@@ -4068,7 +4105,7 @@ The “New Person” screen will appear with the following fields:
 > Optional; to add click **Add Contact** button at right, and enter
 > fields manually, per local practice.
 >
-> <img src="./media/image129.png"
+> <img src="./_images/image82.png"
 > style="width:3.48438in;height:3.07498in" />
 >
 > **Notes - Biographical/Historical**
@@ -4082,7 +4119,7 @@ The “New Person” screen will appear with the following fields:
 
 *Example of YUL Staff Person:*
 
-> <img src="./media/image15.png"
+> <img src="./_images/image84.png"
 > style="width:3.51142in;height:2.77604in" />
 >
 > **Other fields**
@@ -4093,7 +4130,7 @@ For **Family** agent records:
 
 > **Name Forms**
 >
-> <img src="./media/image104.png"
+> <img src="./_images/image85.png"
 > style="width:3.48148in;height:2.89063in" />
 >
 > Required name element: **Family Name**: LCNAF 100 ‡a
@@ -4108,7 +4145,7 @@ For **Corporate Entity** agent records:
 
 > **Name Forms**
 >
-> <img src="./media/image1.png"
+> <img src="./_images/image86.png"
 > style="width:3.45181in;height:3.23438in" />
 >
 > Required name element: **Primary Part of Name**: LCNAF 110 ‡a
@@ -4150,8 +4187,8 @@ For **YUL repository** agent records:
 > Fill out form with address, email address, and telephone number from
 > the library’s website.
 >
-> Save the Agent record by pressing the **Save Person \| Family \|
-> Corporate Entity \| Software** command button at the bottom of the
+> Save the Agent record by pressing the **Save Person | Family |
+> Corporate Entity | Software** command button at the bottom of the
 > record. If entering more than one Agent record, save the record by
 > pressing the **+1** command button. This will save the current record
 > and open a new Agent record screen so a subsequent record can be
@@ -4160,24 +4197,24 @@ For **YUL repository** agent records:
 If you are already working in an Accession or Resource record:
 
 1.  On the left navigation bar, click **Agent Links** and then click
-    > **Add Agent Link**.
+    **Add Agent Link**.
 
 2.  Next to **Role**, click the drop-down list button, and select the
-    > role of the agent in relation to the accession or resource you are
-    > linking it to: Creator, Source, or Subject.
+    role of the agent in relation to the accession or resource you are
+    linking it to: Creator, Source, or Subject.
 
 3.  Add a value for **Relator**, if you want for Creator or Source. Do
-    > not add a value for **Relator** for subjects
+    not add a value for **Relator** for subjects
 
 4.  Next to Agent, either start typing to see if the desired agent
-    > already exists, or click on the drop-down list and select Browse
-    > to browse existing Agent records.
+    already exists, or click on the drop-down list and select Browse to
+    browse existing Agent records.
 
 5.  If you know there is no record for your agent, or you cannot find
-    > one when you type or browse, click on **Create**, and select
-    > Person, Family, Corporate Entity, or Software, depending on what
-    > type of Agent record you wish to create. Follow instructions for
-    > Creating Agent records.
+    one when you type or browse, click on **Create**, and select Person,
+    Family, Corporate Entity, or Software, depending on what type of
+    Agent record you wish to create. Follow instructions for Creating
+    Agent records.
 
 > **Note**: When working within Accession, Resource, Resource component,
 > Digital Object, and Digital Object component records you can link to
@@ -4200,13 +4237,12 @@ linking.
 The terms that serve as access points for collection materials function
 most effectively when derived from broadly shared standard thesauri or
 controlled vocabularies such as the *Library of Congress Subject
-Headings* (LCSH)[^5] or the Art and Architecture Thesaurus (AAT).[^6]
-The output formats (e.g., EAD, MARCXML) that you generate from your
-resource descriptions in ArchivesSpace will be much more effective if
-you utilize standard thesauri or controlled vocabularies to select
-terms. Document your usage locally so that you can apply common terms,
-as appropriate, in a consistent manner across all of your resource
-descriptions.
+Headings* (LCSH)[5] or the Art and Architecture Thesaurus (AAT).[6] The
+output formats (e.g., EAD, MARCXML) that you generate from your resource
+descriptions in ArchivesSpace will be much more effective if you utilize
+standard thesauri or controlled vocabularies to select terms. Document
+your usage locally so that you can apply common terms, as appropriate,
+in a consistent manner across all of your resource descriptions.
 
 Subjects can be one of 10 types in ArchivesSpace:
 
@@ -4222,8 +4258,8 @@ Subjects can be one of 10 types in ArchivesSpace:
 
 - Style/period
 
-- Technique<img src="./media/image24.png"
-  > style="width:5.60498in;height:1.34834in" />
+- Technique<img src="./_images/image87.png"
+  style="width:5.60498in;height:1.34834in" />
 
 - Temporal
 
@@ -4264,18 +4300,18 @@ ArchivesSpace requires three elements in a Subject or other controlled
 vocabulary record:
 
 - **Subject Source**: Choose from a drop-down list. This list indicates
-  > the thesaurus or controlled vocabulary from which the subject term
-  > was selected.
+  the thesaurus or controlled vocabulary from which the subject term was
+  selected.
 
 - **Term:** Open text field. Use this field to indicate the subject
-  > heading or controlled vocabulary term or phrase describing the
-  > content, coverage, or resource type of the materials.
+  heading or controlled vocabulary term or phrase describing the
+  content, coverage, or resource type of the materials.
 
 - **Subject Type:** Choose from a drop-down list. This indicates the
-  > type of term being recorded (e.g., function, genre/form, geographic
-  > name, occupation, topic, uniform title).
+  type of term being recorded (e.g., function, genre/form, geographic
+  name, occupation, topic, uniform title).
 
-##### Creating a Subject record
+#### Creating a Subject record
 
 The directions here are for constructing a **Subject** record for a
 **Topical** subject**.** Follow these same basic instructions for
@@ -4295,46 +4331,46 @@ punctuation will be supplied by ArchivesSpace. Do not leave any blank
 spaces at the end of the subfields.
 
 1.  If you are already working in an Accession or Resource record: on
-    > the left navigation bar, click **Subjects**, and then click **Add
-    > Subject**. Click the drop-down list button, and then click
-    > **Create**.
+    the left navigation bar, click **Subjects**, and then click **Add
+    Subject**. Click the drop-down list button, and then click
+    **Create**.
 
 > If you are starting from ArchivesSpace home: on the main toolbar,
 > click **Create** and select **Subject**.
 
 2.  **Authority ID:** optional. If available, use a URI from [<u>LC
-    > Linked Data Service</u>](http://id.loc.gov/) or [<u>Art &
-    > Architecture
-    > Thesaurus</u>](http://www.getty.edu/research/tools/vocabularies/aat/index.html)**.**
+    Linked Data Service</u>](http://id.loc.gov/) or [<u>Art &
+    Architecture
+    Thesaurus</u>](http://www.getty.edu/research/tools/vocabularies/aat/index.html)**.**
 
 3.  **Source**: required. Choose **Library of Congress Subject
-    > Headings**, another thesaurus code, or appropriate Yale Library
-    > local code (at the end of the list) from the drop-down menu.
+    Headings**, another thesaurus code, or appropriate Yale Library
+    local code (at the end of the list) from the drop-down menu.
 
 *Note: For LCSH subjects with free-floating subdivisions:*
 
 1.  *Code as local, using the appropriate local code*
 
 2.  *For LCSH subjects with subdivisions, record an Authority ID only if
-    > the entire heading, with subdivisions, has been established*
+    the entire heading, with subdivisions, has been established*
 
 > *(example: [<u>Carrots ‡x Diseases and
 > Pests</u>](http://id.loc.gov/authorities/subjects/sh85020482.html)).*
 
 3.  *Also create a second **New Subject** without free-floating
-    > subdivisions*
+    subdivisions*
 
 <!-- -->
 
 4.  Enter the required **Term** and **Subject Type** information. For
-    > the required **Term** information, use LCSH 150 ‡a, or local term.
-    > For the required **Type** information**,** use the default,
-    > **Topical**
+    the required **Term** information, use LCSH 150 ‡a, or local term.
+    For the required **Type** information**,** use the default,
+    **Topical**
 
 5.  If the Subject record includes a term subdivision, click **Add
-    > Term/Subdivision** and enter information for the **Term** and
-    > **Subject Type** for the subdivision. You can add additional
-    > subdivisions as needed.
+    Term/Subdivision** and enter information for the **Term** and
+    **Subject Type** for the subdivision. You can add additional
+    subdivisions as needed.
 
     1.  The **Add Term/Subdivision** is optional and repeatable
 
@@ -4351,7 +4387,7 @@ spaces at the end of the subfields.
             4.  LCSH 150 ‡v: Genre
 
 6.  Click **Save Subject**. If any required element is missing, you will
-    > be prompted to add the information.
+    be prompted to add the information.
 
 **Create new subject: Occupation**
 
@@ -4421,17 +4457,17 @@ This sub-record allows links to external documentation that discusses
 how a particular **Subject** record is to be used.
 
 - **Title**: Open text field. The title of an external document. The
-  > document may be of any form or content such as a web accessible
-  > file, a network accessible file, or a file on the same computer as
-  > the application.
+  document may be of any form or content such as a web accessible file,
+  a network accessible file, or a file on the same computer as the
+  application.
 
 - **Location**: Open text field. The location of the file, ideally a
-  > resolvable URI. Example:
-  > http://www.archivesspace.org/membershipfile:///c:/path/to/the%20file.txt
+  resolvable URI. Example:
+  http://www.archivesspace.org/membershipfile:///c:/path/to/the%20file.txt
 
 - **Publish**: Select or clear the check box. A selected check box
-  > indicates that this External Document should be published to the
-  > Public User Interface.
+  indicates that this External Document should be published to the
+  Public User Interface.
 
 ## Assessment Records
 
@@ -4481,30 +4517,30 @@ surveyed**
 
 1.  Select the More button and choose Create Assessment:
 
-> <img src="./media/image17.png"
+> <img src="./_images/image88.png"
 > style="width:3.78125in;height:1.65625in" />
 
 2.  ArchivesSpace requires three elements for an ArchivesSpace valid
-    > assessment record: a link to the records being assessed, a link to
-    > the Agent who did the surveying, and the date the survey began.
-    > These document only that the assessment occurred; you will likely
-    > wish to enter other elements as needed.
+    assessment record: a link to the records being assessed, a link to
+    the Agent who did the surveying, and the date the survey began.
+    These document only that the assessment occurred; you will likely
+    wish to enter other elements as needed.
 
     - **Link to other records** (required): A link to the resource(s),
-      > accession(s), resource component(s), or digital object(s) that
-      > are the subjects of the assessment.
+      accession(s), resource component(s), or digital object(s) that are
+      the subjects of the assessment.
 
     - **Surveyed By** (required): Name(s) of the person(s) who performed
-      > the assessment. This field is restricted to those with user
-      > records in ArchivesSpace
+      the assessment. This field is restricted to those with user
+      records in ArchivesSpace
 
     - **Survey Begin Date** (required): The date the survey began, in
-      > yyyy-mm-dd format.
+      yyyy-mm-dd format.
 
 3.  Click **Save Assessment**. If any required element is missing, you
-    > will be prompted to add the information.
+    will be prompted to add the information.
 
-##### Adding Additional Information to an Assessment Record
+#### Adding Additional Information to an Assessment Record
 
 After the required information about an assessment has been entered, you
 can continue to record information about the assessment using the
@@ -4524,46 +4560,45 @@ any further information on existing description for the materials.
 This section consists of information about the survey itself.
 
 - **Surveyed By** (required): Name(s) of the person(s) who performed the
-  > assessment. This field is restricted to those with user records in
-  > ArchivesSpace
+  assessment. This field is restricted to those with user records in
+  ArchivesSpace
 
 - **Survey Begin Date** (required): The date the survey began, in
-  > yyyy-mm-dd format.
+  yyyy-mm-dd format.
 
 - **Survey Completed Date** (recommended): The date the survey ended, in
-  > yyyy-mm-dd format.
+  yyyy-mm-dd format.
 
 - **Time it took to Complete Survey**: The time it took to complete the
-  > survey, measured in hour increments.
+  survey, measured in hour increments.
 
 - **Extent Surveyed**: The extent of the materials that were surveyed,
-  > which may or may not be the same as the extent of individual
-  > accession, resource, or object.
+  which may or may not be the same as the extent of individual
+  accession, resource, or object.
 
 - **Review Required**: Indicates if review is required for the
-  > collection because of its format, subject matter, or circumstances.
+  collection because of its format, subject matter, or circumstances.
 
 - **Who Needs to Review**: Indicates who needs to perform the review.
-  > This field is restricted to those with user records in
-  > ArchivesSpace.
+  This field is restricted to those with user records in ArchivesSpace.
 
 - **Review Note**: Explanation of the outcome of any special review.
 
 - **Purpose of Assessment**: Indicates the reason the assessment was
-  > undertaken. Examples: conservation priorities; processing
-  > priorities; appraisal; etc.
+  undertaken. Examples: conservation priorities; processing priorities;
+  appraisal; etc.
 
 - **Scope of Assessment**: Indicates the scope of the assessment.
-  > Examples: 10% sampling; entirety; a particular format or genre
-  > within or across collections; or other constraints or conditions on
-  > materials actively reviewed during an assessment.
+  Examples: 10% sampling; entirety; a particular format or genre within
+  or across collections; or other constraints or conditions on materials
+  actively reviewed during an assessment.
 
 - **Sensitive Material?**: Indicates whether sensitive materials are
-  > present.
+  present.
 
 - **Inactive**: Indicates if the Assessment record is no longer
-  > considered “active” and thus should not be included in searches or
-  > reports.
+  considered “active” and thus should not be included in searches or
+  reports.
 
 **Assessment Information**
 
@@ -4598,85 +4633,82 @@ groups of materials within a collection may be in better or poorer
 housing than what the overall rating indicates.
 
 1.  Collection housed in non‐archival boxes, might have items loose on
-    > the shelf. Majority of material is not in folders and/or boxes are
-    > too full or not full enough. For bound volumes, binding is in poor
-    > condition, lacking boards or otherwise compromising the text
-    > block.
+    the shelf. Majority of material is not in folders and/or boxes are
+    too full or not full enough. For bound volumes, binding is in poor
+    condition, lacking boards or otherwise compromising the text block.
 
 2.  Collection housed in non‐archival boxes and folders. Significant
-    > number of boxes and folders might have unreasonable amount of
-    > material in them or are not the correct size and type for the
-    > materials they house. For bound volumes, binding is in fair
-    > condition (boards might be detached).
+    number of boxes and folders might have unreasonable amount of
+    material in them or are not the correct size and type for the
+    materials they house. For bound volumes, binding is in fair
+    condition (boards might be detached).
 
 3.  Collection housed in non‐archival boxes and folders but they are in
-    > good condition. Most boxes and folders have reasonable amount of
-    > material in them. Most boxes and folders are correct size and type
-    > for the materials they house. For bound volumes, binding is in
-    > good condition (somewhat the worse for wear yet intact).
+    good condition. Most boxes and folders have reasonable amount of
+    material in them. Most boxes and folders are correct size and type
+    for the materials they house. For bound volumes, binding is in good
+    condition (somewhat the worse for wear yet intact).
 
 4.  Collection housed partially in acid‐free boxes and folders in good
-    > condition. Most boxes and folders have reasonable amount of
-    > material in them. Most boxes and folders are correct size and type
-    > for the materials they house. For bound volumes, binding is in
-    > very good condition (expected wear).
+    condition. Most boxes and folders have reasonable amount of material
+    in them. Most boxes and folders are correct size and type for the
+    materials they house. For bound volumes, binding is in very good
+    condition (expected wear).
 
 5.  Collection housed completely in acid‐free boxes and folders in good
-    > condition. Boxes and folders have reasonable amount of material in
-    > them. Boxes and folders are correct size and type for the
-    > materials they house. For bound volumes, binding is in excellent
-    > condition.
+    condition. Boxes and folders have reasonable amount of material in
+    them. Boxes and folders are correct size and type for the materials
+    they house. For bound volumes, binding is in excellent condition.
 
 **Intellectual Access** (description): A rating from 1 to 5 that applies
 to a collection's intellectual description and the accessibility of that
 description to users.
 
 1.  Researcher has no access to collection: Internal documentation such
-    > as a donor/control file or brief or inaccessible accession record
-    > serves as the only description of the collection. While such
-    > internal documentation may vary in quantity and quality, by its
-    > nature it is inaccessible to researchers.
+    as a donor/control file or brief or inaccessible accession record
+    serves as the only description of the collection. While such
+    internal documentation may vary in quantity and quality, by its
+    nature it is inaccessible to researchers.
 
 2.  Researcher has poor access to collection: Collection has no finding
-    > aid or a substandard finding aid. The collection has printed
-    > catalog cards or another type of offline collection‐level
-    > description, but no collection‐level MARC record in the OPAC or a
-    > national bibliographic utility. The collection has a MARC record
-    > in the OPAC or national bibliographic utility, but that record
-    > does not provide sufficient access because the collection is large
-    > or complex. In either case, the collection may be described in
-    > other online or offline sources available to researchers, but
-    > because of the complexity of the collection or the inadequacy of
-    > the sources, this provides insufficient access.
+    aid or a substandard finding aid. The collection has printed catalog
+    cards or another type of offline collection‐level description, but
+    no collection‐level MARC record in the OPAC or a national
+    bibliographic utility. The collection has a MARC record in the OPAC
+    or national bibliographic utility, but that record does not provide
+    sufficient access because the collection is large or complex. In
+    either case, the collection may be described in other online or
+    offline sources available to researchers, but because of the
+    complexity of the collection or the inadequacy of the sources, this
+    provides insufficient access.
 
 3.  Researcher has fair access to collection: The finding aid is
-    > substandard or there is no finding aid. There is a
-    > collection‐level MARC record for the collection in the
-    > institution’s OPAC and/or in a national bibliographic utility such
-    > as OCLC. In the absence of a full MARC record, there is another
-    > type of online collection‐level description. The collection‐level
-    > description in online or offline sources available to researchers
-    > provides sufficient access because it is a small or
-    > straightforward collection.
+    substandard or there is no finding aid. There is a collection‐level
+    MARC record for the collection in the institution’s OPAC and/or in a
+    national bibliographic utility such as OCLC. In the absence of a
+    full MARC record, there is another type of online collection‐level
+    description. The collection‐level description in online or offline
+    sources available to researchers provides sufficient access because
+    it is a small or straightforward collection.
 
 4.  Researcher has good access to collection: There is a good finding
-    > aid, but it is not available online. There is a collection‐level
-    > MARC record for the collection in the institution’s OPAC and/or in
-    > a national bibliographic utility such as OCLC. There is a good
-    > finding aid, online or offline, but there is no collection‐level
-    > MARC record for the collection in the institution’s OPAC and/or in
-    > a national bibliographic utility such as OCLC. Given the quality
-    > of the finding aid, the finding aid alone provides good access. In
-    > both cases, the collection may also be described in other online
-    > or offline sources that are available to researchers.
+    aid, but it is not available online. There is a collection‐level
+    MARC record for the collection in the institution’s OPAC and/or in a
+    national bibliographic utility such as OCLC. There is a good finding
+    aid, online or offline, but there is no collection‐level MARC record
+    for the collection in the institution’s OPAC and/or in a national
+    bibliographic utility such as OCLC. Given the quality of the finding
+    aid, the finding aid alone provides good access. In both cases, the
+    collection may also be described in other online or offline sources
+    that are available to researchers.
 
 5.  Researcher has excellent access to collection: There is a good
-    > online finding aid (EAD, HTML, PDF, or other format). There is a
-    > collection‐level MARC record for the collection in the
-    > institution’s OPAC and/or in a national bibliographic utility such
-    > as OCLC. The collection may also be described in other online or
-    > offline sources that are available to researchers (such as a
-    > printed or online guide to collections).
+    online finding aid (EAD, HTML, PDF, or other format). There is a
+    collection‐level MARC record for the collection in the institution’s
+    OPAC and/or in a national bibliographic utility such as OCLC. The
+    collection may also be described in other online or offline sources
+    that are available to researchers (such as a printed or online guide
+    to collections).
 
 **Interest**: A rating from 1 to 5 that indicates researcher, donor, or
 local interest in the materials. Interest + Documentation Quality create
@@ -4702,27 +4734,27 @@ desirable for many collections; a rating of 4 may be the top rating that
 is desirable for a collection.)
 
 1.  Totally unarranged; many, sometimes most, documents not yet removed
-    > from envelopes, unfolded, and flattened. Completely inaccessible
-    > to researcher.
+    from envelopes, unfolded, and flattened. Completely inaccessible to
+    researcher.
 
 2.  Partial or superficial arrangement and/or non‐standard housing and
-    > labeling discourage use except with special staff assistance.
+    labeling discourage use except with special staff assistance.
 
 3.  Rough arrangement by date, document type, function, source, or other
-    > characteristic; papers not thoroughly screened, but have been
-    > unfolded and flattened; series not fully established; files not
-    > fully established; researchers often must work through voluminous
-    > extraneous material to locate pertinent items. Single volumes
-    > might have had more than one use, or have items pasted in or
-    > otherwise be somewhat disorganized.
+    characteristic; papers not thoroughly screened, but have been
+    unfolded and flattened; series not fully established; files not
+    fully established; researchers often must work through voluminous
+    extraneous material to locate pertinent items. Single volumes might
+    have had more than one use, or have items pasted in or otherwise be
+    somewhat disorganized.
 
 4.  Arrangement in series to file level. There is generally good order
-    > within the files. Single volumes are orderly (i.e. an account book
-    > in alphabetical order or a neat scrapbook in thematic order).
+    within the files. Single volumes are orderly (i.e. an account book
+    in alphabetical order or a neat scrapbook in thematic order).
 
 5.  Full arrangement to item level in series and, as appropriate,
-    > subseries. Single volumes are orderly and indexed (i.e.
-    > chronological accounts with a name index).
+    subseries. Single volumes are orderly and indexed (i.e.
+    chronological accounts with a name index).
 
 **Physical Condition**: A rating from 1 to 5 intended to describe the
 overall condition of the materials in a collection; items or groups of
@@ -4730,51 +4762,50 @@ materials of particular concern will be indicated in the conservation
 note.
 
 1.  Poor: Significant damage/deterioration that makes collection
-    > difficult to use.
+    difficult to use.
 
 2.  Fair: Somewhat worse than expected deterioration with some further
-    > deterioration possible.
+    deterioration possible.
 
 3.  Good: Expected deterioration with some further deterioration
-    > possible.
+    possible.
 
 4.  Very good: Little damage with some further deterioration possible,
-    > due to the mixed quality of the material.
+    due to the mixed quality of the material.
 
 5.  Excellent: Little damage with very slow or minimal further
-    > deterioration expected, based on the high quality of the material.
+    deterioration expected, based on the high quality of the material.
 
 **Reformatting Readiness**: A rating from 1 to 5 that indicates how
 easily materials can be reformatted.
 
 1.  Materials would be extremely difficult to reformat. They might have
-    > serious conservation issues, be in an obsolete format with no
-    > available technology to recover the file or information, or have
-    > intellectual property concerns that restrict reformatting.
-    > Metadata might be missing or incomplete.
+    serious conservation issues, be in an obsolete format with no
+    available technology to recover the file or information, or have
+    intellectual property concerns that restrict reformatting. Metadata
+    might be missing or incomplete.
 
 2.  Materials would be difficult to reformat. They might have
-    > conservation issues, be in an obsolete format with no readily
-    > available technology to recover the file or information, although
-    > the technology still exists, or have some intellectual property
-    > concerns. Metadata might be missing or incomplete.
+    conservation issues, be in an obsolete format with no readily
+    available technology to recover the file or information, although
+    the technology still exists, or have some intellectual property
+    concerns. Metadata might be missing or incomplete.
 
 3.  Materials would be moderately easy to reformat. They may have some
-    > conservation issues, be in an obsolete format with readily
-    > available technology to recover the file, or have minimal
-    > intellectual property concerns. Metadata is present or could be
-    > created easily.
+    conservation issues, be in an obsolete format with readily available
+    technology to recover the file, or have minimal intellectual
+    property concerns. Metadata is present or could be created easily.
 
 4.  Materials would be relatively easy to reformat. Conservation issues
-    > are minor, formats are not completely obsolete and are easily
-    > migrated to current formats with readily available technology, or
-    > there are minimal intellectual property concerns. Metadata is
-    > present.
+    are minor, formats are not completely obsolete and are easily
+    migrated to current formats with readily available technology, or
+    there are minimal intellectual property concerns. Metadata is
+    present.
 
 5.  Materials could be reformatted with no difficulty. There are no
-    > conservation issues, formats are recent or current, and technology
-    > is readily available to recover or convert files, or there are no
-    > intellectual property concerns. Metadata is present and complete.
+    conservation issues, formats are recent or current, and technology
+    is readily available to recover or convert files, or there are no
+    intellectual property concerns. Metadata is present and complete.
 
 **Research Value**: Research value is automatically calculated by adding
 the Documentation Quality + Interest scores. Because this field is
@@ -4790,7 +4821,8 @@ option in the format checkboxes, an additional twenty formats may be
 defined by an administrator using the Manage Assessment Attributes
 function.
 
-<img src="./media/image135.png" style="width:6.5in;height:2.56944in" />
+<img src="./_images/image89.png"
+style="width:6.5in;height:2.56944in" />
 
 **Special Format Note**: Additional or explanatory information about the
 special formats present.
@@ -4812,12 +4844,13 @@ In addition to the nine available conservation issue checkboxes, an
 additional twenty conservation issues may be defined by an administrator
 using the Manage Assessment Attributes function.
 
-<img src="./media/image44.png" style="width:6.5in;height:2.22222in" />
+<img src="./_images/image90.png"
+style="width:6.5in;height:2.22222in" />
 
 **Conservation Note**: Indicates areas of particular concern with regard
 to the physical condition of the collection.
 
-##### Viewing an Assessment Record
+#### Viewing an Assessment Record
 
 There are two ways to view an assessment record: from the main menu and
 from within the record of something that has been surveyed.
@@ -4828,7 +4861,8 @@ On the main toolbar, click **Browse** and select Assessments. Search,
 sort, and/or filter to find and select the assessment you wish to view.
 Click the **View** button to see the record.
 
-<img src="./media/image116.png" style="width:6.5in;height:4.33333in" />
+<img src="./_images/image91.png"
+style="width:6.5in;height:4.33333in" />
 
 **Viewing an assessment record from within an accession, resource,
 archival object, or digital object record**
@@ -4837,46 +4871,49 @@ From within a record, click **Assessments** in the left-hand
 navigational column. This will bring you to a list of all linked
 assessments. Clicking **View** will take up a the assessment record.
 
-<img src="./media/image98.png" style="width:6.5in;height:1.88889in" />
+<img src="./_images/image92.png"
+style="width:6.5in;height:1.88889in" />
 
 This will bring up a list of all linked assessments. Clicking **View**
 will take you to the assessment record.
 
-##### Deleting an Assessment Record
+#### Deleting an Assessment Record
 
 Find the assessment record(s) you want to delete. You can browse or
 search.
 
-<img src="./media/image68.png" style="width:6.5in;height:2.70833in" />
+<img src="./_images/image93.png"
+style="width:6.5in;height:2.70833in" />
 
 From the results screen, you may delete an assessment in two ways.
 
 1.  Click the checkbox next to the assessment(s) you wish to delete. A
-    > checkmark will appear in the box for the assessments selected.
+    checkmark will appear in the box for the assessments selected.
 
 2.  Click the **Delete** button in the upper right corner.
 
 3.  You will be asked confirm your intention to delete the assessment
-    > record(s). Click **Delete Records** to delete the record(s) and
-    > **Cancel** to return to the list without deleting.
+    record(s). Click **Delete Records** to delete the record(s) and
+    **Cancel** to return to the list without deleting.
 
-<img src="./media/image114.png"
+<img src="./_images/image94.png"
 style="width:6.35417in;height:2.55208in" />
 
 or
 
 1.  Click the **View** or **Edit** button for the assessment you wish to
-    > delete.
+    delete.
 
 2.  From the Assessments Toolbar, click **Delete**.
 
-> <img src="./media/image56.png" style="width:6.5in;height:1.70833in" />
+> <img src="./_images/image95.png"
+> style="width:6.5in;height:1.70833in" />
 
 3.  You will be asked confirm your intention to delete the resource
-    > record. Click **Delete** to delete the record and **Cancel** to
-    > return to the list without deleting.
+    record. Click **Delete** to delete the record and **Cancel** to
+    return to the list without deleting.
 
-##### Transferring an Assessment Record
+#### Transferring an Assessment Record
 
 If an assessment's only linked record is transferred to another
 repository, the assessment is also moved to the target repository.
@@ -4891,7 +4928,7 @@ one repository, the exact same rating, material type/format, or
 conservation issue must also be present in the new target repository for
 the field to transfer.
 
-##### Managing Assessment Attributes
+#### Managing Assessment Attributes
 
 To add additional ratings, formats, or conservation issues, you must be
 logged in as a System Administrator. System administrators may also
@@ -4900,19 +4937,19 @@ assessment attributes definitions to other user groups using the Manage
 Groups function.
 
 1.  Use the Select Repository option to select the repository for which
-    > you want to manage assessment attributes.
+    you want to manage assessment attributes.
 
 2.  Click on the **Settings** button next to the repository name and
-    > then choose the Manage Assessment Attributes option.
+    then choose the Manage Assessment Attributes option.
 
 3.  Within the Manage Assessment Attributes page, you can add up to ten
-    > additional Ratings, twenty additional Material types/formats, and
-    > twenty additional Conservation Issues. Navigate to the Repository
-    > section at the bottom of each list and click the green **+**
-    > button to add additional fields. You can also delete additional
-    > fields by clicking the red **X** button.
+    additional Ratings, twenty additional Material types/formats, and
+    twenty additional Conservation Issues. Navigate to the Repository
+    section at the bottom of each list and click the green **+** button
+    to add additional fields. You can also delete additional fields by
+    clicking the red **X** button.
 
-<img src="./media/image75.png"
+<img src="./_images/image96.png"
 style="width:5.20313in;height:4.83448in" />
 
 4.  Click **Save Assessment Attributes**.
@@ -4924,9 +4961,10 @@ You can view any records associated with a particular rating, material
 format/type, or conservation issue by clicking on the magnifying glass
 icon to the right of the field name.
 
-<img src="./media/image130.png" style="width:6.5in;height:1.38889in" />
+<img src="./_images/image97.png"
+style="width:6.5in;height:1.38889in" />
 
-##### Assessment Reports
+#### Assessment Reports
 
 There are two types of reports associated with Assessments module, the
 Assessment Rating Report and the Assessment Record List. **Note that
@@ -4937,22 +4975,24 @@ desired), a rating type, a rating range, and a report format (JSON, CSV,
 HTML, PDF). Only global repository ratings values are available in this
 report.
 
-<img src="./media/image58.png" style="width:6.5in;height:4.79167in" />
+<img src="./_images/image98.png"
+style="width:6.5in;height:4.79167in" />
 
 Once you have selected a rating type, you can select values for the
 ratings you wish to report on.
 
-<img src="./media/image127.png" style="width:6.5in;height:5.08333in" />
+<img src="./_images/image99.png"
+style="width:6.5in;height:5.08333in" />
 
 The Assessment Record List allows you to choose a date range (if
 desired), and a report format (JSON, CSV, HTML, PDF). This report
 returns all fields in all assessment records, except those marked
 “inactive”.
 
-<img src="./media/image74.png"
+<img src="./_images/image100.png"
 style="width:4.73958in;height:4.0625in" />
 
-##### Importing Assessment Records Using a CSV Template
+#### Importing Assessment Records Using a CSV Template
 
 The CSV template for importing assessment records into ArchivesSpace is
 available at
@@ -4966,7 +5006,8 @@ ArchivesSpace id. You can find this at the top of the browser bar.
 
 Example: For MSSA MS 1790, the ArchivesSpace id is resource_3532
 
-<img src="./media/image134.png" style="width:6.5in;height:4.84722in" />
+<img src="./_images/image101.png"
+style="width:6.5in;height:4.84722in" />
 
 **Accession link**: This field will create the link to an accession. In
 order for the link to work, the entry must be in the format of the
@@ -4975,7 +5016,8 @@ ArchivesSpace id. You can find this at the top of the browser bar.
 Example: For MSSA accession 2017-M-0002, the ArchivesSpace id is
 accessions/22314
 
-<img src="./media/image102.png" style="width:6.5in;height:4.23611in" />
+<img src="./_images/image102.png"
+style="width:6.5in;height:4.23611in" />
 
 Other fields can be filled out according to the guidelines on the
 [<u>ArchivesSpace Assessment CSV Import
@@ -5030,35 +5072,33 @@ relationships it has to all other records.
 <col style="width: 62%" />
 <col style="width: 37%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th><strong>Context Record</strong></th>
-<th><strong>Can Link to Record Type</strong></th>
-</tr>
-<tr class="odd">
-<th>Accession, Resource, Resource Component, Digital Object, Digital
-Object Component</th>
-<th><p>Agent</p>
-<p>Subject</p></th>
-</tr>
-<tr class="header">
-<th>Accession, Resource, Resource Component</th>
-<th>Digital object</th>
-</tr>
-<tr class="odd">
-<th>Accession, Resource, Resource Component</th>
-<th>Top Container</th>
-</tr>
-<tr class="header">
-<th>Accession</th>
-<th>Resource</th>
-</tr>
-<tr class="odd">
-<th>Agent</th>
-<th>Agent</th>
-</tr>
-</thead>
 <tbody>
+<tr class="odd">
+<td><strong>Context Record</strong></td>
+<td><strong>Can Link to Record Type</strong></td>
+</tr>
+<tr class="even">
+<td>Accession, Resource, Resource Component, Digital Object, Digital
+Object Component</td>
+<td><p>Agent</p>
+<p>Subject</p></td>
+</tr>
+<tr class="odd">
+<td>Accession, Resource, Resource Component</td>
+<td>Digital object</td>
+</tr>
+<tr class="even">
+<td>Accession, Resource, Resource Component</td>
+<td>Top Container</td>
+</tr>
+<tr class="odd">
+<td>Accession</td>
+<td>Resource</td>
+</tr>
+<tr class="even">
+<td>Agent</td>
+<td>Agent</td>
+</tr>
 </tbody>
 </table>
 
@@ -5070,49 +5110,49 @@ To link Agent records to Accession, Resource, Resource component,
 Digital Object, and Digital Object component records:
 
 1.  In the context record, click on the **Agent Links** option in the
-    > record navigation pane or scroll to the Agent Links part of the
-    > record.
+    record navigation pane or scroll to the Agent Links part of the
+    record.
 
 2.  Click on the **Add Agent Link** option which will open a new link
-    > template at the bottom of the list of linked agents.
+    template at the bottom of the list of linked agents.
 
-<img src="./media/image53.png"
+<img src="./_images/image103.png"
 style="width:4.9375in;height:2.66667in" />
 
 3.  In the **Role** field (required), indicate if the agent is linked to
-    > the materials as Creator, Source, or Subject.
+    the materials as Creator, Source, or Subject.
 
 4.  In the **Relator** field, select any term that better specifies the
-    > nature of the role the agent has to the materials.
+    nature of the role the agent has to the materials.
 
 5.  In the **Agents** field, indicate the Agent record that is to be
-    > linked to:
+    linked to:
 
 - You can begin to type the agent name in the **Agent** field and then
-  > select a match.  
-  >   
-  > <img src="./media/image51.png"
-  > style="width:5.30208in;height:1.48958in" />
+  select a match.  
+    
+  <img src="./_images/image104.png"
+  style="width:5.30208in;height:1.48958in" />
 
 - Or Browse the list of available Agent records to find a match. Select
-  > the matching record and then click on **Link to Agents** to link the
-  > Agent record to the context record.
+  the matching record and then click on **Link to Agents** to link the
+  Agent record to the context record.
 
-<img src="./media/image53.png"
+<img src="./_images/image103.png"
 style="width:4.46973in;height:2.34078in" />
 
 - Or create a new Agent record if the one you require is not in the
-  > list. (Refer to the section on **Agent records** for instructions on
-  > creating a new Agent record).  
-  >   
-  > <img src="./media/image48.png"
-  > style="width:4.4655in;height:2.02452in" />
+  list. (Refer to the section on **Agent records** for instructions on
+  creating a new Agent record).  
+    
+  <img src="./_images/image105.png"
+  style="width:4.4655in;height:2.02452in" />
 
 6.  If desired, add **Terms and Subdivisions** for Agents linked as
-    > Subjects.
+    Subjects.
 
 7.  Click on **Save** to save the context record with the new link to an
-    > Agent record.
+    Agent record.
 
 **Editing or updating a link to an Agent record**
 
@@ -5121,23 +5161,23 @@ style="width:4.46973in;height:2.34078in" />
 2.  Change values for the **Role**, **Title,** or **Relator** fields.
 
 3.  Click on **Save** to save the context record with the updated agent
-    > link.
+    link.
 
 **Removing a link to an Agent record**
 
 1.  In the context record, find the agent link that is to be deleted.
 
 2.  Click on the **X** in the upper right corner of the Agent record
-    > link.
+    link.
 
 3.  Click on the **Confirm Removal** option to remove the link, or on
-    > the **Cancel** option to retain the link.  
-    >   
-    > <img src="./media/image49.png"
-    > style="width:5.14583in;height:1.1875in" />
+    the **Cancel** option to retain the link.  
+      
+    <img src="./_images/image106.png"
+    style="width:5.14583in;height:1.1875in" />
 
 4.  Click on **Save** to save the context record with the agent link
-    > removed
+    removed
 
 **Linking to Subject records**
 
@@ -5145,56 +5185,55 @@ To link Subject records to Accession, Resource, Resource component,
 Digital Object, and Digital Object component records:
 
 1.  In the context record, click on the **Subjects** option in the
-    > record navigation pane or scroll to the Subjects part of the
-    > record.
+    record navigation pane or scroll to the Subjects part of the record.
 
 2.  Click on the **Add Subject** option which will open a new link
-    > template at the bottom of the list of linked subjects.  
-    >   
-    > <img src="./media/image39.png"
-    > style="width:5.21875in;height:2.94792in" />
+    template at the bottom of the list of linked subjects.  
+      
+    <img src="./_images/image107.png"
+    style="width:5.21875in;height:2.94792in" />
 
 3.  In the **Subjects** field, indicate the Subject record that is to be
-    > linked to:
+    linked to:
 
 - You can begin to type the subject term in the **Subject** field box
-  > and then select a match.
+  and then select a match.
 
-<img src="./media/image40.png"
+<img src="./_images/image108.png"
 style="width:5.65625in;height:0.63542in" />
 
 - Or browse the list of available Subject records to find a match.
-  > Select the matching record and then click on **Link to Subjects** to
-  > link the Subject record to the context record.
+  Select the matching record and then click on **Link to Subjects** to
+  link the Subject record to the context record.
 
-<img src="./media/image41.png"
+<img src="./_images/image109.png"
 style="width:4.92708in;height:2.9375in" />
 
 - Or create a new Subject record if the one you require is not in the
-  > list. (Refer to the section on **Subject records** for instructions
-  > on creating a new Subject record).  
-  >   
-  > <img src="./media/image47.png"
-  > style="width:5.58333in;height:0.85417in" />
+  list. (Refer to the section on **Subject records** for instructions on
+  creating a new Subject record).  
+    
+  <img src="./_images/image110.png"
+  style="width:5.58333in;height:0.85417in" />
 
 4.  Click on **Save** to save the context record with the new link to a
-    > Subject record.
+    Subject record.
 
 **Removing a link to a Subject record**
 
 1.  In the context record, find the subject link that is to be deleted.
 
 2.  Click on the **X** in the upper right corner of the Subject record
-    > link.
+    link.
 
 3.  Click on the **Confirm Removal** option to remove the link, or on
-    > the Cancel option to retain the link.
+    the Cancel option to retain the link.
 
-<img src="./media/image46.png"
+<img src="./_images/image111.png"
 style="width:5.57292in;height:0.54167in" />
 
 4.  Click on **Save** to save the context record with the subject link
-    > removed.
+    removed.
 
 **Linking to Digital Object records**
 
@@ -5206,52 +5245,52 @@ To link Digital Object records to Accession, Resource, or Resource
 Component records:
 
 1.  Click on the **Instances** option in the record navigation pane or
-    > scroll to the Instances part of the record.
+    scroll to the Instances part of the record.
 
 2.  Click on the **Add Digital Object** option which will open a new
-    > link template at the bottom of the list of linked instances.  
-    >   
-    > <img src="./media/image34.png"
-    > style="width:5.27083in;height:0.80208in" />
+    link template at the bottom of the list of linked instances.  
+      
+    <img src="./_images/image112.png"
+    style="width:5.27083in;height:0.80208in" />
 
 3.  In the **Digital Object** field, indicate the Digital Object record
-    > that is to be linked to:
+    that is to be linked to:
 
 - You can begin to type the digital object title in the Digital Object
-  > field and then select a match.  
-  >   
-  > <img src="./media/image35.png"
-  > style="width:5.07292in;height:0.70833in" />
+  field and then select a match.  
+    
+  <img src="./_images/image113.png"
+  style="width:5.07292in;height:0.70833in" />
 
 - Or browse the list of available Digital Object records to find a
-  > match. Select the matching record and then click on **Link to
-  > Digital Objects** to link the Digital Object record to the context
-  > record.  
-  >   
-  > <img src="./media/image63.png"
-  > style="width:5.19792in;height:3.11458in" />
+  match. Select the matching record and then click on **Link to Digital
+  Objects** to link the Digital Object record to the context record.  
+    
+  <img src="./_images/image114.png"
+  style="width:5.19792in;height:3.11458in" />
 
 - Or create a new Digital Object record if the one you require is not in
-  > the list.
+  the list.
 
 4.  Click on **Save** to save the context record with the new link to a
-    > Digital Object record.
+    Digital Object record.
 
 **Removing a link to a Digital Object record**
 
 1.  In the context record, find the Digital Object record link that is
-    > to be deleted.
+    to be deleted.
 
 2.  Click on the **X** in the upper right corner of the Digital Object
-    > record link.
+    record link.
 
 3.  Click on the **Confirm Removal** option to remove the link or on the
-    > **Cancel** option to retain the link.  
-    >   
-    > <img src="./media/image77.png" style="width:5.25in;height:0.57292in" />
+    **Cancel** option to retain the link.  
+      
+    <img src="./_images/image115.png"
+    style="width:5.25in;height:0.57292in" />
 
 4.  Click on **Save** to save the context record with the digital object
-    > link removed.
+    link removed.
 
 **Linking to Location records**
 
@@ -5267,81 +5306,82 @@ To link Top Containers individually from within an Accession or Resource
 component records:
 
 1.  Click on the **Instances** option in the record navigation pane or
-    > scroll to the Instances part of the record.
+    scroll to the Instances part of the record.
 
 2.  Click on the container to which a Location record is to be linked.
-    > This will display a **View** button. Click on the **View** button.
+    This will display a **View** button. Click on the **View** button.
 
-> <img src="./media/image45.png"
+> <img src="./_images/image116.png"
 > style="width:5.23438in;height:3.29803in" />
 
 3.  This will take you to the Top Container record. Click the **Edit**
-    > button in the upper left of the window.  
-    > <img src="./media/image121.png"
-    > style="width:5.31771in;height:1.65032in" />
+    button in the upper left of the window.  
+    <img src="./_images/image117.png"
+    style="width:5.31771in;height:1.65032in" />
 
 4.  Click on the option to **Add Location** in the container record
-    > template, which will open a location link template.  
-    >   
-    > <img src="./media/image20.png"
-    > style="width:4.52083in;height:3.90625in" />
+    template, which will open a location link template.  
+      
+    <img src="./_images/image118.png"
+    style="width:4.52083in;height:3.90625in" />
 
 5.  In the **Status** field, indicate if the location is the current
-    > location for the material described or a previous location.
-    > “Current” is the default value.
+    location for the material described or a previous location.
+    “Current” is the default value.
 
 6.  In the **Start Date** field, indicate when the materials were
-    > shelved at the location.
+    shelved at the location.
 
 7.  In the **End Date** field, indicate when the materials stopped being
-    > at the location, if warranted. This field will typically be used
-    > to indicate the end of temporary locations.
+    at the location, if warranted. This field will typically be used to
+    indicate the end of temporary locations.
 
 8.  In the **Note** field, add a note appropriate to the location for
-    > the described materials, for instance, that the materials were
-    > relocated to their permanent location.
+    the described materials, for instance, that the materials were
+    relocated to their permanent location.
 
 9.  In the **Location** field, indicate the Location record that is to
-    > be linked to:
+    be linked to:
 
 - You can begin to type the location in the **Location** field and then
-  > select a match.  
-  >   
-  > <img src="./media/image69.png"
-  > style="width:5.66667in;height:2.89583in" />
+  select a match.  
+    
+  <img src="./_images/image119.png"
+  style="width:5.66667in;height:2.89583in" />
 
 - Or browse the list of available Location records to find a match.
-  > Select the matching record and then click on **Link to Locations**
-  > to link the location to the context record.  
-  >   
-  > <img src="./media/image82.png" style="width:6in;height:2.91667in" />
+  Select the matching record and then click on **Link to Locations** to
+  link the location to the context record.  
+    
+  <img src="./_images/image120.png"
+  style="width:6in;height:2.91667in" />
 
 - Or create a new Location record if the one you require is not in the
-  > list. (Refer to the section on **Location records** for instructions
-  > on creating a new Location record).  
-  >   
-  > <img src="./media/image97.png"
-  > style="width:5.46875in;height:2.98958in" />
+  list. (Refer to the section on **Location records** for instructions
+  on creating a new Location record).  
+    
+  <img src="./_images/image121.png"
+  style="width:5.46875in;height:2.98958in" />
 
 10. Click on **Save Top Container** to save the record with the new link
-    > to a Location record.
+    to a Location record.
 
 **Removing a link to a Location record**
 
 1.  In the context record, find the Location record link that is to be
-    > deleted.
+    deleted.
 
 2.  Click on the **X** in the upper right corner of the Location
-    > template.
+    template.
 
 3.  Click on the **Confirm Removal** option to remove the link, or on
-    > the **Cancel** option to retain the link.  
-    >   
-    > <img src="./media/image105.png"
-    > style="width:5.27083in;height:2.38542in" />
+    the **Cancel** option to retain the link.  
+      
+    <img src="./_images/image122.png"
+    style="width:5.27083in;height:2.38542in" />
 
 4.  Click on **Save** to save the context record with the location link
-    > removed.
+    removed.
 
 **Linking Accession and Resource records**
 
@@ -5352,83 +5392,82 @@ records.
 To link an Accession record to a Resource record:
 
 - Click on the **Related Resources** option in the record navigation
-  > pane of an Accession record or scroll to the Related Resources part
-  > of the record.
+  pane of an Accession record or scroll to the Related Resources part of
+  the record.
 
 - Click on the **Add Related Resource** option which will open a new
-  > link template at the bottom of the list of linked Resource
-  > records.  
-  >   
-  > <img src="./media/image96.png"
-  > style="width:5.32292in;height:1.03125in" />
+  link template at the bottom of the list of linked Resource records.  
+    
+  <img src="./_images/image123.png"
+  style="width:5.32292in;height:1.03125in" />
 
 - In the **Resource** field, indicate the related Resource record that
-  > is to be linked to:
+  is to be linked to:
 
 <!-- -->
 
 - You can begin to type the resource title in the **Resource** field and
-  > then select a match.  
-  >   
-  > <img src="./media/image92.png"
-  > style="width:5.86458in;height:0.66667in" />
+  then select a match.  
+    
+  <img src="./_images/image124.png"
+  style="width:5.86458in;height:0.66667in" />
 
 - Or browse the list of available Resource records to find a match.
-  > Select the matching record and then click on **Link to Resources**
-  > to link the Resource record to the Accession record.  
-  >   
-  > <img src="./media/image101.png"
-  > style="width:5.20833in;height:2.8125in" />
+  Select the matching record and then click on **Link to Resources** to
+  link the Resource record to the Accession record.  
+    
+  <img src="./_images/image125.png"
+  style="width:5.20833in;height:2.8125in" />
 
 - It is not permitted to create a new Resource record at this point. But
-  > you can exit the Accession record and create a new Resource record
-  > and then return to the Accession record to link the Resource record.
-  > Or you can spawn a new Resource record from the Accession record, to
-  > which the Resource record will be automatically linked.
+  you can exit the Accession record and create a new Resource record and
+  then return to the Accession record to link the Resource record. Or
+  you can spawn a new Resource record from the Accession record, to
+  which the Resource record will be automatically linked.
 
 <!-- -->
 
 - Click on **Save** to save the Accession record with the new link to a
-  > Resource record.
+  Resource record.
 
 **Removing a link to a Resource record**
 
 1.  In the Accession record, find the Resource record link that is to be
-    > deleted.
+    deleted.
 
 2.  Click on the **X** in the upper right corner of the Related
-    > Resources template.
+    Resources template.
 
 3.  Click on the **Confirm Removal** option to remove the link, or on
-    > the **Cancel** option to retain the link.  
-    >   
-    > <img src="./media/image88.png"
-    > style="width:5.79167in;height:0.47917in" />
+    the **Cancel** option to retain the link.  
+      
+    <img src="./_images/image126.png"
+    style="width:5.79167in;height:0.47917in" />
 
 4.  Click on **Save** to save the Accession record with the related
-    > resource link removed.
+    resource link removed.
 
 **  
 To link a Resource record to an Accession record:**
 
 1.  Click on the **Related Accessions** option in the record navigation
-    > pane or of a Resource record or scroll to the Related Accessions
-    > part of the record.
+    pane or of a Resource record or scroll to the Related Accessions
+    part of the record.
 
 2.  Click on the **Add Related Accession** option, which will open a new
-    > link template at the bottom of the list of linked Accession
-    > records.  
-    >   
-    > <img src="./media/image93.png"
-    > style="width:5.73958in;height:0.93802in" />
+    link template at the bottom of the list of linked Accession
+    records.  
+      
+    <img src="./_images/image127.png"
+    style="width:5.73958in;height:0.93802in" />
 
 3.  In the **Accession** field, indicate the related Accession record
-    > that is to be linked to:
+    that is to be linked to:
 
 - You can begin to type the accession title in the **Accession** field
   > and then select a match.  
   >   
-  > <img src="./media/image91.png"
+  > <img src="./_images/image128.png"
   > style="width:5.48958in;height:1.14815in" />
 
 - Or you can browse the list of available Accession records to find a
@@ -5442,24 +5481,24 @@ To link a Resource record to an Accession record:**
   > Resource record.)
 
 4.  Click on **Save** to save the Resource record with the new link an
-    > Accession record.
+    Accession record.
 
 **Removing a Link in a Resource to an Accession record**
 
 1.  In the Resource record, find the link to the Accession record that
-    > is to be deleted.
+    is to be deleted.
 
 2.  Click on the **X** in the upper right corner of the Related
-    > Accessions template.
+    Accessions template.
 
 3.  Click on the **Confirm Renewal** option to remove the link, or on
-    > the **Cancel** option to retain the link.  
-    >   
-    > <img src="./media/image85.png"
-    > style="width:5.55208in;height:1.3679in" />
+    the **Cancel** option to retain the link.  
+      
+    <img src="./_images/image129.png"
+    style="width:5.55208in;height:1.3679in" />
 
 4.  Click on **Save** to save the Resource record with the related
-    > accession link removed.
+    accession link removed.
 
 > \*\*Do not remove the link by deleting the Accession record. That will
 > remove the accession record from the database and all links to it will
@@ -5470,22 +5509,22 @@ To link a Resource record to an Accession record:**
 To link an Accession record to another Accession record:
 
 - Click on the **Related Accessions** option in the record navigation
-  > pane of an Accession record or scroll to the Related Accessions part
-  > of the record.
+  pane of an Accession record or scroll to the Related Accessions part
+  of the record.
 
 > Click on the **Add Related Accessions** option which will open a new
 > link template at the bottom of the list of linked Resource records.  
-> <img src="./media/image87.png"
+> <img src="./_images/image130.png"
 > style="width:5.6138in;height:0.92664in" />
 
 - **Relationship type:** Choose from drop-down list. The options are
   > “Part of” relationship and Sibling relationship. Once the type is
   > selected three required fields will be displayed.
 
-> <img src="./media/image59.png"
+> <img src="./_images/image131.png"
 > style="width:5.53337in;height:2.01617in" />
 >
-> <img src="./media/image57.png"
+> <img src="./_images/image132.png"
 > style="width:5.50723in;height:1.99461in" />
 
 - **This Accession:** Choose from drop-down list. Select the appropriate
@@ -5519,7 +5558,6 @@ Removing a link to a Related Accession record:
 
 ## Including EAD elements (i.e. adding “Mixed Content”)
 
-### 
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
@@ -5562,12 +5600,12 @@ wrap-in-tag feature or you can type “\<” to show the available EAD tags
 To see the available attributes for each specific element, you will need
 to include a space after the element name once that has been added. When
 adding an attribute, ArchivesSpace will \*not\* currently provide you
-with valid values (e.g. “italic \| bold \| underline \| bolditalic \|
-etc.”, so you must consult the EAD Tag Library,
+with valid values (e.g. “italic | bold | underline | bolditalic | etc.”,
+so you must consult the EAD Tag Library,
 [<u>https://www.loc.gov/ead/tglib/index.html</u>](https://www.loc.gov/ead/tglib/index.html)
 to ensure adherence to the EAD standard.
 
-##### A Special Note on adding links within Notes:
+#### A Special Note on adding links within Notes:
 
 If you want to create an **external** hyperlink, rather than using HTML
 to do that, you will also need to do that with EAD. In this case, the
@@ -5607,27 +5645,25 @@ and Resource records:
 <col style="width: 30%" />
 <col style="width: 69%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Type of Data</th>
-<th>File Types</th>
-</tr>
+<tbody>
 <tr class="odd">
-<th>Agent records</th>
-<th><ul>
+<td>Type of Data</td>
+<td>File Types</td>
+</tr>
+<tr class="even">
+<td>Agent records</td>
+<td><ul>
 <li><p>Encoded Archival Context – Corporate bodies, Persons, Families
 (EAC-CPF) XML</p></li>
-</ul></th>
+</ul></td>
 </tr>
-<tr class="header">
-<th>Resource records</th>
-<th><ul>
+<tr class="odd">
+<td>Resource records</td>
+<td><ul>
 <li><p>Encoded Archival Description (EAD) XML</p></li>
 <li><p>Machine-Readable Cataloging XML (MARCXML)</p></li>
-</ul></th>
+</ul></td>
 </tr>
-</thead>
-<tbody>
 </tbody>
 </table>
 
@@ -5662,21 +5698,20 @@ available in forthcoming releases.
 **Exporting EAC-CPF, EAD, and MARCXML files**
 
 1.  Find the Agent or Resource record you want to export. You can browse
-    > or search.
+    or search.
 
     - To browse, on the main toolbar, click **Browse** and select Agents
-      > (for EAC-CPF exports) or Resources (for EAD and MARCXML
-      > exports). A listing of all the records in the repository will
-      > display.
+      (for EAC-CPF exports) or Resources (for EAD and MARCXML exports).
+      A listing of all the records in the repository will display.
 
     - To search, type your search query into the Search box on the main
-      > toolbar.
+      toolbar.
 
 2.  Next to the record you want to export, click **View**.
 
 3.  Click the **Download EAC-CPF** button (for Agent record exports) or
-    > **Export** button (for Resource record exports). In the case of
-    > the latter, choose an export option:
+    **Export** button (for Resource record exports). In the case of the
+    latter, choose an export option:
 
 - **Download EAD (include unpublished)**: select this option for EAD
   > exports to include all notes and subnotes (even if they have been
@@ -5689,20 +5724,20 @@ available in forthcoming releases.
   > from ArchivesSpace’s default exporter.
 
   - Note: This PDF will not adhere to Yale style guidelines. To create a
-    > PDF adherent to Yale style guidelines, select Download EAD in
-    > ArchivesSpace. Then, run the ASpace-to-YaleEADbpg transformation.
-    > Once that transformation is complete, run the YaleEADbpg-to-PDF
-    > transformation; a PDF finding aid file should automatically open.
-    > If you do not have these oXygen transformations installed, see the
-    > Yale Archival Management Systems Committee LibGuide to download
-    > the project file:
-    > [<u>https://guides.library.yale.edu/c.php?g=296249&p=4694565</u>](https://guides.library.yale.edu/c.php?g=296249&p=4694565)
+    PDF adherent to Yale style guidelines, select Download EAD in
+    ArchivesSpace. Then, run the ASpace-to-YaleEADbpg transformation.
+    Once that transformation is complete, run the YaleEADbpg-to-PDF
+    transformation; a PDF finding aid file should automatically open. If
+    you do not have these oXygen transformations installed, see the Yale
+    Archival Management Systems Committee LibGuide to download the
+    project file:
+    [<u>https://guides.library.yale.edu/c.php?g=296249&p=4694565</u>](https://guides.library.yale.edu/c.php?g=296249&p=4694565)
 
 - **Download MARCXML**: select this option for MARCXML exports.
 
 4.  The data will download into a file. Depending on your browser’s
-    > settings, the file will be saved to your Downloads folder or you
-    > may be prompted to choose a location for saving the file.
+    settings, the file will be saved to your Downloads folder or you may
+    be prompted to choose a location for saving the file.
 
 ## Importing Records
 
@@ -5719,33 +5754,31 @@ types can be imported:
 <col style="width: 63%" />
 <col style="width: 36%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>File Type</th>
-<th>Type of Data</th>
-</tr>
-<tr class="odd">
-<th>Encoded Archival Context – Corporate bodies, Persons, Families
-(EAC-CPF) XML</th>
-<th>Agent records</th>
-</tr>
-<tr class="header">
-<th>Encoded Archival Description (EAD) XML</th>
-<th>Resource records</th>
-</tr>
-<tr class="odd">
-<th>Machine-Readable Cataloging XML (MARCXML)</th>
-<th><p>Resource records</p>
-<p>Accession Records</p>
-<p>Names and Subjects</p></th>
-</tr>
-<tr class="header">
-<th>Comma-separated value (CSV) files</th>
-<th><p>Accession records</p>
-<p>Digital object records</p></th>
-</tr>
-</thead>
 <tbody>
+<tr class="odd">
+<td>File Type</td>
+<td>Type of Data</td>
+</tr>
+<tr class="even">
+<td>Encoded Archival Context – Corporate bodies, Persons, Families
+(EAC-CPF) XML</td>
+<td>Agent records</td>
+</tr>
+<tr class="odd">
+<td>Encoded Archival Description (EAD) XML</td>
+<td>Resource records</td>
+</tr>
+<tr class="even">
+<td>Machine-Readable Cataloging XML (MARCXML)</td>
+<td><p>Resource records</p>
+<p>Accession Records</p>
+<p>Names and Subjects</p></td>
+</tr>
+<tr class="odd">
+<td>Comma-separated value (CSV) files</td>
+<td><p>Accession records</p>
+<p>Digital object records</p></td>
+</tr>
 </tbody>
 </table>
 
@@ -5767,30 +5800,31 @@ you can select Import Jobs from the Repository drop-down and then select
 the Create Import Job button on the upper right corner of the resulting
 screen
 
-> <img src="./media/image55.png"
+> <img src="./_images/image133.png"
 > style="width:1.49136in;height:2.65216in" />
 >
-> <img src="./media/image60.png"
+> <img src="./_images/image134.png"
 > style="width:2.16667in;height:2.48958in" />
 
 ### Importing EAC-CPF and EAD files
 
 1.  On the main toolbar, click on the Create drop-down and select
-    > **Import Jobs**.
+    **Import Jobs**.
 
 2.  Select the type of file: EAC or EAD. Files must be valid XML and
-    > compliant with referenced schemas or DTDs.
+    compliant with referenced schemas or DTDs.
 
-<img src="./media/image64.png" style="width:6.5in;height:3in" />
+<img src="./_images/image135.png"
+style="width:6.5in;height:3in" />
 
 3.  Click **Add File** and select the file(s) to import; note that you
-    > can select multiple files. Alternatively, drag-and-drop the
-    > file(s) into the designated area of your browser window.
+    can select multiple files. Alternatively, drag-and-drop the file(s)
+    into the designated area of your browser window.
 
 4.  Click **Queue Import Job**.
 
 5.  When import is complete the page will indicate an import summary,
-    > including a report with any errors.
+    including a report with any errors.
 
 6.  The imported data will subsequently be available as new records:
 
@@ -5803,31 +5837,31 @@ screen
 ArchivesSpace supports two options for importing MARCXML files:
 
 - You can either import a MARCXML file, resulting in the creation of a
-  > new Resource record.
+  new Resource record.
 
 - In some cases, the detailed description of a resource may be in EAD
-  > format, but the controlled access headings are in the MARC record.
-  > It is possible to import only the controlled access headings from
-  > the MARCXML record and add them to the resource description created
-  > from importing the EAD file.
+  format, but the controlled access headings are in the MARC record. It
+  is possible to import only the controlled access headings from the
+  MARCXML record and add them to the resource description created from
+  importing the EAD file.
 
 Below are steps for importing MARCXML files:
 
 1.  On the main toolbar, click on the Create drop-down and select
-    > **Import Jobs**.
+    **Import Jobs**.
 
 2.  Select the type of file: MARCXML (Accession), MARCXML (Resource) or
-    > MARCXML (Subjects and Agents Only). Files must be valid XML and
-    > compliant with referenced schemas or DTDs.
+    MARCXML (Subjects and Agents Only). Files must be valid XML and
+    compliant with referenced schemas or DTDs.
 
 3.  Click **Add File** and select the file(s) to import; note that you
-    > can select multiple files. Or alternatively, drag-and-drop the
-    > file(s) into the designated area of your browser window.
+    can select multiple files. Or alternatively, drag-and-drop the
+    file(s) into the designated area of your browser window.
 
 4.  Click **Queue Import Job**.
 
 5.  When import is complete the page will indicate an import summary,
-    > including a report with any errors.
+    including a report with any errors.
 
 6.  The imported data will subsequently be available as new records:
 
@@ -5854,35 +5888,34 @@ used to format accession data.
 Below are steps for importing CSV data:
 
 1.  On the main toolbar, click on the Create drop-down and select
-    > **Import Jobs**.
+    **Import Jobs**.
 
 2.  Select the type of file: Accession CSV or Digital Object CSV
 
 3.  Click **Add File** and select the file(s) to import; note that you
-    > can select multiple files. Alternatively, drag-and-drop the
-    > file(s) into the designated area of your browser window.
+    can select multiple files. Alternatively, drag-and-drop the file(s)
+    into the designated area of your browser window.
 
 4.  Click **Queue Import Job**.
 
 5.  When import is complete the page will indicate an import summary,
-    > including a report with any errors.
+    including a report with any errors.
 
 6.  The imported data will subsequently be available as new Accession or
-    > Digital Object records.
+    Digital Object records.
 
 ### Import summary 
 
 Every import job includes a summary report of the process:
 
 - **Job Status:** indicates if records were successfully imported or
-  > not, and the date/time of import job.
+  not, and the date/time of import job.
 
 - **Basic Information:** summarizes information about the file that was
-  > imported, the target repository, and the user that initiated the
-  > job.
+  imported, the target repository, and the user that initiated the job.
 
 - **Log:** if records were not successfully imported, the log summarizes
-  > problems with the source file (e.g., XML validation issues).
+  problems with the source file (e.g., XML validation issues).
 
 ## Customizing the Application
 
@@ -5912,9 +5945,10 @@ instructions for changing preferences is the same for all three levels.
 To begin the process, log on as a user assigned to the repository and
 then select **User Preference Defaults**.
 
-<img src="./media/image52.png" style="width:6.5in;height:2.03333in" />
+<img src="./_images/image136.png"
+style="width:6.5in;height:2.03333in" />
 
-<img src="./media/image54.png"
+<img src="./_images/image137.png"
 style="width:4.59375in;height:4.36458in" />
 
 ### User-defined fields
@@ -6014,32 +6048,36 @@ doing the following:
 
 1.  Click on the option for **Repository Preferences**
 
-> <img src="./media/image106.png"
+> <img src="./_images/image138.png"
 > style="width:5.20833in;height:2.54167in" />
 
 2.  Activate the option to **Pre-populate Records**.
 
-> <img src="./media/image43.png" style="width:6.5in;height:3.56944in" />
+> <img src="./_images/image139.png"
+> style="width:6.5in;height:3.56944in" />
 
 3.  Click on **Save** to save your new preferences.
 
 4.  Open the browse list for the record type you want to set default
-    > values for and click on the option to **Edit Default Values** at
-    > the top of the list.
+    values for and click on the option to **Edit Default Values** at the
+    top of the list.
 
-> <img src="./media/image109.png" style="width:6.5in;height:0.875in" />
+> <img src="./_images/image140.png"
+> style="width:6.5in;height:0.875in" />
 
 5.  In the case of Resources and Digital Objects, you will need to
-    > select between setting default values for the parent record or the
-    > component record:
+    select between setting default values for the parent record or the
+    component record:
 
-> <img src="./media/image120.png" style="width:6.5in;height:0.84722in" />
+> <img src="./_images/image141.png"
+> style="width:6.5in;height:0.84722in" />
 
 6.  Clicking on **Edit Default Values** will open a blank record of the
-    > type you set default values for; you may enter the value defaults
-    > into the appropriate fields:
+    type you set default values for; you may enter the value defaults
+    into the appropriate fields:
 
-> <img src="./media/image5.png" style="width:6.5in;height:3.875in" />
+> <img src="./_images/image142.png"
+> style="width:6.5in;height:3.875in" />
 
 7.  Click on **Save** to save the default values to the template.
 
@@ -6067,7 +6105,7 @@ section</u>](##applying-default-values-as-a-user).
 Individual user preferences may be viewed and edited in the **User
 Preferences** menu:
 
-<img src="./media/image67.png"
+<img src="./_images/image143.png"
 style="width:4.59375in;height:2.13542in" />
 
 Opening the **User Preferences** menu will allow you to change your
@@ -6077,7 +6115,8 @@ pre-populated; your settings on which columns display in browsing
 accession records, resource records, and digital object records; and
 your note order and material types settings.
 
-<img src="./media/image36.png" style="width:6.5in;height:4.09722in" />
+<img src="./_images/image144.png"
+style="width:6.5in;height:4.09722in" />
 
 If an individual user checks the **Pre-populate Records?** checkbox,
 their newly-created Accession, Resource, and Resource component records
@@ -6093,26 +6132,25 @@ Individual user settings override repository-wide settings. If an
 individual user wishes to use their repository-wide settings, they
 should ensure that their individual user settings are blank.
 
-[^1]: Note that ArchivesSpace does not provide native support for
-    storing and managing files referenced from Digital Object records.
-    The assumption is that the files will be stored and managed in an
-    external digital asset management system or network- or
-    web-accessible location.
+[1] Note that ArchivesSpace does not provide native support for storing
+and managing files referenced from Digital Object records. The
+assumption is that the files will be stored and managed in an external
+digital asset management system or network- or web-accessible location.
 
-[^2]: Name Authority Cooperative Program. Additional information is
-    available online at
-    [<u>https://www.loc.gov/aba/pcc/naco/index.html</u>](https://www.loc.gov/aba/pcc/naco/index.html)
-    .
+[2] Name Authority Cooperative Program. Additional information is
+available online at
+[<u>https://www.loc.gov/aba/pcc/naco/index.html</u>](https://www.loc.gov/aba/pcc/naco/index.html)
+.
 
-[^3]: Additional information about this resource is available online at
-    [<u>http://www.getty.edu/research/tools/vocabularies/ulan/index.html</u>](http://www.getty.edu/research/tools/vocabularies/ulan/index.html)
-    .
+[3] Additional information about this resource is available online at
+[<u>http://www.getty.edu/research/tools/vocabularies/ulan/index.html</u>](http://www.getty.edu/research/tools/vocabularies/ulan/index.html)
+.
 
-[^4]: Additional information about this resource is available online at
-    [<u>http://www.aacr2.org/</u>](http://www.aacr2.org/) .
+[4] Additional information about this resource is available online at
+[<u>http://www.aacr2.org/</u>](http://www.aacr2.org/) .
 
-[^5]: Additional information about this resource is available online at
-    [<u>http://authorities.loc.gov/</u>](http://authorities.loc.gov/).
+[5] Additional information about this resource is available online at
+[<u>http://authorities.loc.gov/</u>](http://authorities.loc.gov/).
 
-[^6]: Additional information about this resource is available online [at
-    <u>http://www.getty.edu/research/tools/vocabularies/aat/index.html</u>](http://www.getty.edu/research/tools/vocabularies/aat/index.html).
+[6] Additional information about this resource is available online [at
+<u>http://www.getty.edu/research/tools/vocabularies/aat/index.html</u>](http://www.getty.edu/research/tools/vocabularies/aat/index.html).
