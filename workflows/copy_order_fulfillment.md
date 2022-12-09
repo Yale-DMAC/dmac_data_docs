@@ -6,13 +6,13 @@ The bulk of the document provides instructions on how to run a report in the Arc
 
 This document also provides guidance on sending files to patrons once the automated portion of the fulfillment process is complete.
 
-__Initiating a copy order for existing files__
+## Initiating a copy order for existing files
 
 1. Ensure that the patron is registered in Aeon and has signed the user agreement
 2. Create an order in Quickbooks and generate an order number
 3. Add the patron’s name (Last, First), Aeon username, request date, invoice number, and institutional affiliation to a new row in the [Patron Reprographics](https://docs.google.com/spreadsheets/d/1ZovIjgmJdrMIFLGVqF0PONpwd0kdZcQgW9L22TCI9Cc) spreadsheet
 
-__Running the ArchivesSpace report__
+## Running the ArchivesSpace report
 
 4. Open the ArchivesSpace staff interface. Click on the gear icon and select ‘Reports’ from the drop-down menu
 
@@ -46,7 +46,7 @@ __Running the ArchivesSpace report__
 
 	The report will be downloaded as a .CSV file to your browser’s default download location (usually the ‘Downloads’ folder).
 
-__Using the report to select digitized files for download__
+## Using the report to select digitized files for download
 
 10. Open the report
 
@@ -84,7 +84,7 @@ __Using the report to select digitized files for download__
 
 	The report should be saved to the following network drive location: `\\wcsfs00.its.yale.internal\libraryit-807001-ics\MSSA\mssaArrangementAndDescription\Copy_Orders_From_Preservica\orders\_new_`
 
-__Sending Download Links to Patrons__
+## Sending Download Links to Patrons
 
 13. Locate the output of the Yale Box upload process
 

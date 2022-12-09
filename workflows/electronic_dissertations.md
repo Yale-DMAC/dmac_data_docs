@@ -2,7 +2,7 @@
 
 This document describes a workflow for processing electronic theses and dissertations from the Graduate School of Arts and Sciences.
 
-__Receipt of Records from Proquest__
+## Receipt of Records from Proquest
 
 Students submit their dissertations electronically to the Graduate School of Arts and Sciences. After acceptance, these dissertations are sent electronically to Proquest for processing and ingest into the Proquest Theses and Dissertations Online database.
 
@@ -14,13 +14,13 @@ In the course of processing, Proquest creates three types of metadata for each d
 
 After Proquest processes and ingests the dissertations into their system, they send PDF copies of each dissertation, along with the metadata files noted above, to a Manuscripts and Archives drive via FTP.
 
-__Extract Metadata from Proquest Files, Ingest into EliScholar__
+## Extract Metadata from Proquest Files, Ingest into EliScholar
 
 After receiving the files from Proquest, MSSA staff run Python scripts which organize the files and extract metadata from the Proquest XML into the BePress .XLS template for bulk ingestion into EliScholar.
 
 After records are ingested into EliScholar, a report can be generated from the EliScholar interface which includes the EliScholar URL for each thesis or dissertation. This report is matched up with the publication numbers and Proquest identifiers for each item via a Python script, and the report with the URLs and publication numbers/identifiers is sent to RDS. Adding the publication numbers/identifiers allows RDS staff to make the connection between the EliScholar URL and the MARCXML record which is ingested into Voyager.
 
-__Modify Proquest MARCXML, Ingest into Voyager__
+## Modify Proquest MARCXML, Ingest into Voyager
 
 The following changes are made to the MARCXML records provided by Proquest in order to comply with YUL cataloging practices:
 
@@ -65,7 +65,7 @@ The following changes are made to the MARCXML records provided by Proquest in or
 
 These modifications are made to the MARCXML record via a MarcEdit file and a Python script which is stored on Google Colaboratory and run by RDS staff during processing. The Python script also adds the provided EliScholar URLs to the 856 field for each record. Once the records are modified the MARCXML is ingested into Voyager.
 
-__Ingest into Preservica, Voyager Sync__
+## Ingest into Preservica, Voyager Sync
 
 The process of ingesting files into Preservica is still being determined, and rollout depends on the in-process upgrade of Preservica to v6. Upon upgrade, the Preservica-Voyager sync will become active, and theses and dissertations which are ingested into Preservica will have Preservica links added to the 583 field in the MARC record for each thesis or dissertation.
 
