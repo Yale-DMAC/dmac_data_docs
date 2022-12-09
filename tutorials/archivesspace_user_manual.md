@@ -1,4 +1,4 @@
-## ArchivesSpace at Yale: User Manual
+# ArchivesSpace at Yale: User Manual
 
 ## Overview: ArchivesSpace Application and its Governance
 
@@ -165,19 +165,16 @@ Editing, and Deleting Records; and 4: Search and Advanced Search.
 Note: Unless illustrating functions requiring higher permission levels,
 screenshots are of Advanced Data Entry views.
 
-<img src="./_images/image1.png"
-style="width:6.47917in;height:2.47396in" />
+<img src="./_images/image1.png"/>
 
 1\. Repository / Application Management: This is where you will verify
 that you are working in your own repository.
 
-> <img src="./_images/image2.png"
-> style="width:2.84375in;height:1.67708in" />
+<img src="./_images/image2.png"/>
 
 Access the online help center.
 
-> <img src="./_images/image3.png"
-> style="width:5.36858in;height:1.41146in" />
+<img src="./_images/image3.png"/>
 
 And, view or set your preferences or log out.
 
