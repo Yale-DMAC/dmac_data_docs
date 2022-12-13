@@ -10,6 +10,10 @@ Documentation
 
    ../tutorials.md
 
+   ../reports.md
+
+   ../development.md
+
    data_auditing 
    projects 
    archivesspace
