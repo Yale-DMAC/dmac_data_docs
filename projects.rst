@@ -38,3 +38,14 @@ Future
    :header-rows: 1 
    :widths: 30 30 15 20 30 
    :class: tight-table 
+
+Project Documentation
+---------------------
+
+Project plans and other documentation for assorted projects.
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   project_docs/* 
