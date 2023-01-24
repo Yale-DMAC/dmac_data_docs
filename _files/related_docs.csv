@@ -1,33 +1,16 @@
 source,documentation_link,public
-,https://yaleedu.sharepoint.com/sites/yul/preservation/digitalpreservation/DPS/DPS%20Wiki/Home.aspx,no
-,https://ladybird.library.yale.edu/public_technical.aspx,yes
-,https://yaleedu.sharepoint.com/sites/YULMetdadataStrategyPolicySteeringCommittee,no
-,https://yaleedu.sharepoint.com/sites/BeineckeLibrary,no
-,https://yaleedu.sharepoint.com/sites/YULDCSAG,no
-,https://yaleedu.sharepoint.com/sites/brbl/ts/SitePages/Home.aspx,no
-,https://yaleedu.sharepoint.com/sites/YULUDAG2,no
-,https://dmac-data-docs.readthedocs.io/en/latest/README.html,yes
-,https://github.com/decirella?tab=repositories,yes
-,https://git.yale.edu/lux-its,no
-Yale Library IT,`Yale Library IT Github` <https://git.yale.edu/orgs/Library-IT/repositories>,no
-Yale Library IT,`Yale Library Github` <https://github.com/orgs/yalelibrary/repositories>,yes
-,https://docs.google.com/document/d/1i680R6DH7mtHjI41plRIRLA6bg-SxKps7wfktkT8eMw/edit,
-,https://drive.google.com/drive/u/0/folders/0B2sRAo1je27EVGNaazFKVTltSlE?resourcekey=0-VdhT1nArol8RSywuJBHqtA,
-,https://docs.google.com/document/d/1XaPGybWlUwt4TnD763iUsgbNfWAqWN6U_nxX8GrFEgw/edit,
-,https://docs.google.com/document/d/1sJ5RvUWRvACANmBsm9Pvnds567ycTlKV/edit,
-,https://docs.google.com/document/d/1Ho4uKCjaAk7zel_izCS4D0ZkGkVAKiYA/edit,
-,https://docs.google.com/document/d/1DI_7YNZy-RcjQ9hpMMbxJEkHFpYndzmDoG3ylOc38BY/edit,
-,https://metadata-api.library.yale.edu/metadatacloud/public/index.html,no
-,https://web.library.yale.edu/cataloging,yes
-,https://msu-cataloging-manual.beinecke.library.yale.edu/,yes
-,https://drive.google.com/drive/u/0/folders/1hoD6A-mBuAplOgB2Q93XOGPbuKmzr08L,
-,https://drive.google.com/drive/folders/0BzSAa3tmLeNHVnlhLWFXOWlUU3M?resourcekey=0-G9EiB3Qo68V6BDUO2I3U4g&usp=share_link,
-,https://github.com/YaleArchivesSpace,yes
-,https://github.com/yalemssa,yes
-,https://yaleedu.sharepoint.com/sites/YULManuscriptsandArchives/TechnicalServices,no
-,https://guides.library.yale.edu/reparativearchivaldescription,yes
-,https://guides.library.yale.edu/emulation-view,yes
-,https://guides.library.yale.edu/digitalpreservationsystem,yes
-,https://guides.library.yale.edu/digitalpreservation,yes
-Born,`BDAWG Born-Digital Description Guidelines` <https://guides.library.yale.edu/bddescriptionguidelines>,yes
-Yale Archival Management Systems Committee (YAMS),`ArchivesSpace LibGuide` <https://guides.library.yale.edu/archivesspace/home>,yes
+Yale Library IT (LIT),https://ladybird.library.yale.edu/public_technical.aspx,yes
+Yale Library Digital Preservation Systems (DPS),https://github.com/decirella?tab=repositories,yes
+Yale Information Technology (ITS),https://git.yale.edu/lux-its,no
+Yale Library IT (LIT),`Yale Library IT Github` <https://git.yale.edu/orgs/Library-IT/repositories>_,no
+Yale Library IT (LIT),`Yale Library Github` <https://github.com/orgs/yalelibrary/repositories>_,yes
+Beinecke Rare Book and Manuscript Library (BRBL),https://web.library.yale.edu/cataloging,yes
+Beinecke Rare Book and Manuscript Library (BRBL),https://msu-cataloging-manual.beinecke.library.yale.edu/,yes
+Yale Archival Management Systems Committee (YAMS),https://github.com/YaleArchivesSpace,yes
+Manuscripts and Archives (MSSA),https://github.com/yalemssa,yes
+Yale Reparative Archival Description Working Group (RAD),https://guides.library.yale.edu/reparativearchivaldescription,yes
+Yale Library Digital Preservation Systems (DPS),https://guides.library.yale.edu/emulation-view,yes
+Yale Library Digital Preservation Systems (DPS),https://guides.library.yale.edu/digitalpreservationsystem,yes
+Yale Library Digital Preservation Systems (DPS),https://guides.library.yale.edu/digitalpreservation,yes
+Yale Born-Digital Archives Working Group (BDAWG),`BDAWG Born-Digital Description Guidelines` <https://guides.library.yale.edu/bddescriptionguidelines>_,yes
+Yale Archival Management Systems Committee (YAMS),`ArchivesSpace LibGuide` <https://guides.library.yale.edu/archivesspace/home>_,yes
