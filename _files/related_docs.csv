@@ -1,16 +1,15 @@
 source,documentation_link,public
-Yale Library IT (LIT),https://ladybird.library.yale.edu/public_technical.aspx,yes
-Yale Library Digital Preservation Systems (DPS),https://github.com/decirella?tab=repositories,yes
-Yale Information Technology (ITS),https://git.yale.edu/lux-its,no
-Yale Library IT (LIT),`Yale Library IT Github` <https://git.yale.edu/orgs/Library-IT/repositories>_,no
-Yale Library IT (LIT),`Yale Library Github` <https://github.com/orgs/yalelibrary/repositories>_,yes
-Beinecke Rare Book and Manuscript Library (BRBL),https://web.library.yale.edu/cataloging,yes
-Beinecke Rare Book and Manuscript Library (BRBL),https://msu-cataloging-manual.beinecke.library.yale.edu/,yes
-Yale Archival Management Systems Committee (YAMS),https://github.com/YaleArchivesSpace,yes
-Manuscripts and Archives (MSSA),https://github.com/yalemssa,yes
-Yale Reparative Archival Description Working Group (RAD),https://guides.library.yale.edu/reparativearchivaldescription,yes
-Yale Library Digital Preservation Systems (DPS),https://guides.library.yale.edu/emulation-view,yes
-Yale Library Digital Preservation Systems (DPS),https://guides.library.yale.edu/digitalpreservationsystem,yes
-Yale Library Digital Preservation Systems (DPS),https://guides.library.yale.edu/digitalpreservation,yes
-Yale Born-Digital Archives Working Group (BDAWG),`BDAWG Born-Digital Description Guidelines` <https://guides.library.yale.edu/bddescriptionguidelines>_,yes
-Yale Archival Management Systems Committee (YAMS),`ArchivesSpace LibGuide` <https://guides.library.yale.edu/archivesspace/home>_,yes
+Yale Library IT (LIT),`Ladybird Technical Documentation <https://ladybird.library.yale.edu/public_technical.aspx>_`,yes
+Yale Information Technology (ITS),`Lux Project Github <https://git.yale.edu/lux-its>`_,no
+Yale Library IT (LIT),`Yale Library IT Github <https://git.yale.edu/orgs/Library-IT/repositories>`_,no
+Yale Library IT (LIT),`Yale Library Github <https://github.com/orgs/yalelibrary/repositories>`_,yes
+Beinecke Rare Book and Manuscript Library (BRBL),`BRBL Cataloging Manual <https://web.library.yale.edu/cataloging>`_,yes
+Beinecke Rare Book and Manuscript Library (BRBL),`BRBL Legacy Manuscript Cataloging Manual <https://msu-cataloging-manual.beinecke.library.yale.edu/>`_,yes
+Yale Archival Management Systems Committee (YAMS),`Yale ArchivesSpace Github <https://github.com/YaleArchivesSpace>`_,yes
+Manuscripts and Archives (MSSA),`MSSA Github <https://github.com/yalemssa>`_,yes
+Yale Reparative Archival Description Working Group (RAD),`RAD LibGuide <https://guides.library.yale.edu/reparativearchivaldescription>`_,yes
+Yale Library Digital Preservation Systems (DPS),`Emulation LibGuide <https://guides.library.yale.edu/emulation-view>`_,yes
+Yale Library Digital Preservation Systems (DPS),`DPS System LibGuide <https://guides.library.yale.edu/digitalpreservationsystem>`_,yes
+Yale Library Digital Preservation Systems (DPS),`DPS General LibGuide <https://guides.library.yale.edu/digitalpreservation>`_,yes
+Yale Born-Digital Archives Working Group (BDAWG),`BDAWG Born-Digital Description Guidelines` <https://guides.library.yale.edu/bddescriptionguidelines>`_,yes
+Yale Archival Management Systems Committee (YAMS),`ArchivesSpace LibGuide` <https://guides.library.yale.edu/archivesspace/home>`_,yes
