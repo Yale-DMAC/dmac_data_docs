@@ -3,6 +3,18 @@ Metadata Projects
 
 Information about DMAC metadata cleanup and enhancement projects
 
+Project Documentation
+---------------------
+
+Project plans and other documentation for assorted projects.
+
+.. toctree::
+   :glob:
+   :maxdepth: 2
+
+   project_docs/* 
+
+
 Completed
 ---------
 
@@ -38,14 +50,3 @@ Future
    :header-rows: 1 
    :widths: 30 30 15 20 30 
    :class: tight-table 
-
-Project Documentation
----------------------
-
-Project plans and other documentation for assorted projects.
-
-.. toctree::
-   :glob:
-   :maxdepth: 4
-
-   project_docs/* 
