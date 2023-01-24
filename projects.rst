@@ -46,6 +46,6 @@ Project plans and other documentation for assorted projects.
 
 .. toctree::
    :glob:
-   :maxdepth: 2
+   :maxdepth: 4
 
    project_docs/* 

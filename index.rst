@@ -2,7 +2,7 @@ DMAC Data Documentation
 =======================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
    ../README.md
 
