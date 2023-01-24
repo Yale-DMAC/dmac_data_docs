@@ -38,12 +38,3 @@ Future
    :header-rows: 1 
    :widths: 30 30 15 20 30 
    :class: tight-table 
-
-Project Docs
-------------
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-
-   project_docs/*
