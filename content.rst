@@ -18,3 +18,4 @@ Documentation
    projects 
    archivesspace
    repos 
+   related_docs
