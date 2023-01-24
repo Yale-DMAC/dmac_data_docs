@@ -2,7 +2,7 @@ Documentation
 -------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    ../workflows.md 
 
@@ -11,8 +11,6 @@ Documentation
    ../tutorials.md
 
    ../reports.md
-
-   ../development.md
 
    data_auditing 
    projects 
