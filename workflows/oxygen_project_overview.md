@@ -10,7 +10,7 @@ Once you've moved your file outside of your Downloads directory, open it in oXyg
 
 You should now have the project file open and ready to go!  But, you might not see any of your transformation scenarios yet.  You won't see those until after you open an XML file in oXygen.  Once you've done that, your screen in oXygen should look something like this:
 
-	![Oxygen Project](./_images/oxygen_project/image_01.png)
+![Oxygen Project](./_images/oxygen_project/image_01.png)
 
 If you run into any issues, just contact YAMS.
 
@@ -28,7 +28,7 @@ You won't need to use this very often, if at all.  But you can use it to convert
 
 2. EAD3-to-Excel
 
-You can use this transformation on an EAD3 file that's been exported from ArchivesSpace if you want to convert that into an Excel file.  Please see https://guides.library.yale.edu/c.php?g=296249&p=4694565#s-lg-box-20726894 for more information.  
+You can use this transformation on an EAD3 file that's been exported from ArchivesSpace if you want to convert that into an Excel file.  Please see the [YAMS LibGuide](https://guides.library.yale.edu/c.php?g=296249&p=4694565#s-lg-box-20726894) for more information.  
 
 A new option that is now available with this process is to convert an EAD3 file to Excel so that you can use the Excel file for an input file when writing an ArchivesSpace API script.  In this case, you can now use the ArchivesSpace URI fragments for each archival object that are present in the last column of the spreadsheet -- column BD, or "System ID".  Using the API like this is far preferable to re-importing an entire container list into ArchivesSpace via the EAD import process.  If you have any questions about using the API, please reach out YAMS!
 
@@ -36,7 +36,7 @@ Last, please note that if you do want to re-covert this Excel file back into an 
 
 3. Excel-to-EAD
 
-Okay, so this is one of our most-used transformations.  This transformation can be used to transform an Excel spreadsheet into an EAD container list that can be imported into ArchivesSpace.  Please review the documentation about this workflow here: https://guides.library.yale.edu/c.php?g=296249&p=4694565#s-lg-box-8371614.  This documentation also covers the next two transformation scenarios, as well.
+Okay, so this is one of our most-used transformations.  This transformation can be used to transform an Excel spreadsheet into an EAD container list that can be imported into ArchivesSpace.  Please review the documentation about this workflow [here](https://guides.library.yale.edu/c.php?g=296249&p=4694565#s-lg-box-8371614). This documentation also covers the next two transformation scenarios, as well.
 
 3. Excel/EAD-to-PDF-preview
 
@@ -48,11 +48,11 @@ After you have run the "3 Excel-to-EAD" transformation, you *must* run this tran
 
 5. BOX-method_convert-hashes-to-foldernumbers
 
-This is an optional transformation scenario that can be used to auto-number folders, starting at "1" with each Box.  For directions on how to do this, see https://guides.library.yale.edu/c.php?g=296249&p=4694565#s-lg-box-13824802
+This is an optional transformation scenario that can be used to auto-number folders, starting at "1" with each Box.  For directions on how to do this, see this [document](https://guides.library.yale.edu/c.php?g=296249&p=4694565#s-lg-box-13824802)
 
 5. COLLECTION-method_convert-hashes-to-foldernumbers
 
-What if you need distinct folder numbers throughout an entire collection, rather than within each box?  If that's the case, you can use this transformation scenarios to ensure that the collection has just one folder 1, for instance. Similar directions, found at the same place: https://guides.library.yale.edu/c.php?g=296249&p=4694565#s-lg-box-13824802
+What if you need distinct folder numbers throughout an entire collection, rather than within each box?  If that's the case, you can use this transformation scenarios to ensure that the collection has just one folder 1, for instance. Similar directions, found at the same [place](https://guides.library.yale.edu/c.php?g=296249&p=4694565#s-lg-box-13824802)
 
 6. ArchivesSpace EAD3 to PDF (preview unpublished)
 
@@ -72,13 +72,13 @@ Last, if you need to troubleshoot why a file is not getting it's official PDF fi
 
 Additionally, you can run this transformation to get an overview of the top container ranges that are listed on- versus off-site. After you run this transformation scenario, you will get a note added to the administrative section of the EAD3 file that includes this information. Here is an example of where to find that:
 
-	![Oxygen Project](./_images/oxygen_project/image_02.png)
+![Oxygen Project](./_images/oxygen_project/image_02.png)
 
 ### Validation Scenarios
 
 In addition to general validation (e.g. do you get a green square, for valid, or a red square, for invalid, in the upper right-hand corner of the view of your XML file?), our oXygen project file has two different validation scenarios that can be used.  You can access and utilize those by clicking on the dropdown icon next to the Validation checkbox, and selecting the Configure Validation Scenario(s) option.  Here's what that looks like in oXygen:
 
-	![Oxygen Project](./_images/oxygen_project/image_03.png)
+![Oxygen Project](./_images/oxygen_project/image_03.png)
 
 Now that you know how to access the validation scenarios, here's a description of the two that we have available currently:
 
