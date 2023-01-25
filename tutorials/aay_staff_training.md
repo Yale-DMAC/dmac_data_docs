@@ -6,29 +6,29 @@ Welcome to Archives at Yale!
 
 Archives at Yale uses ArchivesSpace - an open source web application for managing archives information. It is designed by archivists and supported by diverse archival repositories. Institutions who use ArchivesSpace include Harvard, Middlebury College, DePaul University, University of Virginia, University of Edinburgh, and many more.
 
-## Data points
+### Data points
 
 Each element of a collection (box, folder, item, etc.) is represented by a data point. Another way to think about this is that each element of a collection has its own URL. This structure allows you to easily search across YUL repositories. It also means that you must navigate through the data points - you may find yourself "clicking" more often to find what you are looking for.
 
-## Breadcrumb trails
+### Breadcrumb trails
 
 Locate the "breadcrumbs" in the interface. These will help orient you as you navigate Archives at Yale. Note that the breadcrumbs are linked, so you can return to previous points in your search.
 
 ![alt_text](./_images/aay_training/image1.png "image_tooltip")
 
-## Changes to Archives at Yale
+### Changes to Archives at Yale
 
 Because ArchivesSpace is an open source tool, we can make modifications to the interface to suit the needs of YUL repositories. Changes will be communicated to YUL staff by the YAMS (Yale Archival Management Systems) committee.
 
-# Searching
+## Searching
 
-## The Search Box
+### The Search Box
 
 You can search collections directly from Archives at Yale's landing page. To return to this search box from anywhere on the site, click on the Search icon in the top menu bar. 
 
 ![alt_text](./_images/aay_training/image2.png "image_tooltip")
 
-## Entering Your Search Terms
+### Entering Your Search Terms
 
 * If you use 1-3 search terms, Archives at Yale will return matches containing all of those words (anywhere in the record, not necessarily side by side). Therefore, searching for: Spanish Civil War will retrieve the same results as searching for: Spanish AND Civil AND War.
 * If you use 4 or more search terms, Archives at Yale will return matches containing most of those words.
@@ -38,7 +38,7 @@ You can search collections directly from Archives at Yale's landing page. To ret
 
 ![alt_text](./_images/aay_training/image3.png "image_tooltip")
 
-## Searching All Record Types vs. Collections
+### Searching All Record Types vs. Collections
 
 By default, Archives at Yale will retrieve results matching your search terms from all types of records in its database. An icon identifies each record type. Your results may include:
 
@@ -76,7 +76,7 @@ If you want to search collection-level information only, find the option "Limit 
 
 With "Limit to collections", Archives at Yale will search for matches in collection-level fields (Title, Description of the Papers, Biographical / Historical Note, Subjects, etc). In the ArchivesSpace back-end, it queries resource records, but not accession records. Therefore, a "Limit to collections" search will not return matches from unprocessed materials.
 
-## Searchable Field Selections
+### Searchable Field Selections
 
 A drop-down menu offers 5 search field options:
 
@@ -89,10 +89,9 @@ A drop-down menu offers 5 search field options:
 1. **Subject**: Refers to the standardized subject headings assigned to a collection, or to a component part of the collection. Includes topical terms, geographic places, and genre/form terms. Does not include personal names added as agent links in ArchivesSpace (even if coded as a “subject” agent). To browse by name headings, navigate to the **Names** tab in the top menu bar.
 2. **Call number**: Is the collection's unique identifier. Therefore, this is the only field that automatically limits results to collections only. You do not need to use quote to retrieve an exact match. However, some call number formats will match multiple results (e.g. searching MSS 52 returns MSS 52, OSB MSS 52, YCAL MSS 52).
 
+### Limiting Searches
 
-## Limiting Searches
-
-## **Limiting by date**
+#### **Limiting by date**
 
 The main search box, and the Filter Results box allow you to limit your search to specific years. They will limit results to those with date spans _overlapping_ with the years you input as parameters.
 
@@ -100,14 +99,14 @@ Beware that the collection or component date(s) may not _exactly_ match your sea
 
 Searching From: 1800 To: [blank] = 1800 to present, while searching From: [blank] to 1800 = the earliest we have until 1800.
 
-## **Limiting by repository**
+#### **Limiting by repository**
 
 1. Use the Repository filter in the results page, or
 2. Navigate to the repository page from the top menu bar, and then use the repository's search box or browsing icon.
 
 ![alt_text](./_images/aay_training/image10.png "image_tooltip")
 
-## Other Search Boxes
+### Other Search Boxes
 
 **Search within results**: 
 
@@ -119,7 +118,7 @@ Searching From: 1800 To: [blank] = 1800 to present, while searching From: [blank
 
 [Warning: Currently, if you enter multiple terms in the Search within Results and the Search Collection boxes, results will contain ANY of the words. These boxes do OR searches instead of AND (like the main search box). This is a known issue and under investigation.]
 
-## Additional Information
+### Additional Information
 
 **Punctuation:** is stripped during the query, whether you are using quotation marks or not. Therefore, including or not including hyphens in personal names, or dashes in subject headings, does not impact search results.
 
@@ -139,9 +138,9 @@ _/*_ will be replaced by any number of letters (e.g. Searching for mission* will
 
 **Finding near terms:** Archives at Yale does not support the boolean operator NEAR. However, to find terms within a specified number of words of one another, add a tilde (~) and a number after the search terms. (e.g. “maps Asia”~5 will return results where the term maps occurs within 5 words of the term Asia).
 
-#### Examples and Tips
+### Examples and Tips
 
-## Subjects
+#### Subjects
 
 "I am writing a paper on medical practice and patient care in the United States from about 1850 to 1920. I need to find relevant primary sources from at least 3 different doctors, clinics, or health advocates."
 
@@ -168,7 +167,7 @@ Archives at Yale supports different strategies:
     5. Click on the tab Subjects in the top menu, filter results by relevant terms like "medicine" or "medical", click on the authorized subject headings to browse linked collections.
     6. Or, find a relevant collection using a keyword search, scroll down its collection-level page to expand its assigned Subjects tab, and click on the subject links.
 
-## Persons
+#### Persons
 
 "I’m compiling a biography on British General Henry Seymour Conway (1721-1795). Can I find letters to and from Conway at Yale?"
 
@@ -196,7 +195,7 @@ Because Archives at Yale returns archival records at any level of description, i
 
 ![alt_text](./_images/aay_training/image13.png "image_tooltip")
 
-## Known-item search
+#### Known-item search
 
 "I heard that you have Gertrude Stein’s notebooks with drafts of the libretto for Virgil Thomson’s opera _Four Saints in Three Acts_. Is that true? If so, which collection and box should I request for the reading room?"
 
@@ -216,52 +215,43 @@ The easiest way to locate correspondence between two persons is to search both n
 
 The letter may be housed in a file with letters covering a long time span, so limiting the search by the letter’s year is not always helpful. The letter is located in the Alyse Gregory papers, in a correspondence file titled _Bourne, Randolph Silliman, 1914-18, n.d._
 
-#### Looking at Finding Aids
+## Looking at Finding Aids
 
-## Intro
+### Intro
 
 Finding aids in Archives at Yale look different than in the Yale Finding Aid Database (YFAD). There are three ways to view a finding aid: **Collection Overview**, **Finding Aid view**, and **Container List** - as well as the option to download a pdf of the finding aid.
 
-## Collection Overview
+### Collection Overview
 
 Collection Overview gives select information about a collection, with additional fields collapsed below. There is a Navigation Bar on the right side of the screen, which features expandable levels of information.
 
 ![alt_text](./_images/aay_training/image16.png "image_tooltip")
 
-## Finding aid view
+### Finding aid view
 
 Finding Aid View allows the user to scroll through the entire finding aid. The material loads dynamically as you scroll. Note that this particular feature does need some adjustment, and will not be fully operational until early 2019. In the interim, please direct patrons to the PDF download.
 
 ![alt_text](./_images/aay_training/image17.png "image_tooltip")
 
-## Container List
+### Container List
 
 The Container List view is very helpful for staff. Clicking on the number of the container will show you what items are in that container.
 
 ![alt_text](./_images/aay_training/image18.png "image_tooltip")
 
-#### Requesting Materials
+## Requesting Materials
 
-
-## Introduction
+### Introduction
 
 **General information about requesting materials can be found in the lower right corner of the Archives at Yale home page, under "Requesting Materials." Patrons are advised to consult with the repository for specific hours, access policies, etc. Contact information for each repository is given under the top bar tab "Repositories".**
 
 ![alt_text](./_images/aay_training/image19.png "image_tooltip")
 
-## Requesting materials (part one)
+### Requesting in Archives at Yale
 
 ![alt_text](./_images/aay_training/image20.png "image_tooltip")
 
 **Request materials by clicking on the "Request" icon. After you click "Request," you will be directed to "Login" to Aeon through the Yale University Library.**
-
-## Requesting Materials (part two)
-
-![alt_text](./_images/aay_training/image21.png "image_tooltip")
-
-**After logging into Aeon, your requests will appear in a queue. If you have duplicate requests (since materials is requested at the folder level), you will be notified that they will merge into a single entry. Like with YFAD, you will have to enter the scheduled date for viewing the material before clicking "Submit."**
-
-## Requesting Materials
 
 **When using the Navigate the Collection pane, requesting materials may only be done at the folder or item level. An error message will appear if an attempt is made to request material at the collection or series level.**
 
@@ -274,9 +264,15 @@ The Container List view is very helpful for staff. Clicking on the number of the
 
 ![alt_text](./_images/aay_training/image24.png "image_tooltip")
 
-#### Publishing Finding Aids
+### Completing the Request in Aeon
 
-## Screencast
+![alt_text](./_images/aay_training/image21.png "image_tooltip")
+
+**After logging into Aeon, your requests will appear in a queue. If you have duplicate requests (since materials is requested at the folder level), you will be notified that they will merge into a single entry. Like with YFAD, you will have to enter the scheduled date for viewing the material before clicking "Submit."**
+
+## Publishing Finding Aids
+
+### Screencast
 
 [Publishing and editing finding aids YouTube video embedded here](https://www.youtube.com/watch?v=ougznxYHrdQ&feature=emb_imp_woyt)
 
@@ -285,7 +281,7 @@ Please note that this screencast was recorded in the spring of 2018, before seve
 1. "Publish this and all chidren"
 2. "Unpublish all children"
 
-## Intro
+### Intro
 
 **The Archives at Yale public interface connects directly to the staff side of ArchivesSpace. This makes publishing and editing finding aids an easy, breezy process - new content will display to the public within minutes!**
 
@@ -299,9 +295,9 @@ However, there are a few important things to know to ensure that the Archives at
 
 These topics are all covered in the drop-down menu under the tab "Publishing in Archives at Yale".
 
-#### Verifying Your Default Settings
+## Verifying Your Default Settings
 
-## Checking your default settings
+### Checking your default settings
 
 A default setting in the ArchivesSpace staff interface will determine whether the new content you create will be automatically displayed in the public interface, or not. Because creating a finding aid is a lengthy process that requires many revisions before the description is ready to be shared publicly, **you should set your default to not publish.** This will give you greater control to roll out finding aids as ready. 
 
@@ -319,10 +315,9 @@ A default setting in the ArchivesSpace staff interface will determine whether th
 
 ![alt_text](./_images/aay_training/image28.png "image_tooltip")
 
-#### Publishing Archival Records
+## Publishing Archival Records
 
-
-## Publishing Full Finding Aids
+### Publishing Full Finding Aids
 
 After completing a finding aid, go to its collection-level page and click on "**Publish All**". 
 
@@ -338,7 +333,7 @@ Why couldn't you simply check the "**Publish?**" box instead clicking the "**Pub
 
 The **"Publish All"** function will publish all notes created in the Notes section. See the page **[Understanding Publish All ](https://guides.library.yale.edu/c.php?g=754688&p=5573999)**for more information and options of fields to use for internal notes that will not be affected by the **"Publish All"** function.
 
-## Publishing Parts of Collections
+### Publishing Parts of Collections
 
 To publish only selected components of a collection:
 
@@ -351,7 +346,7 @@ To publish only selected components of a collection:
 
 ![alt_text](./_images/aay_training/image32.png "image_tooltip")
 
-## "Publish?" Checkbox
+### "Publish?" Checkbox
 
 The following principles apply when manually publishing and unpublishing content at any level of the collection using the "Publish?" checkbox: 
 
@@ -370,9 +365,9 @@ However, if you tried to publish only the _Scientific article, 2002_ file withou
 
 The system was designed so that you cannot accidentally display information about an orphaned child record without its associated parent record.
 
-#### Understanding "Publish All"
+### Understanding "Publish All"
 
-## "Publish All" 101
+#### "Publish All" 101
 
 Despite claiming to publish it all, the "Publish All" button does not actually publish *all* metadata input in the staff interface. A significant number of metadata fields and records exist for collection management purposes only and will never be displayed to the public. The tables below summarize which fields get published when you hit "Publish All", and which do not.
 
@@ -415,9 +410,9 @@ If you need to record internal information for collection management purposes, y
 
 ![alt_text](./_images/aay_training/image38.png "image_tooltip")
 
-#### Editing Content
+## Editing Content
 
-## Navigating Between Staff and Public Interfaces
+### Navigating Between Staff and Public Interfaces
 
 Thanks to the **"View Published"** button in your resource record, you can move from the staff interface to the public interface to view a published finding aid. Similarly, you can navigate directly from the public interface to the staff interface to edit records using the **"Staff Only"** icon. 
 
@@ -434,7 +429,7 @@ The **"Staff Only"** icon will appear at many levels of description in the publi
 
 The **"Staff Only"** editing button is the only way to reach from the public interface a specific part of a finding aid in the staff interface. 
 
-## Saving Edits to a Published Record
+### Saving Edits to a Published Record
 
 Edits to published content made in the staff interface, like fixing a typo, changing a date of creation, or adding a sentence to an existing note, will be updated automatically in the public interface. All you have to do is saving your changes ("Save Resource" or "Save Archival Object") as usual.
 
@@ -456,13 +451,13 @@ After publishing a resource, any new subrecord or note will display a blank "Pub
 
 3. If you must record information that should not be public, but that cannot go in internal collection management fields, you may add notes to your resource or subrecords after hitting "Publish All", making sure their "Publish?" boxes are blank. However, if you later make public additions to your resource, you will not be able to use the "Publish All" function without risking exposing the confidential notes. Any workflows involving confidential information should be treated with care during the transition to the new public user interface.
 
-#### Preparing PDF Creation
+## Preparing PDF Creation
 
-## Introduction
+### Introduction
 
 The Yale archival community is working on improving the ArchivesSpace Public User Interface's PDF creation process. The out-of-the-box PUI software offers users the option of generating a new PDF version of a finding aid every time they use the "Print" icon in the collection-level page. The Yale enhancement will provide users with a static PDF with improved formatting deriving from a validated EAD file. 
 
-## New PDF Creation Process
+### New PDF Creation Process
 
 New resource records published in the Archives at Yale platform are indexed and displayed as a dynamic finding aid within minutes. A PDF version of the finding aid will not immediately be available. Overnight, the ArchivesSpace Export Service will export the EAD file for each newly published resource record. Once the EAD file is validated, a PDF will be created and posted on Archives at Yale. It should be available for downloading and printing the next day.
 
@@ -476,9 +471,9 @@ In order for a new Handle to be created by the nightly export service, resource 
 
 ![alt_text](./_images/aay_training/image42.png "image_tooltip")
 
-#### Problems or Questions?
+## Problems or Questions?
 
-## Questions
+### Questions
 
 **Have a question?**
 
@@ -486,7 +481,7 @@ The Help page contains information about searching, requesting, and more.
 
 ![alt_text](./_images/aay_training/image43.png "image_tooltip")
 
-## Problems
+### Problems
 
 **Need to report a problem?**
 
