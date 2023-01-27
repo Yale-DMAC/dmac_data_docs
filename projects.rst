@@ -1,5 +1,5 @@
-Metadata Projects
-=================
+Projects
+========
 
 Information about DMAC metadata cleanup and enhancement projects
 
