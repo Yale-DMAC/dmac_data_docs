@@ -110,7 +110,7 @@ def setup(app):
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {'sticky_navigation': True, 'navigation_depth': -1}
+html_theme_options = {'sticky_navigation': True, 'navigation_depth': -1, 'collapse_navigation': False, 'titles_only': True}
 
 # 'collapse_navigation': False
 
