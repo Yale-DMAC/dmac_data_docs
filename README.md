@@ -1,4 +1,4 @@
-# DMAC Data
+# About DMAC
 
 A Github repository for documentation about the Beinecke Rare Book and Manuscript Library's Data Management, Analysis, and Content Unit (DMAC).
 

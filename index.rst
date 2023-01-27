@@ -1,9 +1,21 @@
-DMAC Data Documentation
-=======================
+DMAC Documentation
+==================
 
 .. toctree::
    :maxdepth: 2
 
    ../README.md
 
-   content 
+   ../workflows.md 
+
+   ../policies.md
+
+   ../tutorials.md
+
+   ../reports.md
+
+   data_auditing 
+   projects 
+   archivesspace
+   repos 
+   related_docs
