@@ -1,5 +1,5 @@
 source,documentation_link,public
-Yale Library IT (LIT),`Ladybird Technical Documentation <https://ladybird.library.yale.edu/public_technical.aspx>_`,yes
+Yale Library IT (LIT),`Ladybird Technical Documentation <https://ladybird.library.yale.edu/public_technical.aspx>`_,yes
 Yale Information Technology (ITS),`Lux Project Github <https://git.yale.edu/lux-its>`_,no
 Yale Library IT (LIT),`Yale Library IT Github <https://git.yale.edu/orgs/Library-IT/repositories>`_,no
 Yale Library IT (LIT),`Yale Library Github <https://github.com/orgs/yalelibrary/repositories>`_,yes
@@ -11,5 +11,7 @@ Yale Reparative Archival Description Working Group (RAD),`RAD LibGuide <https://
 Yale Library Digital Preservation Systems (DPS),`Emulation LibGuide <https://guides.library.yale.edu/emulation-view>`_,yes
 Yale Library Digital Preservation Systems (DPS),`DPS System LibGuide <https://guides.library.yale.edu/digitalpreservationsystem>`_,yes
 Yale Library Digital Preservation Systems (DPS),`DPS General LibGuide <https://guides.library.yale.edu/digitalpreservation>`_,yes
-Yale Born-Digital Archives Working Group (BDAWG),`BDAWG Born-Digital Description Guidelines` <https://guides.library.yale.edu/bddescriptionguidelines>`_,yes
-Yale Archival Management Systems Committee (YAMS),`ArchivesSpace LibGuide` <https://guides.library.yale.edu/archivesspace/home>`_,yes
+Yale Born-Digital Archives Working Group (BDAWG),`BDAWG Born-Digital Description Guidelines <https://guides.library.yale.edu/bddescriptionguidelines>`_,yes
+Yale Archival Management Systems Committee (YAMS),`ArchivesSpace LibGuide <https://guides.library.yale.edu/archivesspace/home>`_,yes
+ArchivesSpace,`ArchivesSpace Technical Documentation <https://archivesspace.github.io/tech-docs/>`_,yes
+ArchivesSpace,`ArchivesSpace API Documentation <http://archivesspace.github.io/archivesspace/api/#introduction>`_,yes
