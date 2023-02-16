@@ -8,6 +8,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: GitHub Issue Due Dates Action
-        uses: alexleventer/github-issue-due-dates-action@1.2.0
+        uses: alexleventer/github-issue-due-dates-action@1.0.12
         with:
           GH_TOKEN: "${{ secrets.GH_TOKEN }}"
+          OVERDUE_LABEL: OVERDUE!
+          INTERVALS: >-
+            - days: 30
+              label: Due in 1 month
+            - days: 14
+              label: Due in 2 weeks
+            - days: 7
+              label: Due in 1 week
+            - days: 1
+              label: DUE TOMORROW
