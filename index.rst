@@ -1,5 +1,5 @@
-Documentation for the Beinecke Library Data Management, Analysis, and Content Unit
-==================================================================================
+Documentation for the Beinecke Library Data Management, Analysis, and Content Unit (DMAC)
+=========================================================================================
 
 .. toctree::
    :maxdepth: 2
