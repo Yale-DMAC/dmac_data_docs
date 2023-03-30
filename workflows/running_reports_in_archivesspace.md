@@ -2,7 +2,7 @@
 
 This document explains how to generate a report from the ArchivesSpace staff interface. 
 
-1. To access the ArchivesSpace reports module, click on the gear icon and select ‘Reports’ from the drop-down menu, or enter [](https://archivesspace.library.yale.edu/jobs/new?job_type=report_job) into your browser
+1. To access the ArchivesSpace reports module, click on the gear icon and select ‘Reports’ from the drop-down menu, or enter [https://archivesspace.library.yale.edu/jobs/new?job_type=report_job](https://archivesspace.library.yale.edu/jobs/new?job_type=report_job) into your browser
 
     ![Step 1](./_images/copy_order_fulfillment/step4.png)
 
