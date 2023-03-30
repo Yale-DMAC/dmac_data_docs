@@ -31,7 +31,7 @@ This document explains how to generate a report from the ArchivesSpace staff int
 
    The report will be downloaded as a .CSV file to your browser’s default download location (usually the ‘Downloads’ folder).
 
-## Using the report to select files for download
+## Using the report to select files for Preservica download
 
 7. Open the report
 
