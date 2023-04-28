@@ -1,5 +1,5 @@
-Reports
--------
+Activity Reports
+----------------
 
 A place to put reports and recommendations
 
