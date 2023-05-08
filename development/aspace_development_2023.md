@@ -36,16 +36,15 @@ A few notable updates to the container management module include:
 - Merge top containers
 - Bulk top container indicator update
 
-
 #### Link accessions to archival objects
 
-In prior versions of ArchivesSpace it was only possible to link accession records to resource records. This new feature permits users to link accession records to archival objects.
+In prior versions of ArchivesSpace it was only possible to link accession records to resource records. This new feature (3.3.0) permits users to link accession records to archival objects. It is also possible to spawn an archival object from an accession record.
 
 #### Spreadsheet importer
 
 Beginning in ArchivesSpace v2.8, the spreadsheet importer plugin is available in the core code. Yale did not use the plugin, instead relying on the Excel-EAD Oxygen transformation process for spreadsheet ingest.
 
-YAMS is still developing guidelines surrounding the use of this feature, so please do not use the feature in production until 
+YAMS is still developing guidelines surrounding the use of this feature, so please do not use the feature in production until further guidance is provided.
 
 #### Search updates
 
@@ -79,6 +78,20 @@ Please contact DMAC if any of these API changes impact your integrations with Ar
 
 
 #### Config Changes
+
+
+One config change supports the enabling/disabling of new custom reporting functionality:
+
+`AppConfig[:enable_custom_reports] = true `
+
+
+Two config changes support the enabling/disabling of search-within-collection sidebar:
+
+```
+AppConfig[:pui_search_collection_from_archival_objects] = false
+AppConfig[:pui_search_collection_from_collection_organization] = false
+```
+
 
 ## Yale-Specific Updates
 
