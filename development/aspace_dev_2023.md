@@ -155,15 +155,19 @@ AppConfig[:pui_search_collection_from_collection_organization] = false
 ### Digital materials tab
 
 - Archival objects will now only appear in the Digital Materials tab if they have a published digital object attached. This will exclide any records from the list which have only a Preservica link.
-- Now possible to sort Digital Materials results by "collection order" - e.g. their position in the archival hierarchy.
+- Now possible to sort Digital Materials results by "collection order" - e.g. their position in the archival hierarchy. Also can sort by title and date
+- Number of results displays at the top of the page
+
+### Digital Object information passed to Aeon
+
+When a user requests an archival object which had a digital object attached to it - suggesting that it has already been digitized, the digital object identifier, along with an indication of whether the object is published or unpublished, will be passed to the Aeon ItemInfo9 field. This will assist staff in identifying requested materials that are availbale digitally.
 
 ### Importer update: validation of controlled values
 
-You may have noticed that our controlled value lists get messy over time. This is because when importing an EAD file, if a controlled value that is not already in the list is present in the EAD file, that value is added to the database.
+In ArchivesSpace there are a number of drop-down lists which contain controlled values that you can add to your records - extent types, container types, and so on. This list becomes very messy over time, with repeated and invalid values. This has a negative impact on the staff user experience, as well as muddling reporting, as there are often multiple values for the same thing. These lists are periodically cleaned up, but it doesn't take long for them to get messy again.
+
+The reason for this is that, in previous versions, when an EAD file was imported into ArchivesSpace, if there was a controlled value in that file that did not have an exact, case-sensitive match with a value that was already in the list, that value would be added to ArchivesSpace. This led to many different versions of commonly-used values like linear feet, photograph, and so on. It would also sometimes lead to barcodes and container numbers being added to the list, as accidentally deleting a column in the Excel spreadheet template would cause all the values to be added to a different field. 
 
 ### Other updates to note
 
 Updates to child_publisher so internal notes created by the Preservica sync are not published when using the publish all feature.
-
-### Digital Object information passed to Aeon
-
