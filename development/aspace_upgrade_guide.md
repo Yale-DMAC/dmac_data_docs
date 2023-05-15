@@ -14,14 +14,23 @@ This document describes the process for upgrading Yale's production instance of 
 
 ## Indexing on the Lyrasis QA server
 
-- [ ] Make a copy of the ArchivesSpace production database.
-- [ ] Create a new ArchivesSpace image from Github and push to Docker Hub. See the [Yale ArchivesSpace Custom Build Workflow] (https://dmac-data-docs.readthedocs.io/en/latest/development/aspace_custom_build_workflow.html) document for instructions on how to do this.
-- [ ] Ensure that the aspace_deployment repository is using the correct list of plugins
-- [ ] Ensure that the aspace_deployment repository contains the correct translation files
-- [ ] Ensure that the aspace_deployment repository contains all necessary configration options
-- [ ] Import the database copy to the QA server's MySQL instance
-- [ ] Run the database migrations against the database
-- [ ] Start the indexer
+### Make a copy of the ArchivesSpace production database.
+
+### Create a new ArchivesSpace image from Github and push to Docker Hub. 
+
+See the [Yale ArchivesSpace Custom Build Workflow] (https://dmac-data-docs.readthedocs.io/en/latest/development/aspace_custom_build_workflow.html) document for instructions on how to do this.
+
+### Ensure that the aspace_deployment repository is using the correct list of plugins
+
+### Ensure that the aspace_deployment repository contains the correct translation files
+
+### Ensure that the aspace_deployment repository contains all necessary configration options
+
+### Import the database copy to the QA server's MySQL instance
+
+### Run the database migrations against the database
+
+### Start the indexer
 
 ## Indexing Configuration
 
