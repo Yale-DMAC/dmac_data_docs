@@ -10,7 +10,7 @@ ProQuest sends the following data to the MSSA shared drive via FTP transfer:
 3. A MARCXML file which includes data about each dissertation. Sometimes ther are multiple files separated by month of processing
 4. PDF copies of each dissertation are also transferred to a different folder on the drive. These use the ProQuest ID number as the title.
 
-Note that not all data provided by ProQuest from GSAS - some MPH and MD dissertations are also included, which are not part of this workflow.
+Note that not all data provided by ProQuest is from GSAS - some MPH and MD dissertations are also included, which are not part of this workflow.
 
 ## Prepare data provided by ProQuest for ingest into EliScholar and Voyager
 
