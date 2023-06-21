@@ -16,9 +16,9 @@ After Proquest processes and ingests the dissertations into their system, they s
 
 ## Extract Metadata from Proquest Files, Ingest into EliScholar
 
-After receiving the files from Proquest, MSSA staff run Python scripts which organize the files and extract metadata from the Proquest XML into the BePress .XLS template for bulk ingestion into EliScholar.
+After receiving the files from Proquest, BRBL staff run Python scripts which organize the files and extract metadata from the Proquest XML into the BePress .XLS template for bulk ingestion into EliScholar. See EliScholar ETD transformation documentation for more information about the transformatio process.
 
-After records are ingested into EliScholar, a report can be generated from the EliScholar interface which includes the EliScholar URL for each thesis or dissertation. This report is matched up with the publication numbers and Proquest identifiers for each item via a Python script, and the report with the URLs and publication numbers/identifiers is sent to RDS. Adding the publication numbers/identifiers allows RDS staff to make the connection between the EliScholar URL and the MARCXML record which is ingested into Voyager.
+After records are ingested into EliScholar, a report is generated from the EliScholar interface which includes the EliScholar URL for each thesis or dissertation. This report is matched up with the publication numbers and Proquest identifiers for each item via a Python script, and the report with the URLs and publication numbers/identifiers is sent to YUL RDS. Adding the publication numbers/identifiers allows RDS staff to make the connection between the EliScholar URL and the MARCXML record which is ingested into Voyager.
 
 ## Modify Proquest MARCXML, Ingest into Voyager
 
@@ -63,9 +63,12 @@ The following changes are made to the MARCXML records provided by Proquest in or
 - Change the period before $e to a comma in 710. Ex. change: =710  2\$aYale University.$bPsychology.$edegree granting institution. To =710  2\$aYale University.$bPsychology,$edegree granting institution.
 - Add 590 to embargoed records indicating length of embargo and that patron should contact BRBL staff for access
 
-These modifications are made to the MARCXML record via a MarcEdit file and a Python script which is stored on Google Colaboratory and run by RDS staff during processing. The Python script also adds the provided EliScholar URLs to the 856 field for each record. Once the records are modified the MARCXML is ingested into Voyager.
+These modifications are made to the MARCXML record via a MarcEdit file and a [Python script]([https://colab.research.google.com/drive/1iHeXC0GKkfkWunfuG1uhJKpUMMl331RA]) which is stored on Google Colaboratory and run by RDS staff during processing. The Python script also adds the provided EliScholar URLs to the 856 field for each record and embargo information to the 590. Once the records are modified the MARCXML is ingested into Voyager.
 
 ## Ingest into Preservica, Voyager Sync
 
 The process of ingesting files into Preservica is still being determined, and rollout depends on the in-process upgrade of Preservica to v6. Upon upgrade, the Preservica-Voyager sync will become active, and theses and dissertations which are ingested into Preservica will have Preservica links added to the 583 field in the MARC record for each thesis or dissertation.
 
+## Embargoed Dissertations
+
+Many dissertations are embargoed for a period of time and so are not made available by ProQuest. Library policy is to follow this ProQuest embargo and not publish the full-text embargoed dissertations on EliScholar. Rather, the dissertation will get a "stub" record in EliScholar, and a note is included in the 590 field of the MARC record indicating that the record is embargoed until a given date, and to contact the Beinecke Library to request access. It is permissible to provide patrons with a read-only copy of the dissertation if it is requested. This is done on a case-by-case basis by uploading the dissertation to Yale Box, with the read-only setting turned on and a 30-day expiration date for the link that is shared with the patron.

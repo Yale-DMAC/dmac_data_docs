@@ -3,12 +3,26 @@
 1. Create a new branch of ArchivesSpace, pulling in any commits needed, and push to an ArchivesSpace Github repository: e.g. [https://github.com/fordmadox/archivesspace/tree/2.4.1.yale.20190124](https://github.com/fordmadox/archivesspace/tree/2.4.1.yale.20190124) 
 2. Test out the branch by running it in development locally (preferably with a database snapshot), with all of the same plugins listed within [https://github.com/YaleArchivesSpace/aspace-deployment/blob/master/test/plugins.yml](https://github.com/YaleArchivesSpace/aspace-deployment/blob/master/test/plugins.yml) 
     * For instructions on setting up a development version of ASpace, start here: ~~http://archivesspace.github.io/archivesspace/user/archivesspace-build-system/  ~~[https://archivesspace.github.io/tech-docs/development/dev.html](https://archivesspace.github.io/tech-docs/development/dev.html) 
+
+    Plugins can be added to the development environment by running this script ... and then updating the common/config/config-defaults.rb file. You may also need to add any configuration options which are used by the plugins to the config-defaults.rb file
+
+    Prior to generating an image, remove the plugins from the list and use a clean copyh of the config-defaults.rb file. Local Yale configuration options for built releases are included in the aspace_deployment repo.
+
+    Instructions for importing mysql database into Docker.
+
+    WSL environment notes
+
+    Might need to change the port mapping in the docker compose file if you already have MySQL server installed locally.
+
+    Make sure when building the release that plugins and any extra related configs have been removed from the plugins directory and config-defaults.rb file
+
+
 3. If everything looks good (and we should have some automated tests here too!), it’s time to create a new docker image:
     * First, make sure you have a Docker Hub account and all things Docker installed locally;
     * From your archivesspace Github directory, making sure that you’re on the new branch that you’re testing, and then run the following (although the first two likely won’t be required, unless you’re testing with the Docker build, as well):
         1. docker-compose stop
         2. docker-compose rm
-        3. docker-compose build
+        3. docker-compose -f docker-compose-release.yml build
     * If the Docker build is successful, it’s now time to push your image to Docker Hub (so make sure you’re logged into Docker Hub):
         4. Your new image is tagged “latest”, and LYRASIS would like us to change that tag name to branch the branch name that we’re using. Now type:
         5. USER=whatever your Docker Hub username is
