@@ -32,7 +32,7 @@ Note that not all data provided by ProQuest from GSAS - some MPH and MD disserta
 in EliScholar, which is based on the official names provided by GSAS (e.g. Biomedical Engineering in the XML, Biomedical Engineering (ENAS) in Elischolar). These department names are translated via the `prep_data_for_elischolar.py` script.
 3. Sometimes there are multiple departments listed in the XML, but only one can be used in EliScholar. Review the spreadsheet prior to ingest and use only the primary department.
 
-## Prepare data provided by ProQuesdt for Ingest into Voyager
+## Prepare data provided by ProQuest for Ingest into Voyager
 
 1. Run the `extract_marc_xml_files` and `reassemble_marc_xml_file` functions in the `process_files.py` script on the provided MARCXML file to generate a new MARCXML which contains only the GSAS dissertations from the semester that is being processed. This file will be delivered to RDS for Voyager ingest.
 2. After the dissertations are ingested into EliScholar, run a report from EliScholar (Administrator Report in the admin interface) which includes the EliScholar URLs for each submission.
