@@ -16,7 +16,7 @@ After Proquest processes and ingests the dissertations into their system, they s
 
 ## Extract Metadata from Proquest Files, Ingest into EliScholar
 
-After receiving the files from Proquest, BRBL staff run Python scripts which organize the files and extract metadata from the Proquest XML into the BePress .XLS template for bulk ingestion into EliScholar. See EliScholar ETD transformation documentation for more information about the transformatio process.
+After receiving the files from Proquest, BRBL staff run Python scripts which organize the files and extract metadata from the Proquest XML into the BePress .XLS template for bulk ingestion into EliScholar. See EliScholar ETD transformation documentation for more information about the transformation process.
 
 After records are ingested into EliScholar, a report is generated from the EliScholar interface which includes the EliScholar URL for each thesis or dissertation. This report is matched up with the publication numbers and Proquest identifiers for each item via a Python script, and the report with the URLs and publication numbers/identifiers is sent to YUL RDS. Adding the publication numbers/identifiers allows RDS staff to make the connection between the EliScholar URL and the MARCXML record which is ingested into Voyager.
 
