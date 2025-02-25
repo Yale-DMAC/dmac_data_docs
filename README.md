@@ -12,25 +12,20 @@ __Metadata__: has primary responsibility for special collections descriptive, te
 
 ## SCMS Metadata Services
 
-- Metadata management: remediation, creation, and enhancement of special collections metadata 
-- Data transformation: migrations, mappings, data re-use 
-- Reporting and data analysis 
-- Tool and workflow support: automation and process improvement 
-- ArchivesSpace support: product ownership, application and user management 
-- Training, documentation, consultation 
+SCMS provides the following services:
 
-### Metadata management: remediation, creation, and enhancement of special collections metadata
+- __Metadata management__: remediation, creation, and enhancement of special collections metadata 
+- __Data transformation__: migrations, mappings, data re-use 
+- __Reporting and data analysis__
+- __Tool and workflow support__: automation and process improvement 
+- __ArchivesSpace support__: product ownership, application and user management 
+- __Training, documentation, consultation__
+
+These services are provided in different contexts. Some services originate internally (e.g. SCMS staff identify and prioritize data problems), others are requested by other units, and others occur as part of larger projects or initiatives.
+
+### Metadata management
 
 Metadata management consists of the bulk remediation, creation, and enhancement of special collections metadata.  
-#### Stakeholders 
-
-- Special collections metadata-creating departments and units: BRBL-TS: ADU, BDU, ACCU; Divinity Library, Music Library, Arts Library, YCBA, Peabody Museum (Archives) 
-- DSCA 
-- Cross-unit/departmental projects and committees 
-- Archives Advisory Group (AAG) 
-- YUL MSC 
-- YUL Technical Services 
-- Library IT 
 
 #### Activities 
 
@@ -45,18 +40,19 @@ Metadata management consists of the bulk remediation, creation, and enhancement 
 - Perform testing and quality assurance activities 
 - Maintain and enhance tools, documentation, training materials 
 
-### Data transformation
-
-Data transformation services include data migrations and conversions, data re-use projects, and integrations with other systems. 
-
 #### Stakeholders 
 
-- Special collections metadata-creating units: BRBL-TS: ADU, BDU, ACCU, DSCA 
-- Cross-unit/departmental projects and committees: UDAG, AAG, CHIT/Lux 
-- YUL MSC
-- Library IT 
+- Special collections metadata-creating departments and units: BRBL-TS: ADU, BDU, ACCU; Divinity Library, Music Library, Arts Library, YCBA, Peabody Museum (Archives) 
+- DSCA 
+- Cross-unit/departmental projects and committees 
+- Archives Advisory Group (AAG) 
+- YUL MSC 
 - YUL Technical Services 
-- Public Services and Operations 
+- Library IT 
+
+### Data transformation
+
+Data transformation services include data migrations and conversions, data re-use projects, and integrations with other systems.
 
 #### Activities 
 
@@ -73,8 +69,94 @@ Data transformation services include data migrations and conversions, data re-us
 - Maintain and update existing data mappings and system integrations 
 - Coordinate with product owners of other systems 
 
+#### Stakeholders 
 
+- Special collections metadata-creating units: BRBL-TS: ADU, BDU, ACCU, DSCA 
+- Cross-unit/departmental projects and committees: UDAG, AAG, CHIT/Lux 
+- YUL MSC
+- Library IT 
+- YUL Technical Services 
+- Public Services and Operations 
 
+### Reporting and data analysis
+
+Reporting and data analysis activities can stand on their own or be provided as part of another service such as data management and transformation.
+
+#### Activities
+
+- Communicate with stakeholders to identify required data elements 
+- Develop and execute queries across multiple systems 
+- Develop tools to synthesize data from disparate systems 
+- Perform exploratory data analysis and manipulation 
+- Present requested information to stakeholders 
+- Develop and maintain tools enabling staff to self-run reports 
+- Perform regular data auditing and quality assurance 
+- Leverage data to support decision making 
+- Document and share data analysis tools with professional community 
+
+#### Stakeholders
+
+- BRBL-TS: ADU, BDU, ACCU 
+- DSCA 
+- BRBL Administration 
+- Public Services and Operations 
+- YUL Technical Services 
+- Library IT 
+- Cross-department/unit committees and projects 
+- Digital Preservation Services 
+
+### Tool and workflow support
+
+#### Activities
+
+- Communicate with stakeholders re: workflow needs 
+- Identify opportunities for workflow improvements or automation tools 
+- Planning, testing, and prototyping of tools and workflows 
+- Scripting and tool development 
+- Write user and technical documentation, train staff on new workflows 
+- Maintain and share tools
+
+#### Stakeholders
+
+- BRBL-TS: ADU, BDU, ACCU 
+- Public Services and Operations 
+- Digital Preservation Services (DPS) 
+- DSCA
+
+### ArchivesSpace Product Ownership and Support
+
+#### Activities
+
+- Policy development surrounding usage of ArchivesSpace 
+- Triage staff and patron support requests 
+- Administration - manage passwords, permissions, account creation 
+- Troubleshooting - reporting and resolving system problems (in collaboration with service owner)
+- Manage parts of the external development process 
+	- Gather user feedback and prioritize development work 
+	- Write user stories 
+	- Meet with external developers 
+	- Test application upgrades, features, plugins, bug fixes 	
+	- Coordinate and manage implementations 
+	- Maintain plugins on Yale Github accounts 
+	- Low-to-moderate effort development work 
+- Training and documentation 
+- Manage hosting 
+	- Recommend and manage infrastructure improvements to the hosting environment 
+	- Generate Docker images 
+- Communicate system changes to stakeholders and provide training 
+- Serve as ArchivesSpace representatives on library- or university- wide projects 
+
+#### Stakeholders
+
+- All ArchivesSpace staff users 
+- Public Services and Operations 
+- BRBL Tech Services 
+- Archives Advisory Group (AAG) 
+- YUL Technical Services 
+- Library IT 
+- Preservation and Conservation Services 
+- Lyrasis (hosting provider) 
+- Hudson Molonglo (primary contract developers) 
 
 ## How to Update This Documentation
 
