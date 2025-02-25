@@ -1,90 +1,80 @@
-# About DMAC
+# About SCMS
 
-A Github repository for documentation about the Beinecke Rare Book and Manuscript Library's Data Management, Analysis, and Content Unit (DMAC).
+A Github repository for documentation about the Beinecke Rare Book and Manuscript Library's Special Collections Metadata Services Unit (SCMS).
 
-## What is DMAC
+## What is SCMS
 
 Special Collections Technical Services (SCTS) Data Management, Analysis, and Content has primary responsibility for special collections descriptive, administrative, and technical metadata for the management, discovery, and access of special collections materials. Unit works with all SCTS units to advance SCTS goals and priorities and other Beinecke and Yale special collections to advance goals and priorities. Serves as bridge to and works closely with Yale University Library Technical Services and Beinecke Library Digital Special Collections and Access to ensure SCTS alignment with and adherence to Beinecke and YUL strategies, priorities and policies. It covers three main areas: Leadership, Metadata, and Born Digital.
 
 __Leadership__: provides vision, strategy, and policy for SCTS and Yale Special Collections data and data management systems. Is the primary product owner of YUL’s ArchivesSpace. Sponsors relevant user groups and communities of practice. Engages with and contributes to broader communities (outside Yale) building or sustaining data standards and description and management tools for special collections, e.g. ArchivesSpace, BitCurator, National Finding Aid Network (NFAN).  
 
-__Metadata__: has primary responsibility for special collections descriptive, technical and administration data related to collections management, discovery, and access, including data management; data remediation; bulk data creation, editing, and reuse; data quality assurance and auditing; and ensuring data durability and sustainability. Provides training and creates and maintains documentation. Excludes metadata and polices governed by the YUL-TS and the Metadata Steering Committee.
+__Metadata__: has primary responsibility for special collections descriptive, technical and administration data related to collections management, discovery, and access, including data management; data remediation; bulk data creation, editing, and reuse; data quality assurance and auditing; and ensuring data durability and sustainability. Provides training and creates and maintains documentation. Excludes metadata and policies governed by YUL-TS.
 
-__Born digital__: has primary responsibility for Beinecke Library born digital collection material. Collaborates with  other Beinecke and YUL departments to acquire, capture, stabilize, and ensure staff access to born digital content. Leads and manages the Born Digital Accessioning Support Service, which captures/images born digital collection material, creates Submission and Access Information Packages for ingest into the digital preservation system. Consults with and trains other department staff to capture and access born digital content. Provides patron access to material that is not accessible online or in Preservica. Provides training and creates and maintains documentation.
+## SCMS Metadata Services
 
-## DMAC Metadata Services
+- Metadata management: remediation, creation, and enhancement of special collections metadata 
+- Data transformation: migrations, mappings, data re-use 
+- Reporting and data analysis 
+- Tool and workflow support: automation and process improvement 
+- ArchivesSpace support: product ownership, application and user management 
+- Training, documentation, consultation 
 
-- Bulk metadata correction/remediation
-- Metadata enhancement
-- Migration assistance
-- Processing support
-- System bug/error troubleshooting
-- Reporting and data analysis
-- Project support
-- General consultations
+### Metadata management: remediation, creation, and enhancement of special collections metadata
 
-<!-- ## DMAC Year One Goals
+Metadata management consists of the bulk remediation, creation, and enhancement of special collections metadata.  
+#### Stakeholders 
 
-### Goal 1: Create DMAC collaboratively
+- Special collections metadata-creating departments and units: BRBL-TS: ADU, BDU, ACCU; Divinity Library, Music Library, Arts Library, YCBA, Peabody Museum (Archives) 
+- DSCA 
+- Cross-unit/departmental projects and committees 
+- Archives Advisory Group (AAG) 
+- YUL MSC 
+- YUL Technical Services 
+- Library IT 
 
-__Strategies / Tactics__
-- Articulate and communicate a set of guiding principles for the unit
-- Establish relationships and communication strategies with related units
-- Recruit and onboard new staff members
-- Participate in team-building exercises by using real-world projects as test cases
-- Identify baseline training opportunities
-- Make connections and establish new partnerships (e.g., with the Ivy Plus Libraries Confederation)
+#### Activities 
 
-__Related BRBL Tech Services Goals__
-- Goal 3: Invest in organizational wellness and team development 
+- Identify and prioritize metadata problems, opportunities, requests 
+- Develop strategies for assessing and addressing metadata issues (e.g. data auditing, reporting) 
+- Develop metadata project plans 
+- Develop ETL-style workflows for managing metadata projects 
+- Perform exploratory data analysis and reporting 
+- Programmatically manipulate data 
+- Develop and execute scripts to update metadata in systems of record 
+- Communicate with stakeholders 
+- Perform testing and quality assurance activities 
+- Maintain and enhance tools, documentation, training materials 
 
-__Related BRBL Strategic Goals__
-- Goal 3: Strengthen stewardship capacity 
-- Goal 7: Invest in organizational culture 
-- Goal 8: Ensure sustainable infrastructure 	
+### Data transformation
 
-### Goal 2: Maintain and enhance existing tools and workflows, with a focus on producing joyful automation
+Data transformation services include data migrations and conversions, data re-use projects, and integrations with other systems. 
 
-__Strategies / Tactics__
-- Inventory existing tools/workflows, e.g., DASS tool, ArchivesSpace Export Service, ETD processing, LSF transfer tool, etc.
-- Request budget that will enable foundational operations
-= Institute a ticketing system for submission and prioritization of born-digital/metadata support requests
-= Create a centralized Git repository for the unit
+#### Stakeholders 
 
-__Related BRBL Tech Services Goals__
-- Goal 3: Invest in organizational wellness and team development 
+- Special collections metadata-creating units: BRBL-TS: ADU, BDU, ACCU, DSCA 
+- Cross-unit/departmental projects and committees: UDAG, AAG, CHIT/Lux 
+- YUL MSC
+- Library IT 
+- YUL Technical Services 
+- Public Services and Operations 
 
-__Related BRBL Strategic Goals__
-- Goal 1: Focus on service to library users 
-- Goal 5: Catalyze student success
+#### Activities 
 
-### Goal 3: Approach all forms of data responsibly
+- Communicate with stakeholders to identify transformation projects/opportunities 
+- Perform mapping/crosswalking activities 
+- Develop strategies for handling handling data loss in the transformation process 
+- Manage system integrations 
+- Create requirements documents for use by developers 
+- Act as liaison between stakeholders and developers 
+- Create documentation 
+- Reporting and exploratory data analysis 
+- Develop programmatic data transformation tools 
+- Plan and execute database migrations 
+- Maintain and update existing data mappings and system integrations 
+- Coordinate with product owners of other systems 
 
-__Strategies / Tactics__
-- Compile list of data-remediation projects (e.g. updates required based on recent decision by the Department of Interior to change federally-designated place names that previously included the word “sq___”)
-- Compile list of data-cleanup projects
-- Compile list of data-enhancement projects
-- Assess differences in metadata practices between BRBL and MSSA, with a view toward merging those two repositories in ArchivesSpace
-- Initiate appraisal activities as part of the standard born-digital workflow
 
-__Related BRBL Tech Services Goals__
-- Goal 1: Engage in responsible stewardship practices
 
-__Related BRBL Strategic Goals__
-- Goal 2: Build collections responsibly
-- Goal 4: Accelerate the creation of new knowledge
-
-#### Goal 4: Develop a system portfolio that details departmental roles
-
-__Strategies / Tactics__
-- Define ownership roles within the Beinecke for the implementation of systems such as ArchivesSpace, BitCurator, etc.
-- Identify and document system integrations
-
-__Related BRBL Tech Services Goals__
-- Goal 2: Strengthen stewardship capacity
-
-__Related BRBL Strategic Goals__
-- Goal 8: Ensure a sustainable infrastructure -->
 
 ## How to Update This Documentation
 

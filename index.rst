@@ -1,4 +1,4 @@
-Documentation for the Beinecke Library Data Management, Analysis, and Content Unit (DMAC)
+Documentation for the Beinecke Library Special Collections Metadata Services Unit (SCMS)
 =========================================================================================
 
 .. toctree::
