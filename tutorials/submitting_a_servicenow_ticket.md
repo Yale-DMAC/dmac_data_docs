@@ -8,7 +8,7 @@ This document provides an overview of submitting a metadata request to SCMS via 
 
 You can initiate a ServiceNow request by navigating to the [SCMS SharePoint](https://yaleedu.sharepoint.com/sites/YaleSpecialCollections/SCTS/SitePages/Special-Collections-Metadata-Services-Unit.aspx) page and clicking on the 'SCMS ServiceNow' button on the right hand side of the page
 
-![SharePoint page](./_images/servicenow/image01.png)
+![SharePoint page](./_images/servicenow/image00.png)
 
 ### Guide to the Submission Form
 
