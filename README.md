@@ -87,6 +87,7 @@ Data transformation services include data migrations and conversions, data re-us
 - Maintain Excel-to-EAD transformation tool
 - Reassociation of data between Find-It/Ladybird and ArchivesSpace
 - Integration of ArchivesSpace and Quicksearch
+- Integration of ArchivesSpace and DCS
 
 #### Stakeholders 
 
