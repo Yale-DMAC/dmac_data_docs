@@ -17,7 +17,7 @@ SCMS provides the following services:
 - __ArchivesSpace support__: product ownership, application and user management 
 - __Training, documentation, consultation__
 
-These services are provided in different contexts. Some services originate internally (e.g. SCMS staff identify and prioritize data problems), others are requested by other units, and others occur as part of larger projects or initiatives.
+These services are provided in multippe contexts. In some cases our work originates internally - e.g. SCMS staff identify and prioritize data problems and opportunities. In others, services are requested by other SCTS units, special collections departments, or repositories. Our services may also be provided as part of our participation on committees, advisory groups, task forces, or working groups. And finally, SCMS services may be provided to support cross-departmental projects, programs, or initiatives.
 
 ### Metadata management
 
