@@ -4,11 +4,7 @@ A Github repository for documentation about the Beinecke Rare Book and Manuscrip
 
 ## What is SCMS
 
-Special Collections Technical Services (SCTS) Data Management, Analysis, and Content has primary responsibility for special collections descriptive, administrative, and technical metadata for the management, discovery, and access of special collections materials. Unit works with all SCTS units to advance SCTS goals and priorities and other Beinecke and Yale special collections to advance goals and priorities. Serves as bridge to and works closely with Yale University Library Technical Services and Beinecke Library Digital Special Collections and Access to ensure SCTS alignment with and adherence to Beinecke and YUL strategies, priorities and policies. It covers three main areas: Leadership, Metadata, and Born Digital.
-
-__Leadership__: provides vision, strategy, and policy for SCTS and Yale Special Collections data and data management systems. Is the primary product owner of YUL’s ArchivesSpace. Sponsors relevant user groups and communities of practice. Engages with and contributes to broader communities (outside Yale) building or sustaining data standards and description and management tools for special collections, e.g. ArchivesSpace, BitCurator, National Finding Aid Network (NFAN).  
-
-__Metadata__: has primary responsibility for special collections descriptive, technical and administration data related to collections management, discovery, and access, including data management; data remediation; bulk data creation, editing, and reuse; data quality assurance and auditing; and ensuring data durability and sustainability. Provides training and creates and maintains documentation. Excludes metadata and policies governed by YUL-TS.
+Special Collections Metadata Services (SCMS) provides a comprehensive, cross-collection, and service-centered approach to enabling and enhancing the discovery of Yale Library’s special collections through metadata services, data reporting and analysis, and special collections systems and tool management. 
 
 ## SCMS Metadata Services
 
