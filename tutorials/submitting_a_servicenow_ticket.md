@@ -22,7 +22,7 @@ A brief description of your request.
 
 #### Request type
 
-Select the type of request from the drop-down. The form includes a table with descriptions/examples of each request type. These request types are generally scoped to the services that SCMS provides. See [SCMS Metadata Services](../README.md#scms-metadata-services) for more information.
+Select the type of request from the drop-down. The form includes a table with descriptions/examples of each request type. These request types are generally scoped to the services that SCMS provides. See [SCMS Metadata Services](../README.md##scms-metadata-services) for more information.
 
 ![Request type](./_images/servicenow/image02.png)
 
