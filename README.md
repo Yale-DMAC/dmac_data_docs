@@ -86,6 +86,7 @@ Data transformation services include data migrations and conversions, data re-us
 - Convert Proquest-provided dissertation metadata to Elischolar and Voyager records
 - Maintain Excel-to-EAD transformation tool
 - Reassociation of data between Find-It/Ladybird and ArchivesSpace
+- Integration of ArchivesSpace and Quicksearch
 
 #### Stakeholders 
 
