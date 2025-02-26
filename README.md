@@ -36,6 +36,16 @@ Metadata management consists of the bulk remediation, creation, and enhancement 
 - Perform testing and quality assurance activities 
 - Maintain and enhance tools, documentation, training materials 
 
+#### Examples
+
+- Identify and delete expired restriction dates
+- Clean up controlled value lists in ArchivesSpace
+- Update preferred citation notes for Divinity after library name change
+- Add structured dates to ArchivesSpace records which previously only had free-text dates
+- Add SNAC identifiers to agent records
+- Add barcodes to location records
+- Delete archival object records for materials which have been reprocessed
+
 #### Stakeholders 
 
 - Special collections metadata-creating departments and units: BRBL-TS: ADU, BDU, ACCU; Divinity Library, Music Library, Arts Library, YCBA, Peabody Museum (Archives) 
@@ -65,6 +75,18 @@ Data transformation services include data migrations and conversions, data re-us
 - Maintain and update existing data mappings and system integrations 
 - Coordinate with product owners of other systems 
 
+#### Examples
+
+- Migrate YNHH data from Access database and Word documents to ArchivesSpace
+- Migrate Acquisitions DBText database to ArchivesSpace
+- Develop mappings between ArchivesSpace and Lux
+- Develop mappings between ArchivesSpace and Metadata Cloud/DCS
+- Convert architecture project index spreadsheets to ArchivesSpace records
+- Convert GLAD box lists to ArchivesSpace records
+- Convert Proquest-provided dissertation metadata to Elischolar and Voyager records
+- Maintain Excel-to-EAD transformation tool
+- Reassociation of data between Find-It/Ladybird and ArchivesSpace
+
 #### Stakeholders 
 
 - Special collections metadata-creating units: BRBL-TS: ADU, BDU, ACCU, DSCA 
@@ -88,7 +110,16 @@ Reporting and data analysis activities can stand on their own or be provided as 
 - Develop and maintain tools enabling staff to self-run reports 
 - Perform regular data auditing and quality assurance 
 - Leverage data to support decision making 
-- Document and share data analysis tools with professional community 
+- Document and share data analysis tools with professional community
+
+#### Examples
+
+- Report on Papyri records in order to facilitate migration to DCS, additional physical processing, and patron research
+- Report of University Archives materials stored at off-site storage
+- Report of all acquisitions in the last 5 years
+- Reporting to support Special Collections backlog project
+- Reports plugin: report of all containers in a given location
+- Reports plugin: report of all materials in a given collection that are digitized and in Preservica and/or DCS
 
 #### Stakeholders
 
@@ -112,6 +143,15 @@ Reporting and data analysis activities can stand on their own or be provided as 
 - Write user and technical documentation, train staff on new workflows 
 - Maintain and share tools
 
+#### Examples
+
+- Workflow for automated processing of electronic dissertations
+- Copy order fulfillment process for previously digitized materials
+- Box and folder labeling process
+- Workflow support for Digital Accessioning Service
+- LSF barcode search tool
+- Reassociation project
+
 #### Stakeholders
 
 - BRBL-TS: ADU, BDU, ACCU 
@@ -123,7 +163,7 @@ Reporting and data analysis activities can stand on their own or be provided as 
 
 #### Activities
 
-- Policy development surrounding usage of ArchivesSpace 
+- Policy development surrounding usage of ArchivesSpace (in consultation with advisory groups, MSC, SCSC)
 - Triage staff and patron support requests 
 - Administration - manage passwords, permissions, account creation 
 - Troubleshooting - reporting and resolving system problems (in collaboration with service owner)
@@ -134,13 +174,13 @@ Reporting and data analysis activities can stand on their own or be provided as 
 	- Test application upgrades, features, plugins, bug fixes 	
 	- Coordinate and manage implementations 
 	- Maintain plugins on Yale Github accounts 
-	- Low-to-moderate effort development work 
-- Training and documentation 
-- Manage hosting 
+	- Low effort development work 
+- Training and documentation (in collaboration with advisory groups and service owner)
+- Manage hosting (in collaboration with service owner)
 	- Recommend and manage infrastructure improvements to the hosting environment 
 	- Generate Docker images 
 - Communicate system changes to stakeholders and provide training 
-- Serve as ArchivesSpace representatives on library- or university- wide projects 
+- Serve as ArchivesSpace representatives on library- or university- wide projects
 
 #### Stakeholders
 
