@@ -9,6 +9,7 @@ This document explains how to generate a new Docker image for Yale Library's ins
 
 3. If everything looks good, it’s time to create a new Docker image:  
    * First, make sure you have a Docker Hub account and all things Docker installed locally;  
+   * Remove all local plugins and related config options from your Github repository/development environment, if you've added any.
    * From your archivesspace Github directory, making sure that you’re on the new branch that you’re testing, and then run the following (although the first two likely won’t be required, unless you’re testing with the Docker build, as well):  
      1. `docker compose stop`
      2. `docker compose rm`
