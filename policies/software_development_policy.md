@@ -1,6 +1,6 @@
 # ArchivesSpace Software Development Policy
 
-(last updated: October 2016)
+Updated May 2025
 
 ## Document Overview and Scope of the Policy
 
@@ -8,19 +8,23 @@ This policy guides Yale University Library (YUL) development of ArchivesSpace, a
 
 ## ArchivesSpace Overview
 
-ArchivesSpace is an open source, integrated software platform that supports a wide spectrum of functions, tasks, and workflows within an archival repository. These include (but aren't limited to) container and location management; recording accession data; recording and managing descriptive data; creation and management of name and subject authorities; digital object management; tracking and management of archival processing tasks; and output of encoded finding aids and catalog records. At the Yale University Library, ArchivesSpace is the system of record for archival resource description, accessioning, collection control, and the description of people, families and corporate bodies. 
+ArchivesSpace is an open source, integrated software platform that supports a wide spectrum of functions, tasks, and workflows within an archival repository. These include (but aren't limited to) container and location management; recording accession data; recording and managing descriptive data; creation and management of name and subject authorities; digital object management; tracking and management of archival processing tasks; and output of finding aids and catalog records. At the Yale University Library, ArchivesSpace is the system of record for archival resource description, accessioning, collection control, and the description of people, families and corporate bodies. 
 
-ArchivesSpace is currently developed as an end-user application for library staff, and has been customized through the development and implementation of several plug-ins. ArchivesSpace functionality is integrated with Atlas Systems Aeon, a patron request management application used by several YUL special collection repositories. Work is also underway to integrate ArchivesSpace functionality with Preservica, a digital preservation system recently adopted by YUL.
+ArchivesSpace is currently developed as an end-user application for library staff and researchers, and has been customized through the development and implementation of many plug-ins. ArchivesSpace functionality is integrated with Aeon, Preservica, YUL's Digital Collections System (DCS), Quicksearch, Aviary, ICE, and other YUL systems. 
  
 ## Parties Involved: 
 
-* Yale Archival Management Systems Committee (YAMS) 
+* Archives Advisory Group (AAG)
+* BRBL Special Collections Metadata Services (SCMS)
 * Yale University Library IT Department 
 * Yale University Library ArchivesSpace Users and Stakeholders
 * Lyrasis 
 * ArchivesSpace User Community 
 * Hudson Molonglo, or other external software development vendors contracted by YUL
-* YUL Special Collections Steering Committee
+* YUL Special Collections Steering Committee (SCSC)
+* YUL Metadata Steering Committee (MSC)
+* Library IT Steering Committee (ITSC)
+
 
 ## Reference to Supplemental Agreements and Policies
 
@@ -35,7 +39,7 @@ Any development work performed must be in compliance with existing agreements be
 * The development of ArchivesSpace must contribute to access and discovery of special collections materials that support teaching, learning, and scholarship at Yale.
 * Development work in ArchivesSpace should be guided by open source software development principles.
 * Any development of ArchivesSpace must abide by Yale University standards and guidelines for usability, including Web Accessibility Content Accessibility Guidelines 2.0 (https://www.w3.org/WAI/intro/wcag) for both staff and public interfaces.
-* When possible, development projects should aim toward enhancing the core code of ArchivesSpace rather than developing custom plug-ins for the application.
+* When possible, development projects should aim toward enhancing the core code of ArchivesSpace (as a community, not locally) rather than developing custom plug-ins for the application.
 * The purpose of any development work should be to advance the effectiveness, usability, and efficiency of archival management software as well as the work of the of the archival profession more generally.
 * Development decisions should benefit all YUL repositories or fulfill a critical need at a particular repository. 
 * Development work should be aimed at benefiting the entire ArchivesSpace community when possible and/or appropriate.

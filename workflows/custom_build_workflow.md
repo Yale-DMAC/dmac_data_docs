@@ -12,7 +12,7 @@ This document explains how to generate a new Docker image for Yale Library's ins
    * From your archivesspace Github directory, making sure that you’re on the new branch that you’re testing, and then run the following (although the first two likely won’t be required, unless you’re testing with the Docker build, as well):  
      1. docker compose stop  
      2. docker compose rm  
-     3. docker compose build  
+     3. docker compose docker compose -f docker-compose-release.yml build
    * If the Docker build is successful, it’s now time to push your image to Docker Hub (so make sure you’re logged into Docker Hub):
      1. Your new image is tagged “latest”, and LYRASIS would like us to change that tag name to branch the branch name that we’re using. Now type:  
      2. USER\=whatever your Docker Hub username is  
