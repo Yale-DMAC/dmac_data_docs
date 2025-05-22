@@ -1,4 +1,4 @@
-# Running Reports in the ArchivesSpace Staff Interface
+# ArchivesSpace Docker Image Creation Workflow
 
 This document explains how to generate a new Docker image for Yale Library's instance of ArchivesSpace.
 
