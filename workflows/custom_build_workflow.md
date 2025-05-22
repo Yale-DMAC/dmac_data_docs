@@ -16,10 +16,10 @@ This document explains how to generate a new Docker image for Yale Library's ins
      3. `docker compose -f docker-compose-release.yml build`
    * If the Docker build is successful, it’s now time to push your image to Docker Hub (so make sure you’re logged into Docker Hub):
      1. Your new image is tagged “latest”, and LYRASIS would like us to change that tag name to branch the branch name that we’re using. Now type:  
-     2. `USER\=your_dockerhub_username`  
-     3. TAG\=your_github_branch_name
+     2. `USER=your_dockerhub_username`  
+     3. `TAG=your_github_branch_name`
         * E.g. TAG=2.7.1.yale.20210921  
-     4. `docker tag archivesspace\_app:latest $USER/archivesspace:$TAG`
+     4. `docker tag archivesspace_app:latest $USER/archivesspace:$TAG`
      5. `docker push $USER/archivesspace:$TAG`  
           
 4. Once the image is successfully pushed to Docker Hub, it’s time to update our “aspace-deployment” Github repository to reference the new custom build.  
