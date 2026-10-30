@@ -6,6 +6,8 @@ Documentation for the Beinecke Library Special Collections Metadata Services Uni
 
    ../README.md
 
+   ../service_requests.md
+
    ../workflows.md 
 
    ../policies.md
