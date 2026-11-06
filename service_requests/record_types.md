@@ -1,6 +1,11 @@
-*********************************
-Guides for Specific Record Types 
-*********************************
+# Guides for Specific Record Types 
+
+
+| Header 1 | Header 2 | Header 3 |
+| :---     | :---:    | ---:     |
+| Left     | Center   | Right    |
+| Text     | Text     | Text     |
+
 
 This guide was designed as a starting point for anyone requesting the creation or enhancement of specific record types in bulk. We will work with you no matter how much starting information you have available. However, if you are unsure what to include in your request, please consider the following: 
 
