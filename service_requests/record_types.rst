@@ -1,13 +1,18 @@
-# Guides for Specific Record Types 
+*********************************
+Guides for Specific Record Types 
+*********************************
 
 This guide was designed as a starting point for anyone requesting the creation or enhancement of specific record types in bulk. We will work with you no matter how much starting information you have available. However, if you are unsure what to include in your request, please consider the following: 
 
-## General Guidelines 
+General Guidelines
+===================
+
 - Please avoid placing any important information in locations such as comments on an excel sheet. Information from non-machine readable locations are difficult to extract and add up to weeks of extra work. Whenever possible, keep information within columns in the spreadsheet. 
 - Avoid assuming we know which repository you are working in. A link to your record does not work if we are not in the correct repository. This can involve extra time trying to make educated guesses and switching to different repositories to test whether the link will work. Giving us the link and informing us it is in MSSA is very helpful. 
 - URIs (/repositories/11/resources/203) are the most helpful way to provide a quick link to the record you are referring to. This can be found in the Archives at Yale URL, or on the ArchivesSpace Record information. This includes the Repository id for us so we do not need to guess which repository you are working in. 
 
-## Top Containers 
+Top Containers 
+===============
 
 When requesting the creation of Top containers and Instances, consider the following fields: 
 - Archival Object ID (required) – The ID number of the archival object the top container shall be attached to. If your container will be attached to multiple AOs, there should be a line for each object along with the appropriate sub-container information in the child and grandchild fields. The barcode, location, indicator, and type of the top container should be identical for each AO attached to that top container. 
@@ -21,18 +26,46 @@ When requesting the creation of Top containers and Instances, consider the follo
 
 When submitting your request, consider the following table as a guide. Indicate the Archival Object ID in which Repository you wish to attach an instance to. If you wish to use the same Top Container but different Child and Grandchild information, make sure the barcodes, locations, type and indicator information match on both lines. If a field is not required, then it can be left blank in cases where there is no relevant information – such as a Top Container not needing a location or a grandchild. 
 
-+-------+------+------+-----------+--------------+-------+------+------+-----------+--------------+
-| AO ID | Repo | Barcode | Location | Indicator | Type | Child Indicator | Child Type | Grandchild Indicator | Grandchild Type |
-|=======|=======|=======|=======|=======|=======|=======|=======|=======|=======|
-| 3878066 | BRBL | 312987 |         | 12 | Box | 3 | Folder | | |
-+-------+------+------+-----------+--------------+-------+------+------+-----------+--------------+
-| 3878067 | BRBL | 312987 |         | 12 | Box | 6 | Folder | 21 | Slide | 
-+-------+------+------+-----------+--------------+-------+------+------+-----------+--------------+
-| 3878066 | BRBL | 312458 | SML, B57-A [82181, Drawer: 23] | 3 | Box | | | | | 
-+-------+------+------+-----------+--------------+-------+------+------+-----------+--------------+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+   * - AO ID
+     - Repo
+     - Barcode
+     - Location
+     - Indicator
+     - Type
+     - Child Indicator
+     - Child Type
+     - Grandchild Indicator
+     - Grandchild Type
+   * - 3878066
+     - BRBL
+     - 312987
+     - 
+     - 12
+     - Box
+     - 3
+     - Folder
+   * - 3878067
+     - BRBL
+     - 312987
+     - 
+     - 12
+     - Box
+     - 6
+     - Folder
+     - 21
+     - Slide
+   * - 3878066
+     - BRBL
+     - 312458
+     - SML, B57-A [82181, Drawer: 23]
+     - 3
+     - Box
 
-
-## Digital Objects 
+Digital Objects 
+================
 
 When requesting the creation of digital objects, consider the following fields: 
 - Archival Object ID (required) – The ID number of the archival object the digital object shall be attached to. If your DO will be attached to multiple AOs, they should be included in a single cell separated by a delimiter such as ‘;’ 
@@ -50,7 +83,8 @@ Other fields may be included as needed (such as dates and notes), just add addit
 | 367821; 367822; 367823 | MSSA | Name and address cards – by state | 4d5a45876-3087c-4567-87ed-e867 | https://preservica.library.yale.edu/explorer/explorer.html#7545678edg |
 +-------+------+------+-----------+--------------+
 
-## Locations 
+Locations 
+==========
 
 When requesting the creation of Location records, consider the following fields: 
 - Building (required) – The name of the building. 
@@ -70,7 +104,8 @@ Locations will display as Building, Floor, Room, Area [Unique indicator]. So a l
 | SML | 2 | 150-A | | Drawer | 15 | 79823 |
 +-------+------+------+-----------+--------------+---------+-------+
 
-## Agents 
+Agents 
+=======
 
 When requesting the creation of Agent records, consider the following fields: 
 - Agent Type (required) – This field is used to indicate the type of agent. Either Person, Family, Corporate, or Software. 
@@ -94,7 +129,8 @@ With Agents the Main Name (Primary Part of Name, Family Name, Software Name) wil
 | 451290 | Medical | Corporate | B. F. Paulson & Co. | | | |
 +--------------+------+--------+-------+------------+-+-------+
 
-## Controlled Values 
+Controlled Values 
+==================
 
 Values such as dimensions and container labels found in drop down menus that need updating should consider the following: 
 - Action – Indicate the action that needs to be taken, such as Remove, Add, or Change. 
