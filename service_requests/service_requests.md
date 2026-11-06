@@ -31,7 +31,7 @@ A required field that has you enter a brief description of your request. This sh
 ![title/short description](./_images/servicenow/image01.png)
 
 #### Request type 
-An optional field that has you select the type of request from the drop-down. A brief guide can be viewed on the form under ‘More information’. If you would like more detailed descriptions and examples, please see Request Types for more information. 
+An optional field that has you select the type of request from the drop-down. A brief guide can be viewed on the form under ‘More information’. If you would like more detailed descriptions and examples, please see [Request Types](./request_types.md) for more information. 
 
 ![request type](./_images/servicenow/image02.png)
 
